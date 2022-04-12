@@ -1,13 +1,15 @@
 /*
 /*/
+
 !/config/
 !/defaultconfigs/
+!/fancymenu_setups/
 !/mods/
-!/openloader/
 !/patchouli_books/
 !/scripts/
-!/packmenu/
 !/ship/
+!/shaderpacks/
+
 !/.gitignore
 !SERVER_README.txt
 /ship/output
