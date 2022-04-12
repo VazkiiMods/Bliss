@@ -1,0 +1,6 @@
+{
+	// Do baby chickens drop feathers?
+	"chicksDropFeathers": true,
+	// How often will feathers be shed? (min: 6000)
+	"dropFrequency": 26000
+}

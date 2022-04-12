@@ -1,0 +1,9 @@
+
+#General settings
+[general]
+	#Generate wild corn on cold biomes (temperature between 0.0 and 1.0)
+	genWildCorn = true
+	#Chance of generating clusters. Smaller value = more frequent.
+	#Range: > 0
+	chance = 30
+

@@ -1,0 +1,13 @@
+#How many marks you can draw with a single chalk. Default: 64
+#Range: > 0
+ChalkUses = 64
+#How many light glowing mark produces. Default: 5
+#Range: 0 ~ 14
+GlowingMarkLightLevel = 5
+#List of items that can make mark glow. "modid:itemRegistryName"
+#Default values: [minecraft:glowstone_dust, minecraft:glow_ink_sac]
+GlowItems = ["minecraft:glowstone_dust", "minecraft:glow_ink_sac"]
+#If enabled, Chalks will generate in Dungeons, Abandoned Mineshafts, Planes and Savanna villages, Cartographer houses
+#Default: true
+ShouldGenerateInChests = true
+
