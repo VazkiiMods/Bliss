@@ -34,7 +34,7 @@
 
 	[blocks.pedestal]
 		#Enable displayed item spin
-		spin = true
+		spin = false
 		#Spin speed
 		#Range: 0.0 ~ 100.0
 		speed = 2.0
@@ -93,7 +93,7 @@
 		intensity_increment = 0.3
 		#At which graphic settings flags will have a fancy renderer: 0=fast, 1=fancy, 2=fabulous
 		#Allowed Values: FAST, FANCY, FABULOUS
-		fanciness = "FABULOUS"
+		fanciness = "FANCY"
 		#Makes flags render as sideways banner. Ignores many of the previously defined configs
 		render_as_banner = false
 
@@ -121,7 +121,7 @@
 
 	[blocks.wall_lantern]
 		#Makes wall lantern use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animation
-		fast_lanterns = false
+		fast_lanterns = true
 
 	[blocks.hanging_sign]
 		#Makes hanging signs use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animation
@@ -152,13 +152,13 @@
 #General settings
 [general]
 	#Enable Quark style config button on main menu. Needs Configured installed to work
-	config_button = true
+	config_button = false
 	#Show some tooltip hints to guide players through the mod
 	tooltip_hints = true
 	#Show tooltips items that have been made placeable
 	placeable_tooltips = true
 	#Tries to detect when the mod hasn't been downloaded from Curseforge.Set to false if you have manually changed the mod jar name
-	anti_reposting_warning = true
+	anti_reposting_warning = false
 	#Allows dynamic resource generations for signs to pick textures from installed resource pack. Will only really work well if those texture pack have a similar format to vanilla otherwise it will result in glitched textures
 	dynamic_textures_from_resource_packs = false
 	#ignore this
@@ -179,9 +179,9 @@
 	#Makes tipped arrows show their colors when loaded with a crossbow
 	crossbows_colors = true
 	#Allow to right click with a clock to display current time in numerical form
-	clock_right_click = true
+	clock_right_click = false
 	#Renders an enchantment glint on placeable enchanted books
-	placeable_books_glint = false
+	placeable_books_glint = true
 
 #Items
 [items]

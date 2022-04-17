@@ -128,7 +128,7 @@
 		prevent_breaking = false
 		#Make safes simpler so they do not require keys:
 		#they will be bound to the first person that opens one and only that person will be able to interact with them
-		simple_safes = false
+		simple_safes = true
 
 	[blocks.blackboard]
 		#Enable to draw directly on a blackboard using any dye. Gui still only works in black and white
@@ -293,7 +293,7 @@
 		mod_blacklist = ["extlights", "betterendforge", "tconstruct", "enigmaticlegacy"]
 		#Allows ceiling lanterns to fall if their support is broken.Additionally if they fall from high enough they will break creating a fire where they land
 		#Allowed Values: ON, OFF, NO_FIRE
-		fallin_lanterns = "ON"
+		fallin_lanterns = "NO_FIRE"
 
 	[tweaks.bells_tweaks]
 		#Ring a bell by clicking on a chain that's connected to it
@@ -349,7 +349,7 @@
 		custom_adventurer_maps = [[""]]
 		#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure (choosen from a thought out preset list).
 		#Best kept disabled if you are adding custom adventurer maps with its config
-		random_adventurer_maps = true
+		random_adventurer_maps = false
 		#enables beacons, lodestones, respawn anchors, beds, conduits, portals to be displayed on maps by clicking one of them with a map
 		block_map_markers = true
 
@@ -392,12 +392,12 @@
 
 	[items.rope_arrow]
 		#If you don't like my ropes you can specify here the block id ofa rope from another mod which will get deployed by rope arrows instead of mine
-		rope_arrow_override = "supplementaries:rope"
+		rope_arrow_override = "farmersdelight:rope"
 		#Max number of robe items allowed to be stored inside a rope arrow
 		#Range: 1 ~ 256
 		capacity = 32
 		#Makes rope arrows exclusive to crossbows
-		exclusive_to_crossbows = false
+		exclusive_to_crossbows = true
 
 	[items.flute]
 		#Radius in which an unbound flute will search pets

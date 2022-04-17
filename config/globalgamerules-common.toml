@@ -32,7 +32,7 @@
 	#Whether wandering traders can spawn
 	do_trader_spawning = true
 	#Whether the weather can change naturally. The /weather command can still change weather
-	do_weather_cycle = true
+	do_weather_cycle = false
 	#Whether the player should take damage when drowning
 	drowning_damage = true
 	#Whether the player should take fall damage

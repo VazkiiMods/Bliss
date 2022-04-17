@@ -9,7 +9,7 @@
 	#Range: 0.0 ~ 5.0
 	elytraSpeedBoost = 0.0
 	#Enable Wall-Jump enchantments in the enchanting table
-	enableEnchantments = true
+	enableEnchantments = false
 	#Exhaustion gained per wall jump
 	#Range: 0.0 ~ 5.0
 	exhaustionWallJump = 0.8
