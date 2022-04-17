@@ -25,7 +25,7 @@
 	warpStoneXpCostMultiplier = 0.0
 	#The multiplier applied to the base xp cost when teleporting from one waystone to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	waystoneXpCostMultiplier = 1.0
+	waystoneXpCostMultiplier = 0.0
 	#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	sharestoneXpCostMultiplier = 1.0
@@ -47,20 +47,20 @@
 	#If enabled, waystones generated in worldgen are unbreakable.
 	generatedWaystonesUnbreakable = false
 	#If enabled, leashed mobs will be teleported with you
-	transportLeashed = true
+	transportLeashed = false
 	#Whether to take leashed mobs with you when teleporting between dimensions
-	transportLeashedDimensional = true
+	transportLeashedDimensional = false
 	#List of leashed mobs that cannot be taken with you when teleporting
 	leashedDenyList = ["minecraft:wither"]
 	#Set to 'ALLOW' to allow dimensional warp in general. Set to 'GLOBAL_ONLY' to restrict dimensional warp to global waystones. Set to 'DENY' to disallow all dimensional warps.
 	#Allowed Values: ALLOW, GLOBAL_ONLY, DENY
-	dimensionalWarp = "ALLOW"
+	dimensionalWarp = "DENY"
 	#List of dimensions that players are allowed to warp cross-dimension from and to. If left empty, all dimensions except those in dimensionalWarpDenyList are allowed.
 	dimensionalWarpAllowList = []
 	#List of dimensions that players are not allowed to warp cross-dimension from and to. Only used if dimensionalWarpAllowList is empty.
 	dimensionalWarpDenyList = []
 	#Set to true if players should be able to teleport between waystones by simply right-clicking a waystone.
-	allowWaystoneToWaystoneTeleport = true
+	allowWaystoneToWaystoneTeleport = false
 	#Set to false to allow non-creative players to make waystones globally activated for all players.
 	globalWaystoneSetupRequiresCreativeMode = true
 
@@ -86,7 +86,7 @@
 
 [inventoryButton]
 	#Set to 'NONE' for no inventory button. Set to 'NEAREST' for an inventory button that teleports to the nearest waystone. Set to 'ANY' for an inventory button that opens the waystone selection menu. Set to a waystone name for an inventory button that teleports to a specifically named waystone.
-	inventoryButton = ""
+	inventoryButton = "NONE"
 	#The x position of the warp button in the inventory.
 	#Range: > -2147483648
 	warpButtonX = 58
@@ -103,10 +103,10 @@
 [worldGen]
 	#Set to 'DEFAULT' to only generate the normally textured waystones. Set to 'MOSSY' or 'SANDY' to generate all as that variant. Set to 'BIOME' to make the style depend on the biome it is generated in.
 	#Allowed Values: DEFAULT, MOSSY, SANDY, BIOME
-	worldGenStyle = "BIOME"
+	worldGenStyle = "DEFAULT"
 	#Approximate chunk distance between waystones generated freely in world generation. Set to 0 to disable generation.
 	#Range: > -2147483648
-	frequency = 25
+	frequency = 0
 	#List of dimensions that waystones are allowed to spawn in through world gen. If left empty, all dimensions except those in worldGenDimensionDenyList are used.
 	dimensionAllowList = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
 	#List of dimensions that waystones are not allowed to spawn in through world gen. Only used if worldGenDimensionAllowList is empty.
@@ -117,7 +117,7 @@
 	#These names will be used for the PRESET name generation mode. See the nameGenerationMode option for more info.
 	customWaystoneNames = []
 	#Set to true if waystones should be added to the generation of villages. Some villages may still spawn without a waystone.
-	spawnInVillages = true
+	spawnInVillages = false
 	#Ensures that pretty much every village will have a waystone, by spawning it as early as possible. In addition, this means waystones will generally be located in the center of the village.
 	forceSpawnInVillages = false
 
