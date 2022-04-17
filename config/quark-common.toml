@@ -490,9 +490,6 @@
 		#Allowed values: [1,16]
 		"Layer Limit" = 16
 
-	[tweaks.hoe_harvesting]
-		"Hoes Can Have Fortune" = true
-
 	[tweaks.reacharound_placing]
 		#Allowed values: [0,1]
 		Leniency = 0.5
@@ -598,7 +595,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["snowy"]
 					"Is Blacklist" = false
 
@@ -620,7 +617,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["swamp"]
 					"Is Blacklist" = false
 
@@ -642,7 +639,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["savanna"]
 					"Is Blacklist" = false
 
@@ -664,7 +661,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["mountain"]
 					"Is Blacklist" = false
 
@@ -686,7 +683,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["plains"]
 					"Is Blacklist" = false
 
@@ -708,7 +705,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["mesa"]
 					"Is Blacklist" = false
 
@@ -734,7 +731,7 @@
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-				# beach, void, overworld, nether, end]
+				# beach, void, overworld, nether, end, underground]
 				"Biome Types" = []
 				"Is Blacklist" = true
 
@@ -769,7 +766,7 @@
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-				# beach, void, overworld, nether, end]
+				# beach, void, overworld, nether, end, underground]
 				"Biome Types" = ["ocean", "beach", "nether", "end"]
 				"Is Blacklist" = true
 
@@ -924,7 +921,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = []
 					"Is Blacklist" = true
 
@@ -978,7 +975,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["mountain"]
 					"Is Blacklist" = false
 
@@ -1014,7 +1011,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["swamp", "ocean"]
 					"Is Blacklist" = false
 
@@ -1050,7 +1047,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["mesa", "sandy"]
 					"Is Blacklist" = false
 
@@ -1086,7 +1083,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["snowy"]
 					"Is Blacklist" = false
 
@@ -1123,7 +1120,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = []
 					"Is Blacklist" = true
 
@@ -1177,7 +1174,7 @@
 				# jungle, spooky, dead, lush, mushroom, magical, rare,
 				# plateau, modified, ocean, river, water, mesa, forest,
 				# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-				# beach, void, overworld, nether, end]
+				# beach, void, overworld, nether, end, underground]
 				"Biome Types" = ["ocean"]
 				"Is Blacklist" = true
 
@@ -1219,7 +1216,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = []
 					"Is Blacklist" = true
 
@@ -1244,7 +1241,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = []
 					"Is Blacklist" = true
 
@@ -1279,7 +1276,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = []
 					"Is Blacklist" = true
 
@@ -1306,7 +1303,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["swamp"]
 					"Is Blacklist" = false
 
@@ -1342,7 +1339,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["void", "nether", "end"]
 					"Is Blacklist" = true
 
@@ -1368,7 +1365,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["beach"]
 					"Is Blacklist" = false
 
@@ -1393,7 +1390,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["mountain"]
 					"Is Blacklist" = false
 
@@ -1426,7 +1423,7 @@
 					# jungle, spooky, dead, lush, mushroom, magical, rare,
 					# plateau, modified, ocean, river, water, mesa, forest,
 					# plains, mountain, hills, swamp, sandy, snowy, wasteland,
-					# beach, void, overworld, nether, end]
+					# beach, void, overworld, nether, end, underground]
 					"Biome Types" = ["void", "nether", "end"]
 					"Is Blacklist" = true
 
@@ -1521,6 +1518,7 @@
 	"Adjustable Chat" = false
 	"Narrator Readout" = false
 	"Game Nerfs" = false
+	"Spawner Replacer" = false
 
 	[experimental.overlay_shader]
 		#Sets the name of the shader to load on a regular basis. This can load any shader the Camera module can (and requires the Camera module enabled to apply said logic).
@@ -1544,6 +1542,11 @@
 		"Disable Ice Roads" = true
 		#Makes Sheep not drop Wool when killed
 		"Disable Wool Drops" = true
+
+	[experimental.spawner_replacer]
+		#Mobs to be replaced with other mobs.
+		#Format is: "mob1,mob2", i.e. "minecraft:spider,minecraft:skeleton"
+		"Replace Mobs" = []
 
 [oddities]
 	Pipes = true
