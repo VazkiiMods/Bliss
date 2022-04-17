@@ -32,13 +32,13 @@
 	TooltipSearchMode = "ENABLED"
 	#Search mode for Tag Names (prefix: $)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	TagSearchMode = "REQUIRE_PREFIX"
+	TagSearchMode = "ENABLED"
 	#Search mode for Creative Tab Names (prefix: %)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	CreativeTabSearchMode = "DISABLED"
 	#Search mode for Colors (prefix: ^)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ColorSearchMode = "DISABLED"
+	ColorSearchMode = "ENABLED"
 	#Search mode for resources locations (prefix: &)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	ResourceLocationSearchMode = "DISABLED"
@@ -56,7 +56,7 @@
 [IngredientList]
 	#Max number of rows shown
 	#Range: 1 ~ 100
-	MaxRows = 16
+	MaxRows = 100
 	#Max number of columns shown
 	#Range: 4 ~ 100
 	MaxColumns = 9
@@ -78,7 +78,7 @@
 	MaxRows = 16
 	#Max number of columns shown
 	#Range: 4 ~ 100
-	MaxColumns = 9
+	MaxColumns = 12
 	#Horizontal alignment of the ingredient grid inside the available area
 	#Allowed Values: LEFT, CENTER, RIGHT
 	HorizontalAlignment = "LEFT"
@@ -89,5 +89,5 @@
 	#Allowed Values: ENABLED, AUTO_HIDE, DISABLED
 	ButtonNavigationVisibility = "ENABLED"
 	#Set to true to draw a background texture behind the gui.
-	DrawBackground = false
+	DrawBackground = true
 

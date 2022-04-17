@@ -20,13 +20,13 @@
 		# Whether item names in tooltips should have a line under them separating them from the rest of the tooltip.
 		name_separator = true
 		# If enabled, tooltip border colors will match item rarity colors (except for custom borders).
-		borders_match_rarity = true
+		borders_match_rarity = false
 		# If enabled, tooltips will display a drop shadow.
 		tooltip_shadow = true
 		# If enabled, items showing a custom border will have a special shine effect when hovered over.
 		shine_effect = true
 		# If enabled, tooltip titles will be drawn centered.
-		centered_title = true
+		centered_title = false
 		# If enabled, tooltips with custom borders will always be at least wide enough to display all border decorations.
 		enforce_minimum_width = false
 
