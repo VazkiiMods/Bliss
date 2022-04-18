@@ -1,33 +1,53 @@
-Configure shader to allow vibing for BoP folliage
-Add datapack to remove nether lava bits
-Add recipe for sculk sensor?
-Remove basic rope recipe from Comforts
-Merge selectable painting with vanilla painting
-Configure quark candles for modded enchants
-Change rabbit hide uses to leather
-Configure quark pathfinder maps
-Configure quark seed pouch tag
-Rename sacks to bags
-Rename Crate to storage crate
-Configure default options
-Make waystone not drop anything
-Add other data and resource packs 
-Disable paraglider structures
-Remove needless advancements
-Configure waila
-Configure controller support (might have to buy an xbox one lol)
-Configure fancy menu and drippy loading screen
-Configure music triggers
-Configure tags for legendary tooltips
-Configure tags and rarities for towers of the wild
-Figure out why shader disables itself
-Write documentation
+Small tasks
+	- Add datapack to remove nether lava bits
+	- Add recipe for sculk sensor?
+	- Remove basic rope recipe from Comforts
+	- Merge selectable painting with vanilla painting
+	- Configure quark candles for modded enchants
+	- Change rabbit hide uses to leather
+	- Configure quark pathfinder maps
+	- Configure quark seed pouch tag
+	- Rename sacks to bags
+	- Rename Crate to storage crate
+	- Configure default options
+	- Make waystone not drop anything
+	- Disable paraglider structures
+	- Remove needless advancements
+	- Configure waila
+	- Configure tags for legendary tooltips
+	- Configure tags and rarities for towers of the wild
+	- Write script to remove spider spawning
+	- Write script for snowball buff
+	- Half yellow blossom tree spawn rate
+	- Fix peaceful surface
+	- Retexture cave spider
+	- Configure selective mob griefing
+	- Add easy trident recipe
+	- Rotten flesh to leather
 
-WAIT: Quark config for shiba light level
-WAIT: permission for shaders
-WAIT: quat's dragon mixin
-WAIT: immersive weathering vertical slabs
-WAIT: yungs mods 1.18 release
-WAIT: farmers delight textures for quark crates
-WAIT: bandage sprites
-WAIT: compat o plenty vertical planks
+Large tasks
+	- Tag all the items
+	- Configure music triggers
+	- Configure fancy menu and drippy loading screen
+	- Configure controller support (might have to buy an xbox one lol)
+	- Add other data and resource packs 
+	- Configure shader settings to proper liking
+	- Configure shader to allow vibing for BoP folliage
+
+Write documentation
+	- Improved intro
+	- Fix matrix enchanting
+	- More tweaks
+	- More gossip
+	- JEI docs
+
+Waiting on other people
+	- Quark config for shiba light level
+	- Permission for shaders
+	- Quat's dragon mixin
+	- Immersive Weathering vertical slabs
+	- YUNGs mods 1.18 release
+	- Farmers delight textures for quark crates
+	- Bandage sprites
+	- Compat O'Plenty vertical planks
+	- Oculus shaders turn themselves off

@@ -1,0 +1,433 @@
+
+#MobGriefing settings
+[mobGriefing]
+	#minecraft:area_effect_cloud mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:area_effect_cloud" = "DEFAULT"
+	#minecraft:armor_stand mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:armor_stand" = "DEFAULT"
+	#minecraft:arrow mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:arrow" = "DEFAULT"
+	#minecraft:axolotl mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:axolotl" = "DEFAULT"
+	#minecraft:bat mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:bat" = "DEFAULT"
+	#minecraft:bee mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:bee" = "DEFAULT"
+	#minecraft:blaze mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:blaze" = "DEFAULT"
+	#minecraft:boat mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:boat" = "DEFAULT"
+	#minecraft:cat mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:cat" = "DEFAULT"
+	#minecraft:cave_spider mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:cave_spider" = "DEFAULT"
+	#minecraft:chicken mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:chicken" = "DEFAULT"
+	#minecraft:cod mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:cod" = "DEFAULT"
+	#minecraft:cow mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:cow" = "DEFAULT"
+	#minecraft:creeper mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:creeper" = "DEFAULT"
+	#minecraft:dolphin mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:dolphin" = "DEFAULT"
+	#minecraft:donkey mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:donkey" = "DEFAULT"
+	#minecraft:dragon_fireball mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:dragon_fireball" = "DEFAULT"
+	#minecraft:drowned mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:drowned" = "DEFAULT"
+	#minecraft:elder_guardian mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:elder_guardian" = "DEFAULT"
+	#minecraft:end_crystal mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:end_crystal" = "DEFAULT"
+	#minecraft:ender_dragon mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:ender_dragon" = "DEFAULT"
+	#minecraft:enderman mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:enderman" = "DEFAULT"
+	#minecraft:endermite mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:endermite" = "DEFAULT"
+	#minecraft:evoker mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:evoker" = "DEFAULT"
+	#minecraft:evoker_fangs mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:evoker_fangs" = "DEFAULT"
+	#minecraft:experience_orb mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:experience_orb" = "DEFAULT"
+	#minecraft:eye_of_ender mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:eye_of_ender" = "DEFAULT"
+	#minecraft:falling_block mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:falling_block" = "DEFAULT"
+	#minecraft:firework_rocket mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:firework_rocket" = "DEFAULT"
+	#minecraft:fox mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:fox" = "DEFAULT"
+	#minecraft:ghast mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:ghast" = "DEFAULT"
+	#minecraft:giant mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:giant" = "DEFAULT"
+	#minecraft:glow_item_frame mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:glow_item_frame" = "DEFAULT"
+	#minecraft:glow_squid mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:glow_squid" = "DEFAULT"
+	#minecraft:goat mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:goat" = "DEFAULT"
+	#minecraft:guardian mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:guardian" = "DEFAULT"
+	#minecraft:hoglin mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:hoglin" = "DEFAULT"
+	#minecraft:horse mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:horse" = "DEFAULT"
+	#minecraft:husk mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:husk" = "DEFAULT"
+	#minecraft:illusioner mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:illusioner" = "DEFAULT"
+	#minecraft:iron_golem mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:iron_golem" = "DEFAULT"
+	#minecraft:item mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:item" = "DEFAULT"
+	#minecraft:item_frame mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:item_frame" = "DEFAULT"
+	#minecraft:fireball mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:fireball" = "DEFAULT"
+	#minecraft:leash_knot mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:leash_knot" = "DEFAULT"
+	#minecraft:lightning_bolt mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:lightning_bolt" = "DEFAULT"
+	#minecraft:llama mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:llama" = "DEFAULT"
+	#minecraft:llama_spit mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:llama_spit" = "DEFAULT"
+	#minecraft:magma_cube mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:magma_cube" = "DEFAULT"
+	#minecraft:marker mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:marker" = "DEFAULT"
+	#minecraft:minecart mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:minecart" = "DEFAULT"
+	#minecraft:chest_minecart mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:chest_minecart" = "DEFAULT"
+	#minecraft:command_block_minecart mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:command_block_minecart" = "DEFAULT"
+	#minecraft:furnace_minecart mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:furnace_minecart" = "DEFAULT"
+	#minecraft:hopper_minecart mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:hopper_minecart" = "DEFAULT"
+	#minecraft:spawner_minecart mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:spawner_minecart" = "DEFAULT"
+	#minecraft:tnt_minecart mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:tnt_minecart" = "DEFAULT"
+	#minecraft:mule mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:mule" = "DEFAULT"
+	#minecraft:mooshroom mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:mooshroom" = "DEFAULT"
+	#minecraft:ocelot mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:ocelot" = "DEFAULT"
+	#minecraft:painting mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:painting" = "DEFAULT"
+	#minecraft:panda mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:panda" = "DEFAULT"
+	#minecraft:parrot mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:parrot" = "DEFAULT"
+	#minecraft:phantom mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:phantom" = "DEFAULT"
+	#minecraft:pig mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:pig" = "DEFAULT"
+	#minecraft:piglin mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:piglin" = "DEFAULT"
+	#minecraft:piglin_brute mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:piglin_brute" = "DEFAULT"
+	#minecraft:pillager mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:pillager" = "DEFAULT"
+	#minecraft:polar_bear mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:polar_bear" = "DEFAULT"
+	#minecraft:tnt mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:tnt" = "DEFAULT"
+	#minecraft:pufferfish mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:pufferfish" = "DEFAULT"
+	#minecraft:rabbit mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:rabbit" = "DEFAULT"
+	#minecraft:ravager mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:ravager" = "DEFAULT"
+	#minecraft:salmon mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:salmon" = "DEFAULT"
+	#minecraft:sheep mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:sheep" = "DEFAULT"
+	#minecraft:shulker mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:shulker" = "DEFAULT"
+	#minecraft:shulker_bullet mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:shulker_bullet" = "DEFAULT"
+	#minecraft:silverfish mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:silverfish" = "DEFAULT"
+	#minecraft:skeleton mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:skeleton" = "DEFAULT"
+	#minecraft:skeleton_horse mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:skeleton_horse" = "DEFAULT"
+	#minecraft:slime mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:slime" = "DEFAULT"
+	#minecraft:small_fireball mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:small_fireball" = "DEFAULT"
+	#minecraft:snow_golem mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:snow_golem" = "DEFAULT"
+	#minecraft:snowball mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:snowball" = "DEFAULT"
+	#minecraft:spectral_arrow mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:spectral_arrow" = "DEFAULT"
+	#minecraft:spider mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:spider" = "DEFAULT"
+	#minecraft:squid mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:squid" = "DEFAULT"
+	#minecraft:stray mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:stray" = "DEFAULT"
+	#minecraft:strider mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:strider" = "DEFAULT"
+	#minecraft:egg mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:egg" = "DEFAULT"
+	#minecraft:ender_pearl mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:ender_pearl" = "DEFAULT"
+	#minecraft:experience_bottle mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:experience_bottle" = "DEFAULT"
+	#minecraft:potion mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:potion" = "DEFAULT"
+	#minecraft:trident mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:trident" = "DEFAULT"
+	#minecraft:trader_llama mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:trader_llama" = "DEFAULT"
+	#minecraft:tropical_fish mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:tropical_fish" = "DEFAULT"
+	#minecraft:turtle mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:turtle" = "DEFAULT"
+	#minecraft:vex mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:vex" = "DEFAULT"
+	#minecraft:villager mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:villager" = "DEFAULT"
+	#minecraft:vindicator mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:vindicator" = "DEFAULT"
+	#minecraft:wandering_trader mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:wandering_trader" = "DEFAULT"
+	#minecraft:witch mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:witch" = "DEFAULT"
+	#minecraft:wither mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:wither" = "DEFAULT"
+	#minecraft:wither_skeleton mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:wither_skeleton" = "DEFAULT"
+	#minecraft:wither_skull mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:wither_skull" = "DEFAULT"
+	#minecraft:wolf mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:wolf" = "DEFAULT"
+	#minecraft:zoglin mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:zoglin" = "DEFAULT"
+	#minecraft:zombie mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:zombie" = "DEFAULT"
+	#minecraft:zombie_horse mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:zombie_horse" = "DEFAULT"
+	#minecraft:zombie_villager mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:zombie_villager" = "DEFAULT"
+	#minecraft:zombified_piglin mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:zombified_piglin" = "DEFAULT"
+	#minecraft:player mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:player" = "DEFAULT"
+	#minecraft:fishing_bobber mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"minecraft:fishing_bobber" = "DEFAULT"
+	#blueprint:boat mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"blueprint:boat" = "DEFAULT"
+	#supplementaries:red_merchant mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"supplementaries:red_merchant" = "DEFAULT"
+	#supplementaries:falling_urn mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"supplementaries:falling_urn" = "DEFAULT"
+	#supplementaries:falling_ash mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"supplementaries:falling_ash" = "DEFAULT"
+	#supplementaries:falling_lantern mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"supplementaries:falling_lantern" = "DEFAULT"
+	#supplementaries:falling_sack mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"supplementaries:falling_sack" = "DEFAULT"
+	#supplementaries:brick_projectile mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"supplementaries:brick_projectile" = "DEFAULT"
+	#supplementaries:bomb mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"supplementaries:bomb" = "DEFAULT"
+	#supplementaries:rope_arrow mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"supplementaries:rope_arrow" = "DEFAULT"
+	#supplementaries:slingshot_projectile mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"supplementaries:slingshot_projectile" = "DEFAULT"
+	#biomesoplenty:boat mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"biomesoplenty:boat" = "DEFAULT"
+	#selectable_painting:selectable_painting mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"selectable_painting:selectable_painting" = "DEFAULT"
+	#quark:stoneling mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:stoneling" = "DEFAULT"
+	#quark:parrot_egg mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:parrot_egg" = "DEFAULT"
+	#quark:forgotten mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:forgotten" = "DEFAULT"
+	#quark:totem mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:totem" = "DEFAULT"
+	#quark:crab mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:crab" = "DEFAULT"
+	#quark:skull_pike mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:skull_pike" = "DEFAULT"
+	#quark:pickarang mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:pickarang" = "DEFAULT"
+	#quark:frog mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:frog" = "DEFAULT"
+	#quark:stool mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:stool" = "DEFAULT"
+	#quark:shiba mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:shiba" = "DEFAULT"
+	#quark:wraith mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:wraith" = "DEFAULT"
+	#quark:soul_bead mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:soul_bead" = "DEFAULT"
+	#quark:chest_passenger mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:chest_passenger" = "DEFAULT"
+	#quark:gravisand mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:gravisand" = "DEFAULT"
+	#quark:toretoise mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:toretoise" = "DEFAULT"
+	#quark:foxhound mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:foxhound" = "DEFAULT"
+	#quark:glass_frame mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:glass_frame" = "DEFAULT"
+	#quark:quark_boat mobGriefing
+	#Allowed Values: DEFAULT, TRUE, FALSE
+	"quark:quark_boat" = "DEFAULT"
+
