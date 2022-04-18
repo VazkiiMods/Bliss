@@ -15,3 +15,4 @@
 !SERVER_README.txt
 /ship/output
 *.pyc
+*toml.bak
