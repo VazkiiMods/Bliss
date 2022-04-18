@@ -28,4 +28,3 @@ WAIT: yungs mods 1.18 release
 WAIT: farmers delight textures for quark crates
 WAIT: bandage sprites
 WAIT: compat o plenty vertical planks
-WAIT: crafttweaker isn't removing recipes properly
