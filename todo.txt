@@ -1,0 +1,31 @@
+Configure shader to allow vibing for BoP folliage
+Add datapack to remove nether lava bits
+Add recipe for sculk sensor?
+Remove basic rope recipe from Comforts
+Merge selectable painting with vanilla painting
+Configure quark candles for modded enchants
+Change rabbit hide uses to leather
+Configure quark pathfinder maps
+Configure quark seed pouch tag
+Rename sacks to bags
+Rename Crate to storage crate
+Configure default options
+Make waystone not drop anything
+Add other data and resource packs 
+Configure paraglider non paraglider feeatures
+Remove needless advancements
+Configure waila
+Configure controller support (might have to buy an xbox one lol)
+Configure fancy menu and drippy loading screen
+Configure music triggers
+Configure tags for legendary tooltips
+
+WAIT: Quark config for shiba light level
+WAIT: permission for shaders
+WAIT: quat's dragon mixin
+WAIT: immersive weathering vertical slabs
+WAIT: yungs mods 1.18 release
+WAIT: farmers delight textures for quark crates
+WAIT: bandage sprites
+WAIT: compat o plenty vertical planks
+WAIT: crafttweaker isn't removing recipes properly

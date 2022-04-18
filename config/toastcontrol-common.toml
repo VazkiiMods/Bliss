@@ -4,7 +4,7 @@
 
 	[client.blocked_toasts]
 		#If advancement toasts are blocked.
-		advancements = true
+		advancements = false
 		#If recipe toasts are blocked.
 		recipes = true
 		#If system toasts are blocked.

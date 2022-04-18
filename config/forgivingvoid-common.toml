@@ -10,9 +10,9 @@ fallingHeight = 300
 #Prevent death on void fall (limits damage to leave at least 0.5 hearts)
 preventDeath = false
 #Set to false to make Forgiving Void not trigger in the overworld void (dimension 0).
-triggerInOverworld = true
+triggerInOverworld = false
 #Set to false to make Forgiving Void not trigger in the nether void (dimension -1).
-triggerInNether = true
+triggerInNether = false
 #Set to false to make Forgiving Void not trigger in the end void (dimension 1).
 triggerInEnd = true
 #Set to true if players are rubber-banding while falling through the void. If you're hosting a public server, you should only do this if you have proper anti-cheat installed.

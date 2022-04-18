@@ -12,6 +12,7 @@
 !/branding/
 
 !/.gitignore
+!/todo.txt
 !SERVER_README.txt
 /ship/output
 *.pyc
