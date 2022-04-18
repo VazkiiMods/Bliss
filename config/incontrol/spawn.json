@@ -1,1 +1,17 @@
-[]
+[
+	{
+		"mob": "minecraft:spider",
+		"result": "deny"
+	},
+	{
+		"hostile": true,
+		"seesky": true,
+		"weather": "thunder",
+		"result": "default"
+	},
+	{
+		"hostile": true,
+		"seesky": true,
+		"result": "deny"
+	}
+]

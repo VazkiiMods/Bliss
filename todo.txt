@@ -24,6 +24,7 @@ Small tasks
 	- Configure selective mob griefing
 	- Add easy trident recipe
 	- Rotten flesh to leather
+	- Orange blossom trees shouldn't spawn on biomesoplenty:wooded_wasteland
 
 Large tasks
 	- Tag all the items
