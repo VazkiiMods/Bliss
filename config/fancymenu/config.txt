@@ -1,7 +1,5 @@
 ##[general]
 
-[Stop vanilla world music when in a customizable menu.]
-B:stopworldmusicwhencustomizable = 'false';
 [If menu background sounds added by FancyMenu should be played when a world is loaded.]
 B:playbackgroundsoundsinworld = 'false';
 B:forcefullscreen = 'false';
@@ -23,9 +21,7 @@ B:showcustomizationbuttons = 'true';
 
 ##[mainmenu]
 
-S:copyrightposition = 'bottom-right';
 B:hidebranding = 'true';
-S:copyrightcolor = '#ffffff';
 B:hidelogo = 'false';
 B:hiderealmsnotifications = 'false';
 B:hideforgenotifications = 'false';

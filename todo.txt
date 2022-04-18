@@ -12,13 +12,15 @@ Rename Crate to storage crate
 Configure default options
 Make waystone not drop anything
 Add other data and resource packs 
-Configure paraglider non paraglider feeatures
+Disable paraglider structures
 Remove needless advancements
 Configure waila
 Configure controller support (might have to buy an xbox one lol)
 Configure fancy menu and drippy loading screen
 Configure music triggers
 Configure tags for legendary tooltips
+Configure tags and rarities for towers of the wild
+Figure out why shader disables itself
 
 WAIT: Quark config for shiba light level
 WAIT: permission for shaders
