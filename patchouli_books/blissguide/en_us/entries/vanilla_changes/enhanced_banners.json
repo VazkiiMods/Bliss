@@ -1,0 +1,14 @@
+{
+	"name": "Enhanced Banners",
+	"icon": "minecraft:pink_banner",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:pink_banner",
+            "title": "Enhanced Banners",
+            "text": "$(item)Banners$() can now be hoisted from ceilings, alongside the basic floors and walls.$(br2)$(item)Banner Patterns$() can also be stacked up to 16 layers, instead of the vanilla value of 6."
+        }
+	]
+}

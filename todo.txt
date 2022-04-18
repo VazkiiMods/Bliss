@@ -21,6 +21,7 @@ Configure music triggers
 Configure tags for legendary tooltips
 Configure tags and rarities for towers of the wild
 Figure out why shader disables itself
+Write documentation
 
 WAIT: Quark config for shiba light level
 WAIT: permission for shaders
