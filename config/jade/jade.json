@@ -2,7 +2,7 @@
   "general": {
     "displayTooltip": true,
     "displayBlocks": true,
-    "displayEntities": true,
+    "displayEntities": false,
     "displayMode": "TOGGLE",
     "hideFromDebug": true,
     "iconMode": "TOP",
@@ -15,7 +15,7 @@
   },
   "overlay": {
     "overlayPosX": 0.5,
-    "overlayPosY": 1.0,
+    "overlayPosY": 0.98913044,
     "overlayScale": 1.0,
     "overlayAnchorX": 0.5,
     "overlayAnchorY": 0.0,
