@@ -128,7 +128,7 @@
 		prevent_breaking = false
 		#Make safes simpler so they do not require keys:
 		#they will be bound to the first person that opens one and only that person will be able to interact with them
-		simple_safes = true
+		simple_safes = false
 
 	[blocks.blackboard]
 		#Enable to draw directly on a blackboard using any dye. Gui still only works in black and white

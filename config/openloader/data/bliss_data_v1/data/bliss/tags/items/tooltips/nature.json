@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"quark:tiny_potato",
+		"#quark:seed_pouch_holdable",
+		"quark:seed_pouch"
+	]
+}

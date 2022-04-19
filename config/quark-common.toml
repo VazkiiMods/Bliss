@@ -936,7 +936,7 @@
 					"Is Blacklist" = false
 
 				[world.blossom_trees.orange.biome_config.biomes]
-					Biomes = []
+					Biomes = ["biomesoplenty:wooded_wasteland"]
 					"Is Blacklist" = true
 
 		[world.blossom_trees.pink]
@@ -962,7 +962,7 @@
 					"Is Blacklist" = true
 
 		[world.blossom_trees.yellow]
-			Rarity = 200
+			Rarity = 100
 
 			[world.blossom_trees.yellow.dimensions]
 				"Is Blacklist" = false

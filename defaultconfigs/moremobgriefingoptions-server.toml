@@ -72,7 +72,7 @@
 	"minecraft:endermite" = "DEFAULT"
 	#minecraft:evoker mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:evoker" = "DEFAULT"
+	"minecraft:evoker" = "TRUE"
 	#minecraft:evoker_fangs mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:evoker_fangs" = "DEFAULT"
@@ -216,16 +216,16 @@
 	"minecraft:pufferfish" = "DEFAULT"
 	#minecraft:rabbit mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:rabbit" = "DEFAULT"
+	"minecraft:rabbit" = "TRUE"
 	#minecraft:ravager mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:ravager" = "DEFAULT"
+	"minecraft:ravager" = "TRUE"
 	#minecraft:salmon mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:salmon" = "DEFAULT"
 	#minecraft:sheep mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:sheep" = "DEFAULT"
+	"minecraft:sheep" = "TRUE"
 	#minecraft:shulker mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:shulker" = "DEFAULT"
@@ -234,7 +234,7 @@
 	"minecraft:shulker_bullet" = "DEFAULT"
 	#minecraft:silverfish mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:silverfish" = "DEFAULT"
+	"minecraft:silverfish" = "TRUE"
 	#minecraft:skeleton mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:skeleton" = "DEFAULT"
@@ -249,7 +249,7 @@
 	"minecraft:small_fireball" = "DEFAULT"
 	#minecraft:snow_golem mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:snow_golem" = "DEFAULT"
+	"minecraft:snow_golem" = "TRUE"
 	#minecraft:snowball mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:snowball" = "DEFAULT"
@@ -297,7 +297,7 @@
 	"minecraft:vex" = "DEFAULT"
 	#minecraft:villager mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:villager" = "DEFAULT"
+	"minecraft:villager" = "TRUE"
 	#minecraft:vindicator mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:vindicator" = "DEFAULT"
@@ -309,7 +309,7 @@
 	"minecraft:witch" = "DEFAULT"
 	#minecraft:wither mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:wither" = "DEFAULT"
+	"minecraft:wither" = "TRUE"
 	#minecraft:wither_skeleton mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:wither_skeleton" = "DEFAULT"

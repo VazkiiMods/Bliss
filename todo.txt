@@ -1,29 +1,26 @@
 Small tasks
 	- Add datapack to remove nether lava bits
-	- Add easy trident recipe
-	- Add Effective
-	- Add Farmers delight textures for quark crates
-	- Add recipe for sculk sensor?
-	- Change rabbit hide uses to leather
 	- Configure default options
 	- Configure quark candles for modded enchants
 	- Configure quark pathfinder maps
 	- Configure quark seed pouch tag
-	- Configure selective mob griefing
 	- Configure tags and rarities for towers of the wild
 	- Configure tags for legendary tooltips
 	- Configure waila
 	- Disable paraglider structures
-	- Half yellow blossom tree spawn rate
-	- Make iron rod pre-end
 	- Make waystone not drop anything
-	- Merge selectable painting with vanilla painting
-	- Orange blossom trees shouldn't spawn on biomesoplenty:wooded_wasteland
-	- Remove basic rope recipe from Comforts
 	- Remove needless advancements
-	- Rename Crate to storage crate
-	- Rename sacks to bags
+
+CT
+	- Add easy trident recipe
+	- Change rabbit hide uses to leather
+	- Make iron rod pre-end
+	- Merge selectable painting with vanilla painting
+	- Remove basic rope recipe from Comforts
 	- Rotten flesh to leather
+	- Canvas for paintings only
+
+CT (hard)
 	- Write script for snowball buff
 
 Large tasks
@@ -34,6 +31,7 @@ Large tasks
 
 	- Configure shader settings to proper liking
 	- Configure shader to allow vibing for BoP folliage
+	- Write splashes
 	- Make new panorama
 
 Write documentation
@@ -52,3 +50,6 @@ Waiting on other people
 	- Bandage sprites
 	- Compat O'Plenty vertical planks
 	- Oculus shaders turn themselves off
+
+Maybe?
+	- Add recipe for sculk sensor

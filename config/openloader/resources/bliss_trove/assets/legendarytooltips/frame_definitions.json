@@ -1,0 +1,74 @@
+{
+	"definitions": [
+		// 3.  Smoke and flames
+		{
+			"index": 3,
+			"startColor": "#912307",
+			"endColor": "#818385",
+			"selectors": []
+		},
+		// 4.  Water / Ice
+		{
+			"index": 4,
+			"startColor": "#008FCC",
+			"endColor": "#044B8A",
+			"selectors": []
+		},
+		// 5.  Rose and vines
+		{
+			"index": 5,
+			"startColor": "#5C4C2D",
+			"endColor": "#5C4C2D",
+			"selectors": []
+		},
+		// 6.  Bones / death
+		{
+			"index": 6,
+			"startColor": "#705A87",
+			"endColor": "#393556",
+			"selectors": []
+		},
+		// 7.  Iron plating / machinery
+		{
+			"index": 7,
+			"startColor": "#7D8A91",
+			"endColor": "#7D8A91",
+			"selectors": []
+		},
+		// 8.  Purple geometric motif
+		{
+			"index": 8,
+			"startColor": "#A591B6",
+			"endColor": "#A591B6",
+			"selectors": []
+		},
+		// 9.  Holy (halo / wings)
+		{
+			"index": 9,
+			"startColor": "#FFFADB",
+			"endColor": "#FFDFAD",
+			"selectors": []
+		},
+		// 0.  Gold frame
+		{
+			"index": 0,
+			"startColor": "#996922",
+			"endColor": "#5B3B1D",
+			"selectors": []
+		},
+		// 1.  Silver frame
+		{
+			"index": 1,
+			"startColor": "#697C8C",
+			"endColor": "#3A4C61",
+			"selectors": []
+		},
+		// 2.  Copper frame
+		{
+			"index": 2,
+			"startColor": "#70453D",
+			"endColor": "#542323",
+			"selectors": []
+		}
+	]
+}
