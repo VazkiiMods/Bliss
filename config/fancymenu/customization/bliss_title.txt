@@ -1,0 +1,336 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=802990%
+  orientation = bottom-left
+  x = 3
+  action = movebutton
+  y = -13
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = element
+  orientation_element = vanillabtn:400298
+  x = 0
+  action = movebutton
+  y = 25
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = Play With Friends
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_setups\_images\btn200_hover.png
+  backgroundnormal = fancymenu_setups\_images\btn200.png
+}
+
+customization {
+  identifier = %id=400322%
+  action = sethoverlabel
+  label = Play With Friends
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = element
+  orientation_element = vanillabtn:376382
+  x = 25
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=604382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_setups\_images\btnaccess_hover.png
+  backgroundnormal = fancymenu_setups\_images\btnaccess.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttondescription
+  description = Accessibility
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = element
+  orientation_element = vanillabtn:400322
+  x = 0
+  action = movebutton
+  y = 35
+}
+
+customization {
+  identifier = %id=400382%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = Game Settings
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_setups\_images\btn200_hover.png
+  backgroundnormal = fancymenu_setups\_images\btn200.png
+}
+
+customization {
+  identifier = %id=400382%
+  action = sethoverlabel
+  label = Game Settings
+}
+
+customization {
+  identifier = %id=502382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = element
+  orientation_element = vanillabtn:400346
+  x = 0
+  action = movebutton
+  y = 25
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_setups\_images\btnlang_hover.png
+  backgroundnormal = fancymenu_setups\_images\btnlang.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttondescription
+  description = Language
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-left
+  x = 30
+  action = movebutton
+  y = 175
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = Play Alone
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_setups\_images\btn200_hover.png
+  backgroundnormal = fancymenu_setups\_images\btn200.png
+}
+
+customization {
+  identifier = %id=400298%
+  action = sethoverlabel
+  label = Play Alone
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = element
+  orientation_element = vanillabtn:400322
+  x = 0
+  action = movebutton
+  y = 60
+}
+
+customization {
+  identifier = %id=400346%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = Mod List (%totalmods% Mods)
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_setups\_images\btn200_hover.png
+  backgroundnormal = fancymenu_setups\_images\btn200.png
+}
+
+customization {
+  identifier = %id=400346%
+  action = sethoverlabel
+  label = Mod List (%totalmods% Mods)
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  shape = rectangle
+  color = #00000055
+  x = -1
+  width = 260
+  action = addshape
+  actionid = 27dcdb9c-d4f9-4eea-9833-9618e9589fac1650334092806
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  path = fancymenu_setups/_images/logo.png
+  orientation = element
+  orientation_element = f63cabc3-9f6a-43fd-8787-896ad4d952231650332413887
+  x = 30
+  width = 200
+  action = addtexture
+  actionid = 431cb3ce-86d7-4dfc-b788-4736c80610ed1650332529106
+  y = 32
+  height = 100
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = fancymenu_setups\_images\btndiscord_hover.png
+  description = Violet Moon Discord
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = cef5e269-6b49-432b-b9e3-a7f5ef0adf681650334908456
+  x = 25
+  width = 20
+  actionid = 729b8a7d-e4b9-4407-bea9-9e862d28f4fd1650334663251
+  action = addbutton
+  y = 0
+  backgroundnormal = fancymenu_setups\_images\btndiscord.png
+  value = https://discord.gg/vm
+  height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = fancymenu_setups\_images\btntwt_hover.png
+  description = Violet Moon Twitter
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = 729b8a7d-e4b9-4407-bea9-9e862d28f4fd1650334663251
+  x = 25
+  width = 20
+  actionid = b229105b-fcc0-43b3-9c52-ae1e51c955961650334901634
+  action = addbutton
+  y = 0
+  backgroundnormal = fancymenu_setups\_images\btntwt.png
+  value = https://twitter.com/vazkiimods
+  height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = fancymenu_setups\_images\btnpatreon_hover.png
+  description = Vazkii's Patreon
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:604382
+  x = 25
+  width = 20
+  actionid = cef5e269-6b49-432b-b9e3-a7f5ef0adf681650334908456
+  action = addbutton
+  y = 0
+  backgroundnormal = fancymenu_setups\_images\btnpatreon.png
+  value = https://patreon.com/vazkii
+  height = 20
+}
+
+customization {
+  orientation = element
+  shadow = false
+  orientation_element = vanillabtn:802990
+  x = 0
+  action = addtext
+  actionid = 66e7a4e0-16ad-461c-862c-26991d0e070b1650335141761
+  y = -11
+  scale = 1.0
+  alignment = left
+  value = Minecraft %mcversion% / Forge %version:forge%
+}
+

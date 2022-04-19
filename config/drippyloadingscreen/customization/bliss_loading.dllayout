@@ -1,0 +1,42 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = 80279d
+}
+
+customization {
+  visible = false
+  x = -1
+  action = editlogo
+  y = -1
+}
+
+customization {
+  path = fancymenu_setups/_images/loading_logo.png
+  orientation = mid-centered
+  x = -2
+  width = 508
+  action = addtexture
+  actionid = 6b081cd0-781e-4512-9a5c-65f36c3aecd11650336314163
+  y = 0
+  height = 127
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  x = 0
+  textcolor = #ffffff
+  action = addtext
+  actionid = 36e2680e-df6f-4968-8497-8fd6ab9bd3e11650336422181
+  y = -63
+  scale = 1.0
+  alignment = left
+  value = Loading...
+}
+

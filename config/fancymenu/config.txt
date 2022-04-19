@@ -4,38 +4,38 @@
 B:playbackgroundsoundsinworld = 'false';
 B:forcefullscreen = 'false';
 [If menu background sounds added by FancyMenu should be played or not.]
-B:playbackgroundsounds = 'true';
+B:playbackgroundsounds = 'false';
 [A minecraft restart is required after changing this value.]
-B:enablehotkeys = 'true';
-B:playmenumusic = 'true';
+B:enablehotkeys = 'false';
+B:playmenumusic = 'false';
 B:showdebugwarnings = 'true';
 [Sets the default GUI scale on first launch. Useful for modpacks. Cache data is saved in '/mods/fancymenu/'.]
-I:defaultguiscale = '-1';
+I:defaultguiscale = '2';
 
 
 ##[customization]
 
 B:advancedmode = 'false';
-B:showcustomizationbuttons = 'true';
+B:showcustomizationbuttons = 'false';
 
 
 ##[mainmenu]
 
 B:hidebranding = 'true';
-B:hidelogo = 'false';
-B:hiderealmsnotifications = 'false';
-B:hideforgenotifications = 'false';
+B:hidelogo = 'true';
+B:hiderealmsnotifications = 'true';
+B:hideforgenotifications = 'true';
 
 
 ##[mainmenu_splash]
 
-S:splashcolor = '#ffff00';
-I:splashrotation = '-20';
-I:splashy = '0';
-I:splashx = '0';
+S:splashcolor = '#f4c2f5';
+I:splashrotation = '0';
+I:splashy = '140';
+I:splashx = '130';
 B:hidesplashtext = 'false';
-S:splashtextfile = '';
-S:splashorientation = 'original';
+S:splashtextfile = 'fancymenu_setups/splashes.txt';
+S:splashorientation = 'top-left';
 
 
 ##[loading]
@@ -44,16 +44,16 @@ B:allowgameintroskip = 'true';
 S:loadinganimationcolor = '#ffffffff';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
-B:preloadanimations = 'false';
+B:preloadanimations = 'true';
 S:customgameintroskiptext = '';
 
 
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = '';
+S:customwindowtitle = 'Bliss - Minecraft 1.18.2';
 [A minecraft restart is required after changing this value.]
-B:customwindowicon = 'false';
+B:customwindowicon = 'true';
 
 
 ##[world_loading_screen]

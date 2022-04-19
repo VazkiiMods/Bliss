@@ -29,11 +29,12 @@ Small tasks
 Large tasks
 	- Tag all the items
 	- Configure music triggers
-	- Configure fancy menu and drippy loading screen
 	- Configure controller support (might have to buy an xbox one lol)
 	- Add other data and resource packs 
+
 	- Configure shader settings to proper liking
 	- Configure shader to allow vibing for BoP folliage
+	- Make new panorama
 
 Write documentation
 	- Improved intro
