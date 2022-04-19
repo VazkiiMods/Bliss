@@ -5,19 +5,6 @@ Small tasks
 	- Configure quark seed pouch tag
 	- Configure tags for legendary tooltips
 
-	- Disable paraglider structures
-	- Make waystone not drop anything
-	- Configure tags and rarities for towers of the wild
-
-Advancements	
-	- Remove:
-		- Supplementaries chalice
-		- SYP Gold Bandage
-		- All Towers of the Wild
-		- All Paragliders
-		- All BOP
-
-
 CT
 	- Add easy trident recipe
 	- Change rabbit hide uses to leather
