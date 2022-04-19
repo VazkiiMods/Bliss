@@ -1,15 +1,22 @@
 Small tasks
 	- Add datapack to remove nether lava bits
-	- Configure default options
 	- Configure quark candles for modded enchants
 	- Configure quark pathfinder maps
 	- Configure quark seed pouch tag
-	- Configure tags and rarities for towers of the wild
 	- Configure tags for legendary tooltips
-	- Configure waila
+
 	- Disable paraglider structures
 	- Make waystone not drop anything
-	- Remove needless advancements
+	- Configure tags and rarities for towers of the wild
+
+Advancements	
+	- Remove:
+		- Supplementaries chalice
+		- SYP Gold Bandage
+		- All Towers of the Wild
+		- All Paragliders
+		- All BOP
+
 
 CT
 	- Add easy trident recipe
@@ -50,6 +57,7 @@ Waiting on other people
 	- Bandage sprites
 	- Compat O'Plenty vertical planks
 	- Oculus shaders turn themselves off
+	- Biomes o plenty is broken lol
 
 Maybe?
 	- Add recipe for sculk sensor
