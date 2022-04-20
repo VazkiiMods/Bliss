@@ -15,6 +15,7 @@ var rotten_flesh = <item:minecraft:rotten_flesh>;
 var paraglider = <item:paraglider:paraglider>;
 var honey_bottle = <item:minecraft:honey_bottle>;
 var piston = <item:minecraft:piston>;
+var brimstone = <item:biomesoplenty:brimstone>;
 
 // Remove some recipes that shouldn't be in here
 craftingTable.remove(paraglider);
@@ -68,3 +69,6 @@ craftingTable.addShaped("honey_sticky_piston",
 		<item:minecraft:sticky_piston>,
 		[[honey_bottle],
 		[piston]]);
+
+// Brimstone to Blaze
+craftingTable.addShapeless("brim_blaze", <item:minecraft:blaze_powder>, [brimstone]);
