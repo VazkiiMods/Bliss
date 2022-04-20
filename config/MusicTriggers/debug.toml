@@ -1,5 +1,5 @@
 # Show the debug info
-showdebuginfo = "false"
+showdebuginfo = "true"
 # If ShowDebugInfo is set to true, but you only want to see the song name
 showjustcursong = "false"
 # Show an overlay for the name of the current GUI

@@ -155,7 +155,6 @@ public class Globals {
 		<item:waystones:blue_sharestone>,
 		<item:waystones:warp_dust>,
 		<item:syp:golden_pet_bandage>,
-		<item:musictriggers:blank_record>,
 		<item:musictriggers:music_recorder>,
 		<item:quark:potato_crate>,
 		<item:quark:carrot_crate>,

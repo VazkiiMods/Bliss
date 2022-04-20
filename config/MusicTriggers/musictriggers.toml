@@ -1,0 +1,233 @@
+[universal]
+    fade_in = "60"
+    fade_out = "60"
+    delay = "100"
+
+[main_menu]
+	[main_menu.trigger]
+		name = "menu"
+
+[raid]
+	[raid.trigger]
+		priority = "10"
+		name = "raid"
+
+[night_home]
+	[[night_home.trigger]]
+		priority = "9"
+		name = "home"
+		detection_range = "64"
+	[[night_home.trigger]]
+		priority = "9"
+		name = "time"
+		start = "night"
+	[[night_home.trigger]]
+	    priority = "9"
+        name = "dimension"
+        resource_name = "overworld"
+
+[home]
+	[home.trigger]
+		priority = "8"
+		name = "home"
+		detection_range = "64"
+
+[underground_biome]
+	[underground_biome.trigger]
+		priority = "7"
+		name = "biome"
+		biome_category = "underground"
+
+[deep_underground]
+	[deep_underground.trigger]
+		priority = "6"
+		name = "height"
+		level = "-5"
+
+[underground]
+	[underground.trigger]
+		priority = "5"
+		name = "height"
+		level = "55"
+
+[rain]
+	[rain.trigger]
+		priority = "4"
+		name = "raining"
+
+[storm]
+	[storm.trigger]
+		priority = "4"
+		name = "storming"
+
+[night_desert]
+	[[night_desert.trigger]]
+		priority = "3"
+		name = "biome"
+		biome_category = "night_desert"
+	[[night_desert.trigger]]
+		priority = "3"
+		name = "time"
+		start = "night"
+
+[night_forest]
+	[[night_forest.trigger]]
+		priority = "3"
+		name = "biome"
+		biome_category = "night_forest"
+	[[night_forest.trigger]]
+		priority = "3"
+		name = "time"
+		start = "night"
+
+[night_snowy]
+	[[night_snowy.trigger]]
+		priority = "3"
+		name = "biome"
+		biome_category = "night_snowy"
+	[[night_snowy.trigger]]
+		priority = "3"
+		name = "time"
+		start = "night"
+
+[night]
+	[[night.trigger]]
+		priority = "2"
+		name = "time"
+		start = "night"
+	[[night.trigger]]
+	    priority = "2"
+        name = "dimension"
+        resource_name = "overworld"
+
+[desert_village]
+	[desert_village.trigger]
+		priority = "1"
+		name = "structure"
+		resource_name = "desert_village"
+
+[plains_village]
+	[plains_village.trigger]
+		priority = "1"
+		name = "structure"
+		resource_name = "plains_village"
+
+[savanna_village]
+	[savanna_village.trigger]
+		priority = "1"
+		name = "structure"
+		resource_name = "savanna_village"
+
+[snowy_village]
+	[snowy_village.trigger]
+		priority = "1"
+		name = "structure"
+		resource_name = "snowy_village"
+
+[taiga_village]
+	[taiga_village.trigger]
+		priority = "1"
+		name = "structure"
+		resource_name = "taiga_village"
+
+[beach]
+	[beach.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "beach"
+
+[desert]
+	[desert.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "desert"
+
+[end]
+	[end.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "end"
+
+[forest]
+	[forest.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "forest"
+
+[icy]
+	[icy.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "icy"
+
+[jungle]
+	[jungle.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "jungle"
+
+[mesa]
+	[mesa.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "mesa"
+
+[mountain]
+	[[mountain.trigger]]
+		priority = "0"
+		name = "biome"
+		biome_category = "mountain;extreme_hills"
+
+[mushroom]
+	[mushroom.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "mushroom"
+
+[nether]
+	[nether.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "nether"
+
+[ocean]
+	[ocean.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "ocean"
+
+[plains]
+	[plains.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "plains"
+
+[river]
+	[river.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "river"
+
+[savanna]
+	[savanna.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "savanna"
+
+[snowing]
+	[snowing.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "snowing"
+
+[swamp]
+	[swamp.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "swamp"
+
+[taiga]
+	[taiga.trigger]
+		priority = "0"
+		name = "biome"
+		biome_category = "taiga"
