@@ -1,7 +1,7 @@
 [universal]
-	fade_in = "60"
-	fade_out = "60"
-	delay = "100"
+	fade_in = "100"
+	fade_out = "100"
+	delay = "200"
 
 [main_menu]
 	[main_menu.trigger]
