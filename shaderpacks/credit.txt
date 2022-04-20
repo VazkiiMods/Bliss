@@ -1,2 +1,4 @@
-sed.zip is Sildur's Enhanced Default v1.131 Fancy
-https://www.curseforge.com/minecraft/customization/sildurs-enhanced-default
+cs.zip is ComplementaryShaders_v4.4.zip
+https://www.curseforge.com/minecraft/customization/complementary-shaders
+
+Configured for use with the pack

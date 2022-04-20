@@ -1,7 +1,0 @@
-#Wed Apr 20 03:50:41 WEST 2022
-animationSpeed=0.5
-MobsFlashRed=false
-DoF_Strength=60
-customLight=true
-Depth_of_Field=true
-waves_amplitude=0.55
