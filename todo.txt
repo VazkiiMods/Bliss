@@ -1,9 +1,3 @@
-TODO FOR ALPHA
-	- Fix Matrix Enchanting docs
-	- Make new panorama
-
----------------------------------------------
-
 Gameplay
 	- Configure tags for legendary tooltips
 	- Tag all the items
@@ -16,6 +10,7 @@ Documentation
 	- Improved intro
 	- More tweaks
 	- More gossip
+	- Fix Matrix Enchanting docs
 	- JEI docs
 
 Waiting on other people
