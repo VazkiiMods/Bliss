@@ -1,11 +1,8 @@
 TODO FOR ALPHA
-	- Configure quark seed pouch tag
-	- Write script for snowball buff
-
+	- Fix Matrix Enchanting docs
+	- Config discord rpc
 	- Write splashes
 	- Make new panorama
-	- Improved intro
-	- Fix Matrix Enchanting docs
 
 ---------------------------------------------
 
@@ -14,8 +11,10 @@ Gameplay
 	- Tag all the items
 	- Configure music triggers
 	- Configure quark pathfinder maps
+	- Write script for snowball buff
 
 Documentation
+	- Improved intro
 	- More tweaks
 	- More gossip
 	- JEI docs

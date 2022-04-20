@@ -4,6 +4,11 @@
 		"result": "deny"
 	},
 	{
+		"mob": "minecraft:blaze",
+		"onjoin": true,
+		"healthadd": -15
+	},
+	{
 		"hostile": true,
 		"seesky": true,
 		"weather": "thunder",
