@@ -3,6 +3,7 @@ type = hud
 customization-meta {
   randomgroup = 1
   keepaspectratio = false
+  backgroundimage = fancymenu_setups/_images/loading.png
   renderorder = foreground
   randommode = false
   randomonlyfirsttime = false

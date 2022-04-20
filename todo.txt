@@ -1,6 +1,5 @@
 TODO FOR ALPHA
 	- Fix Matrix Enchanting docs
-	- Write splashes
 	- Make new panorama
 
 ---------------------------------------------
@@ -11,6 +10,7 @@ Gameplay
 	- Configure music triggers
 	- Configure quark pathfinder maps
 	- Write script for snowball buff
+	- Update bonus chest
 
 Documentation
 	- Improved intro
