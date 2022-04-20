@@ -1,25 +1,21 @@
 TODO FOR ALPHA
 	- Configure quark seed pouch tag
-	- Rename selectable painting to normal
-	- Change painting loot table
 	- Write script for snowball buff
-	- Add resource packs 
+
 	- Write splashes
 	- Make new panorama
 	- Improved intro
 	- Fix Matrix Enchanting docs
 
-------------------------------------------------------
+---------------------------------------------
 
-Small tasks
+Gameplay
 	- Configure tags for legendary tooltips
-
-Large tasks
 	- Tag all the items
 	- Configure music triggers
 	- Configure quark pathfinder maps
 
-Write documentation
+Documentation
 	- More tweaks
 	- More gossip
 	- JEI docs
@@ -34,5 +30,4 @@ Issues
 	- Ender Dragon is temporarily disabled until we figure out how to get it passive
 		- To get End Gateways, put four End Crystals on the exit portal like if you were respawning it
 	- Shaders disable every time you load the game
-	- Vertical Planks are not available for BOP wood types yet
 	- Controller support is available but hasn't been configured for mod keybinds yet

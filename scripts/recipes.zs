@@ -18,6 +18,7 @@ var piston = <item:minecraft:piston>;
 
 // Remove some recipes that shouldn't be in here
 craftingTable.remove(paraglider);
+craftingTable.removeByName("minecraft:painting");
 craftingTable.removeByName("minecraft:lead");
 craftingTable.removeByName("minecraft:scaffolding");
 craftingTable.removeByName("comforts:rope_and_nail");
@@ -55,14 +56,6 @@ craftingTable.removeByName("quark:automation/crafting/iron_rod");
 craftingTable.addShaped("earlygame_iron_rod", 
 		<item:quark:iron_rod>, 
 		[[iron], [iron], [iron]]);
-
-// Selectable Painting Only
-craftingTable.remove(<item:minecraft:painting>);
-craftingTable.addShaped("canvas_painting", 
-		<item:selectable_painting:selectable_painting>, 
-		[[stick, stick, stick], 
-		 [stick, canvas, stick], 
-		 [stick, stick, stick]]);
 
 // RF to Leather
 furnace.addRecipe("rf2leather", leather, rotten_flesh, 0.0, 200);
