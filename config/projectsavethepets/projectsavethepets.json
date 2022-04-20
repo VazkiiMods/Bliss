@@ -1,0 +1,24 @@
+{
+  "shears": [],
+  "allowDefaultShears": true,
+  "entities": {
+    "allowTameableEntities": true,
+    "allowFoxEntities": true,
+    "allowHorseBaseEntities": true
+  },
+  "damage": {
+    "preventProjectiles": true,
+    "preventSwordSweep": true,
+    "preventAttack": true,
+    "preventExplosions": true,
+    "preventSplashHarming": true,
+    "livingEffects": [
+      "minecraft:instant_damage",
+      "minecraft:poison"
+    ],
+    "undeadEffects": [
+      "minecraft:instant_health",
+      "minecraft:regeneration"
+    ]
+  }
+}
