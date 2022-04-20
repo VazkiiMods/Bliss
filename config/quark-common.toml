@@ -242,7 +242,7 @@
 	Stools = true
 	"Industrial Palette" = true
 	"Wooden Posts" = true
-	"Vertical Planks" = true
+	"Vertical Planks" = false
 	"Variant Chests" = true
 	"Celebratory Lamps" = true
 	"Leaf Carpet" = true

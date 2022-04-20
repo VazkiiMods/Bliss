@@ -1,28 +1,25 @@
-Small tasks
-	- Configure quark candles for modded enchants
+TODO FOR ALPHA
 	- Configure quark seed pouch tag
-	- Configure tags for legendary tooltips
-
 	- Rename selectable painting to normal
 	- Change painting loot table
+	- Write script for snowball buff
+	- Add resource packs 
+	- Write splashes
+	- Make new panorama
+	- Improved intro
+	- Fix Matrix Enchanting docs
 
 ------------------------------------------------------
 
-CT (hard)
-	- Write script for snowball buff
+Small tasks
+	- Configure tags for legendary tooltips
 
 Large tasks
-	- Add other data and resource packs 
-	- Write splashes
-	- Make new panorama
-
 	- Tag all the items
 	- Configure music triggers
 	- Configure quark pathfinder maps
 
 Write documentation
-	- Improved intro
-	- Fix matrix enchanting
 	- More tweaks
 	- More gossip
 	- JEI docs

@@ -162,6 +162,18 @@ public class Globals {
 		<item:quark:beetroot_crate>,
 		<item:quark:rope>,
 		<item:quark:ravager_hide>,
-		<item:quark:bonded_ravager_hide>
+		<item:quark:bonded_ravager_hide>,
+		<item:patchouli:guide_book>,
+		<item:quark:matrix_enchanter>,
+		<item:quark:vertical_acacia_planks>,
+		<item:quark:vertical_dark_oak_planks>,
+		<item:quark:vertical_crimson_planks>,
+		<item:quark:vertical_warped_planks>,
+		<item:quark:vertical_azalea_planks>,
+		<item:quark:vertical_blossom_planks>,
+		<item:quark:vertical_oak_planks>,
+		<item:quark:vertical_spruce_planks>,
+		<item:quark:vertical_birch_planks>,
+		<item:quark:vertical_jungle_planks>
 	] as IItemStack[];
 }
