@@ -3,8 +3,9 @@ Gameplay
 	- Tag all the items
 	- Configure music triggers
 	- Configure quark pathfinder maps
-	- Write script for snowball buff
 	- Update bonus chest
+	- Add X button to main menu
+	- Remove rope from urn loot tables
 
 Documentation
 	- Improved intro
@@ -24,3 +25,4 @@ Issues
 		- To get End Gateways, put four End Crystals on the exit portal like if you were respawning it
 	- Shaders disable every time you load the game
 	- Controller support is available but hasn't been configured for mod keybinds yet
+	- Patchouli button shows up on the backpack screen
