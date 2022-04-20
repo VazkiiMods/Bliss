@@ -1,11 +1,11 @@
 Gameplay
 	- Configure tags for legendary tooltips
 	- Tag all the items
-	- Configure music triggers
 	- Configure quark pathfinder maps
 	- Update bonus chest
 	- Add X button to main menu
 	- Remove rope from urn loot tables
+	- Configure stronger snowballs for wither killing
 
 Documentation
 	- Improved intro
