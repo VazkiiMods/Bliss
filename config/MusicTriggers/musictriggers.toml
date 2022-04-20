@@ -69,7 +69,7 @@
 [snowing]
 	[snowing.trigger]
 		priority = "4"
-		type = "snowing"
+		name = "snowing"
 
 [night_desert]
 	[[night_desert.trigger]]
