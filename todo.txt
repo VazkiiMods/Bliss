@@ -1,30 +1,25 @@
 Small tasks
-	- Add datapack to remove nether lava bits
 	- Configure quark candles for modded enchants
-	- Configure quark pathfinder maps
+	
 	- Configure quark seed pouch tag
 	- Configure tags for legendary tooltips
+	- Rename selectable painting to normal
+	- Change painting loot table
+	- Fix waystones
+	- Add guaranteed paraglider to towers
 
-CT
-	- Add easy trident recipe
-	- Change rabbit hide uses to leather
-	- Make iron rod pre-end
-	- Merge selectable painting with vanilla painting
-	- Remove basic rope recipe from Comforts
-	- Rotten flesh to leather
-	- Canvas for paintings only
+------------------------------------------------------
 
 CT (hard)
 	- Write script for snowball buff
 
 Large tasks
-	- Tag all the items
-	- Configure music triggers
-	- Configure controller support (might have to buy an xbox one lol)
 	- Add other data and resource packs 
 
-	- Configure shader settings to proper liking
-	- Configure shader to allow vibing for BoP folliage
+	- Tag all the items
+	- Configure music triggers
+	- Configure quark pathfinder maps
+
 	- Write splashes
 	- Make new panorama
 
@@ -36,15 +31,14 @@ Write documentation
 	- JEI docs
 
 Waiting on other people
-	- Quark config for shiba light level
 	- Permission for shaders
-	- Quat's dragon mixin
 	- Immersive Weathering vertical slabs
 	- YUNGs mods 1.18 release
-	- Bandage sprites
-	- Compat O'Plenty vertical planks
-	- Oculus shaders turn themselves off
-	- Biomes o plenty is broken lol
 
-Maybe?
-	- Add recipe for sculk sensor
+Issues
+	- Shiba do not react to sky sight properly
+	- Ender Dragon is temporarily disabled until we figure out how to get it passive
+		- To get End Gateways, put four End Crystals on the exit portal like if you were respawning it
+	- Shaders disable every time you load the game
+	- Vertical Planks are not available for BOP wood types yet
+	- Controller support is available but hasn't been configured for mod keybinds yet
