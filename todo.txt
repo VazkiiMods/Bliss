@@ -1,6 +1,5 @@
 TODO FOR ALPHA
 	- Fix Matrix Enchanting docs
-	- Config discord rpc
 	- Write splashes
 	- Make new panorama
 
