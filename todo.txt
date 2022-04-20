@@ -1,12 +1,10 @@
 Small tasks
 	- Configure quark candles for modded enchants
-	
 	- Configure quark seed pouch tag
 	- Configure tags for legendary tooltips
+
 	- Rename selectable painting to normal
 	- Change painting loot table
-	- Fix waystones
-	- Add guaranteed paraglider to towers
 
 ------------------------------------------------------
 
@@ -15,13 +13,12 @@ CT (hard)
 
 Large tasks
 	- Add other data and resource packs 
+	- Write splashes
+	- Make new panorama
 
 	- Tag all the items
 	- Configure music triggers
 	- Configure quark pathfinder maps
-
-	- Write splashes
-	- Make new panorama
 
 Write documentation
 	- Improved intro
