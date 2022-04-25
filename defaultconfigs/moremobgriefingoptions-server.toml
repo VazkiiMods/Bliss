@@ -198,7 +198,7 @@
 	"minecraft:pig" = "DEFAULT"
 	#minecraft:piglin mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:piglin" = "DEFAULT"
+	"minecraft:piglin" = "TRUE"
 	#minecraft:piglin_brute mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:piglin_brute" = "DEFAULT"
