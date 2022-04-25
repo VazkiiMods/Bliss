@@ -89,5 +89,5 @@
 	#Allowed Values: ENABLED, AUTO_HIDE, DISABLED
 	ButtonNavigationVisibility = "ENABLED"
 	#Set to true to draw a background texture behind the gui.
-	DrawBackground = true
+	DrawBackground = false
 
