@@ -1,0 +1,36 @@
+&hWelcome to the &dBliss Modpack&r.
+&cPlease read all the following before starting:&r
+
+&hGameplay
+
+The Bliss Modpack is designed for &dPeaceful&r style gameplay, without having to play in Peaceful. In essense:
+- Mobs will not attack you unless provoked first
+- Mobs do not spawn in any places that can see the sky
+- Spiders do not spawn at all, cave spider spawners are still available
+- Guarding Mobs (Illagers and Piglin Brutes) will still attack unprovoked
+- In &cHard&r or &cHardcore&r difficulty, mobs will regain their ability to aggress!
+
+&hShaders
+&dBliss&r contains a customized version of the &aComplementary Shaders&r pack, with changes made to our preferences with the intent of making the shader look better match the vanilla look. Please note that these changes are ours and not endorsed by the Complementary team, and as such, they are not representative of their design.
+
+Shaders are enabled by default, and can be disabled, or reset to one of the official Complementary presets in Video Settings > Shader Packs.
+
+Complementary is created by EminGTR and can be found here:
+https://www.curseforge.com/minecraft/customization/complementary-shaders
+
+&hMusic
+&dBliss&r contains a dynamic soundtrack, which changes based on various ingame aspects, such as what biome you're on, depth, or even if you're close to your bed. All of these songs are sourced from D. C. Kariri Sawler's &aAdventurer's Journey&r, and take over the vanilla music. Do consider playing with music on for the full experience!
+
+&hDocumentation
+After you create a world, in your player's inventory, the &dBliss Guide&r will be always available, taking over the vanilla Recipe Book. The guide pauses the game while open, so we highly recommend you take a bit of time to survey its content, so you know all the pack has to offer.
+
+&hAlpha Stuff
+The following BIG issues are currently known:
+- Music volume is very inconsistent, especially when switching between songs quickly, you may wish to play without music on for now until it's fixed
+- Shaders disable themselves every time you load the game, so before you start you should turn them on in Video Settings > Shader Packs before starting
+- Falling blocks like sand or gravel don't show up for some reason
+- There's currently no "peaceful" way to spawn or kill the wither
+- Documentation is entirely incomplete and mostly copy pasted from Crucial 2
+- None of the search terms in JEI work yet
+
+The pack as a whole is just very unfinished so please be aware of that.
