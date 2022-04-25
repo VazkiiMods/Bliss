@@ -6,4 +6,6 @@
 	#Chance of generating clusters. Smaller value = more frequent.
 	#Range: > 0
 	chance = 30
+	#Should this mod add some of its items (CORN!!!) as extra chest loot across Minecraft?
+	genCornLootModifier = true
 

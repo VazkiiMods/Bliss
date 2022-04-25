@@ -5,6 +5,7 @@ ChalkUses = 200
 #Range: 0 ~ 14
 GlowingMarkLightLevel = 5
 #List of items that can make mark glow. "modid:itemRegistryName"
+#If no items are defined - you will not be able to make marks glow.
 #Default values: [minecraft:glowstone_dust, minecraft:glow_ink_sac]
 GlowItems = ["minecraft:glowstone_dust", "minecraft:glow_ink_sac"]
 #If enabled, Chalks will generate in Dungeons, Abandoned Mineshafts, Planes and Savanna villages, Cartographer houses
