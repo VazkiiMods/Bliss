@@ -30,31 +30,51 @@
 		identifier = "overworld9"
 
 [home]
-	[home.trigger]
+	[[home.trigger]]
 		priority = "8"
 		name = "home"
 		detection_range = "64"
+	[[home.trigger]]
+		priority = "8"
+		name = "dimension"
+		resource_name = "overworld"
+		identifier = "overworld8"
 
 [underground_biome]
-	[underground_biome.trigger]
+	[[underground_biome.trigger]]
 		priority = "7"
 		name = "biome"
 		biome_category = "underground"
 		identifier = "biome_underground"
+	[[underground_biome.trigger]]
+		priority = "7"
+		name = "dimension"
+		resource_name = "overworld"
+		identifier = "overworld7"
 
 [deep_underground]
-	[deep_underground.trigger]
+	[[deep_underground.trigger]]
 		priority = "6"
 		name = "height"
 		level = "-5"
 		identifier = "height_minus5"
+	[[deep_underground.trigger]]
+		priority = "6"
+		name = "dimension"
+		resource_name = "overworld"
+		identifier = "overworld6"
 
 [underground]
-	[underground.trigger]
+	[[underground.trigger]]
 		priority = "5"
 		name = "height"
 		level = "55"
 		identifier = "height_55"
+	[[underground_biome.trigger]]
+		priority = "5"
+		name = "dimension"
+		resource_name = "overworld"
+		identifier = "overworld5"
 
 [rain]
 	[rain.trigger]
