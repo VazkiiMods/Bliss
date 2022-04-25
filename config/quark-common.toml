@@ -1333,7 +1333,7 @@
 					"Is Blacklist" = true
 
 	[mobs.shiba]
-		"Ignore Areas With Skylight" = false
+		"Ignore Areas With Skylight" = true
 
 		[mobs.shiba.spawn_config]
 			#Allowed values: (0,)
