@@ -1,5 +1,12 @@
 {
 	"replace": false,
 	"values": [
+		"quark:magnet",
+		"quark:pipe",
+		"supplementaries:pulley_block",
+		"supplementaries:spring_launcher",
+		"supplementaries:turn_table",
+		"minecraft:sticky_piston",
+		"minecraft:piston"
 	]
 }
