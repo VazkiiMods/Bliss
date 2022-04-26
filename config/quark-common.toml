@@ -427,7 +427,7 @@
 	"Ambient Discs" = true
 	"Endermosh Music Disc" = true
 	Trowel = true
-	"Pathfinder Maps" = true
+	"Pathfinder Maps" = false
 	"Color Runes" = true
 	Abacus = true
 	"Bottled Cloud" = true
