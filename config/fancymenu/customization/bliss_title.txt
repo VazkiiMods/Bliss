@@ -334,3 +334,23 @@ customization {
   value = Minecraft %mcversion% / Forge %version:forge%
 }
 
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = quitgame
+  backgroundhovered = fancymenu_setups\_images\btnclose_hover.png
+  description = Close Game
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  orientation_element = b229105b-fcc0-43b3-9c52-ae1e51c955961650334901634
+  x = 80
+  width = 20
+  actionid = 268f64dd-5b5b-436e-93b1-995db90192cd1650940749718
+  action = addbutton
+  y = 0
+  backgroundnormal = fancymenu_setups\_images\btnclose.png
+  value = 
+  height = 20
+}
+
