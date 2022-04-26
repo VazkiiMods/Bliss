@@ -27,10 +27,19 @@ After you create a world, in your player's inventory, the &dBliss Guide&r will b
 &hAlpha Stuff
 The following BIG issues are currently known:
 - Music volume is very inconsistent, especially when switching between songs quickly, you may wish to play without music on for now until it's fixed
-- Shaders disable themselves every time you load the game, so before you start you should turn them on in Video Settings > Shader Packs before starting
+- Shaders disable themselves every time you load the game, so before you start you should turn them on in Video Settings > Shader Packs
 - Falling blocks like sand or gravel don't show up for some reason
 - There's currently no "peaceful" way to spawn or kill the wither
 - Documentation is entirely incomplete and mostly copy pasted from Crucial 2
 - None of the search terms in JEI work yet
 
 The pack as a whole is just very unfinished so please be aware of that.
+
+Some other stuff...
+
+I'll be putting all of this junk in the book later but just take it here for now so you know:
+- Press N ingame to open the notes menu its good trust me yes
+- Use your Sneak/Shift key to hold onto walls, you can even wall jump after doing that
+- Quark recipes for iron rods and backpack are now easy so go check those out
+
+Enjoy!
