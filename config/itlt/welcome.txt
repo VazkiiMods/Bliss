@@ -8,6 +8,7 @@ The Bliss Modpack is designed for &dPeaceful&r style gameplay, without having to
 - Mobs do not spawn in any places that can see the sky
 - Spiders do not spawn at all, cave spider spawners are still available
 - Guarding Mobs (Illagers and Piglin Brutes) will still attack unprovoked
+- Zombies always turn Villagers to Zombie Villagers, even on Normal difficulty
 - In &cHard&r or &cHardcore&r difficulty, mobs will regain their ability to aggress!
 
 &hShaders
