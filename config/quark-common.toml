@@ -548,11 +548,12 @@
 		"Overleveled Books Glow Rainbow" = true
 
 [experimental]
-	"Game Nerfs" = true
+	"Game Nerfs" = false
 	"Spawner Replacer" = true
 	"Overlay Shader" = false
 	"Narrator Readout" = false
 	"Adjustable Chat" = false
+	"Zombie Villagers On Normal" = true
 
 	[experimental.game_nerfs]
 		#Makes Boats not glide on ice
