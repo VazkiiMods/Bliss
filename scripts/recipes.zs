@@ -16,6 +16,7 @@ var paraglider = <item:paraglider:paraglider>;
 var honey_bottle = <item:minecraft:honey_bottle>;
 var piston = <item:minecraft:piston>;
 var brimstone = <item:biomesoplenty:brimstone>;
+var planks = <tag:items:minecraft:planks>;
 
 // Remove some recipes that shouldn't be in here
 craftingTable.remove(paraglider);
@@ -72,3 +73,6 @@ craftingTable.addShaped("honey_sticky_piston",
 
 // Brimstone to Blaze
 craftingTable.addShapeless("brim_blaze", <item:minecraft:blaze_powder>, [brimstone]);
+
+// Planks to Ash
+furnace.addRecipe("pl2ash", <item:supplementaries:ash>, planks, 0.0, 40);
