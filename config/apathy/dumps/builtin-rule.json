@@ -1,8 +1,0 @@
-{
-  "rules": [
-    {
-      "type": "apathy:evaluate_json_file"
-    }
-  ],
-  "type": "apathy:chain"
-}
