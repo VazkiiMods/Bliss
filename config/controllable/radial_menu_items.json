@@ -1,0 +1,22 @@
+[
+  {
+    "key": "key.openNotes.custom",
+    "color": "LIGHT_PURPLE"
+  },
+  {
+    "key": "quark.keybind.lock_rotation.custom",
+    "color": "YELLOW"
+  },
+  {
+    "key": "key.screenshot",
+    "color": "DARK_AQUA"
+  },
+  {
+    "key": "key.advancements",
+    "color": "DARK_GREEN"
+  },
+  {
+    "key": "controllable.key.debugInfo",
+    "color": "RED"
+  }
+]

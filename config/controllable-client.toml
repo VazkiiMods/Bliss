@@ -12,7 +12,7 @@
 		#If enabled, controller will be automatically selected on start up or when plugged in
 		autoSelect = true
 		#If enabled, the player will render in the top left corner likes Bedrock Edition
-		renderMiniPlayer = true
+		renderMiniPlayer = false
 		#If enabled, the game will use a virtual cursor instead of the real cursor. This must be turned on to be able to run multiple instances!
 		virtualMouse = true
 		#If enabled, hotbar will render closer to the center of the screen like on console.
@@ -30,13 +30,13 @@
 		deadZone = 0.15
 		#The speed which the camera turns in game
 		#Range: 0.0 ~ 100.0
-		rotationSpeed = 25.0
+		rotationSpeed = 32.0
 		#The speed which the cursor or virtual mouse moves around the screen
 		#Range: 0.0 ~ 50.0
 		mouseSpeed = 15.0
 		#If enabled, shows common actions when displaying available on the screen
 		#Allowed Values: ALL, MINIMAL, NONE
-		showActions = "MINIMAL"
+		showActions = "ALL"
 		#If enabled, allows you to craft quickly when clicking an item in the recipe book
 		quickCraft = true
 		#If enabled, plays a pop sound when you navigate in inventories, menus or scrolling the radial menu
