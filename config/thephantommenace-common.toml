@@ -1,0 +1,3 @@
+#Potion effects that reset the sleep timer when applied
+caffeinatedPotionIDs = ["farmersrespite:caffeinated"]
+
