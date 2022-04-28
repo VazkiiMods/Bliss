@@ -70,7 +70,7 @@
 		name = "height"
 		level = "55"
 		identifier = "height_55"
-	[[underground_biome.trigger]]
+	[[underground.trigger]]
 		priority = "5"
 		name = "dimension"
 		resource_name = "overworld"
