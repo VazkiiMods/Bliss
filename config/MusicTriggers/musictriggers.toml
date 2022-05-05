@@ -77,19 +77,32 @@
 		identifier = "overworld5"
 
 [rain]
-	[rain.trigger]
+	[[rain.trigger]]
 		priority = "4"
 		name = "raining"
+	[[rain.trigger]]
+		priority = "4"
+		name = "biome"
+		rain_type = "rain"
+		identifier = "biome_rain4"
 
 [storm]
-	[storm.trigger]
+	[[storm.trigger]]
 		priority = "4"
 		name = "storming"
+	[[rain.trigger]]
+		name = "biome"
+		identifier = "biome_rain4"
 
 [snowing]
-	[snowing.trigger]
+	[[snowing.trigger]]
 		priority = "4"
 		name = "snowing"
+	[[rain.trigger]]
+		priority = "4"
+		name = "biome"
+		rain_type = "snow"
+		identifier = "biome_snow4"
 
 [night_desert]
 	[[night_desert.trigger]]
