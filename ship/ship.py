@@ -17,7 +17,12 @@ blacklisted_files = [
 
 server_files_to_copy = ['setup_server.bat', 'setup_server.sh', 'SERVER_README.txt']
 server_mods_blacklist = [
-	# TODO
+	581495, # Oculus
+	317269, # Controllable
+	574856, # Rubidium
+	532127, # Legendary Tooltips
+	271740, # Toast Control
+	448233  # Entity Culling
 ]
 server_blacklisted_files = [
 	'config/openloader/resources',
