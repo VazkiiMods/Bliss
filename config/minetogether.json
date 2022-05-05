@@ -1,0 +1,21 @@
+{
+  "curseProjectID": "bliss",
+  "promoCode": "vazkiiu0x",
+  "creeperhostEnabled": true,
+  "mpMenuEnabled": true,
+  "mainMenuEnabled": false,
+  "serverHostButtonImage": true,
+  "serverHostMenuImage": true,
+  "sivIntegration": false,
+  "serverListEnabled": false,
+  "chatEnabled": false,
+  "autoMT": false,
+  "enableFriendOnlineToasts": false,
+  "enableMainMenuFriends": false,
+  "replaceRealms": false,
+  "issueTrackerUrl": "https://pste.ch/",
+  "firstConnect": "",
+  "debugMode": false,
+  "optOutSentry": true,
+  "pregenDiameter": 120
+}
