@@ -1,0 +1,11 @@
+{
+	"pack": {
+		"pack_format": 9,
+		"description": [
+            {
+                "text": "Data required for the Bliss modpack.",
+                "color": "light_purple"
+            }
+        ]
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"replace": false,
+	"values": [
+		"#bliss:categories/building_blocks",
+		"#bliss:categories/compressed_blocks",
+		"#bliss:categories/crops",
+		"#bliss:categories/decoration_blocks",
+		"#bliss:categories/food_items",
+		"#bliss:categories/functional_blocks",
+		"#bliss:categories/jobsites",
+		"#bliss:categories/light_sources",
+		"#bliss:categories/technical_blocks",
+		"#bliss:categories/useful_items",
+		"#bliss:categories/variant_blocks"
+	]
+}
