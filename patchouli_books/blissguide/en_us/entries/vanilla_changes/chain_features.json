@@ -8,7 +8,7 @@
             "type": "spotlight",
             "item": "minecraft:chain",
             "title": "Chain Moving",
-            "text": "$(br2)When moved by $(item)Pistons$(), $(item)Chains%() can connect multiple blocks together if placed between them."
+            "text": "$(br2)When moved by $(item)Pistons$(), $(item)Chains$() can connect multiple blocks together if placed between them."
         }
 	]
 }
