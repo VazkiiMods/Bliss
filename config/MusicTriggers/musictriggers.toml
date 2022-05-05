@@ -90,7 +90,7 @@
 	[[storm.trigger]]
 		priority = "4"
 		name = "storming"
-	[[rain.trigger]]
+	[[storm.trigger]]
 		name = "biome"
 		identifier = "biome_rain4"
 
@@ -98,7 +98,7 @@
 	[[snowing.trigger]]
 		priority = "4"
 		name = "snowing"
-	[[rain.trigger]]
+	[[snowing.trigger]]
 		priority = "4"
 		name = "biome"
 		rain_type = "snow"
