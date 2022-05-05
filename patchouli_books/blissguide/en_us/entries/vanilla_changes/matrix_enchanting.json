@@ -30,6 +30,9 @@
         {
             "type": "text",
             "text": "Naturally, the more you upgrade an enchantment, the more copies of that same block you'll need.$(br2)It's important to keep in mind that incompatible blocks will not show up. So, if you're aiming for a sword with Sharpness, you may assume you won't see it if you see Smite.$(br2)When you're done with your enchanting, just pull the enchanted item out, and you're finished!"
+        },
+        {
+            "type": "patchouli:enchanting_influences"
         }
     ]
 }

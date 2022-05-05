@@ -161,7 +161,6 @@ public class Globals {
 		<item:quark:rope>,
 		<item:quark:ravager_hide>,
 		<item:quark:bonded_ravager_hide>,
-		<item:patchouli:guide_book>,
 		<item:quark:matrix_enchanter>,
 		<item:quark:vertical_acacia_planks>,
 		<item:quark:vertical_dark_oak_planks>,
