@@ -55,7 +55,7 @@
 	pancake = true
 	lock_block = true
 	flax = true
-	rope = true
+	rope = false
 	rope_arrow = true
 	pulley_block = true
 	fodder = true
