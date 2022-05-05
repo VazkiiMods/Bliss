@@ -1,9 +1,0 @@
-{
-	"replace": false,
-	"values": [
-		"minecraft:elytra",
-		"#minecraft:shulker_boxes",
-		"minecraft:end_crystal",
-		"quark:dragon_scale"
-	]
-}
