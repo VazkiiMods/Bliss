@@ -38,7 +38,7 @@
     "block_states": false,
     "entity_armor": false,
     "registry_name": false,
-    "item_mod_name": false,
+    "item_mod_name": true,
     "mod_name": false,
     "entity_hp": false
   }
