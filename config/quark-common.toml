@@ -571,7 +571,7 @@
 	[experimental.spawner_replacer]
 		#Mobs to be replaced with other mobs.
 		#Format is: "mob1,mob2", i.e. "minecraft:spider,minecraft:skeleton"
-		"Replace Mobs" = ["minecraft:spider,minecraft:skeleton"]
+		"Replace Mobs" = ["minecraft:spider,minecraft:creeper"]
 
 	[experimental.overlay_shader]
 		#Sets the name of the shader to load on a regular basis. This can load any shader the Camera module can (and requires the Camera module enabled to apply said logic).
@@ -1491,7 +1491,7 @@
 		"Enable L G B T Bees" = true
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
-		"Shiny Animal Chance" = 2048
+		"Shiny Animal Chance" = 1000
 		#If a shiny animal should emit occasional sparkles.
 		"Shiny Sparkles" = true
 
