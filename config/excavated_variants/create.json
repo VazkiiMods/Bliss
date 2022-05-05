@@ -1,0 +1,102 @@
+{
+  "mod_id": "create",
+  "provided_stones": [
+    {
+      "id": "create_asurine",
+      "texture_location": [
+        "create:textures/block/palettes/stone_types/asurine.png"
+      ],
+      "en_name": "Asurine",
+      "block_id": "create:asurine",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "create_crimsite",
+      "texture_location": [
+        "create:textures/block/palettes/stone_types/crimsite.png"
+      ],
+      "en_name": "Crimsite",
+      "block_id": "create:crimsite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "create_limestone",
+      "texture_location": [
+        "create:textures/block/palettes/stone_types/limestone.png"
+      ],
+      "en_name": "Limestone",
+      "block_id": "create:limestone",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "create_ochrum",
+      "texture_location": [
+        "create:textures/block/palettes/stone_types/ochrum.png"
+      ],
+      "en_name": "Ochrum",
+      "block_id": "create:ochrum",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "create_scorchia",
+      "texture_location": [
+        "create:textures/block/palettes/stone_types/scorchia.png"
+      ],
+      "en_name": "Scorchia",
+      "block_id": "create:scorchia",
+      "type": [
+        "stone",
+        "nether"
+      ]
+    },
+    {
+      "id": "create_scoria",
+      "texture_location": [
+        "create:textures/block/palettes/stone_types/scoria.png"
+      ],
+      "en_name": "Scoria",
+      "block_id": "create:scoria",
+      "type": [
+        "stone",
+        "nether"
+      ]
+    },
+    {
+      "id": "create_veridium",
+      "texture_location": [
+        "create:textures/block/palettes/stone_types/veridium.png"
+      ],
+      "en_name": "Veridium",
+      "block_id": "create:veridium",
+      "type": [
+        "stone"
+      ]
+    }
+  ],
+  "provided_ores": [
+    {
+      "id": "zinc_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ],
+      "texture_location": "create:textures/block/zinc_ore.png",
+      "block_id": [
+        "create:zinc_ore",
+        "create:deepslate_zinc_ore"
+      ],
+      "en_name": "Zinc Ore",
+      "types": [
+        "stone"
+      ]
+    }
+  ]
+}

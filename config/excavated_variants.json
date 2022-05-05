@@ -1,0 +1,12 @@
+{
+  "format": 3,
+  "priority": [
+    "minecraft.json"
+  ],
+  "blacklist_ids": [],
+  "blacklist_stones": [],
+  "blacklist_ores": [],
+  "attempt_ore_generation_insertion": true,
+  "attempt_ore_replacement": true,
+  "add_conversion_recipes": true
+}

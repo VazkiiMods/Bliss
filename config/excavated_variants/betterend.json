@@ -1,0 +1,137 @@
+{
+  "mod_id": "betterend",
+  "provided_stones": [
+    {
+      "id": "betterend_brimstone",
+      "texture_location": [
+        "betterend:textures/block/inactive_brimstone.png"
+      ],
+      "en_name": "Brimstone",
+      "block_id": "betterend:brimstone",
+      "type": [
+        "end"
+      ]
+    },
+    {
+      "id": "betterend_umbralith",
+      "texture_location": [
+        "betterend:textures/block/umbralith.png"
+      ],
+      "en_name": "Umbralith",
+      "block_id": "betterend:umbralith",
+      "type": [
+        "end"
+      ]
+    },
+    {
+      "id": "betterend_azure_jadestone",
+      "texture_location": [
+        "betterend:textures/block/azure_jadestone.png"
+      ],
+      "en_name": "Azure Jadestone",
+      "block_id": "betterend:azure_jadestone",
+      "type": [
+        "end"
+      ]
+    },
+    {
+      "id": "betterend_sandy_jadestone",
+      "texture_location": [
+        "betterend:textures/block/sandy_jadestone.png"
+      ],
+      "en_name": "Sandy Jadestone",
+      "block_id": "betterend:sandy_jadestone",
+      "type": [
+        "end"
+      ]
+    },
+    {
+      "id": "betterend_virid_jadestone",
+      "texture_location": [
+        "betterend:textures/block/virid_jadestone.png"
+      ],
+      "en_name": "Virid Jadestone",
+      "block_id": "betterend:virid_jadestone",
+      "type": [
+        "end"
+      ]
+    },
+    {
+      "id": "betterend_sulphuric_rock",
+      "texture_location": [
+        "betterend:textures/block/sulphuric_rock.png"
+      ],
+      "en_name": "Sulfuric Rock",
+      "block_id": "betterend:sulphuric_rock",
+      "type": [
+        "end"
+      ]
+    },
+    {
+      "id": "betterend_violecite",
+      "texture_location": [
+        "betterend:textures/block/violecite.png"
+      ],
+      "en_name": "Violecite",
+      "block_id": "betterend:violecite",
+      "type": [
+        "end"
+      ]
+    },
+    {
+      "id": "betterend_flavolite",
+      "texture_location": [
+        "betterend:textures/block/flavolite.png"
+      ],
+      "en_name": "Flavolite",
+      "block_id": "betterend:flavolite",
+      "type": [
+        "end"
+      ]
+    }
+  ],
+  "provided_ores": [
+    {
+      "id": "thallasium_ore",
+      "stone": [
+        "end_stone"
+      ],
+      "texture_location": "betterend:textures/block/thallasium_ore.png",
+      "block_id": [
+        "betterend:thallasium_ore"
+      ],
+      "en_name": "Thallasium Ore",
+      "types": [
+        "end"
+      ]
+    },
+    {
+      "id": "amber_ore",
+      "stone": [
+        "end_stone"
+      ],
+      "texture_location": "betterend:textures/block/amber_ore.png",
+      "block_id": [
+        "betterend:amber_ore"
+      ],
+      "en_name": "Amber Ore",
+      "types": [
+        "end"
+      ]
+    },
+    {
+      "id": "ender_ore",
+      "stone": [
+        "end_stone"
+      ],
+      "texture_location": "betterend:textures/block/ender_ore.png",
+      "block_id": [
+        "betterend:ender_ore"
+      ],
+      "en_name": "Ender Ore",
+      "types": [
+        "end"
+      ]
+    }
+  ]
+}

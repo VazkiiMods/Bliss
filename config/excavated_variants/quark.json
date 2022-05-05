@@ -1,0 +1,39 @@
+{
+  "mod_id": "quark",
+  "provided_stones": [
+    {
+      "id": "quark_shale",
+      "texture_location": [
+        "quark:textures/block/shale.png"
+      ],
+      "en_name": "Shale",
+      "block_id": "quark:shale",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "quark_limestone",
+      "texture_location": [
+        "quark:textures/block/limestone.png"
+      ],
+      "en_name": "Limestone",
+      "block_id": "quark:limestone",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "quark_jasper",
+      "texture_location": [
+        "quark:textures/block/jasper.png"
+      ],
+      "en_name": "Jasper",
+      "block_id": "quark:jasper",
+      "type": [
+        "stone"
+      ]
+    }
+  ],
+  "provided_ores": []
+}

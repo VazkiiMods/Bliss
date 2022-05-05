@@ -1,0 +1,579 @@
+{
+  "mod_id": "unearthed",
+  "provided_stones": [
+    {
+      "id": "unearthed_quartzite",
+      "texture_location": [
+        "unearthed:textures/block/quartzite.png"
+      ],
+      "en_name": "Quartzite",
+      "block_id": "unearthed:quartzite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_weathered_rhyolite",
+      "texture_location": [
+        "unearthed:textures/block/weathered_rhyolite.png"
+      ],
+      "en_name": "Weathered Rhyolite",
+      "block_id": "unearthed:weathered_rhyolite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_dolerite",
+      "texture_location": [
+        "unearthed:textures/block/dolerite.png"
+      ],
+      "en_name": "Dolerite",
+      "block_id": "unearthed:dolerite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_schist",
+      "texture_location": [
+        "unearthed:textures/block/schist_end.png",
+        "unearthed:textures/block/schist_side.png"
+      ],
+      "en_name": "Schist",
+      "block_id": "unearthed:schist",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_pillow_basalt",
+      "texture_location": [
+        "unearthed:textures/block/pillow_basalt.png"
+      ],
+      "en_name": "Pillow Basalt",
+      "block_id": "unearthed:pillow_basalt",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_dacite",
+      "texture_location": [
+        "unearthed:textures/block/dacite_end.png",
+        "unearthed:textures/block/dacite_side.png"
+      ],
+      "en_name": "Dacite",
+      "block_id": "unearthed:dacite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_beige_limestone",
+      "texture_location": [
+        "unearthed:textures/block/beige_limestone.png"
+      ],
+      "en_name": "Beige Limestone",
+      "block_id": "unearthed:beige_limestone",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_conglomerate",
+      "texture_location": [
+        "unearthed:textures/block/conglomerate.png"
+      ],
+      "en_name": "Conglomerate",
+      "block_id": "unearthed:conglomerate",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_gabbro",
+      "texture_location": [
+        "unearthed:textures/block/gabbro.png"
+      ],
+      "en_name": "Gabbro",
+      "block_id": "unearthed:gabbro",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_granodiorite",
+      "texture_location": [
+        "unearthed:textures/block/granodiorite.png"
+      ],
+      "en_name": "Granodiorite",
+      "block_id": "unearthed:granodiorite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_grey_limestone",
+      "texture_location": [
+        "unearthed:textures/block/grey_limestone.png"
+      ],
+      "en_name": "Grey Limestone",
+      "block_id": "unearthed:grey_limestone",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_limestone",
+      "texture_location": [
+        "unearthed:textures/block/limestone.png"
+      ],
+      "en_name": "Limestone",
+      "block_id": "unearthed:limestone",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_mudstone",
+      "texture_location": [
+        "unearthed:textures/block/mudstone.png"
+      ],
+      "en_name": "Mudstone",
+      "block_id": "unearthed:mudstone",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_phyllite",
+      "texture_location": [
+        "unearthed:textures/block/phyllite.png"
+      ],
+      "en_name": "Phyllite",
+      "block_id": "unearthed:phyllite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_rhyolite",
+      "texture_location": [
+        "unearthed:textures/block/rhyolite.png"
+      ],
+      "en_name": "Rhyolite",
+      "block_id": "unearthed:rhyolite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_siltstone",
+      "texture_location": [
+        "unearthed:textures/block/siltstone.png"
+      ],
+      "en_name": "Siltstone",
+      "block_id": "unearthed:siltstone",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_slate",
+      "texture_location": [
+        "unearthed:textures/block/slate.png"
+      ],
+      "en_name": "Slate",
+      "block_id": "unearthed:slate",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_white_granite",
+      "texture_location": [
+        "unearthed:textures/block/white_granite.png"
+      ],
+      "en_name": "White Granite",
+      "block_id": "unearthed:white_granite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_quartzite",
+      "texture_location": [
+        "unearthed:textures/block/quartzite.png"
+      ],
+      "en_name": "Quartzite",
+      "block_id": "unearthed:quartzite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_weathered_rhyolite",
+      "texture_location": [
+        "unearthed:textures/block/weathered_rhyolite.png"
+      ],
+      "en_name": "Weathered Rhyolite",
+      "block_id": "unearthed:weathered_rhyolite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_dolerite",
+      "texture_location": [
+        "unearthed:textures/block/dolerite.png"
+      ],
+      "en_name": "Dolerite",
+      "block_id": "unearthed:dolerite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_schist",
+      "texture_location": [
+        "unearthed:textures/block/schist_end.png",
+        "unearthed:textures/block/schist_side.png"
+      ],
+      "en_name": "Schist",
+      "block_id": "unearthed:schist",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_pillow_basalt",
+      "texture_location": [
+        "unearthed:textures/block/pillow_basalt.png"
+      ],
+      "en_name": "Pillow Basalt",
+      "block_id": "unearthed:pillow_basalt",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "unearthed_dacite",
+      "texture_location": [
+        "unearthed:textures/block/dacite_end.png",
+        "unearthed:textures/block/dacite_side.png"
+      ],
+      "en_name": "Dacite",
+      "block_id": "unearthed:dacite",
+      "type": [
+        "stone"
+      ]
+    }
+  ],
+  "provided_ores": [
+    {
+      "id": "coal_ore",
+      "stone": [
+        "unearthed_beige_limestone",
+        "unearthed_conglomerate",
+        "unearthed_gabbro",
+        "unearthed_granodiorite",
+        "unearthed_grey_limestone",
+        "unearthed_limestone",
+        "unearthed_mudstone",
+        "unearthed_phyllite",
+        "unearthed_rhyolite",
+        "unearthed_siltstone",
+        "unearthed_slate",
+        "unearthed_white_granite",
+        "sandstone"
+      ],
+      "texture_location": "unearthed:textures/block/ore/beige_limestone_coal_ore.png",
+      "block_id": [
+        "unearthed:beige_limestone_coal_ore",
+        "unearthed:conglomerate_coal_ore",
+        "unearthed:gabbro_coal_ore",
+        "unearthed:granodiorite_coal_ore",
+        "unearthed:grey_limestone_coal_ore",
+        "unearthed:limestone_coal_ore",
+        "unearthed:mudstone_coal_ore",
+        "unearthed:phyllite_coal_ore",
+        "unearthed:rhyolite_coal_ore",
+        "unearthed:siltstone_coal_ore",
+        "unearthed:slate_coal_ore",
+        "unearthed:white_granite_coal_ore",
+        "unearthed:sandstone_coal_ore"
+      ],
+      "en_name": "Coal Ore",
+      "types": [
+        "stone"
+      ]
+    },
+    {
+      "id": "iron_ore",
+      "stone": [
+        "unearthed_beige_limestone",
+        "unearthed_conglomerate",
+        "unearthed_gabbro",
+        "unearthed_granodiorite",
+        "unearthed_grey_limestone",
+        "unearthed_limestone",
+        "unearthed_mudstone",
+        "unearthed_phyllite",
+        "unearthed_rhyolite",
+        "unearthed_siltstone",
+        "unearthed_slate",
+        "unearthed_white_granite",
+        "sandstone"
+      ],
+      "texture_location": "unearthed:textures/block/ore/beige_limestone_iron_ore.png",
+      "block_id": [
+        "unearthed:beige_limestone_iron_ore",
+        "unearthed:conglomerate_iron_ore",
+        "unearthed:gabbro_iron_ore",
+        "unearthed:granodiorite_iron_ore",
+        "unearthed:grey_limestone_iron_ore",
+        "unearthed:limestone_iron_ore",
+        "unearthed:mudstone_iron_ore",
+        "unearthed:phyllite_iron_ore",
+        "unearthed:rhyolite_iron_ore",
+        "unearthed:siltstone_iron_ore",
+        "unearthed:slate_iron_ore",
+        "unearthed:white_granite_iron_ore",
+        "unearthed:sandstone_iron_ore"
+      ],
+      "en_name": "Iron Ore",
+      "types": [
+        "stone"
+      ]
+    },
+    {
+      "id": "gold_ore",
+      "stone": [
+        "unearthed_beige_limestone",
+        "unearthed_conglomerate",
+        "unearthed_gabbro",
+        "unearthed_granodiorite",
+        "unearthed_grey_limestone",
+        "unearthed_limestone",
+        "unearthed_mudstone",
+        "unearthed_phyllite",
+        "unearthed_rhyolite",
+        "unearthed_siltstone",
+        "unearthed_slate",
+        "unearthed_white_granite",
+        "sandstone"
+      ],
+      "texture_location": "unearthed:textures/block/ore/beige_limestone_gold_ore.png",
+      "block_id": [
+        "unearthed:beige_limestone_gold_ore",
+        "unearthed:conglomerate_gold_ore",
+        "unearthed:gabbro_gold_ore",
+        "unearthed:granodiorite_gold_ore",
+        "unearthed:grey_limestone_gold_ore",
+        "unearthed:limestone_gold_ore",
+        "unearthed:mudstone_gold_ore",
+        "unearthed:phyllite_gold_ore",
+        "unearthed:rhyolite_gold_ore",
+        "unearthed:siltstone_gold_ore",
+        "unearthed:slate_gold_ore",
+        "unearthed:white_granite_gold_ore",
+        "unearthed:sandstone_gold_ore"
+      ],
+      "en_name": "Gold Ore",
+      "types": [
+        "stone"
+      ]
+    },
+    {
+      "id": "copper_ore",
+      "stone": [
+        "unearthed_beige_limestone",
+        "unearthed_conglomerate",
+        "unearthed_gabbro",
+        "unearthed_granodiorite",
+        "unearthed_grey_limestone",
+        "unearthed_limestone",
+        "unearthed_mudstone",
+        "unearthed_phyllite",
+        "unearthed_rhyolite",
+        "unearthed_siltstone",
+        "unearthed_slate",
+        "unearthed_white_granite",
+        "sandstone"
+      ],
+      "texture_location": "unearthed:textures/block/ore/beige_limestone_copper_ore.png",
+      "block_id": [
+        "unearthed:beige_limestone_copper_ore",
+        "unearthed:conglomerate_copper_ore",
+        "unearthed:gabbro_copper_ore",
+        "unearthed:granodiorite_copper_ore",
+        "unearthed:grey_limestone_copper_ore",
+        "unearthed:limestone_copper_ore",
+        "unearthed:mudstone_copper_ore",
+        "unearthed:phyllite_copper_ore",
+        "unearthed:rhyolite_copper_ore",
+        "unearthed:siltstone_copper_ore",
+        "unearthed:slate_copper_ore",
+        "unearthed:white_granite_copper_ore",
+        "unearthed:sandstone_copper_ore"
+      ],
+      "en_name": "Copper Ore",
+      "types": [
+        "stone"
+      ]
+    },
+    {
+      "id": "lapis_ore",
+      "stone": [
+        "unearthed_beige_limestone",
+        "unearthed_conglomerate",
+        "unearthed_gabbro",
+        "unearthed_granodiorite",
+        "unearthed_grey_limestone",
+        "unearthed_limestone",
+        "unearthed_mudstone",
+        "unearthed_phyllite",
+        "unearthed_rhyolite",
+        "unearthed_siltstone",
+        "unearthed_slate",
+        "unearthed_white_granite",
+        "sandstone"
+      ],
+      "texture_location": "unearthed:textures/block/ore/beige_limestone_lapis_ore.png",
+      "block_id": [
+        "unearthed:beige_limestone_lapis_ore",
+        "unearthed:conglomerate_lapis_ore",
+        "unearthed:gabbro_lapis_ore",
+        "unearthed:granodiorite_lapis_ore",
+        "unearthed:grey_limestone_lapis_ore",
+        "unearthed:limestone_lapis_ore",
+        "unearthed:mudstone_lapis_ore",
+        "unearthed:phyllite_lapis_ore",
+        "unearthed:rhyolite_lapis_ore",
+        "unearthed:siltstone_lapis_ore",
+        "unearthed:slate_lapis_ore",
+        "unearthed:white_granite_lapis_ore",
+        "unearthed:sandstone_lapis_ore"
+      ],
+      "en_name": "Lapis Ore",
+      "types": [
+        "stone"
+      ]
+    },
+    {
+      "id": "emerald_ore",
+      "stone": [
+        "unearthed_beige_limestone",
+        "unearthed_conglomerate",
+        "unearthed_gabbro",
+        "unearthed_granodiorite",
+        "unearthed_grey_limestone",
+        "unearthed_limestone",
+        "unearthed_mudstone",
+        "unearthed_phyllite",
+        "unearthed_rhyolite",
+        "unearthed_siltstone",
+        "unearthed_slate",
+        "unearthed_white_granite",
+        "sandstone"
+      ],
+      "texture_location": "unearthed:textures/block/ore/beige_limestone_emerald_ore.png",
+      "block_id": [
+        "unearthed:beige_limestone_emerald_ore",
+        "unearthed:conglomerate_emerald_ore",
+        "unearthed:gabbro_emerald_ore",
+        "unearthed:granodiorite_emerald_ore",
+        "unearthed:grey_limestone_emerald_ore",
+        "unearthed:limestone_emerald_ore",
+        "unearthed:mudstone_emerald_ore",
+        "unearthed:phyllite_emerald_ore",
+        "unearthed:rhyolite_emerald_ore",
+        "unearthed:siltstone_emerald_ore",
+        "unearthed:slate_emerald_ore",
+        "unearthed:white_granite_emerald_ore",
+        "unearthed:sandstone_emerald_ore"
+      ],
+      "en_name": "Emerald Ore",
+      "types": [
+        "stone"
+      ]
+    },
+    {
+      "id": "diamond_ore",
+      "stone": [
+        "unearthed_beige_limestone",
+        "unearthed_conglomerate",
+        "unearthed_gabbro",
+        "unearthed_granodiorite",
+        "unearthed_grey_limestone",
+        "unearthed_limestone",
+        "unearthed_mudstone",
+        "unearthed_phyllite",
+        "unearthed_rhyolite",
+        "unearthed_siltstone",
+        "unearthed_slate",
+        "unearthed_white_granite",
+        "sandstone"
+      ],
+      "texture_location": "unearthed:textures/block/ore/beige_limestone_diamond_ore.png",
+      "block_id": [
+        "unearthed:beige_limestone_diamond_ore",
+        "unearthed:conglomerate_diamond_ore",
+        "unearthed:gabbro_diamond_ore",
+        "unearthed:granodiorite_diamond_ore",
+        "unearthed:grey_limestone_diamond_ore",
+        "unearthed:limestone_diamond_ore",
+        "unearthed:mudstone_diamond_ore",
+        "unearthed:phyllite_diamond_ore",
+        "unearthed:rhyolite_diamond_ore",
+        "unearthed:siltstone_diamond_ore",
+        "unearthed:slate_diamond_ore",
+        "unearthed:white_granite_diamond_ore",
+        "unearthed:sandstone_diamond_ore"
+      ],
+      "en_name": "Diamond Ore",
+      "types": [
+        "stone"
+      ]
+    },
+    {
+      "id": "redstone_ore",
+      "stone": [
+        "unearthed_beige_limestone",
+        "unearthed_conglomerate",
+        "unearthed_gabbro",
+        "unearthed_granodiorite",
+        "unearthed_grey_limestone",
+        "unearthed_limestone",
+        "unearthed_mudstone",
+        "unearthed_phyllite",
+        "unearthed_rhyolite",
+        "unearthed_siltstone",
+        "unearthed_slate",
+        "unearthed_white_granite",
+        "sandstone"
+      ],
+      "texture_location": "unearthed:textures/block/ore/beige_limestone_redstone_ore.png",
+      "block_id": [
+        "unearthed:beige_limestone_redstone_ore",
+        "unearthed:conglomerate_redstone_ore",
+        "unearthed:gabbro_redstone_ore",
+        "unearthed:granodiorite_redstone_ore",
+        "unearthed:grey_limestone_redstone_ore",
+        "unearthed:limestone_redstone_ore",
+        "unearthed:mudstone_redstone_ore",
+        "unearthed:phyllite_redstone_ore",
+        "unearthed:rhyolite_redstone_ore",
+        "unearthed:siltstone_redstone_ore",
+        "unearthed:slate_redstone_ore",
+        "unearthed:white_granite_redstone_ore",
+        "unearthed:sandstone_redstone_ore"
+      ],
+      "en_name": "Redstone Ore",
+      "types": [
+        "stone"
+      ]
+    }
+  ]
+}

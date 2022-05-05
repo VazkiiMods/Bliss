@@ -1,0 +1,239 @@
+{
+  "mod_id": "minecraft",
+  "provided_stones": [
+    {
+      "id": "stone",
+      "texture_location": [
+        "minecraft:textures/block/stone.png"
+      ],
+      "en_name": "Stone",
+      "block_id": "minecraft:stone",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "deepslate",
+      "texture_location": [
+        "minecraft:textures/block/deepslate.png",
+        "minecraft:textures/block/deepslate_top.png"
+      ],
+      "en_name": "Deepslate",
+      "block_id": "minecraft:deepslate",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "andesite",
+      "texture_location": [
+        "minecraft:textures/block/andesite.png"
+      ],
+      "en_name": "Andesite",
+      "block_id": "minecraft:andesite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "diorite",
+      "texture_location": [
+        "minecraft:textures/block/diorite.png"
+      ],
+      "en_name": "Diorite",
+      "block_id": "minecraft:diorite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "granite",
+      "texture_location": [
+        "minecraft:textures/block/granite.png"
+      ],
+      "en_name": "Granite",
+      "block_id": "minecraft:granite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "dripstone",
+      "texture_location": [
+        "minecraft:textures/block/dripstone_block.png"
+      ],
+      "en_name": "Dripstone",
+      "block_id": "minecraft:dripstone_block",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "tuff",
+      "texture_location": [
+        "minecraft:textures/block/tuff.png"
+      ],
+      "en_name": "Tuff",
+      "block_id": "minecraft:tuff",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "calcite",
+      "texture_location": [
+        "minecraft:textures/block/calcite.png"
+      ],
+      "en_name": "Calcite",
+      "block_id": "minecraft:calcite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "blackstone",
+      "texture_location": [
+        "minecraft:textures/block/blackstone.png",
+        "minecraft:textures/block/blackstone_top.png"
+      ],
+      "en_name": "Blackstone",
+      "block_id": "minecraft:blackstone",
+      "type": [
+        "nether"
+      ]
+    }
+  ],
+  "provided_ores": [
+    {
+      "id": "coal_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ],
+      "texture_location": "minecraft:textures/block/coal_ore.png",
+      "block_id": [
+        "minecraft:coal_ore",
+        "minecraft:deepslate_coal_ore"
+      ],
+      "en_name": "Coal Ore",
+      "types": [
+        "stone"
+      ]
+    },
+    {
+      "id": "iron_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ],
+      "texture_location": "minecraft:textures/block/iron_ore.png",
+      "block_id": [
+        "minecraft:iron_ore",
+        "minecraft:deepslate_iron_ore"
+      ],
+      "en_name": "Iron Ore",
+      "types": [
+        "stone"
+      ]
+    },
+    {
+      "id": "gold_ore",
+      "stone": [
+        "stone",
+        "deepslate",
+        "netherrack"
+      ],
+      "texture_location": "minecraft:textures/block/gold_ore.png",
+      "block_id": [
+        "minecraft:gold_ore",
+        "minecraft:deepslate_gold_ore",
+        "minecraft:nether_gold_ore"
+      ],
+      "en_name": "Gold Ore",
+      "types": [
+        "stone",
+        "nether"
+      ]
+    },
+    {
+      "id": "copper_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ],
+      "texture_location": "minecraft:textures/block/copper_ore.png",
+      "block_id": [
+        "minecraft:copper_ore",
+        "minecraft:deepslate_copper_ore"
+      ],
+      "en_name": "Copper Ore",
+      "types": [
+        "stone"
+      ]
+    },
+    {
+      "id": "emerald_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ],
+      "texture_location": "minecraft:textures/block/emerald_ore.png",
+      "block_id": [
+        "minecraft:emerald_ore",
+        "minecraft:deepslate_emerald_ore"
+      ],
+      "en_name": "Emerald Ore",
+      "types": [
+        "stone"
+      ]
+    },
+    {
+      "id": "lapis_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ],
+      "texture_location": "minecraft:textures/block/lapis_ore.png",
+      "block_id": [
+        "minecraft:lapis_ore",
+        "minecraft:deepslate_lapis_ore"
+      ],
+      "en_name": "Lapis Ore",
+      "types": [
+        "stone"
+      ]
+    },
+    {
+      "id": "diamond_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ],
+      "texture_location": "minecraft:textures/block/diamond_ore.png",
+      "block_id": [
+        "minecraft:diamond_ore",
+        "minecraft:deepslate_diamond_ore"
+      ],
+      "en_name": "Diamond Ore",
+      "types": [
+        "stone"
+      ]
+    },
+    {
+      "id": "redstone_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ],
+      "texture_location": "minecraft:textures/block/redstone_ore.png",
+      "block_id": [
+        "minecraft:redstone_ore",
+        "minecraft:deepslate_redstone_ore"
+      ],
+      "en_name": "Redstone Ore",
+      "types": [
+        "stone"
+      ]
+    }
+  ]
+}

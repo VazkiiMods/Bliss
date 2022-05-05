@@ -1,0 +1,28 @@
+{
+  "mod_id": "promenade",
+  "provided_stones": [
+    {
+      "id": "promenade_blunite",
+      "texture_location": [
+        "promenade:textures/block/blunite.png"
+      ],
+      "en_name": "Blunite",
+      "block_id": "promenade:blunite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "promenade_carbonite",
+      "texture_location": [
+        "promenade:textures/block/carbonite.png"
+      ],
+      "en_name": "Carbonite",
+      "block_id": "promenade:carbonite",
+      "type": [
+        "stone"
+      ]
+    }
+  ],
+  "provided_ores": []
+}

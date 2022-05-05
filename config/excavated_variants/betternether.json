@@ -1,0 +1,62 @@
+{
+  "mod_id": "betternether",
+  "provided_stones": [],
+  "provided_ores": [
+    {
+      "id": "redstone_ore",
+      "stone": [
+        "netherrack"
+      ],
+      "texture_location": "betternether:textures/block/nether_redstone_ore.png",
+      "block_id": [
+        "betternether:nether_redstone_ore"
+      ],
+      "en_name": "Redstone Ore",
+      "types": [
+        "nether"
+      ]
+    },
+    {
+      "id": "lapis_ore",
+      "stone": [
+        "netherrack"
+      ],
+      "texture_location": "betternether:textures/block/nether_lapis_ore.png",
+      "block_id": [
+        "betternether:nether_lapis_ore"
+      ],
+      "en_name": "Lapis Ore",
+      "types": [
+        "nether"
+      ]
+    },
+    {
+      "id": "cincinnasite_ore",
+      "stone": [
+        "netherrack"
+      ],
+      "texture_location": "betternether:textures/block/cincinnasite_ore.png",
+      "block_id": [
+        "betternether:cincinnasite_ore"
+      ],
+      "en_name": "Cincinnasite Ore",
+      "types": [
+        "nether"
+      ]
+    },
+    {
+      "id": "ruby_ore",
+      "stone": [
+        "netherrack"
+      ],
+      "texture_location": "betternether:textures/block/nether_ruby_ore.png",
+      "block_id": [
+        "betternether:nether_ruby_ore"
+      ],
+      "en_name": "Ruby Ore",
+      "types": [
+        "nether"
+      ]
+    }
+  ]
+}

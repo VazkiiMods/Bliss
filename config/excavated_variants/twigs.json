@@ -1,0 +1,39 @@
+{
+  "mod_id": "twigs",
+  "provided_stones": [
+    {
+      "id": "twigs_schist",
+      "texture_location": [
+        "twigs:textures/block/schist.png"
+      ],
+      "en_name": "Schist",
+      "block_id": "twigs:schist",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "twigs_rhyolite",
+      "texture_location": [
+        "twigs:textures/block/rhyolite.png"
+      ],
+      "en_name": "Rhyolite",
+      "block_id": "twigs:rhyolite",
+      "type": [
+        "stone"
+      ]
+    },
+    {
+      "id": "twigs_bloodstone",
+      "texture_location": [
+        "twigs:textures/block/bloodstone.png"
+      ],
+      "en_name": "Bloodstone",
+      "block_id": "twigs:bloodstone",
+      "type": [
+        "nether"
+      ]
+    }
+  ],
+  "provided_ores": []
+}
