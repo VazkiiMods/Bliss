@@ -9,36 +9,57 @@
 
 [raid]
 	[raid.trigger]
-		priority = "10"
+		priority = "11"
 		name = "raid"
 		identifier = "raid"
 
 [night_home]
 	[[night_home.trigger]]
-		priority = "9"
+		priority = "10"
 		name = "home"
 		detection_range = "64"
 	[[night_home.trigger]]
-		priority = "9"
+		priority = "10"
 		name = "time"
 		start = "night"
-		identifier = "night9"
+		identifier = "night10"
 	[[night_home.trigger]]
+		priority = "10"
+		name = "dimension"
+		resource_name = "overworld"
+		identifier = "overworld10"
+
+[home]
+	[[home.trigger]]
+		priority = "9"
+		name = "home"
+		detection_range = "64"
+	[[home.trigger]]
 		priority = "9"
 		name = "dimension"
 		resource_name = "overworld"
 		identifier = "overworld9"
 
-[home]
-	[[home.trigger]]
+[bastion]
+	[bastion.trigger]
 		priority = "8"
-		name = "home"
-		detection_range = "64"
-	[[home.trigger]]
+		name = "structure"
+		resource_name = "minecraft:bastion_remnant"
+		identifier = "str_bastion"
+
+[mineshaft]
+	[mineshaft.trigger]
 		priority = "8"
-		name = "dimension"
-		resource_name = "overworld"
-		identifier = "overworld8"
+		name = "structure"
+		resource_name = "bettermineshafts:mineshaft"
+		identifier = "str_mineshaft"
+
+[stronghold]
+	[stronghold.trigger]
+		priority = "8"
+		name = "structure"
+		resource_name = "betterstrongholds:stronghold"
+		identifier = "str_stronghold"
 
 [underground_biome]
 	[[underground_biome.trigger]]

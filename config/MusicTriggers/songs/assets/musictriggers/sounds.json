@@ -1,4 +1,11 @@
 {
+  "music.bastion": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/bastion",
+			"stream": true
+		}]
+	},
   "music.beach": {
 		"category": "music",
 		"sounds": [{
@@ -73,6 +80,13 @@
 		"category": "music",
 		"sounds": [{
 			"name": "musictriggers:music/mesa",
+			"stream": true
+		}]
+	},
+  "music.mineshaft": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/mineshaft",
 			"stream": true
 		}]
 	},
@@ -206,6 +220,13 @@
 		"category": "music",
 		"sounds": [{
 			"name": "musictriggers:music/storm",
+			"stream": true
+		}]
+	},
+  "music.stronghold": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/stronghold",
 			"stream": true
 		}]
 	},
