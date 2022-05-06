@@ -91,3 +91,6 @@ craftingTable.remove(sawmill);
 craftingTable.addShaped("sawmill", sawmill, 
 	[[air, iron, air], 
 	[planks, planks, planks]]);
+
+// lol, lmao
+craftingTable.addShapeless("cry_about_it", <item:minecraft:crying_obsidian>, [<item:minecraft:obsidian>, <item:farmersdelight:onion>]);
