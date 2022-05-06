@@ -5,10 +5,9 @@ import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.recipe.RecipeManagerWrapper;
 
 public class CuttingBoard {
-	private static var cutting = <recipetype:farmersdelight:cutting> as RecipeManagerWrapper;
 
 	public static addRecipe(name as string, output as IItemStack, input as IIngredient, tool as IIngredient) as void {
-		cutting.addJsonRecipe(name, {
+		<recipetype:farmersdelight:cutting>.addJsonRecipe(name, {
 			"type": "farmersdelight:cutting",
 			"ingredients": [input],
 			"tool": tool,
@@ -22,7 +21,7 @@ public class CuttingBoard {
 	}
 
 	public static addRecipe(name as string, output as IItemStack, output2 as IItemStack, input as IIngredient, tool as IIngredient) as void {
-		cutting.addJsonRecipe(name, {
+		<recipetype:farmersdelight:cutting>.addJsonRecipe(name, {
 			"type": "farmersdelight:cutting",
 			"ingredients": [input],
 			"tool": tool,
@@ -40,7 +39,7 @@ public class CuttingBoard {
 	}
 
 	public static addRecipeWithOptional(name as string, output as IItemStack, outputOptional as IItemStack, chance as double, input as IIngredient, tool as IIngredient) as void {
-		cutting.addJsonRecipe(name, {
+		<recipetype:farmersdelight:cutting>.addJsonRecipe(name, {
 			"type": "farmersdelight:cutting",
 			"ingredients": [input],
 			"tool": tool,
@@ -59,6 +58,6 @@ public class CuttingBoard {
 	}
 
 	public static removeRecipe(output as IItemStack) as void {
-		cutting.remove(output);
+		<recipetype:farmersdelight:cutting>.remove(output);
 	}
 }

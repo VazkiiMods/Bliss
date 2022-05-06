@@ -1,26 +1,35 @@
 import crafttweaker.api.recipe.FurnaceRecipeManager;
+import crafttweaker.api.misc.Composter;
 
 var air = <item:minecraft:air>;
-var heart_of_the_sea = <item:minecraft:heart_of_the_sea>;
-var quartz = <item:minecraft:quartz>;
-var prismarine_shard = <item:minecraft:prismarine_shard>;
-var leather = <item:minecraft:leather>;
-var string_item = <item:minecraft:string>;
-var crop_tag = <tag:items:quark:seed_pouch_holdable>;
-var stick = <item:minecraft:stick>;
-var slime = <item:minecraft:slime_ball>;
-var iron = <tag:items:forge:ingots/iron>;
-var canvas = <item:farmersdelight:canvas>;
-var rotten_flesh = <item:minecraft:rotten_flesh>;
-var paraglider = <item:paraglider:paraglider>;
-var honey_bottle = <item:minecraft:honey_bottle>;
-var piston = <item:minecraft:piston>;
+var book = <item:minecraft:book>;
+var bookshelves = <tag:items:bliss:bookshelves>;
 var brimstone = <item:biomesoplenty:brimstone>;
-var planks = <tag:items:minecraft:planks>;
+var canvas = <item:farmersdelight:canvas>;
+var crop_tag = <tag:items:quark:seed_pouch_holdable>;
+var heart_of_the_sea = <item:minecraft:heart_of_the_sea>;
+var honey_bottle = <item:minecraft:honey_bottle>;
+var iron = <tag:items:forge:ingots/iron>;
 var ladder = <item:minecraft:ladder>;
-var oak_planks = <item:minecraft:oak_planks>;
+var leather = <item:minecraft:leather>;
 var oak_logs = <tag:items:minecraft:oak_logs>;
+var oak_planks = <item:minecraft:oak_planks>;
+var paraglider = <item:paraglider:paraglider>;
+var piston = <item:minecraft:piston>;
+var planks = <tag:items:minecraft:planks>;
+var prismarine_shard = <item:minecraft:prismarine_shard>;
+var quartz = <item:minecraft:quartz>;
+var rotten_flesh = <item:minecraft:rotten_flesh>;
 var sawmill = <item:corail_woodcutter:oak_woodcutter>;
+var slime = <item:minecraft:slime_ball>;
+var stick = <item:minecraft:stick>;
+var string_item = <item:minecraft:string>;
+var rose_quartz_block = <item:biomesoplenty:rose_quartz_block>;
+var rose_quartz_shard = <item:biomesoplenty:rose_quartz_shard>;
+
+var axes = <tag:items:forge:tools/axes>;
+var pickaxes = <tag:items:forge:tools/pickaxes>;
+var knives = <tag:items:forge:tools/knives>;
 
 // Remove some recipes that shouldn't be in here
 craftingTable.remove(paraglider);
@@ -67,7 +76,7 @@ craftingTable.addShaped("earlygame_iron_rod",
 furnace.addRecipe("rf2leather", leather, rotten_flesh, 0.0, 200);
 
 // Recycle Paraglider
-craftingTable.addShapeless("recycle_paraglider", leather * 4, [paraglider]);
+CuttingBoard.addRecipe("recycle_paraglider", leather * 4, paraglider, knives);
 
 // Honey Sticky Piston
 craftingTable.addShaped("honey_sticky_piston",
@@ -99,9 +108,21 @@ craftingTable.addShapeless("cry_about_it", <item:minecraft:crying_obsidian>, [<i
 craftingTable.addShapeless("honey_soap", 
 	<item:supplementaries:soap> * 4, 
 	[<item:minecraft:water_bucket>, <tag:items:forge:ash>, <tag:items:forge:ash>, <tag:items:forge:ash>, <tag:items:forge:ash>, <item:minecraft:honeycomb>]);
-
 craftingTable.addShaped("honey_sling", <item:supplementaries:slingshot>, 
 	[[<item:minecraft:string>, <item:minecraft:leather>, <item:minecraft:string>], 
 	[<item:minecraft:stick>, <item:minecraft:honey_bottle>, <item:minecraft:stick>], 
 	[<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>]]);
 
+// Bookshelf cut to book
+CuttingBoard.addRecipe("remove_book", book * 3, bookshelves, axes);
+
+// Rose Quartz decompress
+CuttingBoard.addRecipe("rose_sharding", rose_quartz_shard * 4, rose_quartz_block, pickaxes);
+
+// Compostable Overweight Crops
+composter.setValue(<item:overweight_farming:overweight_beetroot_block>, 1.0);
+composter.setValue(<item:overweight_farming:overweight_carrot_block>, 1.0);
+composter.setValue(<item:overweight_farming:overweight_cocoa_block>, 1.0);
+composter.setValue(<item:overweight_farming:overweight_potato_block>, 1.0);
+composter.setValue(<item:overweight_farming:overweight_onion_block>, 1.0);
+composter.setValue(<item:overweight_farming:overweight_cabbage_block>, 1.0);

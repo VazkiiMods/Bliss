@@ -5,10 +5,9 @@ import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.recipe.RecipeManagerWrapper;
 
 public class Woodcutter {
-	private static var woodcutting = <recipetype:corail_woodcutter:woodcutting> as RecipeManagerWrapper;
 
 	public static addRecipe(name as string, output as IItemStack, input as IIngredient) as void {
-		woodcutting.addJsonRecipe(name, {
+		<recipetype:corail_woodcutter:woodcutting>.addJsonRecipe(name, {
 			"type": "corail_woodcutter:woodcutting",
 			"ingredient": input,
 			"result": output.registryName,
@@ -17,6 +16,6 @@ public class Woodcutter {
 	}
 
 	public static removeRecipe(output as IItemStack) as void {
-		woodcutting.remove(output);
+		<recipetype:corail_woodcutter:woodcutting>.remove(output);
 	}
 }

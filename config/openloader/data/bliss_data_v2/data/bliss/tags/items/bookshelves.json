@@ -1,0 +1,24 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:bookshelf",
+		"compatoplenty:jacaranda_bookshelf",
+		"compatoplenty:fir_bookshelf",
+		"compatoplenty:redwood_bookshelf",
+		"compatoplenty:willow_bookshelf",
+		"compatoplenty:mahogany_bookshelf",
+		"compatoplenty:magic_bookshelf",
+		"quark:dark_oak_bookshelf",
+		"quark:acacia_bookshelf",
+		"quark:jungle_bookshelf",
+		"quark:birch_bookshelf",
+		"quark:spruce_bookshelf",
+		"compatoplenty:palm_bookshelf",
+		"compatoplenty:umbran_bookshelf",
+		"compatoplenty:dead_bookshelf",
+		"quark:crimson_bookshelf",
+		"quark:warped_bookshelf",
+		"quark:azalea_bookshelf",
+		"quark:blossom_bookshelf"
+	]
+}
