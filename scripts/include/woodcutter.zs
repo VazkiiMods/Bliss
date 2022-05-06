@@ -4,8 +4,6 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.recipe.RecipeManagerWrapper;
 
-<item:corail_woodcutter:oak_woodcutter>.removeTooltip("REMOVEME");
-
 public class Woodcutter {
 	private static var woodcutting = <recipetype:corail_woodcutter:woodcutting> as RecipeManagerWrapper;
 
