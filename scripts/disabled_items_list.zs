@@ -171,6 +171,24 @@ public class Globals {
 		<item:quark:vertical_oak_planks>,
 		<item:quark:vertical_spruce_planks>,
 		<item:quark:vertical_birch_planks>,
-		<item:quark:vertical_jungle_planks>
+		<item:quark:vertical_jungle_planks>,
+		<item:corail_woodcutter:jungle_woodcutter>,
+		<item:corail_woodcutter:hellbark_woodcutter>,
+		<item:corail_woodcutter:willow_woodcutter>,
+		<item:corail_woodcutter:palm_woodcutter>,
+		<item:corail_woodcutter:dead_woodcutter>,
+		<item:corail_woodcutter:jacaranda_woodcutter>,
+		<item:corail_woodcutter:redwood_woodcutter>,
+		<item:corail_woodcutter:fir_woodcutter>,
+		<item:corail_woodcutter:spruce_woodcutter>,
+		<item:corail_woodcutter:cherry_woodcutter>,
+		<item:corail_woodcutter:birch_woodcutter>,
+		<item:corail_woodcutter:mahogany_woodcutter>,
+		<item:corail_woodcutter:magic_woodcutter>,
+		<item:corail_woodcutter:crimson_woodcutter>,
+		<item:corail_woodcutter:umbran_woodcutter>,
+		<item:corail_woodcutter:acacia_woodcutter>,
+		<item:corail_woodcutter:warped_woodcutter>,
+		<item:corail_woodcutter:dark_oak_woodcutter>
 	] as IItemStack[];
 }
