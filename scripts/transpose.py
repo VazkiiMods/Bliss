@@ -5,13 +5,13 @@ import os
 
 def main():
 	jei_file = '../config/jei/blacklist.cfg'
-	output_file = 'disabled_items_list.zs'
+	output_file = 'include/disabled_items_list.zs'
 
 	with open(output_file, 'w') as of:
 		of.write('''#priority 100
 import crafttweaker.api.item.IItemStack;
-public class Globals {
-\tpublic static var disabled_items = [\n''')
+public class DisabledItems {
+\tpublic static var items = [\n''')
 		firstline = True
 
 		with open(jei_file, 'r') as f:

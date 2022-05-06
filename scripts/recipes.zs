@@ -17,6 +17,10 @@ var honey_bottle = <item:minecraft:honey_bottle>;
 var piston = <item:minecraft:piston>;
 var brimstone = <item:biomesoplenty:brimstone>;
 var planks = <tag:items:minecraft:planks>;
+var ladder = <item:minecraft:ladder>;
+var oak_planks = <item:minecraft:oak_planks>;
+var oak_logs = <tag:items:minecraft:oak_logs>;
+var sawmill = <item:corail_woodcutter:oak_woodcutter>;
 
 // Remove some recipes that shouldn't be in here
 craftingTable.remove(paraglider);
@@ -76,3 +80,14 @@ craftingTable.addShapeless("brim_blaze", <item:minecraft:blaze_powder>, [brimsto
 
 // Planks to Ash
 furnace.addRecipe("pl2ash", <item:supplementaries:ash>, planks, 0.0, 40);
+
+// Woodcutting oak to ladder
+Woodcutter.removeRecipe(ladder);
+Woodcutter.addRecipe("oak_ladder", ladder, oak_planks);
+Woodcutter.addRecipe("oak_ladder4", ladder * 4, oak_logs);
+
+// Any Planks for sawmill
+craftingTable.remove(sawmill);
+craftingTable.addShaped("sawmill", sawmill, 
+	[[air, iron, air], 
+	[planks, planks, planks]]);

@@ -1,7 +1,7 @@
 #priority 100
 import crafttweaker.api.item.IItemStack;
-public class Globals {
-	public static var disabled_items = [
+public class DisabledItems {
+	public static var items = [
 		<item:biomesoplenty:white_cherry_sapling>,
 		<item:biomesoplenty:cherry_stairs>,
 		<item:biomesoplenty:cherry_boat>,
