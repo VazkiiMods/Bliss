@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "display": {
+    "icon": {
+      "item": "quark:iron_rod"
+    },
+    "title": {
+      "translate": "advancement.bliss.get_iron_rod"
+    },
+    "description": {
+      "translate": "advancement.bliss.get_iron_rod.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iron_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quark:iron_rod"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

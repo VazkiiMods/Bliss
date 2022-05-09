@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:adventure/trade",
+  "display": {
+    "icon": {
+      "item": "tradingpost:tradin_post"
+    },
+    "title": {
+      "translate": "advancement.bliss.get_trading_post"
+    },
+    "description": {
+      "translate": "advancement.bliss.get_trading_post.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tradin_post": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tradingpost:tradin_post"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

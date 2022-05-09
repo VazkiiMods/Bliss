@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "display": {
+    "icon": {
+      "item": "quark:seed_pouch"
+    },
+    "title": {
+      "translate": "advancement.bliss.get_seed_pouch"
+    },
+    "description": {
+      "translate": "advancement.bliss.get_seed_pouch.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "seed_pouch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quark:seed_pouch"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

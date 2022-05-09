@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "display": {
+    "icon": {
+      "item": "quark:backpack"
+    },
+    "title": {
+      "translate": "advancement.bliss.get_backpack"
+    },
+    "description": {
+      "translate": "advancement.bliss.get_backpack.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "backpack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quark:backpack"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

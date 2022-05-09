@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "display": {
+    "icon": {
+      "item": "quark:pipe"
+    },
+    "title": {
+      "translate": "advancement.bliss.get_copper_pipe"
+    },
+    "description": {
+      "translate": "advancement.bliss.get_copper_pipe.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pipe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quark:pipe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

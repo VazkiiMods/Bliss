@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:adventure/sleep_in_bed",
+  "display": {
+    "icon": {
+      "item": "paraglider:paraglider"
+    },
+    "title": {
+      "translate": "advancement.bliss.get_paraglider"
+    },
+    "description": {
+      "translate": "advancement.bliss.get_paraglider.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "paraglider": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "paraglider:paraglider"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:adventure/sleep_in_bed",
+  "display": {
+    "icon": {
+      "item": "map_atlases:atlas"
+    },
+    "title": {
+      "translate": "advancement.bliss.get_atlas"
+    },
+    "description": {
+      "translate": "advancement.bliss.get_atlas.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "atlas": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "map_atlases:atlas"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

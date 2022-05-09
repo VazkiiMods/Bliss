@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "display": {
+    "icon": {
+      "item": "corail_woodcutter:oak_woodcutter"
+    },
+    "title": {
+      "translate": "advancement.bliss.get_sawmill"
+    },
+    "description": {
+      "translate": "advancement.bliss.get_sawmill.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "oak_woodcutter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "corail_woodcutter:oak_woodcutter"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

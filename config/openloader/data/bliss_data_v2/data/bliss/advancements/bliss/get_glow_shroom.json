@@ -1,0 +1,32 @@
+{
+  "parent": "bliss:bliss/get_diamond_heart",
+  "display": {
+    "icon": {
+      "item": "quark:glow_shroom"
+    },
+    "title": {
+      "translate": "advancement.bliss.get_glow_shroom"
+    },
+    "description": {
+      "translate": "advancement.bliss.get_glow_shroom.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "glow_shroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "quark:glow_shroom"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
