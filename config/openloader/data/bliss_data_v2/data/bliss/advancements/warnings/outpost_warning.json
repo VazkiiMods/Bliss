@@ -1,0 +1,21 @@
+{
+  "parent": "bliss:warnings/root",
+  "criteria": {
+    "outpost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "pillager_outpost"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "outpost"
+    ]
+  ],
+  "rewards": {
+    "function": "bliss:outpost_warning"
+  }
+}

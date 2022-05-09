@@ -1,0 +1,21 @@
+{
+  "parent": "bliss:warnings/root",
+  "criteria": {
+    "mansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "mansion"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mansion"
+    ]
+  ],
+  "rewards": {
+    "function": "bliss:mansion_warning"
+  }
+}

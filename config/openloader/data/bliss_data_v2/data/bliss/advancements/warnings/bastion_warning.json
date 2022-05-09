@@ -1,0 +1,21 @@
+{
+  "parent": "bliss:warnings/root",
+  "criteria": {
+    "bastion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "bastion_remnant"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bastion"
+    ]
+  ],
+  "rewards": {
+    "function": "bliss:bastion_warning"
+  }
+}
