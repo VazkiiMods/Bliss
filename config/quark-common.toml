@@ -182,6 +182,9 @@
 		#Which crops can be harvested?
 		#Format is: "harvestState[,afterHarvest]", i.e. "minecraft:wheat[age=7]" or "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]"
 		"Harvestable Blocks" = ["minecraft:wheat[age=7]", "minecraft:carrots[age=7]", "minecraft:potatoes[age=7]", "minecraft:beetroots[age=3]", "minecraft:nether_wart[age=3]", "minecraft:cocoa[age=2,facing=north],minecraft:cocoa[age=0,facing=north]", "minecraft:cocoa[age=2,facing=south],minecraft:cocoa[age=0,facing=south]", "minecraft:cocoa[age=2,facing=east],minecraft:cocoa[age=0,facing=east]", "minecraft:cocoa[age=2,facing=west],minecraft:cocoa[age=0,facing=west]"]
+		#Which blocks should right click harvesting simulate a click on instead of breaking?
+		#This is for blocks like sweet berry bushes, which have right click harvesting built in.
+		"Right Clickable Blocks" = ["minecraft:sweet_berry_bush", "minecraft:cave_vines"]
 
 	[tweaks.sign_editing]
 		"Requires Empty Hand" = false
@@ -427,7 +430,7 @@
 	"Ambient Discs" = true
 	"Endermosh Music Disc" = true
 	Trowel = true
-	"Pathfinder Maps" = false
+	"Pathfinder Maps" = true
 	"Color Runes" = true
 	Abacus = true
 	"Bottled Cloud" = true
@@ -497,10 +500,9 @@
 		# - <min_price> being the cheapest (in Emeralds) the map can be
 		# - <max_price> being the most expensive (in Emeralds) the map can be
 		# - <color> being a hex color (without the #) for the map to display. You can generate one here - https://htmlcolorcodes.com/
-		# - <name> being the display name of the map
 		#
 		#Here's an example of a map to locate Ice Mountains:
-		#minecraft:ice_mountains,2,8,14,7FE4FF,Ice Mountains Pathfinder Map
+		#minecraft:ice_mountains,2,8,14,7FE4FF
 		Customs = []
 		"Search Radius" = 6400
 		"Search Distance Increment" = 8
@@ -1305,6 +1307,8 @@
 		"Enable Diamond Heart" = true
 		"Cautious Stonelings" = false
 		"Tamable Stonelings" = true
+		#Disabled if if Pathfinder Maps are disabled.
+		"Weald Pathfinder Maps" = true
 
 		[mobs.stonelings.dimensions]
 			"Is Blacklist" = false

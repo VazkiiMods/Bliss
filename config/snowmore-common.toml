@@ -16,7 +16,7 @@
 [easy]
 	#A list of entries defining how much damage a snowball does to the given entity in easy mode.
 	#The format is: `minecraft:entity damage`
-	snowballDamage = ["minecraft:blaze 3 minecraft:wither 2"]
+	snowballDamage = ["minecraft:blaze 3", "minecraft:wither 2"]
 	#How much damage a snowball does to an entity not in the above list in easy mode.
 	#Range: 0.0 ~ Infinity
 	defaultSnowballDamage = 0.0
@@ -30,7 +30,7 @@
 [normal]
 	#A list of entries defining how much damage a snowball does to the given entity in normal mode.
 	#The format is: `minecraft:entity damage`
-	snowballDamage = ["minecraft:blaze 3 minecraft:wither 2"]
+	snowballDamage = ["minecraft:blaze 3", "minecraft:wither 2"]
 	#How much damage a snowball does to an entity not in the above list in normal mode.
 	#Range: 0.0 ~ Infinity
 	defaultSnowballDamage = 0.0
