@@ -27,7 +27,6 @@ After you create a world, in your player's inventory, the &dBliss Guide&r will b
 
 &hWIP Stuff
 The following BIG issues are currently known:
-- Spawning the wither just drops a nether star instead, this is temporary
 - Documentation is entirely incomplete and mostly copy pasted from Crucial 2
 - None of the search terms in JEI work yet
 
@@ -38,5 +37,6 @@ I'll be putting all of this junk in the book later but just take it here for now
 - Press N ingame to open the notes menu its good trust me yes
 - Use your Sneak/Shift key to hold onto walls, you can even wall jump after doing that
 - Quark recipes for iron rods and backpack are now easy so go check those out
+- Snow Golems can deal damage to Withers so you can make a ton of them to kill it
 
 Enjoy!
