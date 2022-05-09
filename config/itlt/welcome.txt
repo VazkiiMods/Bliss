@@ -29,6 +29,7 @@ After you create a world, in your player's inventory, the &dBliss Guide&r will b
 The following BIG issues are currently known:
 - Documentation is entirely incomplete and mostly copy pasted from Crucial 2
 - None of the search terms in JEI work yet
+- Items fail to stack sometimes, we don't know why
 
 The pack as a whole is just very unfinished so please be aware of that.
 Some other stuff...
