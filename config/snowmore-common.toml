@@ -1,0 +1,57 @@
+
+[peaceful]
+	#A list of entries defining how much damage a snowball does to the given entity in peaceful mode.
+	#The format is: `minecraft:entity damage`
+	snowballDamage = ["minecraft:blaze 3"]
+	#How much damage a snowball does to an entity not in the above list in peaceful mode.
+	#Range: 0.0 ~ Infinity
+	defaultSnowballDamage = 0.0
+	#The maximum amount of damage a snow golem can take from any attack in peaceful mode.
+	#Set below 0 to allow any amount of damage.
+	#Range: -1.0 ~ Infinity
+	snowGolemMaxDamage = -1.0
+	#Whether snowballs should still cause invincibility frames in peaceful mode.
+	snowballDoIFrames = true
+
+[easy]
+	#A list of entries defining how much damage a snowball does to the given entity in easy mode.
+	#The format is: `minecraft:entity damage`
+	snowballDamage = ["minecraft:blaze 3 minecraft:wither 2"]
+	#How much damage a snowball does to an entity not in the above list in easy mode.
+	#Range: 0.0 ~ Infinity
+	defaultSnowballDamage = 0.0
+	#The maximum amount of damage a snow golem can take from any attack in easy mode.
+	#Set below 0 to allow any amount of damage.
+	#Range: -1.0 ~ Infinity
+	snowGolemMaxDamage = 4
+	#Whether snowballs should still cause invincibility frames in easy mode.
+	snowballDoIFrames = false
+
+[normal]
+	#A list of entries defining how much damage a snowball does to the given entity in normal mode.
+	#The format is: `minecraft:entity damage`
+	snowballDamage = ["minecraft:blaze 3 minecraft:wither 2"]
+	#How much damage a snowball does to an entity not in the above list in normal mode.
+	#Range: 0.0 ~ Infinity
+	defaultSnowballDamage = 0.0
+	#The maximum amount of damage a snow golem can take from any attack in normal mode.
+	#Set below 0 to allow any amount of damage.
+	#Range: -1.0 ~ Infinity
+	snowGolemMaxDamage = 3
+	#Whether snowballs should still cause invincibility frames in normal mode.
+	snowballDoIFrames = false
+
+[hard]
+	#A list of entries defining how much damage a snowball does to the given entity in hard mode.
+	#The format is: `minecraft:entity damage`
+	snowballDamage = ["minecraft:blaze 3"]
+	#How much damage a snowball does to an entity not in the above list in hard mode.
+	#Range: 0.0 ~ Infinity
+	defaultSnowballDamage = 0.0
+	#The maximum amount of damage a snow golem can take from any attack in hard mode.
+	#Set below 0 to allow any amount of damage.
+	#Range: -1.0 ~ Infinity
+	snowGolemMaxDamage = -1.0
+	#Whether snowballs should still cause invincibility frames in hard mode.
+	snowballDoIFrames = true
+
