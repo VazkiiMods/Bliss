@@ -11,6 +11,11 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 8,
+          "name": "quark:soul_bead"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 5,
           "functions": [
             {
