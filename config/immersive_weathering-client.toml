@@ -1,0 +1,3 @@
+#Allows dynamic resource generations for leaf piles and bark to pick textures from installed resource pack. Will only really work well if those texture pack have a similar format to vanilla otherwise it will result in glitched textures
+dynamic_textures_from_resource_packs = false
+

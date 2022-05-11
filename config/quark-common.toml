@@ -556,6 +556,8 @@
 	"Narrator Readout" = false
 	"Adjustable Chat" = false
 	"Zombie Villagers On Normal" = true
+	"Enchantments Begone" = true
+	"Empty NBT Begone" = true
 
 	[experimental.game_nerfs]
 		#Makes Boats not glide on ice
@@ -584,6 +586,9 @@
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0
 		"Vertical Shift" = 0
+
+	[experimental.enchantments_begone]
+		"Enchantments To Begone" = ["minecraft:bane_of_arthropods", "walljump:walljump", "walljump:speedboost", "walljump:doublejump"]
 
 [world]
 	"Spiral Spires" = true
