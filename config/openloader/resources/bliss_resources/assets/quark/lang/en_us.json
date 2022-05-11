@@ -4,5 +4,13 @@
 	"block.quark.glowberry_sack": "Bag of Glow Berries",
 	"block.quark.gunpowder_sack": "Bag of Gunpowder",
 	"block.quark.nether_wart_sack": "Bag of Nether Wart",
-	"block.quark.crate": "Storage Crate"
+	"block.quark.crate": "Storage Crate",
+	"block.quark.iron_plate": "Wrought Iron Plate",
+	"block.quark.rusty_iron_plate": "Rusted Wrought Iron Plate",
+	"block.quark.iron_plate_stairs": "Wrought Iron Plate Stairs",
+	"block.quark.rusty_iron_plate_stairs": "Rusted Wrought Iron Plate Stairs",
+	"block.quark.iron_plate_slab": "Wrought Iron Plate Slab",
+	"block.quark.rusty_iron_plate_slab": "Rusted Wrought Iron Plate Slab",
+	"block.quark.iron_plate_vertical_slab": "Wrought Iron Plate Vertical Slab",
+	"block.quark.rusty_iron_plate_vertical_slab": "Rusted Wrought Iron Plate Vertical Slab"
 }
