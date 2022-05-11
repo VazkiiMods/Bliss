@@ -245,7 +245,7 @@
 	Stools = true
 	"Industrial Palette" = true
 	"Wooden Posts" = true
-	"Vertical Planks" = false
+	"Vertical Planks" = true
 	"Variant Chests" = true
 	"Celebratory Lamps" = true
 	"Leaf Carpet" = true
@@ -503,7 +503,7 @@
 		#
 		#Here's an example of a map to locate Ice Mountains:
 		#minecraft:ice_mountains,2,8,14,7FE4FF
-		Customs = ["biomesoplenty:coniferous_forest,4,8,14,274801", "biomesoplenty:redwood_forest,4,8,14,B24E18", "biomesoplenty:lavender_field,4,8,14,B48FFF", "biomesoplenty:bayou,4,8,14,4D7815", "biomesoplenty:rainforest,4,8,14,22C070", "biomesoplenty:ominous_woods,5,12,18,4C367D", "biomesoplenty:mystic_grove,5,12,18,3EF0D1", "biomesoplenty:origin_valley,5,12,18,92FF39", "biomesoplenty:rainbow_hills,5,12,18,F839FF", "biomesoplenty:fungal_jungle,5,12,18,FFB412","biomesoplenty:tropics,5,12,18,B4FF00"]
+		Customs = ["biomesoplenty:coniferous_forest,4,8,14,274801", "biomesoplenty:redwood_forest,4,8,14,B24E18", "biomesoplenty:lavender_field,4,8,14,B48FFF", "biomesoplenty:bayou,4,8,14,4D7815", "biomesoplenty:rainforest,4,8,14,22C070", "biomesoplenty:ominous_woods,5,12,18,4C367D", "biomesoplenty:mystic_grove,5,12,18,3EF0D1", "biomesoplenty:origin_valley,5,12,18,92FF39", "biomesoplenty:rainbow_hills,5,12,18,F839FF", "biomesoplenty:fungal_jungle,5,12,18,FFB412", "biomesoplenty:tropics,5,12,18,B4FF00"]
 		"Search Radius" = 6400
 		"Search Distance Increment" = 8
 		"Xp From Trade" = 5
