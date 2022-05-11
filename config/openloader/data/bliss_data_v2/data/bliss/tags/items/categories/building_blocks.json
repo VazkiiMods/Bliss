@@ -488,6 +488,25 @@
 		"supplementaries:end_stone_lamp",
 		"supplementaries:deepslate_lamp",
 		"supplementaries:feather_block",
-		"supplementaries:flint_block"
+		"supplementaries:flint_block",
+		"compatoplenty:vertical_dead_planks",
+		"compatoplenty:vertical_fir_planks",
+		"compatoplenty:vertical_jacaranda_planks",
+		"compatoplenty:vertical_magic_planks",
+		"compatoplenty:vertical_mahogany_planks",
+		"compatoplenty:vertical_palm_planks",
+		"compatoplenty:vertical_redwood_planks",
+		"compatoplenty:vertical_umbran_planks",
+		"compatoplenty:vertical_willow_planks",
+		"quark:vertical_acacia_planks",
+		"quark:vertical_azalea_planks",
+		"quark:vertical_birch_planks",
+		"quark:vertical_blossom_planks",
+		"quark:vertical_crimson_planks",
+		"quark:vertical_dark_oak_planks",
+		"quark:vertical_jungle_planks",
+		"quark:vertical_oak_planks",
+		"quark:vertical_spruce_planks",
+		"quark:vertical_warped_planks"
 	]
 }
