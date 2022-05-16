@@ -6,6 +6,7 @@ customization-meta {
   backgroundimage = fancymenu_setups/_images/loading.png
   renderorder = foreground
   randommode = false
+  scale = 2
   randomonlyfirsttime = false
   backgroundcolor = 80279d
 }

@@ -31,8 +31,8 @@ B:hideforgenotifications = 'true';
 
 S:splashcolor = '#f4c2f5';
 I:splashrotation = '0';
-I:splashy = '140';
-I:splashx = '130';
+I:splashy = '60';
+I:splashx = '80';
 B:hidesplashtext = 'false';
 S:splashtextfile = 'fancymenu_setups/splashes.txt';
 S:splashorientation = 'top-left';
