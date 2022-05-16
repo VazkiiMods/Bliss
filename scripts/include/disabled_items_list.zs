@@ -243,6 +243,10 @@ public class DisabledItems {
 		<item:immersive_weathering:spruce_bark>,
 		<item:immersive_weathering:jungle_bark>,
 		<item:immersive_weathering:dark_oak_bark>,
-		<item:immersive_weathering:acacia_bark>
+		<item:immersive_weathering:acacia_bark>,
+		<item:immersive_weathering:mulch_block>,
+		<item:immersive_weathering:nulch_block>,
+		<item:immersive_weathering:crimson_scales>,
+		<item:immersive_weathering:warped_scales>
 	] as IItemStack[];
 }
