@@ -26,10 +26,11 @@ server_mods_blacklist = [
 ]
 server_blacklisted_files = [
 	'config/openloader/resources',
-	'config/MusicTriggers',
+	'config/MusicTriggers/songs',
 	'config/fancymenu',
 	'config/drippyloadingscreen',
-	'fancymenu_setups'
+	'fancymenu_setups',
+	"shaderpacks"
 ]
 
 temp_dir = '.ship_temp'
