@@ -26,6 +26,8 @@ var stick = <item:minecraft:stick>;
 var string_item = <item:minecraft:string>;
 var rose_quartz_block = <item:biomesoplenty:rose_quartz_block>;
 var rose_quartz_shard = <item:biomesoplenty:rose_quartz_shard>;
+var paper = <item:minecraft:paper>;
+var antique_ink = <item:supplementaries:antique_ink>;
 
 var axes = <tag:items:forge:tools/axes>;
 var pickaxes = <tag:items:forge:tools/pickaxes>;
@@ -126,3 +128,6 @@ composter.setValue(<item:overweight_farming:overweight_cocoa_block>, 1.0);
 composter.setValue(<item:overweight_farming:overweight_potato_block>, 1.0);
 composter.setValue(<item:overweight_farming:overweight_onion_block>, 1.0);
 composter.setValue(<item:overweight_farming:overweight_cabbage_block>, 1.0);
+
+// Craftable Name Tag
+craftingTable.addShapeless("da_name_tagy", <item:minecraft:name_tag>, [antique_ink, paper, string_item]);
