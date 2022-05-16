@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"values": [
-		"quark:gravisand"
+		"quark:gravisand",
+		"supplementaries:cog_block"
 	]
 }

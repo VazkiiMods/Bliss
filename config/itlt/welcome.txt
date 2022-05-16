@@ -27,15 +27,13 @@ https://www.curseforge.com/minecraft/customization/complementary-shaders
 &hDocumentation
 After you create a world, in your player's inventory, the &dBliss Guide&r will be always available, taking over the vanilla Recipe Book. The guide pauses the game while open, so we highly recommend you take a bit of time to survey its content, so you know all the pack has to offer.
 
-&hWIP Stuff
-The following is not completed:
-- Patchouli guidebook is missing anything new past Crucial 2 copies
-- JEI documentation is also a Crucial 2 copy and is missing new ones
-
+&hGuidebook Beta
 I'll be putting all of this junk in the book later but just take it here for now so you know:
 - Press N ingame to open the notes menu its good trust me yes
 - Use your Sneak/Shift key to hold onto walls, you can even wall jump after doing that
 - Quark recipes for iron rods and backpack are now easy so go check those out
 - Snow Golems can deal damage to Withers so you can make a ton of them to kill it
+
+Most of what else is in the book is just copied from Crucial 2. Expect more Gossip, Vanilla Tweaks, and some entries being unlocked further in via advancements.
 
 Enjoy!
