@@ -1,5 +1,31 @@
 {
 	"replace": false,
 	"values": [
+		"chalk:white_chalk",
+		"comforts:sleeping_bag_white",
+		"corail_woodcutter:oak_woodcutter",
+		"farmersdelight:cooking_pot",
+		"farmersdelight:cutting_board",
+		"farmersdelight:rope",
+		"farmersdelight:iron_knife",
+		"map_atlases:atlas",
+		"paraglider:paraglider",
+		"quark:crate",
+		"quark:iron_rod",
+		"quark:glass_item_frame",
+		"quark:white_stool",
+		"quark:feeding_trough",
+		"quark:tiny_potato",
+		"quark:bottled_cloud",
+		"quark:diamond_heart",
+		"quark:seed_pouch",
+		"quark:abacus",
+		"quark:trowel",
+		"quark:pickarang",
+		"quark:soul_bead",
+		"quark:backpack",
+		"quark:soul_compass",
+		"supplementaries:wrench",
+		"tradingpost:trading_post"
 	]
 }

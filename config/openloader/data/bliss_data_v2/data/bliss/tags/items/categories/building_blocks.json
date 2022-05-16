@@ -529,6 +529,25 @@
 		"immersive_weathering:waxed_rusted_plate_iron",
 		"immersive_weathering:cracked_end_stone_bricks",
 		"immersive_weathering:cracked_prismarine_bricks",
-		"immersive_weathering:vitrified_sand"
+		"immersive_weathering:vitrified_sand",
+		"overweight_farming:overweight_onion_block",
+		"overweight_farming:waxed_seeded_peeled_melon",
+		"overweight_farming:waxed_half_seeded_peeled_melon",
+		"overweight_farming:waxed_seedless_peeled_melon",
+		"overweight_farming:overweight_cabbage_block",
+		"overweight_farming:overweight_beetroot_block",
+		"overweight_farming:overweight_carrot_block",
+		"overweight_farming:overweight_cocoa_block",
+		"overweight_farming:overweight_potato_block",
+		"overweight_farming:half_seeded_peeled_melon",
+		"overweight_farming:seeded_peeled_melon",
+		"overweight_farming:vegetable_compost",
+		"overweight_farming:overweight_poisonous_potato_block",
+		"overweight_farming:overweight_baked_potato_block",
+		"overweight_farming:peeled_overweight_onion_block",
+		"overweight_farming:peeled_overweight_potato_block",
+		"overweight_farming:peeled_overweight_carrot_block",
+		"overweight_farming:peeled_overweight_beetroot_block",
+		"overweight_farming:seedless_peeled_melon"
 	]
 }
