@@ -16,6 +16,8 @@ The Bliss Modpack is designed for &dPeaceful&r style gameplay, without having to
 
 Shaders are enabled by default, and can be disabled, or reset to one of the official Complementary presets in Video Settings > Shader Packs.
 
+&cWarning&r: If you are using an M1 model Mac or MacBook, shaders will not function and you have to turn them off before starting the game.
+
 Complementary is created by EminGTR and can be found here:
 https://www.curseforge.com/minecraft/customization/complementary-shaders
 
