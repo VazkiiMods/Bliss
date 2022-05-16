@@ -22,7 +22,8 @@ server_mods_blacklist = [
 	574856, # Rubidium
 	532127, # Legendary Tooltips
 	271740, # Toast Control
-	448233  # Entity Culling
+	448233, # Entity Culling
+	613117  # MacCraft
 ]
 server_blacklisted_files = [
 	'config/openloader/resources',
