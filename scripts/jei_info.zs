@@ -589,11 +589,106 @@ i(<item:corn_delight:wild_corn>, s);
 i(<item:corn_delight:corn>, s);
 i(<item:corn_delight:corn_seeds>, s);
 
-i(<item:minecraft:sculk_sensor>, "WIP: Not sure if this will be available in the pack yet, if you have any ideas for cool acquisition methods, let me know.");
+s = "Can be found in the rare Origin Valley biome. Pathfinder Maps to this biome can be bought from Cartographer villagers.";
+i(<item:biomesoplenty:origin_grass_block>, s);
+i(<item:biomesoplenty:rose>, s);
+i(<item:biomesoplenty:origin_sapling>, s);
+i(<item:biomesoplenty:origin_leaves>, s);
 
-// WIP from beyond here ==================================================================
+s = "Can be found in the rare Tropics biome. Pathfinder Maps to this biome can be bought from Cartographer villagers.";
+i(<item:biomesoplenty:white_sand>, s);
+i(<item:biomesoplenty:palm_sapling>, s);
+i(<item:biomesoplenty:palm_leaves>, s);
+i(<item:biomesoplenty:palm_log>, s);
 
-s = "WIP, will be available next version.";
+s = "Can be found in the rare Rainbow Hills biome. Pathfinder Maps to this biome can be bought from Cartographer villagers.";
+i(<item:biomesoplenty:rainbow_birch_sapling>, s);
+i(<item:biomesoplenty:rainbow_birch_leaves>, s);
+
+s = "Can be found in the rare Mystic Grove biome. Pathfinder Maps to this biome can be bought from Cartographer villagers.";
+i(<item:biomesoplenty:magic_sapling>, s);
+i(<item:biomesoplenty:magic_leaves>, s);
+i(<item:biomesoplenty:magic_log>, s);
+
+s = "Can be found in the Erupting Inferno nether biome.";
+i(<item:biomesoplenty:brimstone>, s);
+i(<item:biomesoplenty:brimstone_fumarole>, s);
+
+s = "Can be found in the Crystalline Chasm nether biome.";
+i(<item:biomesoplenty:rose_quartz_block>, s);
+i(<item:biomesoplenty:rose_quartz_cluster>, s);
+
+s = "Can be found in the Withered Abyss nether biome.";
+i(<item:biomesoplenty:blackstone_bulb>, s);
+
+s = "Can be found in the Fungal Jungle biome. Pathfinder Maps to this biome can be bought from Cartographer villagers.";
+i(<item:biomesoplenty:toadstool>, s);
+i(<item:biomesoplenty:toadstool_block>, s);
+
+s = "Can be found in the Coniferous Forest biome. Pathfinder Maps to this biome can be bought from Cartographer villagers.";
+i(<item:biomesoplenty:fir_sapling>, s);
+i(<item:biomesoplenty:fir_leaves>, s);
+i(<item:biomesoplenty:fir_log>, s);
+
+s = "Can be found in the Redwood Forest biome. Pathfinder Maps to this biome can be bought from Cartographer villagers.";
+i(<item:biomesoplenty:redwood_sapling>, s);
+i(<item:biomesoplenty:redwood_leaves>, s);
+i(<item:biomesoplenty:redwood_log>, s);
+
+s = "Can be found in the Lavender Fields and Lavender Forest biomes. Pathfinder Maps to these biomes can be bought from Cartographer villagers.";
+i(<item:biomesoplenty:jacaranda_sapling>, s);
+i(<item:biomesoplenty:jacaranda_leaves>, s);
+i(<item:biomesoplenty:jacaranda_log>, s);
+
+s = "Can be found in the Ominous Woods biome. Pathfinder Maps to this biome can be bought from Cartographer villagers.";
+i(<item:biomesoplenty:dead_sapling>, s);
+i(<item:biomesoplenty:dead_log>, s);
+i(<item:biomesoplenty:dead_leaves>, s);
+i(<item:biomesoplenty:umbran_sapling>, s);
+i(<item:biomesoplenty:umbran_leaves>, s);
+i(<item:biomesoplenty:umbran_log>, s);
+i(<item:biomesoplenty:bramble>, s);
+
+s = "Can be found in the Bayou biome. Pathfinder Maps to this biome can be bought from Cartographer villagers.";
+i(<item:biomesoplenty:willow_sapling>, s);
+i(<item:biomesoplenty:willow_leaves>, s);
+i(<item:biomesoplenty:willow_log>, s);
+i(<item:biomesoplenty:mud>, s);
+i(<item:biomesoplenty:spanish_moss_plant>, s);
+
+s = "Can be found in the Pasture biome.";
+i(<item:biomesoplenty:barley>, s);
+
+s = "Can be found in the Rainforest biome. Pathfinder Maps to this biome can be bought from Cartographer villagers.";
+i(<item:biomesoplenty:mahogany_sapling>, s);
+i(<item:biomesoplenty:mahogany_leaves>, s);
+i(<item:biomesoplenty:mahogany_log>, s);
+i(<item:biomesoplenty:flowering_oak_sapling>, s);
+i(<item:biomesoplenty:flowering_oak_leaves>, s);
+
+s = "Can be found in the Boreal Forest biome.";
+i(<item:biomesoplenty:yellow_autumn_sapling>, s);
+i(<item:biomesoplenty:yellow_autumn_leaves>, s);
+i(<item:biomesoplenty:orange_autumn_sapling>, s);
+i(<item:biomesoplenty:orange_autumn_leaves>, s);
+
+s = "Can be found in the Maple Woods biome.";
+i(<item:biomesoplenty:maple_sapling>, s);
+i(<item:biomesoplenty:maple_leaves>, s);
+
+s = "Can be found in the Volcano and Volcanic Plains biomes.";
+i(<item:biomesoplenty:black_sand>, s);
+
+s = "Can be found in the Lush Desert biome.";
+i(<item:biomesoplenty:orange_sand>, s);
+
+s = "Can be found in the Wasteland biome.";
+i(<item:biomesoplenty:dried_salt>, s);
+
+
+s = "WIP";
+i(<item:biomesoplenty:rooted_sand>, s);
+i(<item:biomesoplenty:music_disc_wanderer>, s);
 
 i(<item:farmersrespite:kettle>, s);
 i(<item:farmersrespite:wild_tea_bush>, s);
@@ -604,58 +699,3 @@ i(<item:farmersrespite:yellow_tea_leaves>, s);
 i(<item:farmersrespite:black_tea_leaves>, s);
 i(<item:farmersrespite:coffee_berries>, s);
 i(<item:farmersrespite:rose_hips>, s);
-
-i(<item:biomesoplenty:white_sand>, s);
-i(<item:biomesoplenty:orange_sand>, s);
-i(<item:biomesoplenty:black_sand>, s);
-i(<item:biomesoplenty:mud>, s);
-i(<item:biomesoplenty:origin_grass_block>, s);
-i(<item:biomesoplenty:rooted_sand>, s);
-i(<item:biomesoplenty:dried_salt>, s);
-i(<item:biomesoplenty:brimstone>, s);
-i(<item:biomesoplenty:brimstone_fumarole>, s);
-i(<item:biomesoplenty:rose_quartz_block>, s);
-i(<item:biomesoplenty:toadstool_block>, s);
-i(<item:biomesoplenty:origin_sapling>, s);
-i(<item:biomesoplenty:origin_leaves>, s);
-i(<item:biomesoplenty:flowering_oak_sapling>, s);
-i(<item:biomesoplenty:flowering_oak_leaves>, s);
-i(<item:biomesoplenty:rainbow_birch_sapling>, s);
-i(<item:biomesoplenty:rainbow_birch_leaves>, s);
-i(<item:biomesoplenty:yellow_autumn_sapling>, s);
-i(<item:biomesoplenty:yellow_autumn_leaves>, s);
-i(<item:biomesoplenty:orange_autumn_sapling>, s);
-i(<item:biomesoplenty:orange_autumn_leaves>, s);
-i(<item:biomesoplenty:maple_sapling>, s);
-i(<item:biomesoplenty:maple_leaves>, s);
-i(<item:biomesoplenty:fir_sapling>, s);
-i(<item:biomesoplenty:fir_leaves>, s);
-i(<item:biomesoplenty:fir_log>, s);
-i(<item:biomesoplenty:redwood_sapling>, s);
-i(<item:biomesoplenty:redwood_leaves>, s);
-i(<item:biomesoplenty:redwood_log>, s);
-i(<item:biomesoplenty:mahogany_sapling>, s);
-i(<item:biomesoplenty:mahogany_leaves>, s);
-i(<item:biomesoplenty:mahogany_log>, s);
-i(<item:biomesoplenty:jacaranda_sapling>, s);
-i(<item:biomesoplenty:jacaranda_leaves>, s);
-i(<item:biomesoplenty:jacaranda_log>, s);
-i(<item:biomesoplenty:palm_sapling>, s);
-i(<item:biomesoplenty:palm_leaves>, s);
-i(<item:biomesoplenty:palm_log>, s);
-i(<item:biomesoplenty:willow_sapling>, s);
-i(<item:biomesoplenty:willow_leaves>, s);
-i(<item:biomesoplenty:willow_log>, s);
-i(<item:biomesoplenty:dead_sapling>, s);
-i(<item:biomesoplenty:dead_log>, s);
-i(<item:biomesoplenty:dead_leaves>, s);
-i(<item:biomesoplenty:magic_sapling>, s);
-i(<item:biomesoplenty:magic_leaves>, s);
-i(<item:biomesoplenty:magic_log>, s);
-i(<item:biomesoplenty:umbran_sapling>, s);
-i(<item:biomesoplenty:umbran_leaves>, s);
-i(<item:biomesoplenty:umbran_log>, s);
-i(<item:biomesoplenty:rose>, s);
-i(<item:biomesoplenty:rose_quartz_cluster>, s);
-i(<item:biomesoplenty:blackstone_bulb>, s);
-i(<item:biomesoplenty:music_disc_wanderer>, s);
