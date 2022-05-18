@@ -1,0 +1,14 @@
+{
+	"name": "Soul Candles (WIP)",
+	"icon": "minecraft:purple_candle",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:purple_candle",
+            "title": "Soul Candles",
+            "text": "WIP"
+        }
+	]
+}

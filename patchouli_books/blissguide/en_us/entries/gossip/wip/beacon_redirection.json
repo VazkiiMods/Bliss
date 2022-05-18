@@ -1,0 +1,16 @@
+{
+	"name": "Beacon Bending (WIP)",
+	"icon": "minecraft:beacon",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Rumor has it, this entry isn't finished yet."
+		},
+		{
+			"type": "quest",
+			"text": "WIP"
+		}
+	]
+}

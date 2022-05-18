@@ -1,0 +1,14 @@
+{
+	"name": "Useful Curses (WIP)",
+	"icon": "minecraft:carved_pumpkin",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:carved_pumpkin",
+            "title": "Useful Curses",
+            "text": "WIP"
+        }
+	]
+}

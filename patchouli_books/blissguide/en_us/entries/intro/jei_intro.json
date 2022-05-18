@@ -1,8 +1,8 @@
 {
-	"name": "Discovering Content",
+	"name": "Intro to JEI",
 	"icon": "minecraft:compass",
 	"category": "patchouli:intro",
-	"sortnum": 0,
+	"sortnum": 1,
 	"pages": [
 		{
 			"type": "text",
@@ -23,10 +23,6 @@
 		{
 			"type": "text",
 			"text": "Once you find something you like, you can bookmark it, by hovering over it in $(item)JEI$() and pressing the $(thing)A$() key. This puts it on the side panel, and you can look at it at any time.$(br2)If you want to take some notes on what you want to do next, or simply remember something, try pressing $(thing)N$() while ingame - this opens up a new $(item)Notes$() panel where you can write down anything you need. You can even pin notes to your screen!"
-		},
-		{
-			"type": "text",
-			"text": "If having access to every item at your fingertips in $(item)JEI$() isn't your thing, and you prefer exploring and discovering as you go - you can turn off JEI by pressing $(thing)Ctrl-O$() in your inventory. You can, and should, still see recipes and uses by pressing $(thing)R$() or $(thing)U$() respectively.$(br2)If a more exploration focused experience is your jam, this is definitely recommended."
 		},
 		{
 			"type": "text",

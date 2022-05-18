@@ -1,6 +1,6 @@
 {
-	"name": "Introduction",
-	"description": "Learn the ropes of the modpack!",
-	"icon": "minecraft:writable_book",
+	"name": "The Ropes",
+	"description": "Learn the ropes of the $(thing)Bliss$() Modpack here!",
+	"icon": "minecraft:filled_map",
 	"sortnum": 0
 }

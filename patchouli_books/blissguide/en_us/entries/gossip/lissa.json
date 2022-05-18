@@ -1,0 +1,13 @@
+{
+	"name": "Meet Lissa",
+	"icon": "minecraft:poppy",
+	"category": "patchouli:gossip",
+	"priority": true,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "WIP"
+		}
+	]
+}

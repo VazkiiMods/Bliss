@@ -685,12 +685,13 @@ i(<item:biomesoplenty:orange_sand>, s);
 s = "Can be found in the Wasteland biome.";
 i(<item:biomesoplenty:dried_salt>, s);
 
+i(<item:farmersrespite:kettle>, "Can be used to brew Coffee and Tea.");
 
 s = "WIP";
 i(<item:biomesoplenty:rooted_sand>, s);
 i(<item:biomesoplenty:music_disc_wanderer>, s);
 
-i(<item:farmersrespite:kettle>, s);
+
 i(<item:farmersrespite:wild_tea_bush>, s);
 i(<item:farmersrespite:tea_seeds>, s);
 i(<item:farmersrespite:coffee_beans>, s);
