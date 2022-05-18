@@ -2,6 +2,7 @@
 	"name": "Intro to JEI",
 	"icon": "minecraft:compass",
 	"category": "patchouli:intro",
+	"priority": true,
 	"sortnum": 1,
 	"pages": [
 		{

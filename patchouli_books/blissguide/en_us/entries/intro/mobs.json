@@ -2,12 +2,13 @@
 	"name": "Mobs and You",
 	"icon": "minecraft:iron_sword",
 	"sortnum": 2,
-	"priority": true,
+	"priority": false,
+	"read_by_default": true,
 	"category": "patchouli:intro",
 	"pages": [
 		{
 			"type": "text",
-			"text": "In $(thing)Bliss$(), mobs are drastically changed for the Peaceful experience. You should know that mobs...$(br)$(li)Won't attack you unless attacked first.$(li)Won't spawn in any blocks with direct view to the sky, except in thunderstorms.$(li)Won't grief your world in harmful ways (creepers, endermen, etc)."
+			"text": "Reminders for the info on the $(thing)Welcome to Bliss$() screen follow. Know that mobs...$(br)$(li)Won't attack you unless attacked first.$(li)Won't spawn in any blocks with direct view to the sky, except in thunderstorms.$(li)Won't grief your world in harmful ways (creepers, endermen, etc)."
 		},
 		{
 			"type": "text",

@@ -685,18 +685,23 @@ i(<item:biomesoplenty:orange_sand>, s);
 s = "Can be found in the Wasteland biome.";
 i(<item:biomesoplenty:dried_salt>, s);
 
-i(<item:farmersrespite:kettle>, "Can be used to brew Coffee and Tea.");
+s = "The Caffeinated effect, upon being applied, resets your insomnia count, preventing Phantoms from spawning.";
+i(<item:farmersrespite:black_tea>, s);
+i(<item:farmersrespite:coffee>, s);
 
-s = "WIP";
-i(<item:biomesoplenty:rooted_sand>, s);
-i(<item:biomesoplenty:music_disc_wanderer>, s);
-
-
-i(<item:farmersrespite:wild_tea_bush>, s);
+s = "Can be found in Swamps and grown on Dirt or Farmland. Leaves can be harvested with Shears.";
 i(<item:farmersrespite:tea_seeds>, s);
-i(<item:farmersrespite:coffee_beans>, s);
+i(<item:farmersrespite:wild_tea_bush>, s);
+
+s = "Can be grown from Tea Bushes, planted with Tea Seeds. Leaving the bushes growing for longer will change what type of leaves you get.";
 i(<item:farmersrespite:green_tea_leaves>, s);
 i(<item:farmersrespite:yellow_tea_leaves>, s);
 i(<item:farmersrespite:black_tea_leaves>, s);
-i(<item:farmersrespite:coffee_berries>, s);
-i(<item:farmersrespite:rose_hips>, s);
+
+i(<item:farmersrespite:kettle>, "Can be used to brew Coffee and Tea.");
+i(<item:farmersrespite:coffee_berries>, "Can be found in Basalt Deltas. Can not be directly planted, but you can plant Coffee Beans instead.");
+i(<item:farmersrespite:coffee_beans>, "Can be found in Basalt Deltas and planted on Basalt in the Nether. Once grown, harvest the branches with Shears.");
+
+s = "WIP, will be added when Adubbz gets back to me lol";
+i(<item:biomesoplenty:rooted_sand>, s);
+i(<item:biomesoplenty:music_disc_wanderer>, s);
