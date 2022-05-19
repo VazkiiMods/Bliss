@@ -31,7 +31,7 @@ block_growths_enabled = true
 
 [bark]
 	#Allows bark to be dropped after scraping off log blocks
-	enabled = true
+	enabled = false
 	#If you dont like having a bark item for each wood type, write here a valid item id and it will be used as a generic bark instead. Note that existing bark items will not be hidden in creative inventory
 	generic_bark_id = ""
 
