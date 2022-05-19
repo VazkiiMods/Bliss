@@ -7,6 +7,7 @@
 	"subtitle": "Dev Version",
 	"show_progress": false,
 	"pause_game": true,
+	"filler_texture": "patchouli:bliss_filler.png",
 	"creative_tab": "tools",
 	"macros": {
 		"$(lissa)": "$(#fe84a3)"
