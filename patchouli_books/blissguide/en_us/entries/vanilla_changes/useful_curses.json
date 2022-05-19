@@ -1,0 +1,14 @@
+{
+	"name": "Useful Curses",
+	"icon": "minecraft:carved_pumpkin",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:carved_pumpkin",
+            "title": "Useful Curses",
+            "text": "$(thing)Curse Enchantments$() now have some uses:$(li)A $(item)Pumpkin$() with $(thing)Curse of Vanishing$() will not obstruct your vision.$(li)A named $(item)Player Head$() enchanted with $(thing)Curse of Binding$() will show the full model of that player when placed on an $(item)Armor Stand$()."
+        }
+	]
+}

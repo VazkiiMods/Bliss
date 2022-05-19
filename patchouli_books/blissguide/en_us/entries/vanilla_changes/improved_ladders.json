@@ -8,7 +8,7 @@
             "type": "spotlight",
             "item": "minecraft:ladder",
             "title": "Improved Ladders",
-            "text": "$(item)Ladders$() can now be dropped down by right clicking a placed ladder with another one.$(br2)You can also slide down quickly by looking down."
+            "text": "$(item)Ladders$() can now be dropped down by right clicking a placed ladder with another one. This can allow ladders to freestand without a block behind them.$(br2)You can also slide down quickly by looking down."
         }
 	]
 }

@@ -1,5 +1,5 @@
 {
-	"name": "Soul Candles (WIP)",
+	"name": "Soul Candles",
 	"icon": "minecraft:purple_candle",
 	"category": "patchouli:vanilla_changes",
     "read_by_default": true,
@@ -8,7 +8,7 @@
             "type": "spotlight",
             "item": "minecraft:purple_candle",
             "title": "Soul Candles",
-            "text": "WIP"
+            "text": "Placing $(item)Soul Sand$() or any other $(item)Soul Fire$() creating block under any type of $(item)Candle$() will make it emit the soul style blue fire instead of the basic orange."
         }
 	]
 }

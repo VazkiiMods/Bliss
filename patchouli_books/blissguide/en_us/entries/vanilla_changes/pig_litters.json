@@ -1,14 +1,14 @@
 {
-	"name": "Pig Litters (WIP)",
+	"name": "Pig Litters",
 	"icon": "minecraft:porkchop",
 	"category": "patchouli:vanilla_changes",
     "read_by_default": true,
-	"pages": [
+    "pages": [
         {
             "type": "spotlight",
             "item": "minecraft:porkchop",
             "title": "Pig Litters",
-            "text": "WIP"
+            "text": "When breeding pigs, $(item)Pigs$(), you'll now get a small litter of babies, making the porcine a more relevant animal for food."
         }
-	]
+    ]
 }

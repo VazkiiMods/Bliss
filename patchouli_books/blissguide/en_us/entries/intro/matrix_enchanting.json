@@ -1,10 +1,9 @@
 {
 	"name": "Matrix Enchanting",
 	"icon": "minecraft:enchanting_table",
-    "category": "patchouli:vanilla_changes",
+    "category": "patchouli:intro",
     "read_by_default": true,
-    "sortnum": 4,
-    "priority": true,
+    "sortnum": 5,
 	"pages": [
         {
             "type": "text",

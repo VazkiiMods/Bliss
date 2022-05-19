@@ -1,0 +1,13 @@
+{
+	"name": "Relaxed Dragon (WIP)",
+	"icon": "minecraft:dragon_head",
+	"category": "patchouli:intro",
+    "read_by_default": true,
+    "sortnum": 7,
+	"pages": [
+        {
+            "type": "text",
+            "text": "WIP"
+        }
+	]
+}

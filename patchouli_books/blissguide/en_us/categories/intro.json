@@ -1,6 +1,6 @@
 {
 	"name": "The Ropes",
-	"description": "Learn the ropes of the $(thing)Bliss$() Modpack here!",
+	"description": "Learn the ropes of the $(thing)Bliss$() Modpack here!$(br2)Additional important info will show up over time as you keep playing.",
 	"icon": "minecraft:filled_map",
 	"sortnum": 0
 }
