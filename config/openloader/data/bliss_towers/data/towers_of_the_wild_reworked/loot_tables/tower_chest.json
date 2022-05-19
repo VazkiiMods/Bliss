@@ -119,6 +119,21 @@
           "name": "paraglider:paraglider"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.6
+            }
+          ],
+          "name": "biomesoplenty:music_disc_wanderer"
+        }
+      ]
     }
   ]
 }

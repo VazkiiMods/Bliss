@@ -702,6 +702,6 @@ i(<item:farmersrespite:kettle>, "Can be used to brew Coffee and Tea.");
 i(<item:farmersrespite:coffee_berries>, "Can be found in Basalt Deltas. Can not be directly planted, but you can plant Coffee Beans instead.");
 i(<item:farmersrespite:coffee_beans>, "Can be found in Basalt Deltas and planted on Basalt in the Nether. Once grown, harvest the branches with Shears.");
 
-s = "WIP, will be added when Adubbz gets back to me lol";
-i(<item:biomesoplenty:rooted_sand>, s);
-i(<item:biomesoplenty:music_disc_wanderer>, s);
+i(<item:biomesoplenty:rooted_sand>, "Does not generate naturally. Sand under Sea Oats slowly turns into this block.");
+i(<item:biomesoplenty:sea_oats>, "Can be found in the Dune Beach biome.");
+i(<item:biomesoplenty:music_disc_wanderer>, "Can be found on Wild Tower chests, uncommonly.");
