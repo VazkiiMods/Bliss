@@ -1,6 +1,6 @@
 {
 	"name": "Lissa's Advice",
-	"description": "$(lissa)Lissa$() will come pop in now and then as you accomplish goals in the pack, advising you on cool features you should try out.$(br2)Keep an eye out for the $(#ff0000)(!)$() on the book in your inventory!$(br2)$(lissa)WIP$(): Art is uncolored, the entries start unlocked, will be colored and locked later.",
+	"description": "$(lissa)Lissa$() will come pop in now and then as you accomplish goals in the pack, advising you on cool features you should try out.$(br2)Keep an eye out for the $(#ff0000)(!)$() on the book in your inventory!$(br2)$(lissa)Beta$(): Art is uncolored, the entries start unlocked, will be colored and locked later.",
 	"icon": "minecraft:compass",
 	"sortnum": 1
 }

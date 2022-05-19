@@ -20,7 +20,7 @@
 		},
 		{
 			"type": "text",
-			"text": "Lastly, your gameplay style can be tweaked to your liking by changing your game's difficulty.$(br2)In $(thing)Easy$(), guarded structures no longer create aggro, and making a wither gives you a nether star immediately.$(br2)In $(thing)Hard$(), mobs regain their ability to aggro naturally."
+			"text": "Lastly, your gameplay style can be tweaked to your liking by changing your game's difficulty.$(br2)In $(li)Easy$(), guarded structures no longer create aggro.$(li)In $(thing)Hard$(), mobs regain their ability to aggro naturally."
 		}
 	]
 }

@@ -1,5 +1,5 @@
 {
-	"name": "Relaxed Dragon (WIP)",
+	"name": "Relaxed Dragon",
 	"icon": "minecraft:dragon_head",
 	"category": "patchouli:intro",
     "read_by_default": true,
@@ -7,7 +7,7 @@
 	"pages": [
         {
             "type": "text",
-            "text": "WIP"
+            "text": "Worry not about the $(thing)Ender Dragon$(), as it has no quarrel with you. When entering the $(thing)End$(), the return portal will be opened already, as well as a few $(thing)End Gateways$().$(br2)If you want the egg though, well..."
         }
 	]
 }

@@ -2,7 +2,7 @@
 	"components": [
 		{
 			"type": "patchouli:image",
-			"x": 10,
+			"x": 6,
 			"y": -5,
 			"width": 159,
 			"height": 301,
@@ -14,10 +14,17 @@
 		{
 			"type": "patchouli:header",
 			"centered": false,
-			"x": 72,
+			"x": 66,
 			"y": 9,
 			"color": "fe84a3",
 			"text": "Lissa!"
+		},
+		{
+			"type": "patchouli:text",
+			"x": 76,
+			"y": 17,
+			"color": "fe84a3",
+			"text": "she/they"
 		}
 	]
 }

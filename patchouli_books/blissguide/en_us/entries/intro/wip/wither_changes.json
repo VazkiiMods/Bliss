@@ -1,5 +1,5 @@
 {
-	"name": "Wither Changes (WIP)",
+	"name": "Wither Changes",
 	"icon": "minecraft:wither_skeleton_skull",
 	"category": "patchouli:intro",
     "read_by_default": true,
@@ -7,7 +7,11 @@
 	"pages": [
         {
             "type": "text",
-            "text": "WIP"
+            "text": "To make the $(thing)Wither$() a tad less daunting, $(thing)Bliss$() provides you with a new weapon: $(thing)Snow Golems$().$(br2)That's right. $(thing)Snow Golems$() are now super effective against the $(thing)Wither$(). A stack sized pile of them will make short work of the monster! Note that it'll still destroy the terrain, so be careful where you spawn it!"
+        },
+        {
+            "type": "text",
+            "text": "Additionally, the $(thing)Wither$() fight is changed based on your game's difficulty setting:$(br)$(li)In $(thing)Easy$(), it will not spawn at all, and instead you'll just get an $(item)Nether Star$() for making the structure.$(li)In $(thing)Hard$(), the boss will regain its immunity to snow, so you'll have to fight it proper."
         }
 	]
 }

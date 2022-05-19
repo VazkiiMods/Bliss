@@ -1,0 +1,14 @@
+{
+	"name": "Video Tutorial",
+	"icon": "minecraft:music_disc_13",
+	"category": "patchouli:intro",
+    "read_by_default": true,
+    "priority": true,
+    "sortnum": 1,
+	"pages": [
+        {
+            "type": "text",
+            "text": "WIP - I'm gonna get Direwolf20 to make a video to put here but he hasn't yet!"
+        }
+	]
+}

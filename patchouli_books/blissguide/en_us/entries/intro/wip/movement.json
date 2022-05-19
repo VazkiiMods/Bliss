@@ -1,13 +1,22 @@
 {
-	"name": "Movement Upgrades (WIP)",
+	"name": "Movement Upgrades",
 	"icon": "minecraft:leather_boots",
 	"category": "patchouli:intro",
     "read_by_default": true,
-    "sortnum": 5,
+    "sortnum": 4,
 	"pages": [
         {
             "type": "text",
-            "text": "WIP"
+            "text": "A few additional options for movement are available in $(thing)Bliss:$()$(br)$(li)Pressing $(thing)C$() will allow you to $(thing)go prone$(), making you take up only one block.$(li)$(thing)Sneaking$() while next to a block will have you $(thing)wall grab$(), falling slowly as long as you're next to the wall."
+        },
+		{
+            "type": "image",
+            "images": [
+                "patchouli:wall_jump.png"
+            ],
+            "title": "Wall Jumps",
+            "border": true,
+            "text": "Jumping while $(thing)wall grabbing$() will do a $(thing)wall jump$(), which can go up to 3 blocks high!"
         }
 	]
 }
