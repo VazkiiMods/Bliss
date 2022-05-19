@@ -5,12 +5,13 @@
 	"read_by_default": true,
 	"pages": [
 		{
-			"type": "text",
-			"text": "Rumor has it, a mysterious entity has been storing player's items upon death, keeping the items on you stay safe until your return.$(br2)Apparently, there's also a way to modify an item to point to it..."
+			"type": "patchouli:gossip_game",
+			"title": "Return to Death Point",
+			"text": "when you die, all your stuff is held by a friendly $(thing)Totem$()? You can even make a special $(item)Compass$() to find where it's at."
 		},
 		{
 			"type": "quest",
-			"text": "Find a way to locate your previous death point so you can easily gather your items if you die."
+			"text": "Create a special $(item)Compass$() that'll help you locate your items in case you die."
 		}
 	]
 }

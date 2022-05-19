@@ -1,16 +1,17 @@
 {
-	"name": "Automatic Block Breaking",
+	"name": "Auto Block Breaking",
 	"icon": "minecraft:diamond_pickaxe",
 	"category": "patchouli:gossip",
 	"read_by_default": true,
 	"pages": [
 		{
-			"type": "text",
-			"text": "Rumor has it, into the far reaches of the world, there's a block that synergizes with Pistons to break blocks automatically - a Block Breaker, you could call it."
+			"type": "patchouli:gossip_book",
+			"title": "Auto Block Breaking",
+			"text": "you can use $(item)Pistons$() to break blocks? It's pretty easy, too, all you have to do is attach a $(thing)Block Breaker$() to them..."
 		},
 		{
 			"type": "quest",
-			"text": "Find a way you can create a Block Breaker."
+			"text": "Discover what the $(thing)Block Breaker$() is, and using $(item)Pistons$(), and make yourself some cool automatic farms with it."
 		}
 	]
 }

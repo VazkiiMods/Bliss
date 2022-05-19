@@ -5,12 +5,13 @@
 	"read_by_default": true,
 	"pages": [
 		{
-			"type": "text",
-			"text": "Rumor has it, monsters are averse to seeing their brethren's heads mounted on pikes.$(br2)Perhaps acquiring heads of some common overworld mobs and mounting them on a fence will strike fear into the hearts of onlookers."
+			"type": "patchouli:gossip_explore",
+			"title": "Mob Repelling",
+			"text": "monsters are super scared of their own heads? It's crazy, if you put a monster head on a fence, they'll run away from it like chickens!"
 		},
 		{
 			"type": "quest",
-			"text": "Find a way you can repel monsters using their heads and skulls."
+			"text": "Find a way you can repel monsters using their heads and skulls.$(br2)Oh, everyone knows $(thing)Wither Skeletons$() drop their skulls all the time, and $(item)Dragon Heads$() are all cheap fakes, so don't even bother with those."
 		}
 	]
 }

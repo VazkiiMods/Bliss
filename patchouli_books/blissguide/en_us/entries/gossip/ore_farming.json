@@ -5,12 +5,13 @@
 	"read_by_default": true,
 	"pages": [
 		{
-			"type": "text",
-			"text": "Rumor has it, in lieu of the ancient Iron Golem farming method, there's another elusive creature you can find that can be used to generate as much Iron as your heart contents. You've even heard it can generate ores other than Iron!"
+			"type": "patchouli:gossip_camera",
+			"title": "Ore Farming",
+			"text": "there's $(thing)Toretoises$() spawning underground? You can mine their ores with a pickaxe, and if you feed them $(item)Glow Berries$(), they grow right back!"
 		},
 		{
 			"type": "quest",
-			"text": "Find a way you can generate Iron and other ores.$(br2)Hmm... what's some ore that is usually not farmable?"
+			"text": "Use the $(thing)Toretoises$() to generate ore automatically.$(br2)You can even use the same thing you use to break blocks automatically with them."
 		}
 	]
 }
