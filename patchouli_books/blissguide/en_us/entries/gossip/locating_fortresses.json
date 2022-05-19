@@ -5,12 +5,13 @@
 	"read_by_default": true,
 	"pages": [
 		{
-			"type": "text",
-			"text": "Rumor has it, wandering souls travel the Soul Sand Valleys. Supposedly, they can be killed and released to locate nearby Nether Fortresses."
+			"type": "patchouli:gossip_camera",
+			"title": "Locating Fortresses",
+			"text": "you can find a $(thing)Nether Fortress$() pretty easily? Yeah! Just pass by a $(thing)Soul Sand Valley$(), the souls there carry the item you need."
 		},
 		{
 			"type": "quest",
-			"text": "Find a way to locate Nether Fortresses in the Soul Sand Valley."
+			"text": "Find a way to locate $(thing)Nether Fortresses$() in the $(thing)Soul Sand Valley$().$(br2)You may need to swing a sword for this one, so be prepared!"
 		}
 	]
 }

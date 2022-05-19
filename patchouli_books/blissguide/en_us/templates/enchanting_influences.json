@@ -1,7 +1,7 @@
 {
 	"include": [
 	    {
-	        "template": "patchouli:candles",
+	        "template": "patchouli:incl/candles",
 	        "as": "incl",
 	    	"x": 12,
 	    	"y": 15

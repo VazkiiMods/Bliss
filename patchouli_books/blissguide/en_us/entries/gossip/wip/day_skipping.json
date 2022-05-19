@@ -1,6 +1,6 @@
 {
 	"name": "Day Skipping (WIP)",
-	"icon": "minecraft:bed",
+	"icon": "minecraft:pink_bed",
 	"category": "patchouli:gossip",
 	"read_by_default": true,
 	"pages": [

@@ -5,12 +5,13 @@
 	"read_by_default": true,
 	"pages": [
 		{
-			"type": "text",
-			"text": "Rumor has it, some villagers have recently started selling maps to specific biomes.$(br2)If you're looking to explore a biome in particular, perhaps it would be worth giving them a visit."
+			"type": "patchouli:gossip_explore",
+			"title": "Locating Biomes",
+			"text": "cartographers in villages are selling maps to specific biomes. There's so many cool places to find, you should pay them a visit!"
 		},
 		{
 			"type": "quest",
-			"text": "Find a way you can trade for maps to biomes."
+			"text": "Acquire some maps to biomes and go on a journey. Don't forget to show me the loot!"
 		}
 	]
 }
