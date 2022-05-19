@@ -1,0 +1,17 @@
+{
+	"name": "Villager Catalogue",
+	"icon": "minecraft:emerald",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "patchouli:gossip_camera",
+			"title": "Player Heads",
+			"text": "you can craft a $(item)Trading Post$() block? You can then use it to trade with every $(thing)Villager$() around it all at once!"
+		},
+		{
+			"type": "quest",
+			"text": "Become a shopaholic using the $(item)Trading Post$() block."
+		}
+	]
+}

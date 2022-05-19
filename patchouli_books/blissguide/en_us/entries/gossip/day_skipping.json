@@ -1,0 +1,17 @@
+{
+	"name": "Day Skipping",
+	"icon": "minecraft:pink_bed",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "patchouli:gossip_book",
+			"title": "Day Skipping",
+			"text": "you can sleep on $(item)Hammocks$() to skip the day? It won't even set your spawn point!"
+		},
+		{
+			"type": "quest",
+			"text": "Relax on a $(item)Hammock$() and sleep the day away!"
+		}
+	]
+}

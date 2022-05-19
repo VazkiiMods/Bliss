@@ -1,0 +1,17 @@
+{
+	"name": "Animal Transport",
+	"icon": "minecraft:feather",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "patchouli:gossip_game",
+			"title": "Animal Transport",
+			"text": "you can sneak some small animals in $(item)Cages$()? It's a great way to move them around!"
+		},
+		{
+			"type": "quest",
+			"text": "Craft some $(item)Cages$(), and use them to transport small animals."
+		}
+	]
+}

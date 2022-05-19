@@ -1,0 +1,17 @@
+{
+	"name": "Player Heads",
+	"icon": "minecraft:player_head",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "patchouli:gossip_explore",
+			"title": "Player Heads",
+			"text": "if you name a $(thing)Snow Golem$() with a player's name, and then have a $(thing)Witch$() kill it, it'll drop that player's head?"
+		},
+		{
+			"type": "quest",
+			"text": "Get a $(item)Player Head$() of your choice using a named $(thing)Snow Golem$() and a $(thing)Witch$()."
+		}
+	]
+}

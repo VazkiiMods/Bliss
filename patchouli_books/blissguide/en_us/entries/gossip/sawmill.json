@@ -1,0 +1,17 @@
+{
+	"name": "Wood Cutting",
+	"icon": "minecraft:stonecutter",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "patchouli:gossip_game",
+			"title": "Wood Cutting",
+			"text": "that stone isn't the only thing you can cut? That's right! Try a $(item)Sawmill$() and make good use of all that wood you got."
+		},
+		{
+			"type": "quest",
+			"text": "Use a $(item)Sawmill$() to cut wooden blocks into their variants more efficiently."
+		}
+	]
+}

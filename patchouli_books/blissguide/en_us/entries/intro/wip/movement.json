@@ -3,7 +3,7 @@
 	"icon": "minecraft:leather_boots",
 	"category": "patchouli:intro",
     "read_by_default": true,
-    "sortnum": 4,
+    "sortnum": 5,
 	"pages": [
         {
             "type": "text",

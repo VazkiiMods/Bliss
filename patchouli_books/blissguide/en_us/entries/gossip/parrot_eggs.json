@@ -1,0 +1,17 @@
+{
+	"name": "Parrot Breeding",
+	"icon": "minecraft:egg",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "patchouli:gossip_love",
+			"title": "Parrot Breeding",
+			"text": "if you give your $(thing)Parrot$() friends some $(item)Beetroot Seeds$(), they might lay an egg for you? Who knows where it even comes from?"
+		},
+		{
+			"type": "quest",
+			"text": "Use $(item)Beetroot Seeds$() to get some $(item)Parrot Eggs$()."
+		}
+	]
+}

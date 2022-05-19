@@ -155,7 +155,7 @@ i(<item:quark:frog_leg>, "Drops from Frogs, which spawn in swamps. Breed them wi
 i(<item:quark:slime_in_a_bucket>, "Right click a tiny slime to capture it. It gets excited when you're in a slime chunk!");
 
 i(<item:quark:ender_watcher>, "Emits a redstone signal when looked at by a player. The closer to the middle, the higher the signal.");
-i(<item:quark:feeding_trough>, "Animals can eat and breed from this. If there's over 32 animals in a 10 block radius, they won't breed though!");
+i(<item:quark:feeding_trough>, "Animals can eat and breed from this - they also won't step over it. Be careful - if there's over 32 animals in a 10 block radius, they'll eat, but won't breed.");
 i(<item:quark:gold_button>, "Emits a 2 redstone tick long pulse.");
 i(<item:quark:grate>, "Animals can't walk through this, and items fall right through.");
 i(<item:quark:gravisand>, "When given a redstone signal, falls or floats upwards if it can't, also propagates this behavior. Outputs a comparator signal of 15.");

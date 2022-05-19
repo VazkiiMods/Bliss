@@ -1,0 +1,17 @@
+{
+	"name": "Automatic Breeding",
+	"icon": "minecraft:wheat",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "patchouli:gossip_love",
+			"title": "Automatic Breeding",
+			"text": "you can set up a $(thing)feeder$() for animals to eat from without you having to bring in food all the time?"
+		},
+		{
+			"type": "quest",
+			"text": "Figure out how to make a $(thing)feeder$(), and get some animals breeding on their own."
+		}
+	]
+}

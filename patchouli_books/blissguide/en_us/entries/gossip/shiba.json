@@ -1,0 +1,17 @@
+{
+	"name": "Light Detecting",
+	"icon": "minecraft:torch",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "patchouli:gossip_explore",
+			"title": "Light Detecting",
+			"text": "you can tame some really cute $(thing)mountain dogs$()? When you get one, you can hold a $(item)Torch$() in your hand, and they'll go find where mobs can spawn!"
+		},
+		{
+			"type": "quest",
+			"text": "Tame a $(thing)Shiba Inu$() in a mountain biome, and have it find dark spots for you."
+		}
+	]
+}

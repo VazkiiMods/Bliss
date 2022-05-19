@@ -1,0 +1,17 @@
+{
+	"name": "Beacon Bending",
+	"icon": "minecraft:beacon",
+	"category": "patchouli:gossip",
+	"read_by_default": true,
+	"pages": [
+		{
+			"type": "patchouli:gossip_camera",
+			"title": "Beacon Bending",
+			"text": "you can use $(item)Corundum Clusters$() to bend $(item)Beacon$() beams around? As long as the last one goes up, you can make fancy turns!"
+		},
+		{
+			"type": "quest",
+			"text": "Grab some $(item)Corundum Clusters$() to make your $(item)Beacon$()'s beam go weeeeeee"
+		}
+	]
+}
