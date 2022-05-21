@@ -18,5 +18,9 @@
   {
     "key": "controllable.key.debugInfo",
     "color": "RED"
+  },
+  {
+    "key": "key.prone.toggle.custom",
+    "color": "GOLD"
   }
 ]
