@@ -32,6 +32,7 @@ var paper = <item:minecraft:paper>;
 var antique_ink = <item:supplementaries:antique_ink>;
 
 var axes = <tag:items:forge:tools/axes>;
+var hoes = <tag:items:forge:tools/hoes>;
 var pickaxes = <tag:items:forge:tools/pickaxes>;
 var knives = <tag:items:forge:tools/knives>;
 
@@ -153,8 +154,106 @@ composter.setValue(<item:overweight_farming:overweight_beetroot_block>, 1.0);
 composter.setValue(<item:overweight_farming:overweight_carrot_block>, 1.0);
 composter.setValue(<item:overweight_farming:overweight_cocoa_block>, 1.0);
 composter.setValue(<item:overweight_farming:overweight_potato_block>, 1.0);
+composter.setValue(<item:overweight_farming:overweight_baked_potato_block>, 1.0);
+composter.setValue(<item:overweight_farming:overweight_poisonous_potato_block>, 1.0);
 composter.setValue(<item:overweight_farming:overweight_onion_block>, 1.0);
 composter.setValue(<item:overweight_farming:overweight_cabbage_block>, 1.0);
+composter.setValue(<item:overweight_farming:seeded_peeled_melon>, 0.65);
+composter.setValue(<item:overweight_farming:half_seeded_peeled_melon>, 0.65);
+composter.setValue(<item:overweight_farming:seedless_peeled_melon>, 0.65);
+composter.setValue(<item:overweight_farming:waxed_seeded_peeled_melon>, 0.65);
+composter.setValue(<item:overweight_farming:waxed_half_seeded_peeled_melon>, 0.65);
+composter.setValue(<item:overweight_farming:waxed_seedless_peeled_melon>, 0.65);
+composter.setValue(<item:overweight_farming:peeled_overweight_beetroot_block>, 1.0);
+composter.setValue(<item:overweight_farming:peeled_overweight_carrot_block>, 1.0);
+composter.setValue(<item:overweight_farming:peeled_overweight_potato_block>, 1.0);
+composter.setValue(<item:overweight_farming:peeled_overweight_onion_block>, 1.0);
+composter.setValue(<item:overweight_farming:vegetable_compost>, 1.0);
+composter.setValue(<item:overweight_farming:allium_bush>, 0.65);
+
+// Cutting board peeling/breakdown of Overweight Crops
+var stripSound = "minecraft:item.axe.strip";
+
+CuttingBoard.addRecipeWithSound("peel_melon", <item:overweight_farming:seeded_peeled_melon>, <item:overweight_farming:vegetable_peels>,
+	<item:minecraft:melon>, axes, stripSound);
+CuttingBoard.addRecipeWithSound("melon_take_first_half_seeds", <item:overweight_farming:half_seeded_peeled_melon>, <item:minecraft:melon_seeds>,
+	<item:overweight_farming:seeded_peeled_melon>, axes, stripSound);
+CuttingBoard.addRecipeWithSound("melon_take_last_half_seeds", <item:overweight_farming:seedless_peeled_melon>, <item:minecraft:melon_seeds>,
+	<item:overweight_farming:half_seeded_peeled_melon>, axes, stripSound);
+CuttingBoard.addRecipeWithSound("peel_big_beetroot", <item:overweight_farming:peeled_overweight_beetroot_block>, <item:overweight_farming:vegetable_peels>,
+	<item:overweight_farming:overweight_beetroot_block>, axes, stripSound);
+CuttingBoard.addRecipeWithSound("peel_big_carrot", <item:overweight_farming:peeled_overweight_carrot_block>, <item:overweight_farming:vegetable_peels>,
+	<item:overweight_farming:overweight_carrot_block>, axes, stripSound);
+CuttingBoard.addRecipeWithSound("peel_big_potato", <item:overweight_farming:peeled_overweight_potato_block>, <item:overweight_farming:vegetable_peels>,
+	<item:overweight_farming:overweight_potato_block>, axes, stripSound);
+CuttingBoard.addRecipeWithSound("peel_big_onion", <item:overweight_farming:peeled_overweight_onion_block>, <item:overweight_farming:vegetable_peels>,
+	<item:overweight_farming:overweight_onion_block>, axes, stripSound);
+
+CuttingBoard.addRecipe("breakdown_beetroot", <item:minecraft:beetroot> * 10, <item:minecraft:beetroot_seeds> * 10,
+	<item:overweight_farming:overweight_beetroot_block>, hoes);
+CuttingBoard.addRecipe("breakdown_peeled_beetroot", <item:minecraft:beetroot> * 10, <item:minecraft:beetroot_seeds> * 10,
+	<item:overweight_farming:peeled_overweight_beetroot_block>, hoes);
+CuttingBoard.addRecipe("breakdown_carrot", <item:minecraft:carrot> * 10,
+	<item:overweight_farming:overweight_carrot_block>, hoes);
+CuttingBoard.addRecipe("breakdown_peeled_carrot", <item:minecraft:carrot> * 10,
+	<item:overweight_farming:peeled_overweight_carrot_block>, hoes);
+CuttingBoard.addRecipe("breakdown_potato", <item:minecraft:potato> * 10,
+	<item:overweight_farming:overweight_potato_block>, hoes);
+CuttingBoard.addRecipe("breakdown_peeled_potato", <item:minecraft:potato> * 10,
+	<item:overweight_farming:peeled_overweight_potato_block>, hoes);
+CuttingBoard.addRecipe("breakdown_onion", <item:farmersdelight:onion> * 10,
+	<item:overweight_farming:overweight_onion_block>, hoes);
+CuttingBoard.addRecipe("breakdown_peeled_onion", <item:farmersdelight:onion> * 10,
+	<item:overweight_farming:peeled_overweight_onion_block>, hoes);
+CuttingBoard.addRecipe("breakdown_cocoa", <item:minecraft:cocoa_beans> * 10,
+	<item:overweight_farming:overweight_cocoa_block>, hoes);
+CuttingBoard.addRecipe("breakdown_poisonous_potato", <item:minecraft:poisonous_potato> * 10,
+	<item:overweight_farming:overweight_poisonous_potato_block>, hoes);
+CuttingBoard.addRecipe("breakdown_baked_potato", <item:minecraft:baked_potato> * 10,
+	<item:overweight_farming:overweight_baked_potato_block>, hoes);
+CuttingBoard.addRecipe("breakdown_cabbage", <item:farmersdelight:cabbage> * 10, <item:farmersdelight:cabbage_seeds> * 10,
+	<item:overweight_farming:overweight_cabbage_block>, hoes);
+
+// Wild flax and tea cuts down
+
+CuttingBoard.addRecipeWithOptional("cut_wild_flax", <item:supplementaries:flax_seeds>, <item:farmersdelight:straw>, 0.5,
+	<item:supplementaries:wild_flax>, knives);
+CuttingBoard.addRecipeWithOptional("cut_wild_tea", <item:farmersrespite:tea_seeds>, <item:farmersrespite:yellow_tea_leaves>, 0.5,
+	<item:farmersrespite:wild_tea_bush>, knives);
+
+// Compost from compost
+
+craftingTable.addShapeless("apply_fullmetal_directly_to_compost",
+	<item:farmersdelight:organic_compost> * 2,
+	[<item:minecraft:dirt>, <item:overweight_farming:vegetable_compost>, <item:farmersdelight:straw>,
+		<item:minecraft:bonemeal>, <item:farmersdelight:tree_bark>, <item:farmersdelight:tree_bark>]);
+craftingTable.addShapeless("apply_violent_fullmetal_directly_to_compost",
+	<item:farmersdelight:organic_compost> * 2,
+	[<item:minecraft:dirt>, <item:overweight_farming:vegetable_compost>, <item:minecraft:rotten_flesh>,
+		<item:farmersdelight:straw>, <item:minecraft:bonemeal>, <item:minecraft:bonemeal>]);
+
+// Compostable chip
+
+composter.setValue(<item:corn_delight:tortilla_chip>, 0.35);
+
+// Feather beds, feather fuel
+
+var feathers = <item:supplementaries:feather_block>;
+feathers.setBurnTime(100);
+
+craftingTable.addShaped("feather_bed",
+	<item:minecraft:white_bed>,
+	[feathers, feathers, feathers],
+	[planks, planks, planks]);
+craftingTable.addShaped("feather_sleeping_bag",
+	<item:comforts:white_sleeping_bag>,
+	[feathers, feathers, feathers]);
+craftingTable.addShaped("feather_hammock",
+	<item:comforts:hammock_white>,
+	[string_item, stick, string_item],
+	[string_item, feathers, string_item],
+	[string_item, stick, string_item]);
+
 
 // Craftable Name Tag
 craftingTable.addShapeless("da_name_tagy", <item:minecraft:name_tag>, [antique_ink, paper, string_item]);
