@@ -231,11 +231,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:null%
-  action = hidebutton
-}
-
-customization {
   orientation = top-left
   shape = rectangle
   color = #00000055
@@ -347,5 +342,10 @@ customization {
   backgroundnormal = fancymenu_setups\_images\btnclose.png
   value = 
   height = 20
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
 }
 
