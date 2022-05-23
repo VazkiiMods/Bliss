@@ -56,7 +56,7 @@ block_growths_enabled = true
 	moss_food = true
 
 [leaf_piles]
-	#Enables leaf piles patches features to spawn in forests
+	#Enables leaf piles patches features to spawn in forests. Currently does nothing as they have been temporarily (or not) yeeted
 	leaf_piles_patches = true
 	#Allows natural humus or podzol generation below leaf piles with more than 1 layer
 	#Range: 0.0 ~ 1.0
