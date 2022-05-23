@@ -130,12 +130,22 @@ def make_manifests():
 
 
 		addons = data['installedAddons']
-		expected = len([f for f in os.listdir('mods') if f.endswith('.jar')])
-		curr = len([a for a in addons if a['installedFile']])
+
+		mod_jars = [f for f in os.listdir('mods') if f.endswith('.jar')]
+		installed_files = [a for a in addons if a['installedFile']]
+		expected = len(mod_jars)
+		curr = len(installed_files)
 
 		if curr != expected:
 			print('Length of installedAddons array differs from amount of installed mod jars! (%d len vs %d expected)' % (curr, expected))
-			assert False
+			installed_filenames = [f['installedFile']['fileName'] for f in installed_files]
+
+			larger = mod_jars if (expected > curr) else installed_filenames
+			smaller = mod_jars if (expected < curr) else installed_filenames
+			for f in larger:
+				if not f in smaller:
+					print('Mod missing:', f)
+			quit()
 
 		print('Making pack manifest with', curr, 'mods...')
 
