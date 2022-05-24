@@ -9,7 +9,7 @@
     "allowTameableEntities": true,
     "allowFoxEntities": true,
     "allowHorseBaseEntities": true,
-    "blacklistedEntities": [],
+    "blacklistedEntities": ["minecraft:snow_golem"],
     "revivableEntities": [],
     "reviveNamedMobs": true
   },

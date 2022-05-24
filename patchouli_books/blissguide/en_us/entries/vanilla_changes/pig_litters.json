@@ -8,7 +8,7 @@
             "type": "spotlight",
             "item": "minecraft:porkchop",
             "title": "Pig Litters",
-            "text": "When breeding pigs, $(item)Pigs$(), you'll now get a small litter of babies, making the porcine a more relevant animal for food."
+            "text": "When breeding $(item)Pigs$(), you'll now get a small litter of babies, making the porcine a more relevant animal for food."
         }
     ]
 }

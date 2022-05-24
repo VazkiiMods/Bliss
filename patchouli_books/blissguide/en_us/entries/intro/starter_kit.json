@@ -6,7 +6,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "If you don't know where to get started in $(thing)Bliss$(), open up your $(thing)JEI$(), and search for $(item)Starter Kit$(). You'll be given a few items to check out - so click any that catch your eye.$(br2)Try it out!"
+			"text": "If you don't know where to get started in $(thing)Bliss$(), open up your $(thing)JEI$(), and search for $(item)Starter Kit$(). You'll be shown a few items to check out - so click any that catch your eye.$(br2)Try it out!"
 		}
 	]
 }

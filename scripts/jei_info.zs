@@ -6,12 +6,13 @@ function i(m as IItemStack, s as string) as void {
 }
 
 i(<item:minecraft:chest>, "If needed, can be acquired by the standard recipe, mixing two or more types of wood.");
+i(<item:minecraft:paper>, "Dying Pet's Notes can be used to revive pets by right clicking on a Copper Block. You can then heal the pet with a Bandage.");
 
 // Backpack
 i(<item:quark:backpack>, "When wearing this, you'll have 27 more inventory slots. You can even dye it to look fancy!");
 
 // Toretoise Stuff
-var s = "Toretoises can spawn this. Find them underground and feed them Cave Roots. Iron Rods can pop the ore automatically, or manually by hitting it with a Pickaxe.";
+var s = "Toretoises can spawn this. Find them underground and feed them Glow Berries. Iron Rods can pop the ore automatically, or manually by hitting it with a Pickaxe.";
 i(<item:minecraft:iron_ingot>, s);
 i(<item:minecraft:iron_nugget>, s);
 i(<item:minecraft:copper_ingot>, s);
