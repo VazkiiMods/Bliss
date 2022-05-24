@@ -649,6 +649,7 @@ i(<item:biomesoplenty:umbran_sapling>, s);
 i(<item:biomesoplenty:umbran_leaves>, s);
 i(<item:biomesoplenty:umbran_log>, s);
 i(<item:biomesoplenty:bramble>, s);
+i(<item:minecraft:wither_rose>, s);
 
 s = "Can be found in the Bayou biome. Pathfinder Maps to this biome can be bought from Cartographer villagers.";
 i(<item:biomesoplenty:willow_sapling>, s);
