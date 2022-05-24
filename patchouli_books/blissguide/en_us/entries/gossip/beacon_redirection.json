@@ -2,7 +2,8 @@
 	"name": "Beacon Bending",
 	"icon": "minecraft:beacon",
 	"category": "patchouli:gossip",
-	"read_by_default": true,
+	"read_by_default": false,
+	"advancement": "minecraft:nether/create_beacon",
 	"pages": [
 		{
 			"type": "patchouli:gossip_camera",

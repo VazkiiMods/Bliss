@@ -2,7 +2,8 @@
 	"name": "Return to Death Point",
 	"icon": "minecraft:compass",
 	"category": "patchouli:gossip",
-	"read_by_default": true,
+	"read_by_default": false,
+	"advancement": "minecraft:nether/root",
 	"pages": [
 		{
 			"type": "patchouli:gossip_game",

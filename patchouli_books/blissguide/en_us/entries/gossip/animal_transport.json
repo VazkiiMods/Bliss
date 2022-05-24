@@ -2,7 +2,8 @@
 	"name": "Animal Transport",
 	"icon": "minecraft:feather",
 	"category": "patchouli:gossip",
-	"read_by_default": true,
+	"read_by_default": false,
+	"advancement": "minecraft:husbandry/breed_an_animal",
 	"pages": [
 		{
 			"type": "patchouli:gossip_game",

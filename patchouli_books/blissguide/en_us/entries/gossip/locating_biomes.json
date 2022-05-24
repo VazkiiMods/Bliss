@@ -2,7 +2,8 @@
 	"name": "Locating Biomes",
 	"icon": "minecraft:map",
 	"category": "patchouli:gossip",
-	"read_by_default": true,
+	"read_by_default": false,
+	"advancement": "minecraft:adventure/trade",
 	"pages": [
 		{
 			"type": "patchouli:gossip_explore",

@@ -2,7 +2,8 @@
 	"name": "Player Heads",
 	"icon": "minecraft:player_head",
 	"category": "patchouli:gossip",
-	"read_by_default": true,
+	"read_by_default": false,
+	"advancement": "minecraft:adventure/kill_a_mob",
 	"pages": [
 		{
 			"type": "patchouli:gossip_explore",

@@ -2,8 +2,9 @@
 	"name": "Auto Block Breaking",
 	"icon": "minecraft:diamond_pickaxe",
 	"category": "patchouli:gossip",
-	"read_by_default": true,
-	"pages": [
+	"read_by_default": false,
+	"advancement": "minecraft:story/smelt_iron",
+		"pages": [
 		{
 			"type": "patchouli:gossip_book",
 			"title": "Auto Block Breaking",

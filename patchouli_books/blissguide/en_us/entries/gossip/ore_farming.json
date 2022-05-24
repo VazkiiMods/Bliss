@@ -2,7 +2,8 @@
 	"name": "Ore Farming",
 	"icon": "minecraft:iron_nugget",
 	"category": "patchouli:gossip",
-	"read_by_default": true,
+	"read_by_default": false,
+	"advancement": "minecraft:story/mine_diamond",
 	"pages": [
 		{
 			"type": "patchouli:gossip_camera",

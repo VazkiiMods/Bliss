@@ -2,7 +2,8 @@
 	"name": "Scalable Storage",
 	"icon": "minecraft:barrel",
 	"category": "patchouli:gossip",
-	"read_by_default": true,
+	"read_by_default": false,
+	"advancement": "minecraft:story/smelt_iron",
 	"pages": [
 		{
 			"type": "patchouli:gossip_book",
