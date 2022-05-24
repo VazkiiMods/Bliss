@@ -2,11 +2,22 @@ import json, os, shutil
 
 # ############################################################ CONFIG ############################################################
 
+# Pack name and Author
 pack_name = 'Bliss'
 pack_author = 'Vazkii'
 
+# Ship Targets
+do_client = True
+do_server = True
+do_modirinth = True
+
+# Patchouli book file, leave blank if not used
 book_file = 'patchouli_books/blissguide/book.json'
+
+# Files to copy to the output zips
 files_to_copy = ['config', 'defaultconfigs', 'fancymenu_setups', 'patchouli_books', 'scripts', 'shaderpacks']
+
+# Files to not copy to the output zips
 blacklisted_files = [
 	'config/jei/ingredient-list-mod-sort-order.ini',
 	'config/jei/ingredient-list-type-sort-order.ini',
@@ -15,7 +26,10 @@ blacklisted_files = [
 	'config/sodium-options.json'
 ]
 
+# Additional files to copy to the server zip
 server_files_to_copy = ['setup_server.bat', 'setup_server.sh', 'SERVER_README.txt']
+
+# Mods to not include in the server zip
 server_mods_blacklist = [
 	581495, # Oculus
 	317269, # Controllable
@@ -25,6 +39,8 @@ server_mods_blacklist = [
 	448233, # Entity Culling
 	613117  # MacCraft
 ]
+
+# Files to not copy to the server zip
 server_blacklisted_files = [
 	'config/openloader/resources',
 	'config/MusicTriggers/songs',
@@ -34,6 +50,7 @@ server_blacklisted_files = [
 	"shaderpacks"
 ]
 
+# Directory settings
 temp_dir = '.ship_temp'
 overrides_dir = temp_dir + '/overrides'
 out_dir = 'ship/output'
@@ -41,28 +58,82 @@ ship_dir = 'ship'
 
 ##################################################################################################################################
 
-mod_urls = []
-version = input('Modpack Version: ')
-print('Building', pack_name, 'version', version)
+def main():
+	version = input('Modpack Version: ')
+	print('Building', pack_name, 'version', version)
+	build_pack(version)
 
-def build_pack():
+def build_pack(version):
 	ensure_directory()
+	cleanup()
+	
+	minecraftinstance_data = load_instance_data()
+	ship_client(minecraftinstance_data, version)
+	ship_server(minecraftinstance_data, version)
+	ship_mrpack(minecraftinstance_data, version)
+
+def cleanup():
 	clear_dir(temp_dir)
 	clear_dir(overrides_dir)
 	clear_dir(out_dir)
 
-	# Client files
+def ship_client(minecraftinstance_data, version):
+	if not do_client:
+		pass
+
+	print("Shipping Client...")
 	copy_files(files_to_copy, '', overrides_dir)
 	clear_files(overrides_dir, blacklisted_files)
-	update_book()
-	make_manifests()
-	zip_files(temp_dir, '');
+	update_book(version)
+	make_manifests(minecraftinstance_data, version)
+	zip_files(temp_dir, version, '-curseclient');
 
-	# Server files
+def ship_server(minecraftinstance_data, version):
+	if not do_server:
+		pass
+
+	print("Shipping Server...")
 	copy_files(server_files_to_copy, 'ship/', overrides_dir)
 	clear_files(overrides_dir, server_blacklisted_files)
-	write_mods_csv()
-	zip_files(overrides_dir, '-server');
+	write_mods_csv(minecraftinstance_data)
+	zip_files(overrides_dir, version, '-server');
+
+def ship_mrpack(minecraftinstance_data, version):
+	if not do_modirinth:
+		pass
+
+	print("Shipping Modirinth Pack...")
+
+##################################################################################################################################
+
+def load_instance_data():
+	with open('minecraftinstance.json', 'r') as in_file:
+		minecraftinstance_data = json.load(in_file)
+		return minecraftinstance_data
+
+def server_download_files(minecraftinstance_data):
+	return format_mod_array(minecraftinstance_data, server_blacklisted_files, server_download_obj)
+
+def server_download_obj(installed_file):
+	url = installed_file['downloadUrl']
+	filename = 'mods/' + installed_file['fileName']
+	return {
+		'url': url,
+		'filename': filename
+	}
+
+def format_mod_array(minecraftinstance_data, blacklist, format):
+	formatted_array = []
+	addons = minecraftinstance_data['installedAddons']
+	for addon in addons:
+		installed_file = addon['installedFile']
+		project_id = addon['addonID']
+
+		if not (project_id in blacklist):
+			mod_obj = format(installed_file)
+			formatted_array.append(mod_obj)
+
+	return formatted_array
 
 # Ensure we're working in the right directory
 def ensure_directory():
@@ -100,7 +171,10 @@ def clear_files(dir_name, blacklist):
 			os.remove(target)
 
 # Update book.json with correct version
-def update_book():
+def update_book(version):
+	if not book_file:
+		pass
+
 	with open(book_file, 'r') as in_file:
 		book_data = json.load(in_file)
 		book_data['subtitle'] = ("Version " + version)
@@ -109,98 +183,91 @@ def update_book():
 			json.dump(book_data, out_file, indent=4)
 
 # Build and write manifest.json
-def make_manifests():
-	with open('minecraftinstance.json', 'r') as in_file:
-		data = json.load(in_file)
-
-		modloader = data['baseModLoader']
-		forge_ver = modloader['name']
-		mc_ver = modloader['minecraftVersion']
-		minecraft = {
-			'version': mc_ver,
-			'modLoaders': [
-				{
-					'id': forge_ver,
-					'primary': True
-				}
-			]
-		}
-		
-		files = []
-
-
-		addons = data['installedAddons']
-
-		mod_jars = [f for f in os.listdir('mods') if f.endswith('.jar')]
-		installed_files = [a for a in addons if a['installedFile']]
-		expected = len(mod_jars)
-		curr = len(installed_files)
-
-		if curr != expected:
-			print('Length of installedAddons array differs from amount of installed mod jars! (%d len vs %d expected)' % (curr, expected))
-			installed_filenames = [f['installedFile']['fileName'] for f in installed_files]
-
-			larger = mod_jars if (expected > curr) else installed_filenames
-			smaller = mod_jars if (expected < curr) else installed_filenames
-			for f in larger:
-				if not f in smaller:
-					print('Mod missing:', f)
-			quit()
-
-		print('Making pack manifest with', curr, 'mods...')
-
-		for addon in addons:
-			installed_file = addon['installedFile']
-			project_id = addon['addonID']
-
-			file_id = installed_file['id']
-			file = {
-				'projectID': project_id,
-				'fileID': file_id,
-				'required': True
+def make_manifests(minecraftinstance_data, version):
+	modloader = minecraftinstance_data['baseModLoader']
+	forge_ver = modloader['name']
+	mc_ver = modloader['minecraftVersion']
+	minecraft = {
+		'version': mc_ver,
+		'modLoaders': [
+			{
+				'id': forge_ver,
+				'primary': True
 			}
+		]
+	}
+	
+	files = []
+	addons = minecraftinstance_data['installedAddons']
 
-			files.append(file)
+	mod_jars = [f for f in os.listdir('mods') if f.endswith('.jar')]
+	installed_files = [a for a in addons if a['installedFile']]
+	expected = len(mod_jars)
+	curr = len(installed_files)
 
-			if not (project_id in server_mods_blacklist):
-				url = installed_file['downloadUrl']
-				filename = 'mods/' + installed_file['fileName']
-				download = {
-					'url': url,
-					'filename': filename
-				}
+	if curr != expected:
+		print('Length of installedAddons array differs from amount of installed mod jars! (%d len vs %d expected)' % (curr, expected))
+		installed_filenames = [f['installedFile']['fileName'] for f in installed_files]
 
-				mod_urls.append(download)
+		larger = mod_jars if (expected > curr) else installed_filenames
+		smaller = mod_jars if (expected < curr) else installed_filenames
+		for f in larger:
+			if not f in smaller:
+				print('Mod missing:', f)
+		quit()
 
-		out_manifest = {
-			'minecraft': minecraft,
-			'manifestType': 'minecraftModpack',
-			'manifestVersion': 1,
-			'name': pack_name,
-			'version': version,
-			'author': pack_author,
-			'files': files,
-			'overrides': 'overrides'
+	print('Making pack manifest with', curr, 'mods...')
+
+	for addon in addons:
+		installed_file = addon['installedFile']
+		project_id = addon['addonID']
+
+		file_id = installed_file['id']
+		file = {
+			'projectID': project_id,
+			'fileID': file_id,
+			'required': True
 		}
 
-		forge_ver = mc_ver + '-' + modloader['forgeVersion']
-		forge_filename = 'forge-' + forge_ver + '-installer.jar'
-		forge_url = 'https://files.minecraftforge.net/maven/net/minecraftforge/forge/' + forge_ver + '/' + forge_filename
-		mod_urls.insert(0, {
-			'url': forge_url,
-			'filename': 'forge-installer.jar'
-		})
+		files.append(file)
 
-		with open(temp_dir + '/manifest.json', 'w') as out_file:
-			json.dump(out_manifest, out_file, indent=2)
+	out_manifest = {
+		'minecraft': minecraft,
+		'manifestType': 'minecraftModpack',
+		'manifestVersion': 1,
+		'name': pack_name,
+		'version': version,
+		'author': pack_author,
+		'files': files,
+		'overrides': 'overrides'
+	}
 
-def write_mods_csv():
+	with open(temp_dir + '/manifest.json', 'w') as out_file:
+		json.dump(out_manifest, out_file, indent=2)
+
+def write_mods_csv(minecraftinstance_data):
+	download_files = server_download_files(minecraftinstance_data)
+
+	modloader = minecraftinstance_data['baseModLoader']
+	forge_ver = modloader['name']
+	mc_ver = modloader['minecraftVersion']
+	
+	forge_ver = mc_ver + '-' + modloader['forgeVersion']
+	forge_filename = 'forge-' + forge_ver + '-installer.jar'
+	forge_url = 'https://files.minecraftforge.net/maven/net/minecraftforge/forge/' + forge_ver + '/' + forge_filename
+	download_files.insert(0, {
+		'url': forge_url,
+		'filename': 'forge-installer.jar'
+	})
+
 	with open(overrides_dir + '/mods.csv', 'w') as out_file:
-		for mod in mod_urls:
+		for mod in download_files:
 			out_file.write(mod['url'].replace(' ', '%20') + ',' + mod['filename'].replace(' ', '_') + '\n')
 
-def zip_files(src_dir, denom):
+def zip_files(src_dir, version, denom):
 	out_file = out_dir + '/' + pack_name.replace(' ', '') + '-' + version + denom
 	shutil.make_archive(out_file, 'zip', src_dir)
 
-build_pack()
+##################################################################################################################################
+
+main()
