@@ -1,4 +1,4 @@
-import json, os, shutil
+import json, os, shutil, hashlib
 
 # ############################################################ CONFIG ############################################################
 
@@ -9,7 +9,6 @@ pack_author = 'Vazkii'
 # Ship Targets
 do_client = True
 do_server = True
-do_modirinth = True
 
 # Patchouli book file, leave blank if not used
 book_file = 'patchouli_books/blissguide/book.json'
@@ -70,7 +69,6 @@ def build_pack(version):
 	minecraftinstance_data = load_instance_data()
 	ship_client(minecraftinstance_data, version)
 	ship_server(minecraftinstance_data, version)
-	ship_mrpack(minecraftinstance_data, version)
 
 def cleanup():
 	clear_dir(temp_dir)
@@ -79,30 +77,24 @@ def cleanup():
 
 def ship_client(minecraftinstance_data, version):
 	if not do_client:
-		pass
+		return
 
 	print("Shipping Client...")
 	copy_files(files_to_copy, '', overrides_dir)
 	clear_files(overrides_dir, blacklisted_files)
 	update_book(version)
 	make_manifests(minecraftinstance_data, version)
-	zip_files(temp_dir, version, '-curseclient');
+	zip_files(temp_dir, version, '');
 
 def ship_server(minecraftinstance_data, version):
 	if not do_server:
-		pass
+		return
 
 	print("Shipping Server...")
 	copy_files(server_files_to_copy, 'ship/', overrides_dir)
 	clear_files(overrides_dir, server_blacklisted_files)
 	write_mods_csv(minecraftinstance_data)
 	zip_files(overrides_dir, version, '-server');
-
-def ship_mrpack(minecraftinstance_data, version):
-	if not do_modirinth:
-		pass
-
-	print("Shipping Modirinth Pack...")
 
 ##################################################################################################################################
 
@@ -186,18 +178,11 @@ def update_book(version):
 def make_manifests(minecraftinstance_data, version):
 	modloader = minecraftinstance_data['baseModLoader']
 	forge_ver = modloader['name']
+	forge_ver_raw = modloader['forgeVersion']
 	mc_ver = modloader['minecraftVersion']
-	minecraft = {
-		'version': mc_ver,
-		'modLoaders': [
-			{
-				'id': forge_ver,
-				'primary': True
-			}
-		]
-	}
 	
-	files = []
+	manifest_files = []
+	modirinth_files = []
 	addons = minecraftinstance_data['installedAddons']
 
 	mod_jars = [f for f in os.listdir('mods') if f.endswith('.jar')]
@@ -220,30 +205,59 @@ def make_manifests(minecraftinstance_data, version):
 
 	for addon in addons:
 		installed_file = addon['installedFile']
-		project_id = addon['addonID']
 
-		file_id = installed_file['id']
-		file = {
-			'projectID': project_id,
-			'fileID': file_id,
+		manifest_files.append({
+			'projectID': addon['addonID'],
+			'fileID': installed_file['id'],
 			'required': True
-		}
+		})
 
-		files.append(file)
+		mod_file_path = 'mods/' + installed_file['fileName']
+		modirinth_files.append({
+			'path': mod_file_path,
+			'hashes': {
+				'sha1': sha1(mod_file_path),
+				'sha512': sha512(mod_file_path)
+			},
+			'downloads': [ installed_file['downloadUrl'] ],
+			'fileSize': installed_file['fileLength']
+		})
 
 	out_manifest = {
-		'minecraft': minecraft,
+		'minecraft': {
+			'version': mc_ver,
+			'modLoaders': [
+				{
+					'id': forge_ver,
+					'primary': True
+				}
+			]
+		},
 		'manifestType': 'minecraftModpack',
 		'manifestVersion': 1,
 		'name': pack_name,
 		'version': version,
 		'author': pack_author,
-		'files': files,
+		'files': manifest_files,
 		'overrides': 'overrides'
+	}
+
+	out_modirinth_index = {
+		'formatVersion': 1,
+		'game': 'minecraft',
+		'name': pack_name,
+		'versionId': version,
+		'files': modirinth_files,
+		'dependencies': {
+			'minecraft': mc_ver,
+			'forge': forge_ver_raw
+		}
 	}
 
 	with open(temp_dir + '/manifest.json', 'w') as out_file:
 		json.dump(out_manifest, out_file, indent=2)
+	with open(temp_dir + '/modrinth.index.json', 'w') as out_file:
+		json.dump(out_modirinth_index, out_file, indent=2)
 
 def write_mods_csv(minecraftinstance_data):
 	download_files = server_download_files(minecraftinstance_data)
@@ -267,6 +281,25 @@ def write_mods_csv(minecraftinstance_data):
 def zip_files(src_dir, version, denom):
 	out_file = out_dir + '/' + pack_name.replace(' ', '') + '-' + version + denom
 	shutil.make_archive(out_file, 'zip', src_dir)
+
+##################################################################################################################################
+
+def sha1(file):
+	return hash_file(hashlib.sha1(), file)
+
+def sha512(file):
+	return hash_file(hashlib.sha512(), file)
+
+def hash_file(algo, file):
+	with open(file, 'rb') as f:
+		while True:
+			data = f.read(65536)
+			if not data:
+				break
+
+			algo.update(data)
+
+	return "{0}".format(algo.hexdigest())
 
 ##################################################################################################################################
 
