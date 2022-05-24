@@ -1,6 +1,5 @@
 from advancement_base import *
 
-
 fetch('get_backpack', 'quark:backpack', 'minecraft:story/smelt_iron', display_type='goal')
 fetch('get_paraglider', 'paraglider:paraglider', 'minecraft:adventure/sleep_in_bed')
 fetch('get_atlas', 'map_atlases:atlas', 'minecraft:adventure/sleep_in_bed')

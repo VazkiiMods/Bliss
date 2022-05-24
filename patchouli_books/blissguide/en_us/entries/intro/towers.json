@@ -2,6 +2,8 @@
 	"name": "Wild Towers",
 	"icon": "paraglider:paraglider",
 	"category": "patchouli:intro",
+	"read_by_default": false,
+	"advancement": "minecraft:adventure/sleep_in_bed",
 	"sortnum": 3,
 	"pages": [
 		{

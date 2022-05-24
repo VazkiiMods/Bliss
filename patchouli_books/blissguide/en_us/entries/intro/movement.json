@@ -2,7 +2,8 @@
 	"name": "Movement Upgrades",
 	"icon": "minecraft:leather_boots",
 	"category": "patchouli:intro",
-    "read_by_default": true,
+    "read_by_default": false,
+    "advancement": "minecraft:story/upgrade_tools",
     "sortnum": 4,
 	"pages": [
         {

@@ -28,6 +28,37 @@ def fetch(name, icon, parent, targets=None, display_type='task'):
 
 	return adv(name, icon, criteria, parent, display_type)
 
+def guard(name, parent):
+	obj = {
+		'parent': parent,
+		'display': {},
+		'criteria': {
+			"has_parent": {
+				"trigger": "minecraft:tick",
+				"conditions": {
+					"player": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"player": {
+									"advancements": {
+										parent: True
+									}
+								}
+							}
+						}
+					]
+				}
+			}
+		}
+	}
+
+	known_parents.append(parent)
+	known_advancements.append(name)
+
+	make(name, obj, 'guard')
+
 def stub(name, icon, parent):
 	criteria = {
 		'impossible': {
@@ -46,7 +77,6 @@ def adv(name, icon, criteria, parent, display_type='task'):
 		'display': display(name, icon, display_type),
 		'criteria': criteria
 	}
-
 
 	known_parents.append(parent)
 	known_advancements.append(name)
@@ -85,11 +115,10 @@ def make_item(item):
 def make_icon(item):
 	return { 'item': item }	
 
-def make(name, obj):
-	with open(file(name), 'w') as out:
+def make(name, obj, filedir=namespace):
+	with open(file(name, filedir), 'w') as out:
 		json.dump(obj, out, indent = 2, sort_keys = False)
 
-def file(name):
-	filedir = namespace
+def file(name, filedir=namespace):
 	os.makedirs(filedir, exist_ok = True)
 	return '{}/{}.json'.format(filedir, name)

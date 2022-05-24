@@ -2,7 +2,8 @@
 	"name": "Matrix Enchanting",
 	"icon": "minecraft:enchanting_table",
     "category": "patchouli:intro",
-    "read_by_default": true,
+    "read_by_default": false,
+    "advancement": "minecraft:story/form_obsidian",
     "sortnum": 5,
 	"pages": [
         {

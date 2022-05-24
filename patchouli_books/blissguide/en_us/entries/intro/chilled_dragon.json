@@ -2,7 +2,8 @@
 	"name": "Relaxed Dragon",
 	"icon": "minecraft:dragon_head",
 	"category": "patchouli:intro",
-    "read_by_default": true,
+    "read_by_default": false,
+    "advancement": "minecraft:story/follow_ender_eye",
     "sortnum": 7,
 	"pages": [
         {
