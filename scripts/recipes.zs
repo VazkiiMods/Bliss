@@ -226,11 +226,11 @@ CuttingBoard.addRecipeWithOptional("cut_wild_tea", <item:farmersrespite:tea_seed
 craftingTable.addShapeless("apply_fullmetal_directly_to_compost",
 	<item:farmersdelight:organic_compost> * 2,
 	[<item:minecraft:dirt>, <item:overweight_farming:vegetable_compost>, <item:farmersdelight:straw>,
-		<item:minecraft:bonemeal>, <item:farmersdelight:tree_bark>, <item:farmersdelight:tree_bark>]);
+		<item:minecraft:bone_meal>, <item:farmersdelight:tree_bark>, <item:farmersdelight:tree_bark>]);
 craftingTable.addShapeless("apply_violent_fullmetal_directly_to_compost",
 	<item:farmersdelight:organic_compost> * 2,
 	[<item:minecraft:dirt>, <item:overweight_farming:vegetable_compost>, <item:minecraft:rotten_flesh>,
-		<item:farmersdelight:straw>, <item:minecraft:bonemeal>, <item:minecraft:bonemeal>]);
+		<item:farmersdelight:straw>, <item:minecraft:bone_meal>, <item:minecraft:bone_meal>]);
 
 // Compostable chip
 
@@ -243,17 +243,16 @@ feathers.setBurnTime(100);
 
 craftingTable.addShaped("feather_bed",
 	<item:minecraft:white_bed>,
-	[feathers, feathers, feathers],
-	[planks, planks, planks]);
+	[[feathers, feathers, feathers],
+	[planks, planks, planks]]);
 craftingTable.addShaped("feather_sleeping_bag",
-	<item:comforts:white_sleeping_bag>,
-	[feathers, feathers, feathers]);
+	<item:comforts:sleeping_bag_white>,
+	[[feathers, feathers, feathers]]);
 craftingTable.addShaped("feather_hammock",
 	<item:comforts:hammock_white>,
-	[string_item, stick, string_item],
+	[[string_item, stick, string_item],
 	[string_item, feathers, string_item],
-	[string_item, stick, string_item]);
-
+	[string_item, stick, string_item]]);
 
 // Craftable Name Tag
 craftingTable.addShapeless("da_name_tagy", <item:minecraft:name_tag>, [antique_ink, paper, string_item]);
