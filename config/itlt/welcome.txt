@@ -24,6 +24,8 @@ https://www.curseforge.com/minecraft/customization/complementary-shaders
 &hMusic
 &dBliss&r contains a dynamic soundtrack, which changes based on various ingame aspects, such as what biome you're on, depth, or even if you're close to your bed. All of these songs are sourced from D. C. Kariri Sawler's &aAdventurer's Journey&r, and take over the vanilla music. Do consider playing with music on for the full experience!
 
+For content creators: The music is royalty free, and you can use it without fear of DMCA.
+
 &hDocumentation
 After you create a world, in your player's inventory, the &dBliss Guide&r will be always available, taking over the vanilla Recipe Book. The guide pauses the game while open, so we highly recommend you take a bit of time to survey its content, so you know all the pack has to offer.
 

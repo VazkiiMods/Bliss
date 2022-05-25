@@ -13,7 +13,7 @@
 	    {
 	        "template": "patchouli:incl/tuber",
 	        "as": "vallen",
-	        "y": 50,
+	        "y": 40,
 	        "using": {
 				"texture": "mom",
 	        	"name": "Vallen",
@@ -34,6 +34,12 @@
 			"type": "patchouli:separator",
 			"x": -1,
 			"y": -1
+		},
+		{
+			"type": "patchouli:text",
+			"x": 0,
+			"y": 120,
+			"text": "If you're a streamer, feel free to play these videos on stream! We're totally cool with it."
 		}
 	]
 }
