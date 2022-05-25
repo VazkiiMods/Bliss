@@ -1,0 +1,14 @@
+{
+	"name": "Lily Pad Topping",
+	"icon": "minecraft:lily_pad",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:lily_pad",
+            "title": "Lily Pad Topping",
+            "text": "Blocks can now be placed above $(item)Lily Pads$(). Try it out with $(item)Torches$() and more."
+        }
+	]
+}

@@ -1,5 +1,5 @@
 {
-	"name": "Video Tutorial",
+	"name": "Video Tutorials",
 	"icon": "minecraft:music_disc_13",
 	"category": "patchouli:intro",
     "read_by_default": true,
@@ -8,7 +8,10 @@
 	"pages": [
         {
             "type": "text",
-            "text": "WIP - I'm gonna get Direwolf20 to make a video to put here but he hasn't yet!"
+            "text": "If you're not the reader type, you can get started with $(thing)Bliss$() by checking out the videos done by these amazing folks on the next page.$(br2)$(thing)direwolf20$()'s video is a short starter guide with the info you need to know about the pack, and $(thing)Vallen$()'s video is a full overview and review of the pack. Pick whichever, or both!"
+        },
+        {
+            "type": "patchouli:tubers"
         }
 	]
 }

@@ -10,7 +10,7 @@
 		}, 
 		{
 			"type": "text",
-			"text": "Hi, I'm $(lissa)Lissa$()! I'll be your guide for $(thing)Bliss$()'s extra content.$(br2)Here in the $(lissa)Lissa's Advice$() section of the guide, you'll find my musings on my favorite features you should try out.$(br2)As you go through the game, more will get unlocked, so make sure to keep an eye out!$(br2)I'm drawn by $(l:https://twitter.com/_crowsaga)aice$() and designed as a joint effort between julinya, aice, and vazkii!"
+			"text": "Hi, I'm $(lissa)Lissa$()! I'll be your guide for $(thing)Bliss$()'s extra content.$(br2)Here in the $(lissa)Lissa's Advice$() section of the guide, you'll find my musings on my favorite features you should try out.$(br2)As you go through the game, more will get unlocked, so make sure to keep an eye out!$(br2)I'm drawn by $(l:https://twitter.com/_crowsaga)$(underline)aice$() and designed as a joint effort between julinya, aice, and vazkii!"
 		}
 	]
 }

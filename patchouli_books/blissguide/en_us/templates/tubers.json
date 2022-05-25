@@ -1,0 +1,39 @@
+{
+	"include": [
+	    {
+	        "template": "patchouli:incl/tuber",
+	        "as": "direwolf20",
+	        "using": {
+				"texture": "direwolf20",
+	        	"name": "direwolf20",
+	        	"desc": "Starter Guide",
+	        	"video_id": "dQw4w9WgXcQ"
+	        }
+	    },
+	    {
+	        "template": "patchouli:incl/tuber",
+	        "as": "vallen",
+	        "y": 50,
+	        "using": {
+				"texture": "mom",
+	        	"name": "Vallen",
+	        	"desc": "Pack Overview",
+	        	"video_id": "dQw4w9WgXcQ"
+	        }
+	    }
+	],
+	"components": [
+		{
+			"type": "patchouli:header",
+			"centered": true,
+			"x": -1,
+			"y": -1,
+			"text": "Videos"
+		},
+		{
+			"type": "patchouli:separator",
+			"x": -1,
+			"y": -1
+		}
+	]
+}
