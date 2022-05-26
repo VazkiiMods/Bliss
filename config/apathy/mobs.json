@@ -11,6 +11,12 @@
     },
     {
       "predicate": {
+          "type": "apathy:attacker_is_boss"
+      },
+      "type": "apathy:allow_if"
+    },
+    {
+      "predicate": {
         "timeout": 1200,
         "type": "apathy:revenge_timer"
       },
