@@ -104,7 +104,7 @@ def load_instance_data():
 		return minecraftinstance_data
 
 def server_download_files(minecraftinstance_data):
-	return format_mod_array(minecraftinstance_data, server_blacklisted_files, server_download_obj)
+	return format_mod_array(minecraftinstance_data, server_mods_blacklist, server_download_obj)
 
 def server_download_obj(installed_file):
 	url = installed_file['downloadUrl']
