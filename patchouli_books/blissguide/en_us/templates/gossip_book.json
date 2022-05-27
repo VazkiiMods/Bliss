@@ -14,8 +14,8 @@
 			"type": "patchouli:image",
 			"x": 1,
 			"y": 73,
-			"width": 140,
-			"height": 153,
+			"width": 138,
+			"height": 150,
 			"scale": 0.5,
 			"image": "patchouli:lissa_book.png"
 		}
