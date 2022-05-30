@@ -9,6 +9,7 @@ pack_author = 'Vazkii'
 # Ship Targets
 do_client = True
 do_server = True
+do_modrinth = False
 
 # Patchouli book file, leave blank if not used
 book_file = 'patchouli_books/blissguide/book.json'
@@ -256,8 +257,10 @@ def make_manifests(minecraftinstance_data, version):
 
 	with open(temp_dir + '/manifest.json', 'w') as out_file:
 		json.dump(out_manifest, out_file, indent=2)
-	with open(temp_dir + '/modrinth.index.json', 'w') as out_file:
-		json.dump(out_modirinth_index, out_file, indent=2)
+		
+	if do_modrinth:
+		with open(temp_dir + '/modrinth.index.json', 'w') as out_file:
+			json.dump(out_modirinth_index, out_file, indent=2)
 
 def write_mods_csv(minecraftinstance_data):
 	download_files = server_download_files(minecraftinstance_data)
