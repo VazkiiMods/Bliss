@@ -1,0 +1,47 @@
+{
+  "area_condition": {
+    "type": "generate_if_not_too_many",
+    "radiusX": 3,
+    "radiusY": 2,
+    "radiusZ": 3,
+    "requiredAmount": 12,
+    "must_have": {
+      "predicate_type": "immersive_weathering:fluid_match",
+      "fluid": "minecraft:water"
+    }
+  },
+  "growth_chance": 0.5,
+  "position_predicates": [
+    {
+      "predicate_type": "biome_match",
+      "biomes": [
+	    "#forge:is_swamp",
+	    "biomesoplenty:bayou",
+	    "biomesoplenty:bog",
+	    "biomesoplenty:marsh"
+	  ]
+    }
+  ],
+  "growth_for_face": [
+    {
+      "weight": 1,
+      "growth": [
+        {
+          "data": {
+            "block": {
+              "Name": "biomesoplenty:mud"
+            }
+          },
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "owners": [
+    "biomesoplenty:mud"
+  ],
+  "replacing_target": {
+    "predicate_type": "minecraft:block_match",
+    "block": "minecraft:dirt"
+  }
+}

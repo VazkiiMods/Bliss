@@ -1,0 +1,28 @@
+{
+  "growth_chance": 1,
+  "growth_for_face": [
+    {
+      "direction": "down",
+      "weight": 1,
+      "growth": [
+        {
+          "data": {
+            "block": {
+              "Name": "minecraft:gravel"
+            }
+          },
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "owners": [
+    "minecraft:cobblestone",
+    "minecraft:cobbled_deepslate",
+    "minecraft:mossy_cobblestone"
+  ],
+  "replacing_target": {
+    "predicate_type": "minecraft:block_match",
+    "block": "minecraft:bubble_column"
+  }
+}
