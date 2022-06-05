@@ -1,3 +1,6 @@
+import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.ingredient.IIngredient;
+
 // ============================================================================================================
 // Remove pointless tooltip from Corail Woodcutter
 // ============================================================================================================
@@ -51,3 +54,22 @@ CuttingBoard.addRecipe("azalea_sign_planks",
 
 var forge_cobblestone = <tag:items:forge:cobblestone>;
 forge_cobblestone.remove(<item:minecraft:cobbled_deepslate>);
+
+// ============================================================================================================
+// Fix BoP ladders not having sawmill recipes
+// ============================================================================================================
+
+function addLadder(name as string, out as IItemStack, plank as IIngredient, log as IIngredient) as void {
+	Woodcutter.addRecipe(name + "_ladder_sawmill", out, plank);
+	Woodcutter.addRecipe(name + "_ladder4_sawmill", out * 4, log);
+}
+
+addLadder("jacaranda", <item:compatoplenty:jacaranda_ladder>, <item:biomesoplenty:jacaranda_planks>, <tag:items:biomesoplenty:jacaranda_logs>);
+addLadder("fir", <item:compatoplenty:fir_ladder>, <item:biomesoplenty:fir_planks>, <tag:items:biomesoplenty:fir_logs>);
+addLadder("redwood", <item:compatoplenty:redwood_ladder>, <item:biomesoplenty:redwood_planks>, <tag:items:biomesoplenty:redwood_logs>);
+addLadder("mahogany", <item:compatoplenty:mahogany_ladder>, <item:biomesoplenty:mahogany_planks>, <tag:items:biomesoplenty:mahogany_logs>);
+addLadder("willow", <item:compatoplenty:willow_ladder>, <item:biomesoplenty:willow_planks>, <tag:items:biomesoplenty:willow_logs>);
+addLadder("magic", <item:compatoplenty:magic_ladder>, <item:biomesoplenty:magic_planks>, <tag:items:biomesoplenty:magic_logs>);
+addLadder("dead", <item:compatoplenty:dead_ladder>, <item:biomesoplenty:dead_planks>, <tag:items:biomesoplenty:dead_logs>);
+addLadder("umbran", <item:compatoplenty:umbran_ladder>, <item:biomesoplenty:umbran_planks>, <tag:items:biomesoplenty:umbran_logs>);
+addLadder("palm", <item:compatoplenty:palm_ladder>, <item:biomesoplenty:palm_planks>, <tag:items:biomesoplenty:palm_logs>);
