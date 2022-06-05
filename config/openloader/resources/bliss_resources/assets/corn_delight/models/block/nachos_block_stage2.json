@@ -1,0 +1,51 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"4": "corn_delight:block/nacho_inner",
+		"particle": "corn_delight:block/nacho_top",
+		"top": "corn_delight:block/nacho_top",
+		"side": "corn_delight:block/nacho_side",
+		"tray_top": "corn_delight:block/nacho_tray_top",
+		"tray_side": "farmersdelight:block/tray_bottom"
+	},
+	"elements": [
+		{
+			"name": "plate",
+			"from": [1, 0, 1],
+			"to": [15, 2, 15],
+			"faces": {
+				"north": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
+				"east": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
+				"south": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
+				"west": {"uv": [1, 11, 15, 13], "texture": "#tray_side"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#tray_top"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#tray_side", "cullface": "down"}
+			}
+		},
+		{
+			"from": [8, 2, 2],
+			"to": [14, 5, 8],
+			"faces": {
+				"north": {"uv": [2, 13, 8, 16], "texture": "#side"},
+				"east": {"uv": [8, 13, 14, 16], "texture": "#side"},
+				"south": {"uv": [8, 13, 14, 16], "texture": "#4"},
+				"west": {"uv": [2, 13, 8, 16], "texture": "#4"},
+				"up": {"uv": [8, 2, 14, 8], "texture": "#top"},
+				"down": {"uv": [8, 2, 14, 8], "texture": "#top"}
+			}
+		},
+		{
+			"from": [8, 2, 8],
+			"to": [14, 5, 14],
+			"faces": {
+				"north": {"uv": [2, 13, 8, 16], "texture": "#4"},
+				"east": {"uv": [2, 13, 8, 16], "texture": "#side"},
+				"south": {"uv": [8, 13, 14, 16], "texture": "#side"},
+				"west": {"uv": [8, 13, 14, 16], "texture": "#4"},
+				"up": {"uv": [8, 8, 14, 14], "texture": "#top"},
+				"down": {"uv": [8, 8, 14, 14], "texture": "#top"}
+			}
+		}
+	]
+}
