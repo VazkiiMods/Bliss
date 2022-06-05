@@ -7,7 +7,7 @@ fetch('get_iron_rod', 'quark:iron_rod', 'minecraft:story/smelt_iron')
 fetch('get_copper_pipe', 'quark:pipe', 'minecraft:story/smelt_iron')
 fetch('get_sawmill', 'corail_woodcutter:oak_woodcutter', 'minecraft:story/smelt_iron')
 fetch('get_slime_in_a_bucket', 'quark:slime_in_a_bucket', 'minecraft:adventure/kill_a_mob')
-fetch('get_trading_post', 'tradingpost:tradin_post', 'minecraft:adventure/trade')
+fetch('get_trading_post', 'tradingpost:trading_post', 'minecraft:adventure/trade')
 fetch('get_seed_pouch', 'quark:seed_pouch', 'minecraft:husbandry/plant_seed')
 
 fetch('get_diamond_heart', 'quark:diamond_heart', 'minecraft:adventure/kill_a_mob')
