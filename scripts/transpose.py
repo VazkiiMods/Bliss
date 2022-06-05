@@ -16,7 +16,7 @@ public class DisabledItems {
 
 		with open(jei_file, 'r') as f:
 			for line in f.readlines():
-				if (' ' in line) or ('minecraft:' in line) or ('fluid:' in line):
+				if (' ' in line) or ('minecraft:' in line) or ('fluid:' in line) or ('spawn_egg' in line):
 					continue
 
 				if not firstline:
