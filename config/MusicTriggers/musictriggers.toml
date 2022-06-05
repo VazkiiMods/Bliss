@@ -152,8 +152,8 @@
 	[[night_snowy.trigger]]
 		priority = "3"
 		name = "biome"
-		biome_category = "snowy"
-		identifier = "biome_snowy3"
+		biome_category = "icy"
+		identifier = "biome_icy3"
 	[[night_snowy.trigger]]
 		name = "time"
 		identifier = "night3"
