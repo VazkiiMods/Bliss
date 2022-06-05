@@ -172,7 +172,7 @@ i(<item:quark:seed_pouch>, "Can hold 10 stacks of anything plantable. Right clic
 i(<item:quark:soul_compass>, "Points to where you last died.");
 i(<item:quark:trowel>, "Randomly places one block from your hotbar, great for paths!");
 i(<item:quark:abacus>, "Right Click a block to set the source - from there, the Abacus will count the distance from the block you're looking at to that one, provided you're holding it.");
-i(<item:quark:crate>, "Can hold up to 1000 items. Unlike Chests, the amount of slots expands based on the different items you put in, so it's good for holding a high variety of things.");
+i(<item:quark:crate>, "Can hold up to 640 items. Unlike Chests, the amount of slots expands based on the different items you put in, so it's good for holding a high variety of things.");
 i(<item:quark:chute>, "Can receive items with Hoppers and the like. Any items that end up in it are immediately ejected downwards into the world.");
 i(<item:quark:music_disc_endermosh>, "Can be acquired from chests in End Cities");
 
@@ -455,7 +455,7 @@ i(<item:minecraft:warped_roots>, "Slowly grows over Warped Nylium.");
 i(<item:minecraft:hanging_roots>, "Can be placed on the sides of blocks too.");
 i(<item:minecraft:grass>, "Slowly grows over Grass Blocks.");
 
-s = "Overweight blocks sometimes show up instead of the normal version of the crop. Harvest them with a Hoe for a bountiful harvest.";
+s = "Overweight blocks sometimes show up instead of the normal version of the crop. Harvest them with a Hoe for a bountiful harvest. If a Wither Rose is nearby, they will not spawn.";
 i(<item:overweight_farming:overweight_beetroot_block>, s);
 i(<item:overweight_farming:overweight_carrot_block>, s);
 i(<item:overweight_farming:overweight_cocoa_block>, s);
