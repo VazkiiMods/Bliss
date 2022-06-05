@@ -1,0 +1,39 @@
+{
+  "area_condition": {
+    "type": "neighbor_based_generation",
+    "must_have": {
+      "predicate_type": "immersive_weathering:block_set_match",
+      "blocks": [
+        "minecraft:dripstone_block",
+        "minecraft:pointed_dripstone"
+      ]
+    },
+    "directions": [
+      "down"
+    ]
+  },
+  "growth_chance": 1,
+  "growth_for_face": [
+    {
+      "weight": 1,
+      "growth": [
+        {
+          "data": {
+            "block": {
+              "Name": "minecraft:clay"
+            }
+          },
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "owners": [
+    "biomesoplenty:mud"
+  ],
+  "replacing_target": {
+    "predicate_type": "minecraft:block_match",
+    "block": "biomesoplenty:mud"
+  },
+  "target_self": true
+}

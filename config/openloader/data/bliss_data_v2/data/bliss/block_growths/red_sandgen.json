@@ -1,0 +1,26 @@
+{
+  "growth_chance": 1,
+  "growth_for_face": [
+    {
+      "direction": "down",
+      "weight": 1,
+      "growth": [
+        {
+          "data": {
+            "block": {
+              "Name": "minecraft:red_sand"
+            }
+          },
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "owners": [
+    "minecraft:red_sandstone"
+  ],
+  "replacing_target": {
+    "predicate_type": "minecraft:block_match",
+    "block": "minecraft:bubble_column"
+  }
+}
