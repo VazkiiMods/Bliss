@@ -5,6 +5,11 @@ if [[ -f forge-installer.jar ]]; then
 	exit 0
 fi
 
+if [[ $(java -version 2>&1 | awk -F '"' '/version/ {print $2}') < "17" ]];then 
+    echo Java is too old.;
+    exit 0
+fi
+
 mkdir mods
 echo Downloading modpack files...
 cat mods.csv | sed -r 's/\r//g' | sed -r 's/(.+),(.+)/-c "wget -c \1 -O \2"/g' | xargs -n2 bash
