@@ -655,8 +655,8 @@ s = "Can be found in the Bayou biome. Pathfinder Maps to this biome can be bough
 i(<item:biomesoplenty:willow_sapling>, s);
 i(<item:biomesoplenty:willow_leaves>, s);
 i(<item:biomesoplenty:willow_log>, s);
-i(<item:biomesoplenty:mud>, s);
 i(<item:biomesoplenty:spanish_moss_plant>, s);
+i(<item:biomesoplenty:mud>, s + " Also spreads to nearby Dirt if in contact with water or in a Swamp or Bayou biome.");
 
 s = "Can be found in the Pasture biome.";
 i(<item:biomesoplenty:barley>, s);
@@ -707,3 +707,11 @@ i(<item:farmersrespite:coffee_beans>, "Can be found in Basalt Deltas and planted
 i(<item:biomesoplenty:rooted_sand>, "Does not generate naturally. Sand under Sea Oats slowly turns into this block.");
 i(<item:biomesoplenty:sea_oats>, "Can be found in the Dune Beach biome.");
 i(<item:biomesoplenty:music_disc_wanderer>, "Can be found on Wild Tower chests, uncommonly.");
+
+i(<item:minecraft:gravel>, "Can be generated renewably by placing Cobblestone at the top of a bubble column.");
+i(<item:minecraft:sand>, "Can be generated renewably by placing Sandstone at the top of a bubble column.");
+i(<item:minecraft:red_sand>, "Can be generated renewably by placing Red Sandstone at the top of a bubble column.");
+i(<item:biomesoplenty:black_sand>, "Can be generated renewably by placing Black Sandstone at the top of a bubble column.");
+i(<item:biomesoplenty:orange_sand>, "Can be generated renewably by placing Orange Sandstone at the top of a bubble column.");
+i(<item:biomesoplenty:white_sand>, "Can be generated renewably by placing White Sandstone at the top of a bubble column.");
+i(<item:minecraft:clay>, "Can be gotten by dehydrating a Mud block via placing Pointed Dripstone under it.");
