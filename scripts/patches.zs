@@ -1,8 +1,12 @@
+// ============================================================================================================
 // Remove pointless tooltip from Corail Woodcutter
+// ============================================================================================================
 
 <item:corail_woodcutter:oak_woodcutter>.removeTooltip("REMOVEME");
 
+// ============================================================================================================
 // Fix FD not supporting stripping quark woods
+// ============================================================================================================
 
 var stripSound = "minecraft:item.axe.strip";
 
@@ -40,3 +44,10 @@ CuttingBoard.addRecipe("azalea_trapdoor_planks",
 CuttingBoard.addRecipe("azalea_sign_planks",
 	<item:quark:azalea_planks>, <item:quark:azalea_sign>, axes
 );
+
+// ============================================================================================================
+// Remove cobbled deepslate from the cobblestone tag so it doesn't mess with the quark furnace recipe
+// ============================================================================================================
+
+var forge_cobblestone = <tag:items:forge:cobblestone>;
+forge_cobblestone.remove(<item:minecraft:cobbled_deepslate>);
