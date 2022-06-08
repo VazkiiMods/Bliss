@@ -7,20 +7,20 @@ Installation Instructions
 		If you're unsure what version you have, open
 		a Command Prompt and run 
 				java -version
-		If it does not say the version is "1.17.0_(number)"
-		you have to  install Java 8
+		If it does not say the version is "17.0.(number)"
+		you have to install Java 17
 
 	- Run the server setup script for your OS
-		WINDOWS: Run setup_server.bat
-		MAC/LINUX: Run setup_server.sh
+		WINDOWS: Run "setup_server.bat"
+		MAC/LINUX: Run "setup_server.sh"
 
 	- Wait for the pack to download
 
-	- Run the server via the forge-1.18.2...jar
-		WARNING: DO NOT Run forge-installer.jar or
-		minecraft_server.1.18.2.jar 
+	- Start the server with the script for your OS
+		WINDOWS: Run "run.bat"
+		MAC/LINUX: Run "run.sh"
 
-	- Accept the Minecraft EULA
+	- Accept the Minecraft EULA in "eula.txt"
 
 	- Run the server again
 
