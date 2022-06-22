@@ -34,6 +34,7 @@ Updating the Server
 
 	- Delete the following folders inside your server installation
 	so as to remove the previous installation
+		mods
 		config
 		defaultconfigs
 		patchouli_books
