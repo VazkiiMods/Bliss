@@ -21,7 +21,7 @@
 	"minecraft:bee" = "DEFAULT"
 	#minecraft:blaze mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:blaze" = "DEFAULT"
+	"minecraft:blaze" = "FALSE"
 	#minecraft:boat mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:boat" = "DEFAULT"
@@ -42,7 +42,7 @@
 	"minecraft:cow" = "DEFAULT"
 	#minecraft:creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:creeper" = "DEFAULT"
+	"minecraft:creeper" = "FALSE"
 	#minecraft:dolphin mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:dolphin" = "DEFAULT"
@@ -60,19 +60,19 @@
 	"minecraft:elder_guardian" = "DEFAULT"
 	#minecraft:end_crystal mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:end_crystal" = "DEFAULT"
+	"minecraft:end_crystal" = "FALSE"
 	#minecraft:ender_dragon mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:ender_dragon" = "DEFAULT"
 	#minecraft:enderman mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:enderman" = "DEFAULT"
+	"minecraft:enderman" = "FALSE"
 	#minecraft:endermite mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:endermite" = "DEFAULT"
 	#minecraft:evoker mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:evoker" = "TRUE"
+	"minecraft:evoker" = "DEFAULT"
 	#minecraft:evoker_fangs mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:evoker_fangs" = "DEFAULT"
@@ -93,7 +93,7 @@
 	"minecraft:fox" = "DEFAULT"
 	#minecraft:ghast mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:ghast" = "DEFAULT"
+	"minecraft:ghast" = "FALSE"
 	#minecraft:giant mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:giant" = "DEFAULT"
@@ -198,7 +198,7 @@
 	"minecraft:pig" = "DEFAULT"
 	#minecraft:piglin mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:piglin" = "TRUE"
+	"minecraft:piglin" = "DEFAULT"
 	#minecraft:piglin_brute mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:piglin_brute" = "DEFAULT"
@@ -216,16 +216,16 @@
 	"minecraft:pufferfish" = "DEFAULT"
 	#minecraft:rabbit mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:rabbit" = "TRUE"
+	"minecraft:rabbit" = "DEFAULT"
 	#minecraft:ravager mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:ravager" = "TRUE"
+	"minecraft:ravager" = "DEFAULT"
 	#minecraft:salmon mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:salmon" = "DEFAULT"
 	#minecraft:sheep mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:sheep" = "TRUE"
+	"minecraft:sheep" = "DEFAULT"
 	#minecraft:shulker mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:shulker" = "DEFAULT"
@@ -234,7 +234,7 @@
 	"minecraft:shulker_bullet" = "DEFAULT"
 	#minecraft:silverfish mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:silverfish" = "TRUE"
+	"minecraft:silverfish" = "DEFAULT"
 	#minecraft:skeleton mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:skeleton" = "DEFAULT"
@@ -249,7 +249,7 @@
 	"minecraft:small_fireball" = "DEFAULT"
 	#minecraft:snow_golem mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:snow_golem" = "TRUE"
+	"minecraft:snow_golem" = "DEFAULT"
 	#minecraft:snowball mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:snowball" = "DEFAULT"
@@ -297,7 +297,7 @@
 	"minecraft:vex" = "DEFAULT"
 	#minecraft:villager mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:villager" = "TRUE"
+	"minecraft:villager" = "DEFAULT"
 	#minecraft:vindicator mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:vindicator" = "DEFAULT"
@@ -309,7 +309,7 @@
 	"minecraft:witch" = "DEFAULT"
 	#minecraft:wither mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:wither" = "TRUE"
+	"minecraft:wither" = "DEFAULT"
 	#minecraft:wither_skeleton mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:wither_skeleton" = "DEFAULT"
@@ -324,7 +324,7 @@
 	"minecraft:zoglin" = "DEFAULT"
 	#minecraft:zombie mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:zombie" = "DEFAULT"
+	"minecraft:zombie" = "FALSE"
 	#minecraft:zombie_horse mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:zombie_horse" = "DEFAULT"
