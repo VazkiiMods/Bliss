@@ -52,8 +52,6 @@ block_growths_enabled = true
 	icicle_fire_resistance = true
 	#Allows icicles to be eaten
 	icicle_food = true
-	#Allows moss clump to be eaten
-	moss_food = true
 
 [leaf_piles]
 	#Enables leaf piles patches features to spawn in forests. Currently does nothing as they have been temporarily (or not) yeeted
