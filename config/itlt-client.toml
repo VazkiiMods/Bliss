@@ -68,16 +68,6 @@
 
 			[Java.Version.Min.Warning]
 				# 
-				# Whether or not to warn when someone tries to launch the modpack with a version
-				# of Java older than that specified in warnMinJavaVersion.
-				# 
-				# If this is enabled and someone does that, they'll get a message telling them how
-				# to upgrade with the option to ask later and continue launching the modpack.
-				# 
-				# Note: This is *separate* from enableMinJavaVerRequirement - you can have a
-				# separate version requirement and warning.
-				enableMinJavaVerWarning = true
-				# 
 				# The minimum recommended version of Java needed to skip the warning message when
 				# launching the modpack.
 				#Range: 6 ~ 127
@@ -89,6 +79,16 @@
 				# Enable this option to ignore the MinJavaVerWarning on launchers where the users
 				# are unable to change the version of Java used to launch the game.
 				ignoreMinJavaVerWarningWhenVerForced = true
+				# 
+				# Whether or not to warn when someone tries to launch the modpack with a version
+				# of Java older than that specified in warnMinJavaVersion.
+				# 
+				# If this is enabled and someone does that, they'll get a message telling them how
+				# to upgrade with the option to ask later and continue launching the modpack.
+				# 
+				# Note: This is *separate* from enableMinJavaVerRequirement - you can have a
+				# separate version requirement and warning.
+				enableMinJavaVerWarning = true
 
 			[Java.Version.Min.Guide]
 				# 
@@ -326,7 +326,7 @@
 	# 
 	# The version of itlt that created this config file. Intended to be used for migrating
 	# config changes when you update the mod. Please don't touch this, this is for itlt itself to change.
-	configVersion = "2.1.0"
+	configVersion = "2.1.2"
 
 [ServerList]
 	# 
