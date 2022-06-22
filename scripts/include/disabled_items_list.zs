@@ -337,6 +337,7 @@ public class DisabledItems {
 		<item:twigs:schist_slab>,
 		<item:twigs:polished_schist_brick_slab>,
 		<item:twigs:polished_bloodstone>,
-		<item:twigs:cracked_polished_bloodstone_bricks>
+		<item:twigs:cracked_polished_bloodstone_bricks>,
+		<item:immersive_weathering:weeds>
 	] as IItemStack[];
 }
