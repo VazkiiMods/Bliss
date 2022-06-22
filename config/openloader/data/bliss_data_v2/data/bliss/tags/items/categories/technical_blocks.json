@@ -90,6 +90,7 @@
 		"biomesoplenty:dead_pressure_plate",
 		"biomesoplenty:magic_pressure_plate",
 		"biomesoplenty:umbran_pressure_plate",
-		"minecraft:sculk_sensor"
+		"twigs:stripped_bamboo_pressure_plate",
+		"twigs:stripped_bamboo_button"
 	]
 }

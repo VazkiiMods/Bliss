@@ -86,6 +86,8 @@
 		"supplementaries:deepslate_lamp",
 		"supplementaries:end_stone_lamp",
 		"supplementaries:redstone_illuminator",
-		"minecraft:blaze_rod"
+		"minecraft:blaze_rod",
+		"twigs:crimson_shroomlamp",
+		"twigs:warped_shroomlamp"
 	]
 }

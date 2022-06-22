@@ -60,6 +60,8 @@
 		"immersive_weathering:waxed_plate_iron_vertical_slab",
 		"immersive_weathering:waxed_exposed_plate_iron_vertical_slab",
 		"immersive_weathering:waxed_weathered_plate_iron_vertical_slab",
-		"immersive_weathering:waxed_rusted_plate_iron_vertical_slab"
+		"immersive_weathering:waxed_rusted_plate_iron_vertical_slab",
+		"compatoplenty:polished_rose_quartz_brick_vertical_slab",
+		"compatoplenty:polished_rose_quartz_vertical_slab"
 	]
 }
