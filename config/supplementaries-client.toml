@@ -139,6 +139,14 @@
 		#Mute speaker block incoming narrator messages and displays them in chat instead
 		mute_narrator = false
 
+	[blocks.rope]
+		#Amplitude of rope wobbling effect
+		#Range: 0.0 ~ 20.0
+		wobbling_amplitude = 1.2
+		#Period of rope wobbling effect
+		#Range: 0.01 ~ 200.0
+		wobbling_period = 12.0
+
 #Particle parameters
 [particles]
 
