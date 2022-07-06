@@ -2,146 +2,188 @@
   "mod_id": "byg",
   "provided_stones": [
     {
-      "id": "byg_red_rock",
-      "texture_location": [
-        "byg:textures/block/red_rock.png"
-      ],
-      "en_name": "Red Rock",
       "block_id": "byg:red_rock",
-      "type": [
+      "types": [
         "stone"
-      ]
+      ],
+      "id": "byg_red_rock",
+      "en_name": "Red Rock"
     },
     {
-      "id": "byg_dacite",
-      "texture_location": [
-        "byg:textures/block/dacite.png"
-      ],
-      "en_name": "Dacite",
       "block_id": "byg:dacite",
-      "type": [
+      "types": [
         "stone"
-      ]
+      ],
+      "id": "byg_dacite",
+      "en_name": "Dacite"
     },
     {
-      "id": "byg_brimstone",
-      "texture_location": [
-        "byg:textures/block/brimstone.png"
-      ],
-      "en_name": "Brimstone",
       "block_id": "byg:brimstone",
-      "type": [
+      "types": [
         "nether"
-      ]
+      ],
+      "id": "byg_brimstone",
+      "en_name": "Brimstone"
     },
     {
-      "id": "byg_ether_stone",
-      "texture_location": [
-        "byg:textures/block/ether_stone.png"
-      ],
-      "en_name": "Ether Stone",
       "block_id": "byg:ether_stone",
-      "type": [
+      "types": [
         "end"
-      ]
+      ],
+      "id": "byg_ether_stone",
+      "en_name": "Ether Stone"
     },
     {
-      "id": "byg_soapstone",
-      "texture_location": [
-        "byg:textures/block/soapstone.png"
-      ],
-      "en_name": "Soapstone",
       "block_id": "byg:soapstone",
-      "type": [
+      "types": [
         "stone"
-      ]
+      ],
+      "id": "byg_soapstone",
+      "en_name": "Soapstone"
     },
     {
-      "id": "byg_blue_netherrack",
-      "texture_location": [
-        "byg:textures/block/blue_netherrack.png"
-      ],
-      "en_name": "Blue Netherrack",
       "block_id": "byg:blue_netherrack",
-      "type": [
+      "types": [
         "nether"
-      ]
+      ],
+      "id": "byg_blue_netherrack",
+      "en_name": "Blue Netherrack"
     },
     {
-      "id": "byg_scoria",
-      "texture_location": [
-        "byg:textures/block/scoria_stone.png"
-      ],
-      "en_name": "Scoria",
       "block_id": "byg:scoria_stone",
-      "type": [
+      "types": [
         "nether"
-      ]
+      ],
+      "id": "byg_scoria",
+      "en_name": "Scoria"
     },
     {
-      "id": "byg_travertine",
-      "texture_location": [
-        "byg:textures/block/travertine.png"
-      ],
-      "en_name": "Travertine",
       "block_id": "byg:travertine",
-      "type": [
+      "types": [
         "stone"
-      ]
+      ],
+      "id": "byg_travertine",
+      "en_name": "Travertine"
     },
     {
-      "id": "byg_rocky",
-      "texture_location": [
-        "byg:textures/block/rocky_stone.png"
-      ],
-      "en_name": "Rocky",
       "block_id": "byg:rocky_stone",
-      "type": [
+      "types": [
         "stone"
-      ]
+      ],
+      "id": "byg_rocky",
+      "en_name": "Rocky"
     },
     {
-      "id": "byg_cryptic",
-      "texture_location": [
-        "byg:textures/block/cryptic_stone.png"
-      ],
-      "en_name": "Cryptic",
       "block_id": "byg:cryptic_stone",
-      "type": [
+      "types": [
         "end"
-      ]
+      ],
+      "id": "byg_cryptic",
+      "en_name": "Cryptic"
     },
     {
-      "id": "byg_purpur",
-      "texture_location": [
-        "byg:textures/block/purpur_stone.png"
-      ],
-      "en_name": "Purpur",
       "block_id": "byg:purpur_stone",
-      "type": [
+      "types": [
         "end"
-      ]
+      ],
+      "id": "byg_purpur",
+      "en_name": "Purpur"
     },
     {
-      "id": "byg_mossy_stone",
-      "texture_location": [
-        "byg:textures/block/mossy_stone.png"
-      ],
-      "en_name": "Mossy Stone",
       "block_id": "byg:mossy_stone",
-      "type": [
+      "types": [
         "stone"
-      ]
+      ],
+      "id": "byg_mossy_stone",
+      "en_name": "Mossy Stone"
     }
   ],
   "provided_ores": [
     {
-      "id": "quartz_ore",
-      "stone": [
-        "byg_brimstone",
-        "byg_blue_netherrack"
+      "block_id": [
+        "byg:anthracite_ore"
       ],
-      "texture_location": "byg:textures/block/brimstone_nether_quartz_ore.png",
+      "en_name": "Anthracite Ore",
+      "types": [
+        "nether"
+      ],
+      "texture_count": 5,
+      "id": "anthracite_ore",
+      "stone": [
+        "byg_brimstone"
+      ]
+    },
+    {
+      "block_id": [
+        "byg:pendorite_ore"
+      ],
+      "en_name": "Pendorite Ore",
+      "types": [
+        "nether"
+      ],
+      "texture_count": 5,
+      "id": "pendorite_ore",
+      "stone": [
+        "byg_blue_netherrack"
+      ]
+    },
+    {
+      "block_id": [
+        "byg:emeraldite_ore"
+      ],
+      "en_name": "Emeraldite Ore",
+      "types": [
+        "nether"
+      ],
+      "texture_count": 5,
+      "id": "emeraldite_ore",
+      "stone": [
+        "byg_scoria"
+      ]
+    },
+    {
+      "block_id": [
+        "byg:ametrine_ore"
+      ],
+      "en_name": "Ametrine Ore",
+      "types": [
+        "end"
+      ],
+      "texture_count": 5,
+      "id": "ametrine_ore",
+      "stone": [
+        "byg_ether_stone"
+      ]
+    },
+    {
+      "block_id": [
+        "byg:cryptic_redstone_ore"
+      ],
+      "en_name": "Redstone Ore",
+      "types": [
+        "end"
+      ],
+      "texture_count": 5,
+      "id": "redstone_ore",
+      "stone": [
+        "byg_cryptic"
+      ]
+    },
+    {
+      "block_id": [
+        "byg:lignite_ore"
+      ],
+      "en_name": "Lignite Ore",
+      "types": [
+        "end"
+      ],
+      "texture_count": 5,
+      "id": "lignite_ore",
+      "stone": [
+        "byg_ether_stone"
+      ]
+    },
+    {
       "block_id": [
         "byg:brimstone_nether_quartz_ore",
         "byg:blue_nether_quartz_ore"
@@ -149,22 +191,31 @@
       "en_name": "Quartz Ore",
       "types": [
         "nether"
-      ]
-    },
-    {
-      "id": "gold_ore",
+      ],
+      "texture_count": 5,
+      "id": "quartz_ore",
       "stone": [
         "byg_brimstone",
         "byg_blue_netherrack"
-      ],
-      "texture_location": "byg:textures/block/brimstone_nether_gold_ore.png",
+      ]
+    },
+    {
       "block_id": [
         "byg:brimstone_nether_gold_ore",
         "byg:blue_nether_gold_ore"
       ],
-      "en_name": "Gold Ore",
+      "en_name": "Nether Gold Ore",
       "types": [
         "nether"
+      ],
+      "texture_count": 5,
+      "id": "nether_gold_ore",
+      "orename": [
+        "gold_ore"
+      ],
+      "stone": [
+        "byg_brimstone",
+        "byg_blue_netherrack"
       ]
     }
   ]

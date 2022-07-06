@@ -1,6 +1,7 @@
 {
-  "format": 3,
+  "format": 6,
   "priority": [
+    "geolosys.json",
     "minecraft.json"
   ],
   "blacklist_ids": [],
@@ -8,5 +9,7 @@
   "blacklist_ores": [],
   "attempt_ore_generation_insertion": true,
   "attempt_ore_replacement": true,
-  "add_conversion_recipes": true
+  "add_conversion_recipes": true,
+  "jei_rei_compat": true,
+  "unobtainable_variants": false
 }

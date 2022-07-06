@@ -2,93 +2,74 @@
   "mod_id": "create",
   "provided_stones": [
     {
-      "id": "create_asurine",
-      "texture_location": [
-        "create:textures/block/palettes/stone_types/asurine.png"
+      "block_id": "minecraft:smooth_basalt",
+      "types": [
+        "nether"
       ],
-      "en_name": "Asurine",
+      "id": "create_smooth_basalt",
+      "en_name": "Smooth Basalt"
+    },
+    {
       "block_id": "create:asurine",
-      "type": [
+      "types": [
         "stone"
-      ]
+      ],
+      "id": "create_asurine",
+      "en_name": "Asurine"
     },
     {
-      "id": "create_crimsite",
-      "texture_location": [
-        "create:textures/block/palettes/stone_types/crimsite.png"
-      ],
-      "en_name": "Crimsite",
       "block_id": "create:crimsite",
-      "type": [
+      "types": [
         "stone"
-      ]
+      ],
+      "id": "create_crimsite",
+      "en_name": "Crimsite"
     },
     {
-      "id": "create_limestone",
-      "texture_location": [
-        "create:textures/block/palettes/stone_types/limestone.png"
-      ],
-      "en_name": "Limestone",
       "block_id": "create:limestone",
-      "type": [
+      "types": [
         "stone"
-      ]
+      ],
+      "id": "create_limestone",
+      "en_name": "Limestone"
     },
     {
-      "id": "create_ochrum",
-      "texture_location": [
-        "create:textures/block/palettes/stone_types/ochrum.png"
-      ],
-      "en_name": "Ochrum",
       "block_id": "create:ochrum",
-      "type": [
+      "types": [
         "stone"
-      ]
+      ],
+      "id": "create_ochrum",
+      "en_name": "Ochrum"
     },
     {
-      "id": "create_scorchia",
-      "texture_location": [
-        "create:textures/block/palettes/stone_types/scorchia.png"
-      ],
-      "en_name": "Scorchia",
       "block_id": "create:scorchia",
-      "type": [
+      "types": [
         "stone",
         "nether"
-      ]
+      ],
+      "id": "create_scorchia",
+      "en_name": "Scorchia"
     },
     {
-      "id": "create_scoria",
-      "texture_location": [
-        "create:textures/block/palettes/stone_types/scoria.png"
-      ],
-      "en_name": "Scoria",
       "block_id": "create:scoria",
-      "type": [
+      "types": [
         "stone",
         "nether"
-      ]
+      ],
+      "id": "create_scoria",
+      "en_name": "Scoria"
     },
     {
-      "id": "create_veridium",
-      "texture_location": [
-        "create:textures/block/palettes/stone_types/veridium.png"
-      ],
-      "en_name": "Veridium",
       "block_id": "create:veridium",
-      "type": [
+      "types": [
         "stone"
-      ]
+      ],
+      "id": "create_veridium",
+      "en_name": "Veridium"
     }
   ],
   "provided_ores": [
     {
-      "id": "zinc_ore",
-      "stone": [
-        "stone",
-        "deepslate"
-      ],
-      "texture_location": "create:textures/block/zinc_ore.png",
       "block_id": [
         "create:zinc_ore",
         "create:deepslate_zinc_ore"
@@ -96,6 +77,12 @@
       "en_name": "Zinc Ore",
       "types": [
         "stone"
+      ],
+      "texture_count": 5,
+      "id": "zinc_ore",
+      "stone": [
+        "stone",
+        "deepslate"
       ]
     }
   ]
