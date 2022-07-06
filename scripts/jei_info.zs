@@ -702,7 +702,7 @@ i(<item:farmersrespite:black_tea_leaves>, s);
 
 i(<item:farmersrespite:kettle>, "Can be used to brew Coffee and Tea.");
 i(<item:farmersrespite:coffee_berries>, "Can be found in Basalt Deltas. Can not be directly planted, but you can plant Coffee Beans instead.");
-i(<item:farmersrespite:coffee_beans>, "Can be found in Basalt Deltas and planted on Basalt in the Nether. Once grown, harvest the branches with Shears.");
+i(<item:farmersrespite:coffee_beans>, "Can be found in Basalt Deltas and planted on Basalt and Magma. Once grown, harvest the branches with Shears. Normally, it can only grow in the Nether, but it can be made to grow in the Overworld by having an adjacent normal crop, which is consumed.");
 
 i(<item:biomesoplenty:rooted_sand>, "Does not generate naturally. Sand under Sea Oats slowly turns into this block.");
 i(<item:biomesoplenty:sea_oats>, "Can be found in the Dune Beach biome.");
