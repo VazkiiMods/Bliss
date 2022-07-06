@@ -231,10 +231,83 @@ customization {
 }
 
 customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 342
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 9770ff0b-5e3e-4d4e-a4e4-e7c40f0df78c1657138928858
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = e78e4b54-e3e5-43fd-9b8f-1e29953927671657138928861
+  y = 479
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 723
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 9da5a865-40a2-49e7-96ad-b99b5825f3ce1657138928861
+  y = 501
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 579
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = f2d4b2ad-c031-4378-b814-08ae65a187ae1657138928861
+  y = 230
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 339
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = aa29e912-6626-42e3-b335-8d929987398b1657138928861
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = f77b1b49-5f50-4f09-b3bd-c547f5fda6811657138928861
+  y = 0
+  height = 30
+}
+
+customization {
   orientation = top-left
   shape = rectangle
   color = #00000055
-  x = 0
+  x = -2
   width = 260
   action = addshape
   actionid = 27dcdb9c-d4f9-4eea-9833-9618e9589fac1650334092806
@@ -318,7 +391,7 @@ customization {
   x = 0
   action = addtext
   actionid = 66e7a4e0-16ad-461c-862c-26991d0e070b1650335141761
-  y = -11
+  y = -9
   scale = 1.0
   alignment = left
   value = Minecraft %mcversion% / Forge %version:forge%
@@ -342,10 +415,5 @@ customization {
   backgroundnormal = fancymenu_setups\_images\btnclose.png
   value = 
   height = 20
-}
-
-customization {
-  identifier = %id=376346%
-  action = hidebutton
 }
 
