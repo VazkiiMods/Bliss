@@ -19,25 +19,6 @@ B:advancedmode = 'false';
 B:showcustomizationbuttons = 'false';
 
 
-##[mainmenu]
-
-B:hidebranding = 'true';
-B:hidelogo = 'true';
-B:hiderealmsnotifications = 'true';
-B:hideforgenotifications = 'true';
-
-
-##[mainmenu_splash]
-
-S:splashcolor = '#f4c2f5';
-I:splashrotation = '0';
-I:splashy = '60';
-I:splashx = '80';
-B:hidesplashtext = 'false';
-S:splashtextfile = 'fancymenu_setups/splashes.txt';
-S:splashorientation = 'top-left';
-
-
 ##[loading]
 
 B:allowgameintroskip = 'true';
