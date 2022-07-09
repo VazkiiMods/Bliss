@@ -1,0 +1,22 @@
+{
+		"item.create.wrench": "Mechanic's Wrench",
+		
+		"block.create.cut_limestone": "Cut Marble",
+		"block.create.cut_limestone_brick_slab": "Cut Marble Brick Slab",
+		"block.create.cut_limestone_brick_stairs": "Cut Marble Brick Stairs",
+		"block.create.cut_limestone_brick_wall": "Cut Marble Brick Wall",
+		"block.create.cut_limestone_bricks": "Cut Marble Bricks",
+		"block.create.cut_limestone_slab": "Cut Marble Slab",
+		"block.create.cut_limestone_stairs": "Cut Marble Stairs",
+		"block.create.cut_limestone_wall": "Cut Marble Wall",
+		"block.create.layered_limestone": "Layered Marble",
+		"block.create.limestone": "Marble",
+		"block.create.polished_cut_limestone": "Polished Cut Marble",
+		"block.create.polished_cut_limestone_slab": "Polished Cut Marble Slab",
+		"block.create.polished_cut_limestone_stairs": "Polished Cut Marble Stairs",
+		"block.create.polished_cut_limestone_wall": "Polished Cut Marble Wall",
+		"block.create.small_limestone_brick_slab": "Small Marble Brick Slab",
+		"block.create.small_limestone_brick_stairs": "Small Marble Brick Stairs",
+		"block.create.small_limestone_brick_wall": "Small Marble Brick Wall",
+		"block.create.small_limestone_bricks": "Small Marble Bricks"
+}

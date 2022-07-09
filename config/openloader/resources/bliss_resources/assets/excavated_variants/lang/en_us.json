@@ -1,0 +1,11 @@
+{
+	"block.excavated_variants.create_limestone_lapis_ore": "Marble Lapis Ore",
+	"block.excavated_variants.create_limestone_copper_ore": "Marble Copper Ore",
+	"block.excavated_variants.create_limestone_zinc_ore": "Marble Zinc Ore",
+	"block.excavated_variants.create_limestone_gold_ore": "Marble Gold Ore",
+	"block.excavated_variants.create_limestone_redstone_ore": "Marble Redstone Ore",
+	"block.excavated_variants.create_limestone_coal_ore": "Marble Coal Ore",
+	"block.excavated_variants.create_limestone_emerald_ore": "Marble Emerald Ore",
+	"block.excavated_variants.create_limestone_diamond_ore": "Marble Diamond Ore",
+	"block.excavated_variants.create_limestone_iron_ore": "Marble Iron Ore"
+}
