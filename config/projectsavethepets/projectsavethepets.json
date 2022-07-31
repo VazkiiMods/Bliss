@@ -1,5 +1,4 @@
 {
-  "version": 0,
   "shears": [],
   "allowDefaultShears": true,
   "revivalBlocks": [
@@ -9,6 +8,8 @@
     "allowTameableEntities": true,
     "allowFoxEntities": true,
     "allowHorseBaseEntities": true,
+    "fireProofPets": false,
+    "drownProofPets": false,
     "blacklistedEntities": [
       "minecraft:snow_golem"
     ],
@@ -21,6 +22,8 @@
     "preventAttack": true,
     "preventExplosions": true,
     "preventHarmingPotions": true,
+    "preventBerryBushDamage": false,
+    "preventFreezing": false,
     "livingEffects": [
       "minecraft:instant_damage",
       "minecraft:poison"
