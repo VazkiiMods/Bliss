@@ -2,13 +2,17 @@
 #Range: > 0
 ChalkUses = 200
 #How many light glowing mark produces. Default: 5
-#Range: 0 ~ 14
+#Range: 0 ~ 15
 GlowingMarkLightLevel = 5
-#List of items that can make mark glow. "modid:itemRegistryName"
-#If no items are defined - you will not be able to make marks glow.
-#Default values: [minecraft:glowstone_dust, minecraft:glow_ink_sac]
-GlowItems = ["minecraft:glowstone_dust", "minecraft:glow_ink_sac"]
-#If enabled, Chalks will generate in Dungeons, Abandoned Mineshafts, Planes and Savanna villages, Cartographer houses
+#If enabled, Chalks (and Chalk Boxes) will generate in Dungeons, Abandoned Mineshafts, Planes and Savanna villages, Cartographer houses
 #Default: true
 ShouldGenerateInChests = false
+#Controls whether glowing should be enabled in Chalk Box.
+#If disabled - you will not be able to draw glowing marks with chalk box.
+#Default: true
+ChalkBoxGlowingEnabled = true
+#How many glowing marks one glowing item will give.
+#Default: 8
+#Range: 1 ~ 9999
+ChalkBoxGlowingItemUses = 8
 
