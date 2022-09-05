@@ -1,0 +1,38 @@
+{
+	"name": "Matrix Enchanting",
+	"icon": "minecraft:enchanting_table",
+    "category": "patchouli:intro",
+    "read_by_default": false,
+    "advancement": "minecraft:story/form_obsidian",
+    "sortnum": 5,
+	"pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Bliss$() verwendet ein neues Verzauberungssystem namens $(thing)Matrix Enchanting$(). Dieses System ermöglicht es dir, besser anzupassen, welche Verzauberungen du auf deine Werkzeuge legst, unter erhöhten EP- und Lapislazuli-Kosten.$(br2)Als Bonusfunktion behält der Tisch sowohl deinen Gegenstand als auch das Lapis darin, sehr nützlich."
+        },
+        {
+            "type": "image",
+            "images": [
+                "patchouli:matrix_enchanting.png"
+            ],
+            "title": "Verzauberung",
+            "border": true,
+            "text": "Der $(thing)Matrix Enchanting$() Bildschirm."
+        },
+        {
+            "type": "text",
+            "text": "Um mit dem Verzaubern anzufangen, platziere zunächst dein zu verzauberndes Item im oberen linken Feld, und dein Lapis in dem darunter.$(br2)Nun kannst du über die $(bold)+$() Schaltfläche eine neue Verzauberung hinzufügen. Die Verzauberung erscheint dann auf der Seite, was bedeutet du kannst sie wählen.$(br2)Um eine Verzauberung zu wählen wähle sie einfach im Seitenpanel mit der linken Maustaste, und positioniere sie auf dem 5x5 Feld."
+        },
+        {
+            "type": "text",
+            "text": "Wie zu erwarten, können Verzauberungs-\"Blöcke\" nicht übereinander liegen, also musst du vorsichtig sein, wie du sie platzierst. Du kannst dein ausgewähltes Teil drehen, indem du rechtsklickst.$(br2)Du darfst nicht mehrere Kopien derselben Verzauberung in einem Raster haben. Wenn Du die Stufe einer Verzauberung erhöhen möchtest, wähle ein Teil aus der Seitenleiste mit derselben Verzauberung aus und klicke es mit der linken Maustaste auf dasjenige, das Du bereits platziert hast."
+        },
+        {
+            "type": "text",
+            "text": "Je mehr du eine Verzauberung aufwertest, desto mehr Kopien desselben Blocks benötigst du natürlich.$(br2)Es ist wichtig, im Hinterkopf zu behalten, dass inkompatible Blöcke nicht angezeigt werden. Wenn Du also ein Schwert mit Schärfe anstrebst, kannst Du davon ausgehen, dass Du es nicht erhältst, wenn Du Bann hast.$(br2)Wenn du mit deiner Verzauberung fertig bist, ziehe einfach den verzauberten Gegenstand heraus."
+        },
+        {
+            "type": "patchouli:enchanting_influences"
+        }
+    ]
+}

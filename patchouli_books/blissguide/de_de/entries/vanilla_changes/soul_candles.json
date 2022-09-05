@@ -1,0 +1,14 @@
+{
+	"name": "Seelenkerzen",
+	"icon": "minecraft:purple_candle",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:purple_candle",
+            "title": "Seelenkerzen",
+            "text": "Wenn du $(item)Seelensand$() oder einen anderen $(item)Seelenfeuer$() erzeugenden Block unter einer $(item)Kerze$() platzierst wird diese mit einer blauen Seelenfeuerflamme brennen, anstatt der normalen orangen."
+        }
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Bellende Schattenfinder",
+	"icon": "minecraft:torch",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:husbandry/tame_an_animal",
+	"pages": [
+		{
+			"type": "patchouli:gossip_explore",
+			"title": "Bellende Schattenfinder",
+			"text": "dass du ein paar wirklich süße $(thing)Berg-Hunde$() zähmen kannst? Wenn du einen dieser süßen Hunde zähmst, kann dieser dunkle Stellen für dich finden!"
+		},
+		{
+			"type": "quest",
+			"text": "Zähme einen $(thing)Shiba Inu$() in einem Bergbiom und lass ihn dunkle Stellen für dich finden, wo Monster spawnen können, indem du eine $(item)Fackel$() in deiner Hand hältst!."
+		}
+	]
+}

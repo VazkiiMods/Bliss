@@ -1,0 +1,6 @@
+{
+	"name": "Lissas Ratschläge",
+	"description": "$(lissa)Lissa$() wird ab und zu vorbeischauen, wenn Du Ziele im Modpack erreichst, und Dich über coole Features beraten, die Du ausprobieren solltest.$(br2)Halte Ausschau nach dem $(#ff0000)(!)$() auf dem Handbuch in deinem Inventar!",
+	"icon": "minecraft:compass",
+	"sortnum": 1
+}

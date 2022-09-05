@@ -1,0 +1,14 @@
+{
+	"name": "Anpassbare Betten",
+	"icon": "minecraft:red_bed",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:red_bed",
+            "title": "Anpassbare Betten",
+            "text": "$(item)Betten$() können jetzt mit $(item)Bannern$() angepasst werden, sodass Du deinen Wohnraum noch mehr dekorieren kannst."
+        }
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Zum Todespunkt zurückkehren",
+	"icon": "minecraft:compass",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:nether/root",
+	"pages": [
+		{
+			"type": "patchouli:gossip_game",
+			"title": "Zum Todespunkt zurückkehren",
+			"text": "dass wenn du stirbst, all deine Gegenstände von einem freundlichen $(thing)Totem$() aufbewahrt werden?"
+		},
+		{
+			"type": "quest",
+			"text": "Du kannst einen speziellen $(item)Kompass$() erstellen. Erstelle ihn, um deine Gegenstände zu finden, falls du stirbst."
+		}
+	]
+}

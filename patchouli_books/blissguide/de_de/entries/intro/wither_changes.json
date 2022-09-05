@@ -1,0 +1,18 @@
+{
+	"name": "Wither Änderungen",
+	"icon": "minecraft:wither_skeleton_skull",
+	"category": "patchouli:intro",
+    "read_by_default": false,
+    "advancement": "minecraft:nether/get_wither_skull",
+    "sortnum": 6,
+	"pages": [
+        {
+            "type": "text",
+            "text": "Um den $(thing)Wither$() ein bisschen weniger einschüchternd zu machen, stellt dir $(thing)Bliss$() eine neue Waffe zur Verfügung: $(thing)Schneegolems$(). $(br2)Du hast richtig gehört. $(thing)Schneegolems$() sind jetzt super effektiv gegen den $(thing)Wither$(). Eine Armee von denen macht kurzen Prozess mit dem Monster! Beachte, dass der $(thing)Wither$() immer noch Terrain zerstört, also sei vorsichtig, wo du ihn spawnst!"
+        },
+        {
+            "type": "text",
+            "text": "Außerdem wird der $(thing)Wither$()-Kampf basierend auf der Schwierigkeitseinstellung deines Spiels geändert: $(br)$(li)Auf $(thing)Einfach$() spawnt er überhaupt nicht, und stattdessen wirst du einfach einen $(item)Netherstern$() für das Bauen der Struktur erhalten.$(li)Auf $(thing)Schwierig$() wird der Boss seine Immunität gegen Schnee wiedererlangen, also musst du ihn richtig bekämpfen."
+        }
+	]
+}

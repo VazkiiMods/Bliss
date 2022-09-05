@@ -1,0 +1,18 @@
+{
+	"name": "Tiere auf Reisen",
+	"icon": "minecraft:feather",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:husbandry/breed_an_animal",
+	"pages": [
+		{
+			"type": "patchouli:gossip_game",
+			"title": "Tiere auf Reisen",
+			"text": "dass du einige kleine Tiere in $(item)Käfigen$() transportieren kannst? Es ist eine einfache Art, sie zu transportieren!"
+		},
+		{
+			"type": "quest",
+			"text": "Stelle einige $(item)Käfige$() her und verwende sie, um kleine Tiere zu transportieren."
+		}
+	]
+}

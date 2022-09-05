@@ -1,0 +1,18 @@
+{
+	"name": "Größere Reichweite",
+	"icon": "minecraft:piston",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:story/mine_diamond",
+	"pages": [
+		{
+			"type": "patchouli:gossip_game",
+			"title": "Größere Reichweite",
+			"text": "dass du einen besonderen $(thing)Mob$() finden kannst der deine Reichweite erhöht? Sein Hut ermöglicht es!"
+		},
+		{
+			"type": "quest",
+			"text": "Begegne dem besonderen unterirdischen $(thing)Monster$() und hol dir seinen Hut.$(br2)Ich habe es selbst nie gesehen, aber angeblich ist es sehr stark und weiß, wie man kämpft, also lass dich da draußen nicht besiegen!"
+		}
+	]
+}

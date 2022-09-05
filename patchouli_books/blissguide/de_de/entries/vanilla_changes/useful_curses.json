@@ -1,0 +1,14 @@
+{
+	"name": "Nützliche Flüche",
+	"icon": "minecraft:carved_pumpkin",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:carved_pumpkin",
+            "title": "Nützliche Flüche",
+            "text": "$(thing)Fluch Verzauberungen$() haben nun einige Nutzen: $(li)$(item)Geschnitzte Kürbisse$() mit $(thing)Fluch des Verschwindens$() werden beim Tragen dein Sichtfeld nicht beeinträchtigen.$(li)Ein benannter $(item)Spielerkopf$() welcher mit $(thing)Fluch der Bindung$() verzaubert wurde wird nun den gesamten Skin des Spielers zeigen wenn er auf einem $(item)Rüstungsständer$() platziert wird."
+        }
+	]
+}

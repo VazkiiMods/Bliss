@@ -1,0 +1,18 @@
+{
+	"name": "Spielerköpfe",
+	"icon": "minecraft:player_head",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:adventure/kill_a_mob",
+	"pages": [
+		{
+			"type": "patchouli:gossip_explore",
+			"title": "Spielerköpfe",
+			"text": "dass wenn du einen $(thing)Schneegolem$() mit dem Namen eines Spielers benennst und ihn dann von einer $(thing)Hexe$() töten lässt, dieser den Spielerkopf fallen lässt?"
+		},
+		{
+			"type": "quest",
+			"text": "Erhalte einen $(item)Spielerkopf$() deiner Wahl, indem du einen benannten $(thing)Schneegolem$() von einer $(thing)Hexe$() töten lässt."
+		}
+	]
+}

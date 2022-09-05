@@ -1,0 +1,18 @@
+{
+	"name": "Kartendekorationen",
+	"icon": "minecraft:filled_map",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:filled_map",
+            "title": "Kartendekorationen",
+            "text": "Dekorationen können deinen $(item)Karten$() hinzugefügt werden. $(br2)Wenn du mit einer Karte einen der folgenden Gegenstände rechtsklickst wird dieser deiner Karte hinzugefügt:"
+        },
+		{
+			"type": "text",
+			"text": "$(br2)Es folgt eine Liste der Dekogegenstände: $(li)$(item)Leuchtfeuer$() $(li)$(item)Leitstein$() $(li)$(item)Seelenanker$() $(li)$(item)Bett$() $(li)$(item)Aquisator$() $(li)$(item)Portal$() $(li)$(item)Wegweiser$()"			
+		}
+	]
+}

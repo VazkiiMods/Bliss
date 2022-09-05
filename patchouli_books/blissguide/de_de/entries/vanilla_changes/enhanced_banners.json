@@ -1,0 +1,14 @@
+{
+	"name": "Verbesserte Banner",
+	"icon": "minecraft:pink_banner",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:pink_banner",
+            "title": "Verbesserte Banner",
+            "text": "$(item)Banner$() können nun zusätzlich zu Wänden und Böden auch an der Decke befestigt werden. $(br2)$(item)Banner Muster$() können nun außerdem 16 Lagen haben, statt der 6 des Grundspiels."
+        }
+	]
+}

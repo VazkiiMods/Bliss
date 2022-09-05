@@ -1,0 +1,17 @@
+{
+	"name": "Video Anleitungen",
+	"icon": "minecraft:music_disc_13",
+	"category": "patchouli:intro",
+    "read_by_default": true,
+    "priority": true,
+    "sortnum": 1,
+	"pages": [
+        {
+            "type": "text",
+            "text": "Wenn Du kein Lesertyp bist, kannst du mit $(thing)Bliss$() auch anfangen, indem Du dir die Videos dieser erstaunlichen Leute auf der nächsten Seite anschaust. $(br2)Das Video von $(thing)direwolf20$() ist eine kurze Starteranleitung mit Informationen, die du über das Modpack wissen solltest, und das Video von $(thing)Vallen$() ist eine Übersicht und Rezension. Bitte beachte, diese Videos sind auf Englisch."
+        },
+        {
+            "type": "patchouli:tubers"
+        }
+	]
+}

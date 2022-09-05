@@ -1,0 +1,23 @@
+{
+	"name": "Bewegungs-Upgrades",
+	"icon": "minecraft:leather_boots",
+	"category": "patchouli:intro",
+    "read_by_default": false,
+    "advancement": "minecraft:story/upgrade_tools",
+    "sortnum": 4,
+	"pages": [
+        {
+            "type": "text",
+            "text": "In $(thing)Bliss$() stehen einige zusätzliche Bewegungsoptionen zur Verfügung:$(br)$(li) Das Drücken von $(thing)C$() erlaubt dir, $(thing)zu Boden zu gehen$(), wodurch du nur einen Block füllst.$(li)Während du neben einer Wand $(thing)schleichst$() (UMSCHALT), wirst du an der Wand greifen und von ihr rutschen, solange du mit ihr verbunden bist."
+        },
+		{
+            "type": "image",
+            "images": [
+                "patchouli:wall_jump.png"
+            ],
+            "title": "Wandsprünge",
+            "border": true,
+            "text": "Wenn Du springst, während Du an einer $(thing)Wand greifst$(), wirst Du einen $(thing)Wandsprung$() durchführen, der bis zu 3 Blöcke hoch gehen kann!"
+        }
+	]
+}

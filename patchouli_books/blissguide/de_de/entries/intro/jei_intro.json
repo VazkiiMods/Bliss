@@ -1,0 +1,37 @@
+{
+	"name": "Einleitung zu JEI",
+	"icon": "minecraft:compass",
+	"category": "patchouli:intro",
+	"priority": true,
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Lass uns darüber sprechen, wie du entdecken kannst, welche neuen Inhalte $(thing)Bliss$() zu bieten hat.$(br2)Vielleicht ist dir schon die große Auswahl an Elementen auf der rechten Bildschirmseite aufgefallen wenn du das Inventar öffnest. Wenn Du Modding-Veteran bist, ist das nichts Neues, aber für Euch Neulinge: Das ist ($(item)Just Enough Items$())"
+		},
+		{
+			"type": "text",
+			"text": "Hier siehst du alle relevanten Gegenstände im Spiel. Wir haben uns erlaubt, die nicht relevanten auszublenden. $(br2)Du kannst mit der linken Maustaste auf einen Gegenstand klicken, um zu sehen, wie er hergestellt wird, oder mit der rechten Maustaste, um zu sehen, was daraus hergestellt werden kann. Das Drücken der Tasten $(thing)R$()ezept bzw. N$(thing)U$()tzen hat ebenfalls dieses Verhalten."
+		},
+		{
+			"type": "text",
+			"text": "In $(thing)Bliss$() führen wir jedoch auch einige zusätzliche Systeme ein, die Dir helfen, den gewünschten Inhalt zu finden. $(br2)Du kannst Gegenstände neben ihren Namen auch nach $(thing)Kategorie$(), $(thing)Farbe$() oder beiden gleichzeitig suchen! $(br2)Du kannst zum Beispiel einfach $(item)Red Building Blocks$() eingeben und bekommst genau das auf einem Silbertablett serviert. Cool, nicht wahr?"
+		},
+		{
+			"type": "text",
+			"text": "Einige verfügbare Kategorien sind wie folgt:$(br)$(li)Building Blocks$(li)Decorative Blocks$(li)Variant Blocks$(li)Functional Blocks$(li)Technical Blocks$(li)Crops$(li)Food Items$(li)Utility Items $(br2)Sieh dich in Ruhe um, es gibt noch viele andere Dinge, nach denen du suchen kannst."
+		},
+		{
+			"type": "text",
+			"text": "Sobald du etwas gefunden hast was dir gefällt, kannst du es mit einem Lesezeichen versehen, indem du über in $(item)JEI$() ein Item auwählst und $(thing)A$() drückst. Dies fügt das Item der linken Seite hinzu, wo du es immer aufrufen kannst."
+		},
+		{
+			"type": "text",
+			"text": "Wenn du dir Notizen zu deinen nächsten Zielen machen, oder dir einfach etwas merken möchtest, versuche $(thing)N$() im Spiel zu drücken - dies öffnet ein neues $(item)Notizen$() Menü wo du dir alles mögliche aufschreiben kannst. Du kannst diese sogar an deinen Bildschirm anheften!"
+		},
+		{
+			"type": "text",
+			"text": "Nur als letzten Hinweis, viele Items haben ein $(thing)Info Tab$() angehängt, wenn man sie in $(item)JEI$() anklickt, also selbst wenn etwas so aussieht, als wäre es nicht hergestellt, oder wenn du nicht weißt, was es tut, erwäge, sein Rezept oder seine Verwendung zu überprüfen."
+		}
+	]
+}

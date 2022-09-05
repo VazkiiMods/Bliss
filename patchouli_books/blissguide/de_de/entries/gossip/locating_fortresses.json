@@ -1,0 +1,18 @@
+{
+	"name": "Festungen lokalisieren",
+	"icon": "minecraft:nether_wart",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:nether/root",
+	"pages": [
+		{
+			"type": "patchouli:gossip_camera",
+			"title": "Festungen lokalisieren",
+			"text": "dass du eine $(thing)Netherfestung$() ziemlich einfach finden kannst? Geh einfach durch ein $(thing)Seelensandtal$(), die Seelen dort tragen den Gegenstand, den du brauchst."
+		},
+		{
+			"type": "quest",
+			"text": "Finde einen Weg, $(thing)Netherfestungen$() im $(thing)Seelensandtal$() zu finden.$(br2)Hierfür musst du vielleicht ein Schwert schwingen, also sei darauf vorbereitet!"
+		}
+	]
+}

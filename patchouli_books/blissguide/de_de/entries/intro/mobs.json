@@ -1,0 +1,26 @@
+{
+	"name": "Mobs und Du",
+	"icon": "minecraft:iron_sword",
+	"sortnum": 2,
+	"priority": false,
+	"read_by_default": true,
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Es folgen Erinnerungen zu den Informationen auf dem Bildschirm $(thing)Willkommen zu Bliss$(). Wisse, dass Monster...$(br)$(li)dich nicht angreifen werden, es sei denn, sie werden zuerst angegriffen.$(li)nicht auf Blöcken mit direkter Sicht zum Himmel spawnen, außer bei Gewitter.$(li)deine Welt nicht beschädigen werden (Creeper, Endermen usw)."
+		},
+		{
+			"type": "text",
+			"text": "Zusätzliche Änderungen am Spiel beinhalten...$(br)$(li)$(thing)Dorfbewohner$() werden auf $(item)Normal$() immer in $(thing)Zombie Dorfbewohner$() umgewandelt, anstatt zu sterben. $(li)$(thing)Spinnen$() spawnen nicht, und alle $(thing)Spinnen Spawner$() werden durch $(thing)Creeper Spawner$() ersetzt ($(thing)Höhlenspinnen Spawner$() immer noch auftauchen).$(li)$(thing)Feuerausbreitung$() ist deaktiviert.$(li)$(thing)Pillager Patrolien$() sind deaktiviert."
+		},
+		{
+			"type": "text",
+			"text": "Wenn Du es überwiegend entspannt haben möchtest, aber trotzdem eine Herausforderung haben möchtest, suche Dir eine $(item)Bastion$(), eine $(item)Wald-Villa$(), oder einen $(item)Pillager Außenposten$().$(br2)Diese Strukturen gelten als $(thing)bewacht$(), und als solche werden die Mobs darin immer noch aggressiv sein! $(br2)Beim erstmaligen Betreten wirst du daran erinnert, also mach dir nicht zu viele Gedanken darüber."
+		},
+		{
+			"type": "text",
+			"text": "Zu guter Letzt kannst du deinen Spielstil nach Belieben anpassen, indem du den Schwierigkeitsgrad deines Spiels änderst.$(br2)Auf $(li)Einfach$() erzeugen bewachte Strukturen keine Aggro mehr. $(li)Auf dem Schwierigkeitsgrad.. $(thing)Schwer$() gewinnen Mobs ihre natürliche Aggro-Fähigkeit zurück."
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"name": "Wandlaternen",
+	"icon": "minecraft:lantern",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:lantern",
+            "title": "Wandlaternen",
+            "text": "$(thing)Laternen$() können nun an Wänden, $(item)Wegweisern$() sowie $(item)Ketten$() befestigt werden."
+        }
+	]
+}
