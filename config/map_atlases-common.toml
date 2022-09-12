@@ -1,6 +1,0 @@
-#The maximum number of Maps (Filled & Empty combined) allowed to be inside an Atlas.
-#Range: 0 ~ 99999
-maxMapCount = 128
-#If 'true', Atlases will be able to store Empty Maps and auto-fill them as you explore.
-enableEmptyMapEntryAndFill = true
-

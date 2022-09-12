@@ -349,7 +349,7 @@ i(<item:minecraft:soul_lantern>, s);
 
 i(<item:corail_woodcutter:oak_woodcutter>, "Works like a sawmill, but for wooden blocks.");
 i(<item:tradingpost:trading_post>, "When placed down, allows you to trade with all villagers around it by right clicking it.");
-i(<item:map_atlases:atlas>, "An Atlas of multiple maps; a world map, if you will. Create this with a Filled Map, and then add more maps via crafting them onto it. Filled Maps must match the scale, and Empty Maps are consumed as needed.");
+i(<item:antiqueatlas:empty_antique_atlas>, "Works as a sort of map that catalogues where you go. Definitely a must have if you're going exploring!");
 
 i(<item:farmersdelight:rope>, "Can be dropped down via right click and climbed up or down.");
 i(<item:immersive_weathering:soot>, "Soot gets created near a lit campfire.");
