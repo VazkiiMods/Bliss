@@ -1,21 +1,25 @@
 {
-  "curseProjectID": "bliss",
-  "promoCode": "vazkiiu0x",
-  "creeperhostEnabled": true,
-  "mpMenuEnabled": true,
-  "mainMenuEnabled": false,
-  "serverHostButtonImage": true,
-  "serverHostMenuImage": true,
-  "sivIntegration": false,
-  "serverListEnabled": false,
-  "chatEnabled": false,
-  "autoMT": false,
-  "enableFriendOnlineToasts": false,
-  "enableMainMenuFriends": false,
-  "replaceRealms": false,
-  "issueTrackerUrl": "https://pste.ch/",
-  "firstConnect": "",
-  "debugMode": false,
-  "optOutSentry": true,
-  "pregenDiameter": 120
+	// For modpack creators. Enter your CurseForge project id here.
+	"curseProjectID": "bliss",
+	// For modpack creators. Enter your 'Promo Code' here.
+	"promoCode": "vazkiiu0x",
+	// For modpack creators. The pregen size when selected during orders.
+	"pregenDiameter": 120,
+	// If the Multiplayer server list should have CreeperHost adverts.
+	"mpMenuEnabled": true,
+	// If the realms button should be replaced.
+	"replaceRealms": false,
+	// If all chat messages should be logged to console.
+	"logChatToConsole": false,
+	// Create _VERY_ verbose logs. May create hugenorums log files.
+	"debugMode": false,
+	// If the Chat component of MineTogether is enabled.
+	"chatEnabled": false,
+	// If notifications for friends are enabled.
+	"friendNotifications": true,
+	// If menu buttons are enabled.
+	"mainMenuButtons": true,
+	// INTERNAL: Marker for tracking first connections.
+	"firstConnect": "",
+	"issueTrackerUrl": "https://pste.ch/",
 }

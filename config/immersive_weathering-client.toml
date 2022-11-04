@@ -1,5 +1,6 @@
-#Allows dynamic resource generations for leaf piles and bark to pick textures from installed resource pack. Will only really work well if those texture pack have a similar format to vanilla otherwise it will result in glitched textures
-dynamic_textures_from_resource_packs = false
-#Debug option. Use this to force the mod to save the dynamic assets it generates to disk. They will be in a debug folder in your instance directory
-save_debug_resources = false
+
+[general]
+	leaves_decay_particles = true
+	falling_leaf_particles = true
+	decay_sound = true
 

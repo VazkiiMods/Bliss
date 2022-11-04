@@ -48,14 +48,6 @@
 
 			[Java.Version.Min.Requirement]
 				# 
-				# The minimum version of Java needed to be able to launch the modpack.
-				# 
-				# Note: itlt handles Java version naming scheme differences for you, meaning you can
-				# put "7" here and itlt will correctly check against "Java 1.7" internally,
-				# while values such as "15" will check against "Java 15" internally.
-				#Range: 6 ~ 127
-				requiredMinJavaVersion = 17
-				# 
 				# Whether or not to require a certain version of Java to be able to launch the modpack.
 				# 
 				# If someone tries to launch the modpack with a version of Java older than what's
@@ -65,6 +57,14 @@
 				# Note: This is *separate* from enableMinJavaVerWarning - you can have a separate
 				# version requirement and warning.
 				enableMinJavaVerRequirement = true
+				# 
+				# The minimum version of Java needed to be able to launch the modpack.
+				# 
+				# Note: itlt handles Java version naming scheme differences for you, meaning you can
+				# put "7" here and itlt will correctly check against "Java 1.7" internally,
+				# while values such as "15" will check against "Java 15" internally.
+				#Range: 6 ~ 127
+				requiredMinJavaVersion = 17
 
 			[Java.Version.Min.Warning]
 				# 
@@ -322,27 +322,12 @@
 			# the default guide's outdated or you're using your own custom launcher.
 			enableCustom64bitJavaGuide = false
 
-[Internal]
-	# 
-	# The version of itlt that created this config file. Intended to be used for migrating
-	# config changes when you update the mod. Please don't touch this, this is for itlt itself to change.
-	configVersion = "2.1.2"
-
-[ServerList]
-	# 
-	# Enable this to have itlt add default servers to the Multiplayer list from a JSON file.
-	# 
-	# Note: The JSON needs to be placed in config\itlt\servers.json
-	# 
-	# Warning: This feature is experimental and may change in future v2.x releases. Check the
-	# changelog before updating if you use this. The changelog will make any breaking changes
-	# to this feature clear. If there's no mention of this feature in the changelog, rest assured
-	# you can update without needing to make any changes to your servers.json.
-	enableCustomServerListEntries = false
-
 [Display]
 
 	[Display.WindowTitle]
+		# 
+		# Enable this if you want to change the name of the Minecraft window.
+		enableCustomWindowTitle = false
 		# 
 		# The name you want your Minecraft window to be. Put "%mc" to include the original
 		# window title's contents to help identify the Minecraft version for example.
@@ -368,31 +353,46 @@
 		# Note: enableCustomWindowTitle must be enabled for this to take effect.
 		customWindowTitleText = "%autoName - %mc"
 		# 
-		# The text to use in place of %autoDetect if we're unable to automatically detect your
-		# modpack's display name.
-		# 
-		# Note: This value will always be used for %autoName if enableUsingAutodetectedDisplayName
-		# is disabled, regardless of whether or not the pack is launched from a supported launcher.
-		autoDetectedDisplayNameFallback = "ModpackName"
-		# 
 		# Whether or not to automatically replace "%autoName" in customWindowTitleText with
 		# your modpack's display name when launching from a supported launcher.
 		# 
 		# Note: enableCustomWindowTitle must be enabled for this to take effect.
 		enableUsingAutodetectedDisplayName = true
 		# 
-		# Enable this if you want to change the name of the Minecraft window.
-		enableCustomWindowTitle = false
+		# The text to use in place of %autoDetect if we're unable to automatically detect your
+		# modpack's display name.
+		# 
+		# Note: This value will always be used for %autoName if enableUsingAutodetectedDisplayName
+		# is disabled, regardless of whether or not the pack is launched from a supported launcher.
+		autoDetectedDisplayNameFallback = "ModpackName"
+
+	[Display.Icon]
+		# 
+		# Enable this if you want itlt to use its HiDPI-aware (aka Retina support) icon setting
+		# feature with the Vanilla game icon, obtained directly from the game's resources.
+		# 
+		# Turning this on should give you a more crisp and detailed icon on higher resolution displays,
+		# rather than the comparatively blurry 32px PNG that is normally used.
+		enableEnhancedVanillaIcon = true
+		# 
+		# Enable this if you want to change the window and taskbar icon of the Minecraft window.
+		# ICO, ICNS and PNG icons provided to this mod are supported on all operating systems.
+		# 
+		# Note: The icon needs to be placed in config\itlt\icon.(ico/icns/png).
+		# 
+		# Note: See the itlt wiki for more info.
+		# 
+		# Note: This will override the enableEnhancedVanillaIcon when a valid custom icon is found.
+		enableCustomIcon = false
+		# 
+		# Enable this if you want itlt to automatically detect your modpack's icon when launching
+		# from a supported launcher. If unable to auto-detect, it will fallback to a provided
+		# icon.ico/icon.icns/icon.png file if available.
+		# 
+		# Note: enableCustomIcon must be enabled for this to take effect.
+		enableUsingAutodetectedIcon = true
 
 	[Display.WelcomeScreen]
-		# 
-		# Enable this if you want to change the modpack name that shows up on the heading of the
-		# welcome screen.
-		# 
-		# Note: If you leave this disabled, itlt will use the contents of %autoName (auto-detected
-		# modpack name - see the enableUsingAutodetectedDisplayName and autoDetectedDisplayNameFallback
-		# options for details).
-		enableUsingCustomWelcomeHeaderModpackDisplayName = true
 		# 
 		# Enable this if you want to show a welcome screen to your users the first time they
 		# start your modpack. You can customise the text shown using a text file.

@@ -65,3 +65,8 @@ B:showvanillamovewarning = 'true';
 ##[ui]
 
 F:uiscale = '1.0';
+
+
+##[compatibility]
+
+B:allow_level_registry_interactions = 'true';

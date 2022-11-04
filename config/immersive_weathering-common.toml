@@ -1,85 +1,118 @@
-#Enable data driven block growths. This is just a global toggle, to have more control over each block growth you can use a datapack to override the existing jsons
-block_growths_enabled = true
 
 [mossy_blocks]
-	#How likely each block face is to propagate its mossy state to its neighbor.Set to 0 to completely disable mossification
 	#Range: 0.0 ~ 1.0
 	interest_for_face = 0.3
-	#Determines how likely a moss patch is to spread in a non uniform manner allowing more distant blocks to be affected by eachother.In more in depth terms this makes it so a block will be affected by neighbors with WEATHERING state set to trueas opposed to only already mossy blocks or moss source blocks
-	#Range: 0.0 ~ 1.0
-	disjoint_growth_chance = 0.5
-	#Determines the percentage of blocks that will not be allowed to weather if not directly next to a moss source block.The actual shape of a moss patch is influenced by all 3 of these values
-	#Range: 0.0 ~ 1.0
-	un_weatherable_chance = 0.4
-	#If a block needs to be exposed to air to be able to weather. Currently moss sources blocks ignore this check
 	needs_air = true
+	#Range: 0.0 ~ 1.0
+	patchiness = 0.5
+	#Range: 0.0 ~ 1.0
+	immune_chance = 0.4
 
 [cracked_blocks]
-	#How likely each block face is to propagate its cracked state to its neighbor.Set to 0 to completely disable cracking
 	#Range: 0.0 ~ 1.0
 	interest_for_face = 0.6
-	#Determines how likely a crack patch is to spread in a non uniform manner allowing more distant blocks to be affected by eachother.In more in depth terms this makes it so a block will be affected by neighbors with WEATHERING state set to trueas opposed to only already cracked blocks or crack source blocks
-	#Range: 0.0 ~ 1.0
-	disjoint_growth_chance = 0.4
-	#Determines the percentage of blocks that will not be allowed to weather if not directly next to a moss source block.The actual shape of a crack patch is influenced by all 3 of these values
-	#Range: 0.0 ~ 1.0
-	unWeatherable_chance = 0.5
-	#If a block needs to be exposed to air to be able to weather. Currently crack sources blocks ignore this check
 	needs_air = false
-	#If crating a cracked block by clicking on it with a pickaxe requires shifting or not
-	pickaxe_cracking_requires_shifting = false
-
-[bark]
-	#Allows bark to be dropped after scraping off log blocks
-	enabled = false
-	#If you dont like having a bark item for each wood type, write here a valid item id and it will be used as a generic bark instead. Note that existing bark items will not be hidden in creative inventory
-	generic_bark_id = ""
-
-[icicles]
-	#Enables icicle patches features to spawn in icy biomes and caves
-	icicle_patches = true
-	#Allows icicles to fall when a loud sound is player nearby
-	fall_on_vibrations = true
-	#Allows icicles to naturally generate on the underside of blocks when it snows.Determines the how many blocks on average an icicle can generate in. The higher the rarer. Set to 1001 to disable entirely
-	#Range: 1 ~ 1001
-	icicle_formation = 12
+	#Range: 0.0 ~ 1.0
+	patchiness = 0.4
+	#Range: 0.0 ~ 1.0
+	immune_chance = 0.4
 
 [food]
-	#Chance that a moss clump will give regeneration effect
-	#Range: 0.0 ~ 1.0
-	moss_regeneration_chance = 0.3
-	#Eaten icicles will give a short fire resistance buff
 	icicle_fire_resistance = true
-	#Allows icicles to be eaten
 	icicle_food = true
+	muddy_water_enabled = true
 
 [leaf_piles]
-	#Enables leaf piles patches features to spawn in forests. Currently does nothing as they have been temporarily (or not) yeeted
-	leaf_piles_patches = true
-	#Allows natural humus or podzol generation below leaf piles with more than 1 layer
+	leaf_piles_slow = true
 	#Range: 0.0 ~ 1.0
-	humus_and_podzol_spawn_chance = 0.02
-	#Chance for leaf piles to spawn below leaves
+	spawn_entity_from_decay = 0.3
 	#Range: 0.0 ~ 1.0
-	fallen_leaves_chance = 0.005
-	#Maximum height that leaf piles can naturally pile up to.Refers to the previously defined falling leaves feature
-	#Range: 1 ~ 8
-	fallen_leaves_height = 3
-	#Maximum height at which a leaf block can generate a leaf pile below
+	leaf_piles_spawn_chance = 0.005
 	#Range: 1 ~ 256
-	fallen_leaves_reach = 12
-	#Leaves Block ids that should not spawn from leaves (i.e: minecraftoak_leaves)
-	mod_blacklist = ["ars_nouveau:purple_archwood_leaves", "ars_nouveau:blue_archwood_leaves", "ars_nouveau:green_archwood_leaves", "ars_nouveau:red_archwood_leaves"]
+	reach = 12
+	#Range: 1 ~ 8
+	max_pile_height = 3
+	#leaves that wont spawn leaf piles
+	leaf_piles_blacklist = []
 
-[vitrified_sand]
-	#Allows lightning to create vitrified sand
-	from_lightning = true
-	#Fulgurite will spawn on top of vitrified sand created by a lightning bolt
-	fulgurite = true
-	#Allows lava to create vitrified sand
-	from_lava = true
+[general]
+	block_growths = true
+	creative_tab = false
+	grass_over_mycelium = true
+	mycelium_over_grass = true
 
-[soil_blocks]
-	#Enables leaf piles patches features to spawn in dark oak forests
-	humus_patches = true
+[icicle]
+	react_to_vibrations = true
+	#Range: 1 ~ 1001
+	spawn_rarity = 12
+
+[freezing]
+	#same as powder snow. If below 2 it will match natural unfreezing so will stay constant
+	#Range: 0 ~ 5
+	water_increment = 3
+	#Range: 0 ~ 1000
+	icicle = 300
+	#Range: 0 ~ 5
+	permafrost_increment = 2
+
+[charring]
+	#Range: 0.0 ~ 1.0
+	fire_chars_wood = 0.3
+	#Range: 0.0 ~ 1.0
+	ash_spawn = 0.3
+	soot_spawn = true
+	flammable_cobweb = true
+
+[generation]
+	cryosol_feature = true
+	humus_feature = true
+	fluvisol_feature = true
+	silt_feature = true
+	vertisol_feature = true
+	lakebed_feature = true
+	icicle_feature = true
+	roots_feature = true
+
+[item_interaction]
+	cauldron_washing = false
+	pickaxe_cracking = true
+	pickaxe_cracking_shift = false
+	brick_breaking = true
+	piston_sliming = true
+	soil_shearing = true
+	grass_flinting = true
+	azalea_shearing = true
+	moss_shearing = true
+	moss_burning = true
+	charred_block_igniting = true
+	shovel_extinguish = true
+	sponge_rusting = true
+	sponge_rust_drying = false
+	axe_stripping = true
+	axe_rusting = true
+	#allows ash to spawn when extinguishing campfires
+	ash_item_spawn = true
+	#Drop stuff when in creative
+	drop_in_creative = false
+
+[misc]
+	mulch_grows_crops = true
+	composter_dirt = true
+	generic_bark = ""
+	feather_falling_farmers = true
+	leggings_prevents_thorn_damage = true
+	desire_paths = false
+	#Range: 0.0 ~ 1.0
+	desire_path_rate = 0.05
+
+[thin_ice]
+	natural_melting = false
+
+[lightning_growths]
+	vitrified_lightning = true
+	#Range: 0.0 ~ 1.0
+	fulgurite_chance = 0.4
+
+[rusting]
+	rusting = true
 
