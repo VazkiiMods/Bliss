@@ -100,7 +100,7 @@ def ship_server(minecraftinstance_data, version):
 ##################################################################################################################################
 
 def load_instance_data():
-	with open('minecraftinstance.json', 'r') as in_file:
+	with open('minecraftinstance.json', 'r', encoding="utf-8") as in_file:
 		minecraftinstance_data = json.load(in_file)
 		return minecraftinstance_data
 
