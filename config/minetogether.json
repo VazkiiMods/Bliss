@@ -16,9 +16,9 @@
 	// If the Chat component of MineTogether is enabled.
 	"chatEnabled": false,
 	// If notifications for friends are enabled.
-	"friendNotifications": true,
+	"friendNotifications": false,
 	// If menu buttons are enabled.
-	"mainMenuButtons": true,
+	"mainMenuButtons": false,
 	// INTERNAL: Marker for tracking first connections.
 	"firstConnect": "",
 	"issueTrackerUrl": "https://pste.ch/",

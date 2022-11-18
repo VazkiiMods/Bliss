@@ -1,6 +1,8 @@
 /*
 /*/
 
+
+
 !/config/
 !/defaultconfigs/
 !/fancymenu_setups/
@@ -17,3 +19,5 @@
 /ship/output
 *.pyc
 *toml.bak
+
+bookmarks.ini
