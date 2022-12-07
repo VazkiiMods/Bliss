@@ -1,0 +1,14 @@
+{
+	"name": "Dorfbewohner Transport",
+	"icon": "minecraft:emerald_block",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:emerald_block",
+            "title": "Dorfbewohner Transport",
+            "text": "$(thing)Dorfbewohner$() werden nun Spielern folgen die einen $(item)Smaragdblock$() halten, was es einfacher macht sie zu transportieren."
+        }
+	]
+}

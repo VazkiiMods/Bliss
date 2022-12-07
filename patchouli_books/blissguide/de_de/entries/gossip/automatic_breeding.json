@@ -1,0 +1,18 @@
+{
+	"name": "Automatisierte Züchtung",
+	"icon": "minecraft:wheat",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:husbandry/breed_an_animal",
+	"pages": [
+		{
+			"type": "patchouli:gossip_love",
+			"title": "Automatisierte Züchtung",
+			"text": "dass du eine $(thing)Futterstelle$() aufstellen kannst, an der Tiere fressen können, ohne dass du ständig Futter hereinbringen musst?"
+		},
+		{
+			"type": "quest",
+			"text": "Finde heraus, wie man eine $(thing)Futterstelle$() baut, und bringe einige Tiere dazu, sich selbst zu züchten."
+		}
+	]
+}

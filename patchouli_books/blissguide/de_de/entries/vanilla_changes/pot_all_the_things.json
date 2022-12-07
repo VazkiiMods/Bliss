@@ -1,0 +1,14 @@
+{
+	"name": "Topfe alles ein!",
+	"icon": "minecraft:flower_pot",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:flower_pot",
+            "title": "Topfe alles ein!",
+            "text": "$(item)Blumentöpfe$() können jetzt tonnenweise mehr Blumen und Feldfrüchte aufnehmen. $(br2)Du kannst sie auch an der Decke oder an $(item)Ketten$() aufhängen."
+        }
+	]
+}

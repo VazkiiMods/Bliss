@@ -1,0 +1,18 @@
+{
+	"name": "Biome finden",
+	"icon": "minecraft:map",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:adventure/trade",
+	"pages": [
+		{
+			"type": "patchouli:gossip_explore",
+			"title": "Biome finden",
+			"text": "dass Kartographen in Dörfern Karten zu bestimmten Biomen verkaufen? Es gibt so viele coole Orte zu finden, du solltest ihnen einen Besuch abstatten!"
+		},
+		{
+			"type": "quest",
+			"text": "Besorg dir einige $(thing)Karten$() zu Biomen und geh auf eine Reise. Vergiss nicht, mir die gefundenen Schätze zu zeigen!"
+		}
+	]
+}

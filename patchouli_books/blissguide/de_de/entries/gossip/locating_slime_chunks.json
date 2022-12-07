@@ -1,0 +1,18 @@
+{
+	"name": "Slime Chunks finden",
+	"icon": "minecraft:slime_ball",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:story/mine_diamond",
+	"pages": [
+		{
+			"type": "patchouli:gossip_love",
+			"title": "Slime Chunks finden",
+			"text": "dass winzige Schleime $(thing)Slime Chunks$() liiiieben? Wenn Du einen dieser süßen Blobs einfangen kannst, kann er dich vielleicht zu einem Chunk führen?"
+		},
+		{
+			"type": "quest",
+			"text": "Finde einen Weg, wie du winzige Schleime einfangen kannst und nutze sie um herauszufinden wo sie spawnen."
+		}
+	]
+}

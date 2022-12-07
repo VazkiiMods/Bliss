@@ -1,0 +1,14 @@
+{
+	"name": "Automatische Plattenspieler",
+	"icon": "minecraft:jukebox",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:jukebox",
+            "title": "Automatische Plattenspieler",
+            "text": "$(item)Plattenspieler$() können jetzt automatisch Musik abspielen, indem man die $(item)Schallplatte$() mit einem $(item)Werfer$() einlegt. Zum Herausnehmen der Platte kann ein $(item)Trichter$() unten angebracht werden."
+        }
+	]
+}

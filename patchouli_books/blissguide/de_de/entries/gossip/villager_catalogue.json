@@ -1,0 +1,18 @@
+{
+	"name": "Dorfbewohner-Katalog",
+	"icon": "minecraft:emerald",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:adventure/trade",
+	"pages": [
+		{
+			"type": "patchouli:gossip_camera",
+			"title": "Dorfbewohner-Katalog",
+			"text": "dass du einen $(item)Handelsposten-Block$() herstellen kannst? Du kannst ihn dann verwenden, um mit jedem $(thing)Dorfbewohner$() in der Umgebung gleichzeitig zu handeln!"
+		},
+		{
+			"type": "quest",
+			"text": "Werde ein Shopaholic mit dem $(item)Handelsposten-Block$()!"
+		}
+	]
+}

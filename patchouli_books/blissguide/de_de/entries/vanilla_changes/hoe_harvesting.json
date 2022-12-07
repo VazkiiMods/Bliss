@@ -1,0 +1,14 @@
+{
+	"name": "Ernten mit der Hacke",
+	"icon": "minecraft:diamond_hoe",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:diamond_hoe",
+            "title": "Ernten mit der Hacke",
+            "text": "$(item)Hacken$() können verwendet werden um ein 3x3 Feld Angebautes abzubauen. $(item)Diamant$() und $(thing)Netherit Hacken$() sogar ein 5x5 Feld abbauen. $(br2)Darüber hinaus kannst du eine Pflanze rechtsklicken um sie zu ernten und neu zu pflanzen. Mit einer $(item)Hacke$() wird der entsprechende Bereich geerntet."
+        }
+	]
+}

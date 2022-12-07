@@ -1,0 +1,14 @@
+{
+	"name": "Verstärkte Kolben",
+	"icon": "minecraft:piston",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:piston",
+            "title": "Verstärkte Kolben",
+            "text": "$(item)Kolben$() können nun doppelt so viele Blöcke wie zuvor schieben, also bis zu 24 Blöcke. Sie sind außerdem in der Lage $(thing)Tile Entities$() zu verschieben, zum Beispiel $(item)Kisten$(), $(item)Öfen$(), usw.$(br2)Wenn du einen unbeweglichen Block brauchst, $(item)Fester Stein$() eignet sich hierzu hervorragend."
+        }
+	]
+}

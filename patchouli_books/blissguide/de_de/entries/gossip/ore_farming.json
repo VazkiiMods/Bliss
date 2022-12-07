@@ -1,0 +1,18 @@
+{
+	"name": "Erzanbau",
+	"icon": "minecraft:iron_nugget",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:story/mine_diamond",
+	"pages": [
+		{
+			"type": "patchouli:gossip_camera",
+			"title": "Erzanbau",
+			"text": "dass unter der Erde $(thing)Erz-Schildkröten$() spawnen? Du kannst ihre Erze abbauen, und wenn du sie mit $(item)Leuchtbeeren$() fütterst, wachsen sie nach!"
+		},
+		{
+			"type": "quest",
+			"text": "Nutze $(thing)Erz-Schildkröten$() um Erze zu regenerieren.$(br2)Du kannst sogar Blockabbauer und anderes einsetzen."
+		}
+	]
+}

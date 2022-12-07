@@ -1,0 +1,14 @@
+{
+	"name": "Verkettete Bewegung",
+	"icon": "minecraft:chain",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:chain",
+            "title": "Verkettete Bewegung",
+            "text": "Wenn sie von $(item)Kolben$() verschoben werden, können $(item)Ketten$() mehrere Blöcke miteinander verbinden, wenn sie zwischen ihnen platziert werden."
+        }
+	]
+}

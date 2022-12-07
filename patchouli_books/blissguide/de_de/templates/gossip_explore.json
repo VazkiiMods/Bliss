@@ -1,0 +1,23 @@
+{
+	"include": [
+	    {
+	        "template": "patchouli:incl/gossip_base",
+	        "as": "base",
+	        "using": {
+	        	"title": "#title",
+	        	"text": "#text"
+	        }
+	    }
+	],
+	"components": [
+		{
+			"type": "patchouli:image",
+			"x": 28,
+			"y": 75,
+			"width": 165,
+			"height": 148,
+			"scale": 0.5,
+			"image": "patchouli:lissa_explore.png"
+		}
+	]
+}
