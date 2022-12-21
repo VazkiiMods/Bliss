@@ -1,0 +1,18 @@
+{
+	"name": "木材切削",
+	"icon": "minecraft:stonecutter",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:story/smelt_iron",
+	"pages": [
+		{
+			"type": "patchouli:gossip_game",
+			"title": "木材切削",
+			"text": "石头不是你唯一能切割的东西吗？这是正确的！试试$(item)锯木机$()，好好利用你所有的木材."
+		},
+		{
+			"type": "quest",
+			"text": "使用$(item)锯木机$()能更有效地将木方块切割成其变体."
+		}
+	]
+}

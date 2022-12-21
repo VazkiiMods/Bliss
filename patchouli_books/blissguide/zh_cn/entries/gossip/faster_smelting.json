@@ -1,0 +1,18 @@
+{
+	"name": "更快的熔炼",
+	"icon": "minecraft:furnace",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:nether/root",
+	"pages": [
+		{
+			"type": "patchouli:gossip_love",
+			"title": "更快的熔炼",
+			"text": "你能在$(thing)下界$()中找到火辣的狗吗？如果你驯服一只，让它停在一个$(item)熔炉$()上，它会使它跑得更快!"
+		},
+		{
+			"type": "quest",
+			"text": "给自己准备一个热狗，带回家闻一闻$(br2)你可以用$(item)煤炭$()驯服它们，但你也需要$(thing)抗火$()."
+		}
+	]
+}

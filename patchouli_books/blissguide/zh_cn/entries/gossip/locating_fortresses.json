@@ -1,0 +1,18 @@
+{
+	"name": "定位要塞",
+	"icon": "minecraft:nether_wart",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:nether/root",
+	"pages": [
+		{
+			"type": "patchouli:gossip_camera",
+			"title": "定位要塞",
+			"text": "你可以很容易地找到一个$(thing)下界要塞$()吗?是 啊只要去到一个$(thing)灵魂沙峡谷$()，那里的灵魂会带给你需要的物品."
+		},
+		{
+			"type": "quest",
+			"text": "想办法在$(thing)灵魂沙峡谷$()中定位$(thing)下界要塞$().$(br2)你可能需要为此挥舞一把剑，所以要做好准备!"
+		}
+	]
+}

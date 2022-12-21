@@ -1,0 +1,36 @@
+{
+	"components": [
+		{
+			"type": "patchouli:image",
+			"x": 10,
+			"y": 30,
+			"u": 0,
+			"v": 0,
+			"width": 64,
+			"height": 64,
+			"texture_width": 128,
+			"texture_height": 128,
+			"scale": 0.5,
+			"image": "patchouli:#texture#.png"
+		},
+		{
+			"type": "patchouli:header",
+			"centered": false,
+			"x": 45,
+			"y": 34,
+			"text": "#name"
+		},
+		{
+			"type": "patchouli:text",
+			"x": 52,
+			"y": 41,
+			"text": "#desc"
+		},
+		{
+			"type": "patchouli:text",
+			"x": 45,
+			"y": 50,
+			"text": "$(c)>$() $(l:https://www.youtube.com/watch?v=#video_id#)$(underline)WATCH$()"
+		}
+	]
+}

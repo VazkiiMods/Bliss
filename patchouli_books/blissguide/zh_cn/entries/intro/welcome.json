@@ -1,0 +1,13 @@
+{
+	"name": "欢迎游玩Bliss",
+	"icon": "minecraft:writable_book",
+	"sortnum": 0,
+	"priority": true,
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "欢迎游玩$(thing)Bliss整合包$()！这本书会向你介绍一些诀窍，这样你就可以开始游玩$(br2)本书中包含的信息专门设计为简短和有用，以免您在这里停留太久，因此请务必注意！如果您在单人游戏中，您的游戏将暂停."
+		}
+	]
+}

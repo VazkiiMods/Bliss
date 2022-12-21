@@ -1,0 +1,14 @@
+{
+	"name": "可定制的床",
+	"icon": "minecraft:red_bed",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:red_bed",
+            "title": "可定制的床",
+            "text": "$(item)床$()现在可以自定义$(item)旗帜$()，所以你可以进一步装饰你的生活空间."
+        }
+	]
+}

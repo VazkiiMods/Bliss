@@ -1,0 +1,12 @@
+{
+	"name": "新手包",
+	"icon": "minecraft:chest",
+	"category": "patchouli:intro",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "text",
+			"text": "如果您不知道如何开始游玩$(thing)Bliss$()，请打开您的$(thing)JEI$()并搜索$(item)Starter Kit$()。您将看到一些要查看的物品，所以请单击任何吸引您注意的物品$(br2)试试看!"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "可扩展存储",
+	"icon": "minecraft:barrel",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:story/smelt_iron",
+	"pages": [
+		{
+			"type": "patchouli:gossip_book",
+			"title": "可扩展存储",
+			"text": "您可以将物品存储在更大的$(item)箱子$()？如果你有很多不同的物品，你可能想发明一种新型的$(thing)存储方块$()."
+		},
+		{
+			"type": "quest",
+			"text": "找到可以存储许多不同物品的特殊$(thing)存储方块$()."
+		}
+	]
+}

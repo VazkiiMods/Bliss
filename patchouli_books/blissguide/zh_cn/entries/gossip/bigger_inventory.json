@@ -1,0 +1,18 @@
+{
+	"name": "更大的物品栏",
+	"icon": "minecraft:chest",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:story/smelt_iron",
+	"pages": [
+		{
+			"type": "patchouli:gossip_book",
+			"title": "更大的物品栏",
+			"text": "你可以制作一些东西来帮助你携带更多的东西！你知道，你的物品栏如此之少真是太可惜了?"
+		},
+		{
+			"type": "quest",
+			"text": "想办法增加物品栏空间$(br2)也许在$(thing)JEI$()上搜索会有所帮助...?"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"name": "灵魂蜡烛",
+	"icon": "minecraft:purple_candle",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:purple_candle",
+            "title": "灵魂蜡烛",
+            "text": "在任何类型的$(item)蜡烛$()下放置$(item)灵魂沙$()或任何其他可生成$(item)灵魂火$()的方块将使其发出灵魂风格的蓝色火焰而不是原本的橙色."
+        }
+	]
+}

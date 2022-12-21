@@ -1,0 +1,38 @@
+{
+	"name": "矩阵附魔",
+	"icon": "minecraft:enchanting_table",
+    "category": "patchouli:intro",
+    "read_by_default": false,
+    "advancement": "minecraft:story/form_obsidian",
+    "sortnum": 5,
+	"pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Bliss$()使用了一个名为$(thing)矩阵附魔$()的新附魔系统。此系统允许您更好地定制您在工具上添加的附魔,但需要花费更多的经验和青金石$(br2)作为一项额外功能,附魔台将保留您的物品和青金石，很好地去除."
+        },
+        {
+            "type": "image",
+            "images": [
+                "patchouli:matrix_enchanting.png"
+            ],
+            "title": "附魔UI",
+            "border": true,
+            "text": "$(thing)矩阵附魔$()界面."
+        },
+        {
+            "type": "text",
+            "text": "要开始附魔，首先把你的物品放在左上角的格子中，然后把你的青金石放在它下面的格子中$(br2)然后您可以按显示的$(bold)+$()按钮添加新附魔。附魔将显示在侧面板上，这意味着它可以被选中了$(br2)要选择附魔,只需在侧面板中单击它,然后在5x5网格上单击它."
+        },
+        {
+            "type": "text",
+            "text": "正如你所料，附魔\"方块\"不能在彼此的上方，所以你需要小心放置它们。您可以通过右键旋转所选碎片$(br2)网格中不能有多个同一附魔。如果你想增加附魔的等级，从侧面板中选择一块具有相同附魔的物品，并在你已经放置的物品上左键."
+        },
+        {
+            "type": "text",
+            "text": "当然，你升级的附魔越多，你需要的同一块就越多$(br2)请记住，不兼容的方块不会出现。所以，如果你的目标是一把锋利的剑，你可能会认为如果你看到亡灵杀手，你就看不到它了$(br2)当你附完魔后，只需拖出被附魔的物品，你就完成了!"
+        },
+        {
+            "type": "patchouli:enchanting_influences"
+        }
+    ]
+}

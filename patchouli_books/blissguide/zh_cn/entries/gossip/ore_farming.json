@@ -1,0 +1,18 @@
+{
+	"name": "矿石农场",
+	"icon": "minecraft:iron_nugget",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:story/mine_diamond",
+	"pages": [
+		{
+			"type": "patchouli:gossip_camera",
+			"title": "矿石农场",
+			"text": "有个$(thing)乌龟$()在地下生成？你可以用镐子挖掘他们的矿石，如果你喂他们$(thing)发光浆果$()，他们就会重新生长!"
+		},
+		{
+			"type": "quest",
+			"text": "使用$(thing)乌龟$()自动生成矿石$(br2)您甚至可以使用与自动破坏方块相同的东西."
+		}
+	]
+}

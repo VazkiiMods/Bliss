@@ -1,0 +1,23 @@
+{
+	"name": "移动升级",
+	"icon": "minecraft:leather_boots",
+	"category": "patchouli:intro",
+    "read_by_default": false,
+    "advancement": "minecraft:story/upgrade_tools",
+    "sortnum": 4,
+	"pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Bliss$()中提供了一些额外的移动选项:$(br)$(li)按住$(thing)C$()将允许您$(think)趴下$()，使您只占用一个方块.当你靠近一个方块时$(li)$(thing)潜行$()，会让你$(thing)wall grab$(),只要你靠近墙，就会慢慢下降."
+        },
+		{
+            "type": "image",
+            "images": [
+                "patchouli:wall_jump.png"
+            ],
+            "title": "飞檐走壁",
+            "border": true,
+            "text": "在$(thing)wall grabbing$()的同时跳跃将$(thing)飞檐走壁$(),最高可达到3个方块!"
+        }
+	]
+}

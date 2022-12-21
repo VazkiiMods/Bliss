@@ -1,0 +1,14 @@
+{
+	"name": "把所有的东西都放进花盆里!",
+	"icon": "minecraft:flower_pot",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:flower_pot",
+            "title": "把所有的东西都放进花盆里!",
+            "text": "$(item)花盆$()现在可以装更多的花和作物，原版的或其他.$(br2)你也可以把它们挂在天花板上，或$(item)锁链$()."
+        }
+	]
+}

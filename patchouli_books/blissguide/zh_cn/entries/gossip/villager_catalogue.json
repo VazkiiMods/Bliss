@@ -1,0 +1,18 @@
+{
+	"name": "村民目录",
+	"icon": "minecraft:emerald",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:adventure/trade",
+	"pages": [
+		{
+			"type": "patchouli:gossip_camera",
+			"title": "玩家的头",
+			"text": "您可以制作一个$(item)贸易站$()方块吗？然后你可以使用它一次性与周围的每一个$(item)村民$()进行交易!"
+		},
+		{
+			"type": "quest",
+			"text": "使用$(item)贸易站$()方块买买买."
+		}
+	]
+}

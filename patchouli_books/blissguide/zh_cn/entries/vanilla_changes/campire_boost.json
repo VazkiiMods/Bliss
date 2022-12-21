@@ -1,0 +1,14 @@
+{
+	"name": "营火加速",
+	"icon": "minecraft:campfire",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:campfire",
+            "title": "营火加速",
+            "text": "穿着$(item)鞘翅$()飞过$(item)下面带着$(item)干草块$()的营火$()可以让你快速提升高度，$(br2)而$(item)灵魂营火$()则相反，它会把你拉下来."
+        }
+	]
+}

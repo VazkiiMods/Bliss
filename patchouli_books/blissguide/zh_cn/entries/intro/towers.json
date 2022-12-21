@@ -1,0 +1,27 @@
+{
+	"name": "旷野之塔",
+	"icon": "paraglider:paraglider",
+	"category": "patchouli:intro",
+	"read_by_default": false,
+	"advancement": "minecraft:adventure/sleep_in_bed",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "text",
+			"text": "纵观整个世界，你很少会发现新的$(thing)旷野之塔$()。这些高大的建筑顶部有一个$(item)传送石碑$()，以及一些战利品$(br2)$(item)传送石碑$()可用于在塔之间传送。只需右键一个，然后选择要去的地方。你只能在你已经发现的传送石碑之间传送。虽然!"
+		},
+        {
+            "type": "image",
+            "images": [
+                "patchouli:wild_towers.png"
+            ],
+            "title": "旷野之塔",
+            "border": true,
+            "text": "一个$(thing)旷野之塔$()，以及你可以从中获得的战利品."
+        },
+        {
+			"type": "text",
+			"text": "在每个$(item)旷野之塔$()的箱子里，你会发现至少有一个$(item)滑翔伞$()-当你拿着这个物品时，它们可以缓慢滑翔下来，并在空中滑翔很远的距离$(br2)最后，请注意，虽然您可以破坏$(item)传送石碑$()，但您$(l)无法获得它$()如果你尝试这样做，你只会摧毁它，就像一个$(item)怪物刷怪笼$()."
+		}
+	]
+}

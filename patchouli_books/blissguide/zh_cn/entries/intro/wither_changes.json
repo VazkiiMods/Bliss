@@ -1,0 +1,18 @@
+{
+	"name": "凋灵的改变",
+	"icon": "minecraft:wither_skeleton_skull",
+	"category": "patchouli:intro",
+    "read_by_default": false,
+    "advancement": "minecraft:nether/get_wither_skull",
+    "sortnum": 6,
+	"pages": [
+        {
+            "type": "text",
+            "text": "为了让$(thing)凋灵$()变得不那么吓人，$(thing)Bliss$()为你提供了一个新武器:$(thing)雪傀儡$().$(br2)这是很有效的$(thing)雪傀儡$()现在对$(thing)凋灵$()超级有效。堆上一堆就能很快干掉怪物!注意它仍然会破坏地形，所以要小心你在哪里生成它!"
+        },
+        {
+            "type": "text",
+            "text": "此外，$(thing)凋灵$()战斗也会根据你的游戏难度设置进行改变:$(br)$(li)在$(thing)简单$()难度中，它根本不会生成，相反地，你只需通过制作结构来获得$(item)下界之星$().$(li)在$(thing)困难$()难度中,boss将恢复对雪的免疫力,所以你必须与之进行适当的战斗."
+        }
+	]
+}

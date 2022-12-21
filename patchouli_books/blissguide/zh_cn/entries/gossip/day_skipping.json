@@ -1,0 +1,18 @@
+{
+	"name": "跳过一天",
+	"icon": "minecraft:pink_bed",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:adventure/sleep_in_bed",
+	"pages": [
+		{
+			"type": "patchouli:gossip_book",
+			"title": "跳过一天",
+			"text": "你可以睡在$(item)吊床$()上跳过这一天吗？它甚至不会设置你的出生点!"
+		},
+		{
+			"type": "quest",
+			"text": "在$(item)吊床$()上放松一下，睡一整天!"
+		}
+	]
+}

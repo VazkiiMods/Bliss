@@ -1,0 +1,18 @@
+{
+	"name": "动物运输",
+	"icon": "minecraft:feather",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:husbandry/breed_an_animal",
+	"pages": [
+		{
+			"type": "patchouli:gossip_game",
+			"title": "动物运输",
+			"text": "你可以偷偷把一些小动物放在$(item)笼子$()里吗？这是移动它们的好方法!"
+		},
+		{
+			"type": "quest",
+			"text": "制作一些$(item)笼子$()，并用它们运输小动物."
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"name": "锁链移动",
+	"icon": "minecraft:chain",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:chain",
+            "title": "锁链移动",
+            "text": "当移动$(item)活塞$()时,如果放在它们之间，$(item)锁链$()可以连接多个方块在一起."
+        }
+	]
+}

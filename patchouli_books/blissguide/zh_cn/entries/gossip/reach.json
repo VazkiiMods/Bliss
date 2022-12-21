@@ -1,0 +1,18 @@
+{
+	"name": "更长的触及范围",
+	"icon": "minecraft:piston",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:story/mine_diamond",
+	"pages": [
+		{
+			"type": "patchouli:gossip_game",
+			"title": "更长的触及范围",
+			"text": "一个超级强大的发光$(thing)怪物$()住在地下？我自己从来没见过，但很明显它的帽子让你可以把方块放得很远."
+		},
+		{
+			"type": "quest",
+			"text": "遇到特殊的地下怪物$(thing)Monster$()并获得它的帽子.$(br2)显然它很强大，知道战斗技巧，所以不要在那里重生!"
+		}
+	]
+}
