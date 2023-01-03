@@ -1,0 +1,16 @@
+{
+	"name": "Sag Hallo zu Lissa!",
+	"icon": "minecraft:poppy",
+	"category": "patchouli:gossip",
+	"priority": true,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "patchouli:lissa_full"
+		}, 
+		{
+			"type": "text",
+			"text": "Hi, Ich bin $(lissa)Lissa$()! Ich werde dein Ratgeber für die zusätzlichen Inhalte von $(thing)Bliss$() sein.$(br2)Hier im Abschnitt $(lissa)Lissas Ratschläge$() des Bliss-Handbuchs findest du meine Überlegungen zu meinem Lieblingsfeatures, die Du ausprobieren solltest. $(br2)Im Laufe des Spiels werden weitere Kapitel freigeschaltet, also halte die Augen offen! $(br2)Ich wurde von $(l:https://twitter.com/_crowsaga)$(underline)aice$() gezeichnet und als Gemeinschaftswerk von julinya, aice und vazkii entworfen!"
+		}
+	]
+}

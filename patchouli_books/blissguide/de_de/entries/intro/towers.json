@@ -1,0 +1,27 @@
+{
+	"name": "Türme der Wildnis",
+	"icon": "paraglider:paraglider",
+	"category": "patchouli:intro",
+	"read_by_default": false,
+	"advancement": "minecraft:adventure/sleep_in_bed",
+	"sortnum": 3,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Über die ganze Welt verstreut wirst Du neue $(thing)Türme der Wildnis$() finden. Auf diesen hohen Strukturen befindet sich ein $(item)Wegstein$() sowie einige tolle Sachen zum Mitnehmen.$(br2)Mit $(item)Wegsteinen$() kann man sich sofort zwischen entdeckten Türmen teleportieren. Klicke einfach mit der rechten Maustaste auf einen $(thing)Wegstein$(), und wähle ein Ziel."
+		},
+        {
+            "type": "image",
+            "images": [
+                "patchouli:wild_towers.png"
+            ],
+            "title": "Türme der Wildnis",
+            "border": true,
+            "text": "Ein $(thing)Turm der Wildnis$(), und die Beute die Du aus einem solchen erhalten kannst."
+        },
+        {
+			"type": "text",
+			"text": "In der Truhe, die sich in jedem $(thing)Turm der Wildnis$() befindet, findet sich mindestens ein $(item)Parasegel$() - mit diesen kann man, wenn man sie hält, langsam nach unten gleiten und weite Strecken durch die Luft zurücklegen. $(br2)Zu guter Letzt beachte bitte, dass Du den $(item)Wegstein$() zwar zerbrechen kannst, aber $(l)nicht$() einsammeln kannst. Wenn Du das versuchst, wirst Du ihn nur zerstören, wie einen $(item)Monster Spawner$()."
+		}
+	]
+}

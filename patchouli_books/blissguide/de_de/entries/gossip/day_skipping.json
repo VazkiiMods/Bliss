@@ -1,0 +1,18 @@
+{
+	"name": "Tagträumen",
+	"icon": "minecraft:pink_bed",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:adventure/sleep_in_bed",
+	"pages": [
+		{
+			"type": "patchouli:gossip_book",
+			"title": "Tagträumen",
+			"text": "dass du auf $(item)Hängematten$() schlafen kannst, um den Tag zu überspringen? Es wird nicht einmal deinen Spawnpunkt verändern!"
+		},
+		{
+			"type": "quest",
+			"text": "Entspanne dich auf einer $(item)Hängematte$() und schlafe den ganzen Tag!"
+		}
+	]
+}

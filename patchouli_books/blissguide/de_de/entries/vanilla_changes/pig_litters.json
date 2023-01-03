@@ -1,0 +1,14 @@
+{
+	"name": "Schweinewürfe",
+	"icon": "minecraft:porkchop",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:porkchop",
+            "title": "Schweinewürfe",
+            "text": "Wenn Du $(thing)Schweine$() züchtest, bekommst Du jetzt einen kleinen Wurf Babys, was das Schwein zu einer relevanteren Nahrungsquelle macht."
+        }
+    ]
+}

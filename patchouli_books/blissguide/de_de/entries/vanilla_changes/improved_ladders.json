@@ -1,0 +1,14 @@
+{
+	"name": "Verbesserte Leitern",
+	"icon": "minecraft:ladder",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:ladder",
+            "title": "Verbesserte Leitern",
+            "text": "$(item)Leitern$() können jetzt heruntergelassen werden, indem man mit der rechten Maustaste auf eine platzierte Leiter mit einer anderen klickt. Dadurch können Leitern frei stehen, ohne dass ein Block dahinter liegt. $(br2)Du kannst auch schnell nach unten rutschen, indem du nach unten schaust."
+        }
+	]
+}

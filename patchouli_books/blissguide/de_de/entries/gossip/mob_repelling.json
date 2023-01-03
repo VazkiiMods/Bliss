@@ -1,0 +1,18 @@
+{
+	"name": "Monster Vertreibung",
+	"icon": "minecraft:skeleton_skull",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:nether/get_wither_skull",
+	"pages": [
+		{
+			"type": "patchouli:gossip_explore",
+			"title": "Monster Vertreibung",
+			"text": "dass Monster Angst vor ihren eigenen Köpfen haben? Verrückt! Wenn du einen $(thing)Monsterkopf$() an einen Zaun hängst, laufen sie davon wie Füchse!"
+		},
+		{
+			"type": "quest",
+			"text": "Finde einen Weg, wie du Monster mit ihren Köpfen und Schädeln verscheuchen kannst.$(br2)Jeder weiß, dass $(thing)Wither Skelette$() ständig ihre Schädel fallen lassen. Oh, und $(item)Drachenköpfe$() sind alle billige Fälschungen, also kümmere dich nicht um sie!"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"name": "Starter Kit",
+	"icon": "minecraft:chest",
+	"category": "patchouli:intro",
+	"sortnum": 1,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Wenn du nicht weißt, wie du mit $(thing)Bliss$() anfangen sollst, öffne deine $(thing)Suchleiste$(), und suche nach dem $(item)Starter Kit$(). Dir werden einige nützliche Items angezeigt die du dir vielleicht anschauen solltest.$(br2)Linksklicke einfach auf etwas, was dein Interesse weckt."
+		}
+	]
+}

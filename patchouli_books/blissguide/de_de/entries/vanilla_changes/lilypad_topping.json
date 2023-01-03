@@ -1,0 +1,14 @@
+{
+	"name": "Seerosenblatt-Topping",
+	"icon": "minecraft:lily_pad",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:lily_pad",
+            "title": "Seerosenblatt-Topping",
+            "text": "Blöcke können nun auf $(item)Seerosenblättern$() platziert werden. Probier es zum Beispiel mit $(item)Fackeln$() aus."
+        }
+	]
+}

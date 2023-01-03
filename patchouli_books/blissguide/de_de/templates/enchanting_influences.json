@@ -1,0 +1,23 @@
+{
+	"include": [
+	    {
+	        "template": "patchouli:incl/candles",
+	        "as": "incl",
+	    	"x": 12,
+	    	"y": 15
+	    }
+	],
+	"components": [
+		{
+			"type": "patchouli:header",
+			"text": "Candle Influences",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "patchouli:text",
+			"text": "Bis zu 4 Kerzen eines Typ können verwendet werden um spezifische Verzauberungen häufiger erscheinen zu lassen.",
+			"y": 110
+		}
+	]
+}

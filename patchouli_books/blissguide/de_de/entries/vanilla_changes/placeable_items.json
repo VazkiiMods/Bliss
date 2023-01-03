@@ -1,0 +1,14 @@
+{
+	"name": "Platzierbare Items",
+	"icon": "minecraft:stick",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:stick",
+            "title": "Platzierbare Items",
+            "text": "Die folgenden Gegenstände können nun platziert werden: $(li)$(item)Stöcke$()$(li)$(item)Lohenruten$()$(li)$(item)Schwarzpulver$()$(li)$(item)Bücher$()$(br2)$(item)Schwarzpulver$() kann selbstverständlich auch angezündet werden, und wird von alleine naheliegendes $(item)TNT$() entzünden.$(br2)Du kannst auch nach $(thing)Placeable$() in deiner Suchleiste suchen."
+        }
+	]
+}

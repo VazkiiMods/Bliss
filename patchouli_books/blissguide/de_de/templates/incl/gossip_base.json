@@ -1,0 +1,29 @@
+{
+	"components": [
+		{
+			"type": "patchouli:header",
+			"centered": true,
+			"x": -1,
+			"y": -1,
+			"text": "#title"
+		},
+		{
+			"type": "patchouli:separator",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "patchouli:header",
+			"centered": false,
+			"x": 0,
+			"y": 20,
+			"color": "fe84a3",
+			"text": "Wusstest du..."
+		},
+		{
+			"type": "patchouli:text",
+			"text": "#text",
+			"y": 30
+		}
+	]
+}

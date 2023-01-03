@@ -1,0 +1,14 @@
+{
+	"name": "End-spannter Drache",
+	"icon": "minecraft:dragon_head",
+	"category": "patchouli:intro",
+    "read_by_default": false,
+    "advancement": "minecraft:story/follow_ender_eye",
+    "sortnum": 7,
+	"pages": [
+        {
+            "type": "text",
+            "text": "Mach dir keine Sorgen um den $(thing)Enderdrachen$(), denn er hat keinen Streit mit dir. Beim Betreten des $(thing)End$() öffnet sich bereits das Rückkehrportal, sowie ein paar $(thing)End Tore$().$(br2)Wenn du aber das Ei willst, nun..."
+        }
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Holzschnitzerei",
+	"icon": "corail_woodcutter:oak_woodcutter",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:story/smelt_iron",
+	"pages": [
+		{
+			"type": "patchouli:gossip_game",
+			"title": "Holzschnitzerei",
+			"text": "dass Stein nicht das einzige ist was du mit einer Säge bearbeiten kannst? In der Tat!"
+		},
+		{
+			"type": "quest",
+			"text": "Nutze endlich dein ganzes Holz und versuche dich an einem $(item)Sägewerk$(), um Holzblöcke effizienter in ihre Varianten zu schneiden."
+		}
+	]
+}

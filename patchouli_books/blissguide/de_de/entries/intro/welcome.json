@@ -1,0 +1,17 @@
+{
+	"name": "Willkommen zu Bliss",
+	"icon": "minecraft:writable_book",
+	"sortnum": 0,
+	"priority": true,
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "Willkommen zum $(thing)Bliss$() Modpack! Dieses Buch wird dich in die Grundlagen einführen, damit du anfangen kannst, Spaß zu haben."
+		},
+		{
+			"type": "text",
+			"text": "Die in dem Buch enthaltenen Informationen sind speziell darauf ausgelegt, kurz und bündig zu sein, damit Du nicht zu lange hier bleiben musst, also pass bitte auf! $(br2)Dein Spiel wird pausiert, während du hier bist, wenn du im Einzelspieler bist."
+		}
+	]
+}

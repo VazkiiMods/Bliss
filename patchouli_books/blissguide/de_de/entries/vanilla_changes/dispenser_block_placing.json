@@ -1,0 +1,14 @@
+{
+	"name": "Werfer sind Platzierer",
+	"icon": "minecraft:dispenser",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:dispenser",
+            "title": "Werfer sind Platzierer",
+            "text": "$(item)Werfer$() können nun Blöcke platzieren. Die Blöcke werden sogar in der richtigen Orientierung platziert!"
+        }
+	]
+}

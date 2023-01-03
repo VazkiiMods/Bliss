@@ -1,0 +1,18 @@
+{
+	"name": "Erweiterbarer Speicher",
+	"icon": "minecraft:barrel",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:story/smelt_iron",
+	"pages": [
+		{
+			"type": "patchouli:gossip_book",
+			"title": "Erweiterbarer Speicher",
+			"text": "dass du Gegenstände nicht nur in $(item)Truhen$() aufbewahren kannst? Wenn Du viele Items hast lohnt es sich vielleicht in neue $(thing)Lagerblöcke$() zu investieren."
+		},
+		{
+			"type": "quest",
+			"text": "Finde neue, effiziente Lagermöglichkeiten für deine Habseligkeiten."
+		}
+	]
+}

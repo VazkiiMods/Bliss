@@ -1,0 +1,14 @@
+{
+	"name": "Lagerfeuer Auftrieb",
+	"icon": "minecraft:campfire",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:campfire",
+            "title": "Lagerfeuer Auftrieb",
+            "text": "Wenn du mit $(item)Elytren$() über ein $(item)Lagerfeuer$() mit einer $(item)Strohballenbasis$() fliegst wirst du kurz einen großen Auftrieb erhalten. $(br2)$(item)Seelenlagerfeuer$() haben den umgekehrten Effekt, sie ziehen dich nach unten!"
+        }
+	]
+}
