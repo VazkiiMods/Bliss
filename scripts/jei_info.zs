@@ -347,7 +347,7 @@ s = "Can be placed on walls.";
 i(<item:minecraft:lantern>, s);
 i(<item:minecraft:soul_lantern>, s);
 
-i(<item:corail_woodcutter:oak_woodcutter>, "Works like a sawmill, but for wooden blocks.");
+i(<item:corail_woodcutter:oak_woodcutter>, "Works like a stonecutter, but for wooden blocks.");
 i(<item:tradingpost:trading_post>, "When placed down, allows you to trade with all villagers around it by right clicking it.");
 i(<item:map_atlases:atlas>, "An Atlas of multiple maps; a world map, if you will. Create this with a Filled Map, and then add more maps via crafting them onto it. Filled Maps must match the scale, and Empty Maps are consumed as needed.");
 
