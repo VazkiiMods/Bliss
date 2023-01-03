@@ -37,7 +37,9 @@ server_mods_blacklist = [
 	532127, # Legendary Tooltips
 	271740, # Toast Control
 	448233, # Entity Culling
-	613117  # MacCraft
+	613117, # MacCraft
+	570368, # Raised
+	441114  # Nekos Enchanted Books
 ]
 
 # Files to not copy to the server zip
