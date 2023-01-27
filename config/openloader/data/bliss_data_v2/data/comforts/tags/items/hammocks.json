@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		"comforts:hammock_black",
+		"comforts:hammock_red",
+		"comforts:hammock_green",
+		"comforts:hammock_brown",
+		"comforts:hammock_blue",
+		"comforts:hammock_purple",
+		"comforts:hammock_cyan",
+		"comforts:hammock_light_gray",
+		"comforts:hammock_gray",
+		"comforts:hammock_pink",
+		"comforts:hammock_lime",
+		"comforts:hammock_yellow",
+		"comforts:hammock_light_blue",
+		"comforts:hammock_magenta",
+		"comforts:hammock_orange",
+		"comforts:hammock_white"
+	]
+}
