@@ -1,9 +1,6 @@
 
 #Client configuration settings
 [client]
-	#The time in milliseconds to wait before polling the controller. The lower the value the better the input latency but drains the controller battery faster.
-	#Range: 1 ~ 128
-	controllerPollInterval = 8
 
 	#In-game related options. These can be changed in game instead of config!
 	[client.options]
@@ -53,4 +50,19 @@
 		#The scale of the mouse speed when hovering a widget or item slot
 		#Range: 0.05 ~ 1.0
 		hoverModifier = 0.6
+		#If enabled, inverts the controls on the X axis for the camera
+		invertRotation = false
+		#The sensitivity of the camera's pitch rotation when applying the rotation speed. Setting to 1.0 would mean applying 100% of the rotation speed.
+		#Range: 0.0 ~ 1.0
+		pitchSensitivity = 0.75
+		#The sensitivity of the camera's yaw rotation when applying the rotation speed. Setting to 1.0 would mean applying 100% of the rotation speed.
+		#Range: 0.0 ~ 1.0
+		yawSensitivity = 1.0
+		#Enabling this option will improve polling of controllers when your game FPS is capped. This will not have an effect if your game is already running at a low FPS without a cap.
+		fpsPollingFix = true
+		#Draws a transparent background behind the text of the button hint
+		hintBackground = true
+		#The speed that lists scroll
+		#Range: 1.0 ~ 30.0
+		listScrollSpeed = 10.0
 
