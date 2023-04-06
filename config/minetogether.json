@@ -9,6 +9,8 @@
 	"mpMenuEnabled": true,
 	// If the realms button should be replaced.
 	"replaceRealms": false,
+	// If the pause menu buttons should be moved around to insert the Open To Friends button.
+	"moveButtonsOnPauseMenu": true,
 	// If all chat messages should be logged to console.
 	"logChatToConsole": false,
 	// Create _VERY_ verbose logs. May create hugenorums log files.
@@ -19,7 +21,12 @@
 	"friendNotifications": false,
 	// If menu buttons are enabled.
 	"mainMenuButtons": false,
+	// If pause screen buttons are enabled.
+	"pauseScreenButtons": true,
 	// INTERNAL: Marker for tracking first connections.
 	"firstConnect": "",
+	// If not null, replaces the Bug Reports button on the pause screen to open this link.
 	"issueTrackerUrl": "https://pste.ch/",
+	// Stores the currently selected chat TAB, Ether VANILLA or PUBLIC
+	"selectedTab": "PUBLIC",
 }
