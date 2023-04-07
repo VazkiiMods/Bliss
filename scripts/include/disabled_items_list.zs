@@ -323,6 +323,10 @@ public class DisabledItems {
 		<item:twigs:polished_bloodstone>,
 		<item:twigs:cracked_polished_bloodstone_bricks>,
 		<item:immersive_weathering:weeds>,
-		<item:compatoplenty:cherry_table>
+		<item:compatoplenty:cherry_table>,
+		<item:musictriggers:music_triggers_record>,
+		<item:musictriggers:custom_record>,
+		<item:musictriggers:blank_record>,
+		<item:musictriggers:music_recorder>
 	] as IItemStack[];
 }
