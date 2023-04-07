@@ -323,6 +323,8 @@ public class DisabledItems {
 		<item:twigs:polished_bloodstone>,
 		<item:twigs:cracked_polished_bloodstone_bricks>,
 		<item:immersive_weathering:weeds>,
-		<item:compatoplenty:cherry_table>
+		<item:compatoplenty:cherry_table>,
+		<item:immersive_weathering:ash_block>,
+		<item:immersive_weathering:ash_layer_block>
 	] as IItemStack[];
 }

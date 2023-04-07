@@ -59,7 +59,7 @@
 	#Range: 0.0 ~ 1.0
 	fire_chars_wood = 0.3
 	#Range: 0.0 ~ 1.0
-	ash_spawn = 0.3
+	ash_spawn = 0.0
 	soot_spawn = true
 	flammable_cobweb = true
 
@@ -91,7 +91,7 @@
 	axe_stripping = true
 	axe_rusting = true
 	#allows ash to spawn when extinguishing campfires
-	ash_item_spawn = true
+	ash_item_spawn = false
 	#Drop stuff when in creative
 	drop_in_creative = false
 
