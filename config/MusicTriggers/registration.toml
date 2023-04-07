@@ -1,5 +1,5 @@
 # Register Music Discs
-REGISTER_DISCS = true
+REGISTER_DISCS = false
 
 # Client Side Only (Some triggers will not be able to activate)
 CLIENT_SIDE_ONLY = false

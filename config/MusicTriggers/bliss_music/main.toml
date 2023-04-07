@@ -1,0 +1,191 @@
+# Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki
+# or the discord server located at https://discord.gg/FZHXFYp8fc
+# for any specific questions you might have regarding the main config file
+
+[triggers]
+	[[triggers.biome]]
+		identifier = "swamp"
+		biome_category = [ "swamp" ]
+	[[triggers.biome]]
+		identifier = "river"
+		biome_category = [ "river" ]
+	[[triggers.biome]]
+		identifier = "ocean"
+		biome_category = [ "ocean" ]
+	[[triggers.dimension]]
+		identifier = "nether"
+		resource_name = [ "minecraft:the_nether" ]
+	[[triggers.biome]]
+		identifier = "mountain"
+		biome_category = [ "mountain" "extreme_hills" ]
+	[[triggers.biome]]
+		identifier = "mesa"
+		biome_category = [ "mesa" ]
+	[[triggers.biome]]
+		identifier = "jungle"
+		biome_category = [ "jungle" ]
+	[[triggers.dimension]]
+		identifier = "end"
+		resource_name = [ "minecraft:the_end" ]
+	[[triggers.biome]]
+		identifier = "beach"
+		biome_category = [ "beach" ]
+	[[triggers.biome]]
+		identifier = "taiga"
+		biome_category = [ "taiga" ]
+	[[triggers.biome]]
+		identifier = "savanna"
+		biome_category = [ "savanna" ]
+	[[triggers.biome]]
+		identifier = "plains"
+		biome_category = [ "plains" ]
+	[[triggers.structure]]
+		priority = "100"
+		identifier = "village"
+		resource_name = [ "minecraft:village" ]
+	[[triggers.biome]]
+		identifier = "icy"
+		biome_category = [ "icy" ]
+	[[triggers.biome]]
+		identifier = "forest"
+		biome_category = [ "forest" ]
+	[[triggers.biome]]
+		identifier = "desert"
+		biome_category = [ "desert" ]
+	[[triggers.biome]]
+		identifier = "can_snow"
+		rain_type = "snow"
+	[triggers.snowing]
+		priority = "400"
+	[triggers.storming]
+		priority = "400"
+	[[triggers.biome]]
+		identifier = "can_rain"
+		rain_type = "rain"
+	[triggers.raining]
+		priority = "400"
+	[[triggers.height]]
+		priority = "500"
+		identifier = "under55"
+		level = "55"
+	[[triggers.height]]
+		priority = "600"
+		identifier = "minus5"
+		level = "-5"
+	[[triggers.biome]]
+		priority = "700"
+		identifier = "underground"
+		biome_category = [ "underground" ]
+	[[triggers.structure]]
+		priority = "800"
+		identifier = "stronghold"
+		resource_name = [ "betterstrongholds:stronghold" ]
+	[[triggers.structure]]
+		priority = "800"
+		identifier = "mineshaft"
+		resource_name = [ "bettermineshafts:mineshaft" ]
+	[[triggers.structure]]
+		priority = "800"
+		identifier = "bastion"
+		resource_name = [ "minecraft:bastion_remnant" ]
+	[[triggers.time]]
+		identifier = "day"
+		time_bundle = "day"
+	[[triggers.time]]
+		identifier = "night"
+		time_bundle = "night"
+	[[triggers.dimension]]
+		identifier = "overworld"
+		resource_name = [ "minecraft:overworld" ]
+	[triggers.home]
+		priority = "900"
+		detection_range = "64"
+	[triggers.menu]
+		priority = "99999"
+	[triggers.universal]
+		fade_in = "100"
+		fade_out = "100"
+		delay = "200"
+		persistence = "0"
+		trigger_delay = "0"
+		song_delay = "200"
+		start_delay = "0"
+
+
+[songs]
+	[songs.main_menu]
+		triggers = [ "menu" ]
+	[songs.night_home]
+		triggers = [ "time-night" "home" "dimension-overworld" ]
+	[songs.home]
+		triggers = [ "home" "dimension-overworld" ]
+	[songs.taiga_village]
+		triggers = [ "dimension-overworld" "structure-village" "biome-taiga" ]
+	[songs.snowy_village]
+		triggers = [ "dimension-overworld" "biome-icy" "structure-village" ]
+	[songs.savanna_village]
+		triggers = [ "dimension-overworld" "structure-village" "biome-savanna" ]
+	[songs.plains_village]
+		triggers = [ "dimension-overworld" "structure-village" "biome-plains" ]
+	[songs.desert_village]
+		triggers = [ "dimension-overworld" "structure-village" "biome-desert" ]
+	[songs.night]
+		triggers = [ "dimension-overworld" "time-night" ]
+	[songs.night_snowy]
+		triggers = [ "time-night" "biome-icy" ]
+	[songs.night_forest]
+		triggers = [ "time-night" "biome-forest" ]
+	[songs.snowing]
+		triggers = [ "snowing" "biome-can_snow" ]
+	[songs.night_desert]
+		triggers = [ "time-night" "biome-desert" ]
+	[songs.storm]
+		triggers = [ "biome-can_rain" "storming" ]
+	[songs.rain]
+		triggers = [ "raining" "biome-can_rain" ]
+	[songs.underground]
+		triggers = [ "dimension-overworld" "height-under55" ]
+	[songs.deep_underground]
+		triggers = [ "dimension-overworld" "height-minus5" ]
+	[songs.underground_biome]
+		triggers = [ "dimension-overworld" "biome-underground" ]
+	[songs.stronghold]
+		triggers = [ "structure-stronghold" ]
+	[songs.mineshaft]
+		triggers = [ "structure-mineshaft" ]
+	[songs.bastion]
+		triggers = [ "structure-bastion" ]
+	[songs.beach]
+		triggers = [ "biome-beach" ]
+	[songs.desert]
+		triggers = [ "biome-desert" ]
+	[songs.end]
+		triggers = [ "dimension-end" ]
+	[songs.forest]
+		triggers = [ "biome-forest" ]
+	[songs.icy]
+		triggers = [ "biome-icy" ]
+	[songs.jungle]
+		triggers = [ "biome-jungle" ]
+	[songs.mesa]
+		triggers = [ "biome-mesa" ]
+	[songs.mountain]
+		triggers = [ "biome-mountain" ]
+	[songs.mushroom]
+		triggers = [ "biome-mushroom" ]
+	[songs.nether]
+		triggers = [ "dimension-nether" ]
+	[songs.ocean]
+		triggers = [ "biome-ocean" ]
+	[songs.plains]
+		triggers = [ "biome-plains" ]
+	[songs.river]
+		triggers = [ "biome-river" ]
+	[songs.savanna]
+		triggers = [ "biome-savanna" ]
+	[songs.swamp]
+		triggers = [ "biome-swamp" ]
+	[songs.taiga]
+		triggers = [ "biome-taiga" ]
+	[songs.universal]
+
