@@ -164,6 +164,14 @@
 		"quark:frog_leg",
 		"quark:cooked_frog_leg",
 		"quark:golden_frog_leg",
-		"supplementaries:candy"
+		"supplementaries:candy",
+		"farmersdelight:glow_berry_custard",
+		"farmersdelight:salmon_roll",
+		"farmersdelight:cod_roll",
+		"farmersdelight:kelp_roll",
+		"farmersdelight:kelp_roll_slice",
+		"farmersdelight:bone_broth",
+		"farmersdelight:mushroom_rice",
+		"farmersdelight:rice_roll_medley_block"
 	]
 }

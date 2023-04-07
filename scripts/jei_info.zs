@@ -204,6 +204,9 @@ i(<item:supplementaries:flower_box>, "Can be placed on the floor or the side of 
 i(<item:minecraft:rotten_flesh>, "Can be used to turn a Skeleton Horse into a Zombie Horse, by feeding it an entire stack.");
 i(<item:supplementaries:slingshot>, "When used, fires the first block in your hotbar as a projectile. Try using it to throw torches!");
 i(<item:supplementaries:wrench>, "Can be used to rotate any directional facing block.");
+i(<item:supplementaries:crystal_display>, "Displays a different number or symbol based on the level of redstone power fed to it.");
+i(<item:supplementaries:relayer>, "Copies whatever signal it sees in front of it to the back, with a single tick delay. Can also transmit power indirectly if facing a redstone wire.");
+
 
 s = "Works like a normal wooden one when unpowered. When powered, ignores interactions.";
 i(<item:supplementaries:gold_door>, s);
@@ -353,6 +356,7 @@ i(<item:map_atlases:atlas>, "An Atlas of multiple maps; a world map, if you will
 
 i(<item:farmersdelight:rope>, "Can be dropped down via right click and climbed up or down.");
 i(<item:immersive_weathering:soot>, "Soot gets created near a lit campfire.");
+i(<item:immersive_weathering:frost>, "Frost slowly appears in cold biomes at night on Glass and Grass.");
 
 s = "Mossy blocks get automatically created if a block of the non-mossy type is near water.";
 i(<item:immersive_weathering:mossy_bricks>, s);

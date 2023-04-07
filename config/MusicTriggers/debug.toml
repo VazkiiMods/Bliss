@@ -1,5 +1,5 @@
 # Show the debug info
-SHOW_DEBUG = true
+SHOW_DEBUG = false
 
 # If SHOW_DEBUG is set to true, but you only want to see the song name
 CURRENT_SONG_ONLY = false
@@ -17,7 +17,7 @@ REVERSE_PRIORITY = false
 COMBINE_EQUAL_PRIORITY = false
 
 # If PAUSE_WHEN_TABBED is set to false, the music will no longer get paused when the game is not in focus
-PAUSE_WHEN_TABBED = true
+PAUSE_WHEN_TABBED = false
 
 # A list of mod ids to block audio in the Music category from so there is no overlap in music playing during events from other mods
 BLOCKED_MOD_MUSIC = [ ]

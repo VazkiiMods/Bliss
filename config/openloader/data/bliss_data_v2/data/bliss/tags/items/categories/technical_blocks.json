@@ -91,6 +91,8 @@
 		"biomesoplenty:magic_pressure_plate",
 		"biomesoplenty:umbran_pressure_plate",
 		"twigs:stripped_bamboo_pressure_plate",
-		"twigs:stripped_bamboo_button"
+		"twigs:stripped_bamboo_button",
+		"supplementaries:crystal_display",
+		"supplementaries:relayer"
 	]
 }

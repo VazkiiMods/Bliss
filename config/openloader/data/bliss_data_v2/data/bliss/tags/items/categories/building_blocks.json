@@ -575,6 +575,19 @@
 		"twigs:waxed_oxidized_copper_pillar",
 		"twigs:waxed_weathered_copper_pillar",
 		"twigs:weathered_copper_pillar",
-		"twigs:weeping_polished_blackstone_bricks"
+		"twigs:weeping_polished_blackstone_bricks",
+		"supplementaries:sugar_cube",
+		"supplementaries:lapis_bricks",
+		"supplementaries:soap_block",
+		"immersive_weathering:chiseled_prismarine_bricks",
+		"immersive_weathering:charred_log",
+		"immersive_weathering:charred_planks",
+		"immersive_weathering:cracked_mud",
+		"immersive_weathering:vertisol",
+		"immersive_weathering:permafrost",
+		"overweight_farming:overweight_nether_wart_block",
+		"overweight_farming:overweight_apple_block",
+		"overweight_farming:overweight_golden_apple_block",
+		"overweight_farming:peeled_overweight_cocoa_block"
 	]
 }
