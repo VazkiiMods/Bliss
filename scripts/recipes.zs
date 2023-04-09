@@ -30,6 +30,9 @@ var rose_quartz_block = <item:biomesoplenty:rose_quartz_block>;
 var rose_quartz_shard = <item:biomesoplenty:rose_quartz_shard>;
 var paper = <item:minecraft:paper>;
 var antique_ink = <item:supplementaries:antique_ink>;
+var jungle_logs = <tag:items:minecraft:jungle_logs>;
+var jungle_planks = <tag:items:forge:planks/jungle>;
+var jungle_post = <item:quark:jungle_post>;
 
 var axes = <tag:items:forge:tools/axes>;
 var hoes = <tag:items:forge:tools/hoes>;
@@ -256,3 +259,8 @@ craftingTable.addShaped("feather_hammock",
 
 // Craftable Name Tag
 craftingTable.addShapeless("da_name_tagy", <item:minecraft:name_tag>, [antique_ink, paper, string_item]);
+
+//Woodcutter Jungle Post Recipe Fix
+Woodcutter.removeRecipe(jungle_post);
+Woodcutter.addRecipe("jungle_posts", jungle_post, jungle_planks);
+Woodcutter.addRecipe("jungle_posts4", jungle_post * 4, jungle_logs);
