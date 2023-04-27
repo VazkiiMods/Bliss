@@ -1,0 +1,26 @@
+{
+	"name": "怪物和你",
+	"icon": "minecraft:iron_sword",
+	"sortnum": 2,
+	"priority": false,
+	"read_by_default": true,
+	"category": "patchouli:intro",
+	"pages": [
+		{
+			"type": "text",
+			"text": "以下是$(thing)Welcome to Bliss$()窗口上的信息提醒。了解怪物...$(br)$(li)不会攻击你，除非先被攻击$(li)不会在任何露天的方块生成，除非是在雷雨天气$(li)不会以有害的方式损坏你的世界（苦力怕,末影人等）."
+		},
+		{
+			"type": "text",
+			"text": "游戏的其他调整包括...$(br)$(li)$(thing)村民$()必定在$(item)普通$()难度下转换为$(thing)僵尸村民$()$(li)$(thing)蜘蛛$()不会生成，所有$(thing)蜘蛛刷怪笼$(li)$(thing)被$(thing)苦力怕刷怪笼$()替换(洞穴蜘蛛刷怪笼$()仍然生成).$(li)$(thing)火焰蔓延$()已被禁用.$(li)$(thing)掠夺者灾厄巡逻队$()已被禁用."
+		},
+		{
+			"type": "text",
+			"text": "如果你想放松一下，但仍然有挑战的话，试着找一个$(item)堡垒$(),$(item)林地府邸$()或$(item)掠夺者前哨站$()$(br2)这些建筑被视为$(thing)守卫$()，因此，里面的怪物仍然会攻击$(br2)第一次进入这些建筑时，系统会提醒您，所以不要太担心."
+		},
+		{
+			"type": "text",
+			"text": "最后，可以通过改变游戏难度来调整游戏风格$(br2)在$(li)简单$()难度中，守卫结构不再产生仇恨$(li)在$(thing)困难$()难度中，怪物恢复了主动攻击的能力."
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "自动破坏方块",
+	"icon": "minecraft:diamond_pickaxe",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:story/smelt_iron",
+		"pages": [
+		{
+			"type": "patchouli:gossip_book",
+			"title": "自动破坏方块",
+			"text": "你可以用$(item)活塞$()来打破方块吗？这也很容易，你所要做的就是给它们附加一个$(thing)方块采掘器$()..."
+		},
+		{
+			"type": "quest",
+			"text": "了解$(thing)方块采掘器$()是什么，并使用$(item)活塞$()，用它制作一些很酷的自动化农场."
+		}
+	]
+}

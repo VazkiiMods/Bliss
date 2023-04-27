@@ -1,0 +1,14 @@
+{
+	"name": "放松的龙",
+	"icon": "minecraft:dragon_head",
+	"category": "patchouli:intro",
+    "read_by_default": false,
+    "advancement": "minecraft:story/follow_ender_eye",
+    "sortnum": 7,
+	"pages": [
+        {
+            "type": "text",
+            "text": "不要为$(thing)末影龙$()焦虑,因为它不会攻击你。当进入$(thing)末地$()时,返回主世界的传送门将已经打开，还有几个$(thing)末地折跃门$().$(br2)如果你想要龙蛋,那么就..."
+        }
+	]
+}

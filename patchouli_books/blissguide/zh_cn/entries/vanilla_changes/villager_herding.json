@@ -1,0 +1,14 @@
+{
+	"name": "圈养村民",
+	"icon": "minecraft:emerald_block",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:emerald_block",
+            "title": "圈养村民",
+            "text": "$(thing)村民$()现在将跟随持有$(item)绿宝石块$()的玩家，使玩家更容易移动他们."
+        }
+	]
+}

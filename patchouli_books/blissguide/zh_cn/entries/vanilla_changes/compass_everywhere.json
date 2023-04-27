@@ -1,0 +1,14 @@
+{
+	"name": "无处不在的指南针",
+	"icon": "minecraft:compass",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:compass",
+            "title": "无处不在的指南针",
+            "text": "$(item)指南针$()现在可以在$(thing)下界$()和$()末地$()中使用。在$(thing)下界$()中它会指向你进入的地方，或在$(thing)末地()中指向离开的地方."
+        }
+	]
+}

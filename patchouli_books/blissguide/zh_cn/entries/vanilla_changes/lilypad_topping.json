@@ -1,0 +1,14 @@
+{
+	"name": "睡莲之上",
+	"icon": "minecraft:lily_pad",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:lily_pad",
+            "title": "睡莲之上",
+            "text": "方块现在可以放在$(item)睡莲$()上面。尝试使用$(item)火把$()和更多方块."
+        }
+	]
+}

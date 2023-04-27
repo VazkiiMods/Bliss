@@ -1,0 +1,14 @@
+{
+	"name": "猪窝",
+	"icon": "minecraft:porkchop",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:porkchop",
+            "title": "猪窝",
+            "text": "当喂养$(item)猪$()时，你现在会得到一窝小猪，使猪成为更有用的获得食物的动物."
+        }
+    ]
+}

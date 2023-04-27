@@ -1,0 +1,14 @@
+{
+	"name": "增强梯子",
+	"icon": "minecraft:ladder",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:ladder",
+            "title": "增强梯子",
+            "text": "$(item)梯子$()现在可以通过右键一个放置的梯子和另一个梯子顺着向下移动。这可以使梯子独立而没有后面的障碍物。你也可以通过向下看快速滑下去."
+        }
+	]
+}

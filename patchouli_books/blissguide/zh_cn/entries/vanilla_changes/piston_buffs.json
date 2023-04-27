@@ -1,0 +1,14 @@
+{
+	"name": "活塞Buff",
+	"icon": "minecraft:piston",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:piston",
+            "title": "活塞Buff",
+            "text": "$(item)活塞$()现在可以移动两倍的方块,最多24个。它们还能够移动复杂的方块,如$(item)实体方块$()(例如$(item)箱子$(),$(item)熔炉$()等)。$(br2)如果你需要一个不可移动的方块,可以尝试$(item)稳定的石头$()."
+        }
+	]
+}

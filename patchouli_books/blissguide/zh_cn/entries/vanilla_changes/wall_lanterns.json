@@ -1,0 +1,14 @@
+{
+	"name": "墙灯",
+	"icon": "minecraft:lantern",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:lantern",
+            "title": "墙灯",
+            "text": "$(thing)灯笼$()现在可以挂在墙上，而不仅仅是天花板。你也可以把它们挂在$(item)木杆$()上，旁边是$(item)锁链$()."
+        }
+	]
+}

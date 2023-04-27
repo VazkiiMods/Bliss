@@ -1,0 +1,18 @@
+{
+	"name": "怪物驱逐",
+	"icon": "minecraft:skeleton_skull",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:nether/get_wither_skull",
+	"pages": [
+		{
+			"type": "patchouli:gossip_explore",
+			"title": "怪物驱逐",
+			"text": "怪物都非常害怕自己的头？真是疯了，如果你把一个怪物的头放在栅栏上，他们会像小鸡一样逃跑!"
+		},
+		{
+			"type": "quest",
+			"text": "想办法用怪物的头颅击退怪物.$(br2)哦，每个人都知道$(thing)凋灵骷髅$()总是掉落头颅，而$(item)龙首$()都是便宜的假货，所以不要为这些费心."
+		}
+	]
+}

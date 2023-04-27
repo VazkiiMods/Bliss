@@ -1,0 +1,14 @@
+{
+	"name": "自动唱片机",
+	"icon": "minecraft:jukebox",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:jukebox",
+            "title": "自动唱片机",
+            "text": "$(item)唱片机$()现在可以自动播放音乐，通过一个$(item)发射器$()面向它。要取出唱片，可以从底部使用$(item)漏斗$()."
+        }
+	]
+}

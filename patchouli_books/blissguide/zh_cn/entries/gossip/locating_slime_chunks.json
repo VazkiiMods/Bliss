@@ -1,0 +1,18 @@
+{
+	"name": "定位史莱姆区块",
+	"icon": "minecraft:slime_ball",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:story/mine_diamond",
+	"pages": [
+		{
+			"type": "patchouli:gossip_love",
+			"title": "定位史莱姆区块",
+			"text": "微小的史莱姆喜欢$(thing)史莱姆区块$().如果您可以捕获其中一个团簇，它可能会引导您找到一个."
+		},
+		{
+			"type": "quest",
+			"text": "找到一种方法，你可以捕获微小的史莱姆，并用它们来定位它们的生成地."
+		}
+	]
+}

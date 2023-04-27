@@ -1,0 +1,18 @@
+{
+	"name": "关照检测",
+	"icon": "minecraft:torch",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:husbandry/tame_an_animal",
+	"pages": [
+		{
+			"type": "patchouli:gossip_explore",
+			"title": "光照检测",
+			"text": "你能驯服一些非常可爱的$(thing)山地狗$()吗？当你得到一个时，你可以拿着一把$(item)火把$()，然后他们会去寻找怪物可以生成的地方!"
+		},
+		{
+			"type": "quest",
+			"text": "驯服山地生物群系中的一只$(thing)柴犬$()，让它为你找到黑暗地区."
+		}
+	]
+}

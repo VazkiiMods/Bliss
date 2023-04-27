@@ -1,0 +1,18 @@
+{
+	"name": "玩家的头",
+	"icon": "minecraft:player_head",
+	"category": "patchouli:gossip",
+	"read_by_default": false,
+	"advancement": "minecraft:adventure/kill_a_mob",
+	"pages": [
+		{
+			"type": "patchouli:gossip_explore",
+			"title": "玩家的头",
+			"text": "如果你用一个玩家的名字命名一个$(thing)雪傀儡$()，然后让一个$(thing)女巫$()杀死它，它会掉落那个玩家的头?"
+		},
+		{
+			"type": "quest",
+			"text": "使用一个命名的$(thing)雪傀儡$()和一个$(thing)女巫$()获得一个您选择的$(item)玩家的头$()."
+		}
+	]
+}

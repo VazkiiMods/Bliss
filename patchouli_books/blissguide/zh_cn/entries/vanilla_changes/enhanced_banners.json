@@ -1,0 +1,14 @@
+{
+	"name": "附魔旗帜",
+	"icon": "minecraft:pink_banner",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:pink_banner",
+            "title": "附魔旗帜",
+            "text": "$(item)附魔$()现在可以从天花板、地板和墙壁上悬挂。$(item)旗帜图案$()也可以堆叠到16层,而不是原版的6层."
+        }
+	]
+}

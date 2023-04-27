@@ -1,0 +1,14 @@
+{
+	"name": "有用的诅咒",
+	"icon": "minecraft:carved_pumpkin",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:carved_pumpkin",
+            "title": "有用的诅咒",
+            "text": "$(thing)诅咒附魔$()现在有一些用途:$(li)一个$(item)南瓜$()带有$(item)消失诅咒$()将不会阻碍你的视野.当$(li)一个命名的带有$(item)绑定诅咒$()的$(item)玩家的头$()放置在$(item)盔甲架$()时将显示该玩家的完整模型."
+        }
+	]
+}

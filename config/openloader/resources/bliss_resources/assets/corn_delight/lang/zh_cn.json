@@ -1,0 +1,30 @@
+{
+  "block.corn_delight.corn_crate": "玉米箱",
+  "block.corn_delight.corn_crop": "玉米作物",
+  "block.corn_delight.corn_kernel_bag": "一袋玉米仁",
+  "block.corn_delight.nachos_block": "烤辣味干酪玉米片",
+  "block.corn_delight.popcorn_box": "爆米花桶",
+  "block.corn_delight.wild_corn": "野生玉米",
+  "item.corn_delight.boiled_corn": "煮玉米",
+  "item.corn_delight.caramel_popcorn": "焦糖爆米花",
+  "item.corn_delight.classic_corn_dog": "经典玉米热狗",
+  "item.corn_delight.corn": "玉米",
+  "item.corn_delight.corn_dog": "玉米热狗",
+  "item.corn_delight.corn_seeds": "玉米粒",
+  "item.corn_delight.corn_soup": "玉米汤",
+  "item.corn_delight.cornbread": "玉米面包",
+  "item.corn_delight.cornbread_batter": "玉米面糊",
+  "item.corn_delight.cornbread_stuffing": "玉米面包填馅",
+  "item.corn_delight.creamed_corn": "奶香玉米粒",
+  "item.corn_delight.creamy_corn_drink": "奶香玉米饮",
+  "item.corn_delight.grilled_corn": "烤玉米",
+  "item.corn_delight.nachos_bowl": "烤辣味干酪玉米片",
+  "item.corn_delight.popcorn": "爆米花",
+  "item.corn_delight.taco": "墨西哥卷饼",
+  "item.corn_delight.tortilla": "墨西哥薄饼",
+  "item.corn_delight.tortilla_chip": "墨西哥油炸玉米片",
+  "item.corn_delight.tortilla_raw": "生玉米面饼",
+  
+   "corn_delight.block.popcorn.bearhand": "你至少需要一只空闲的手来吃这个."
+  
+}

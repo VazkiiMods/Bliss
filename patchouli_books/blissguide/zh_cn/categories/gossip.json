@@ -1,0 +1,6 @@
+{
+	"name": "Lissa的建议",
+	"description": "$(lissa)Lissa$()会时不时地出现，当您完成整合包包中的进度时，它会建议您尝试一些很酷的功能.$(br2)密切关注$(#ff0000)(!)$()在您物品栏的书上!",
+	"icon": "minecraft:compass",
+	"sortnum": 1
+}

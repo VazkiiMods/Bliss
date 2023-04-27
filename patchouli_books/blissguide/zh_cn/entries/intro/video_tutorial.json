@@ -1,0 +1,17 @@
+{
+	"name": "视频教程",
+	"icon": "minecraft:music_disc_13",
+	"category": "patchouli:intro",
+    "read_by_default": true,
+    "priority": true,
+    "sortnum": 1,
+	"pages": [
+        {
+            "type": "text",
+            "text": "如果你不是一个爱读书的人，你可以从$(thing)Bliss$()开始，看看这些了不起的人在下一页做的视频。$(br2)$(thing)direwolf20$()的视频是一个简短的入门指南，里面有你需要知道的关于这个包的信息，而$(thing)Vallen$()的视频是对这个包的全面概述和回顾。任选其一，或者两者都选!"
+        },
+        {
+            "type": "patchouli:tubers"
+        }
+	]
+}

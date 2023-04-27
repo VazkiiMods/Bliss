@@ -1,0 +1,45 @@
+{
+	"include": [
+	    {
+	        "template": "patchouli:incl/tuber",
+	        "as": "direwolf20",
+	        "using": {
+				"texture": "direwolf20",
+	        	"name": "direwolf20",
+	        	"desc": "新手指南",
+	        	"video_id": "QZ6uO32ED9I"
+	        }
+	    },
+	    {
+	        "template": "patchouli:incl/tuber",
+	        "as": "vallen",
+	        "y": 40,
+	        "using": {
+				"texture": "mom",
+	        	"name": "Vallen",
+	        	"desc": "整合包概述",
+	        	"video_id": "FXFdRJPNrM4"
+	        }
+	    }
+	],
+	"components": [
+		{
+			"type": "patchouli:header",
+			"centered": true,
+			"x": -1,
+			"y": -1,
+			"text": "视频"
+		},
+		{
+			"type": "patchouli:separator",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "patchouli:text",
+			"x": 0,
+			"y": 120,
+			"text": "如果你从事自媒体，请随意在自媒体上播放这些视频!我们完全不介意."
+		}
+	]
+}

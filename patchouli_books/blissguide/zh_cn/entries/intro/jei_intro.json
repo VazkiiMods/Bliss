@@ -1,0 +1,33 @@
+{
+	"name": "JEI简介",
+	"icon": "minecraft:compass",
+	"category": "patchouli:intro",
+	"priority": true,
+	"sortnum": 2,
+	"pages": [
+		{
+			"type": "text",
+			"text": "简单介绍一下，让我们谈谈如何探索$(thing)Bliss$()提供的新内容.$(br2)打开物品栏时，您可能已经注意到屏幕右侧有一个大的物品列表.如果你是一个mod老手,这没有什么新鲜的.但对于新手来说，我们称之为$(item)JEI$()($(item)Just Enough Items$())"
+		},
+		{
+			"type": "text",
+			"text": "在这里,您可以看到游戏中的每个相关物品.我们冒昧地隐藏了无关的内容(稍后再感谢我们!)$(br2)您可以左键单击某个物品以查看其制作过程,也可以右键单击物品以查看可以制作的东西。分别按$(thing)R$()和$(thing)U$()键也能做到相同的事情."
+		},
+		{
+			"type": "text",
+			"text": "然而，在$(thing)Bliss$()中，我们还引入了一些额外的系统来帮助您找到所需的内容.$(br2)除了能够按名称搜索物品外，您还可以通过$(thing)分类$(),$(thing)颜色$()或同时按这两种方式搜索物品!$(br2)例如.您完全可以只键入$(item)Red Building Blocks$(),然后就可以在列表上找到它.很酷，不是吗?"
+		},
+		{
+			"type": "text",
+			"text": "一些可用的类别如下:$(br) $(li)Building Blocks$(li)Decorative Blocks$(li)Variant Blocks$(li)Functional Blocks$(li)Technical Blocks$(li)Crops$(li)Food Items$(li)Utility Items$(br2)在你空闲的时候可以到处搜索，你可以找到很多其他的东西."
+		},
+		{
+			"type": "text",
+			"text": "找到喜欢的内容后，可以将其添加书签，方法是将鼠标悬停在$(item)JEI$()中，然后按$(thing)A$()键。这可以把它放在侧面板上，你可以随时查看它$(br2)如果您想记下下一步要做的事情，或者只想记住一些事情，请尝试在输入名称时按$(thing)N$()，这将打开一个新的$(item)笔记$()面板，您可以在其中写下您需要的任何内容。您甚至可以将注释固定到屏幕上!"
+		},
+		{
+			"type": "text",
+			"text": "就像final pointer一样,当您在$(item)JEI$()中单击它们时，许多物品都会附加一个$(thing)信息栏$()，所以即使某些东西看起来不是可合成的,或者您不知道它的用处,也可以考虑检查它的配方或用途."
+		}
+	]
+}

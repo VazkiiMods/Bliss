@@ -1,0 +1,16 @@
+{
+	"name": "遇见Lissa",
+	"icon": "minecraft:poppy",
+	"category": "patchouli:gossip",
+	"priority": true,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "patchouli:lissa_full"
+		}, 
+		{
+			"type": "text",
+			"text": "嗨，我是$(lissa)lissa$()！我将为您介绍$(thing)Bliss$()的额外内容$(br2)在指南的$(lissa)lissa的建议$()部分，您可以找到我对您应该尝试的我喜欢的功能的想法$(br2)随着游戏的进行，会有更多内容解锁，所以请务必留意$(br2)我为$(l:https://twitter.com/_crowsaga)$(underline)aice$(),为julinya、aice和vazkii之间的联合努力!"
+		}
+	]
+}

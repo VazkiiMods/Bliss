@@ -1,0 +1,14 @@
+{
+	"name": "收获锄",
+	"icon": "minecraft:diamond_hoe",
+	"category": "patchouli:vanilla_changes",
+    "read_by_default": true,
+	"pages": [
+        {
+            "type": "spotlight",
+            "item": "minecraft:diamond_hoe",
+            "title": "收获锄",
+            "text": "$(item)锄头$()现在可以用来破坏3x3面积内的植被。$(item)钻石锄和下界合金锄$()可以打破5x5。$(br2)此外，你可以右键作物收割和重新种植;使用$(item)锄头$()收割相应的区域."
+        }
+	]
+}
