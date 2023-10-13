@@ -1,10 +1,33 @@
 
 [Display]
 
-	[Display.WindowTitle]
+	[Display.General]
 		# 
-		# Enable this if you want to change the name of the Minecraft window.
-		enableCustomWindowTitle = false
+		# The name of your modpack.
+		# If blank, the modpack name will be auto-detected from supported launchers.
+		# This auto-detection isn't perfect, so you can override it here if needed.
+		modpackName = ""
+
+	[Display.WelcomeScreen]
+		# 
+		# The welcome screen header shows "Welcome to x". This setting lets you change x.
+		# 
+		# - If blank (default), itlt will use your modpack's name from [Display.General] modpackName.
+		# - Otherwise x will be whatever you put here.
+		customWelcomeHeaderModpackDisplayName = "Bliss"
+		# 
+		# Enable this if you want to show a welcome screen to your users the first time they
+		# start your modpack. You can customise the text shown using a text file.
+		# 
+		# Note: The text file needs to be placed in config\itlt\welcome.txt
+		# 
+		# Warning: This feature is experimental and may change in future v2.x releases. Check the
+		# changelog before updating if you use this. The changelog will make any breaking changes
+		# to this feature clear. If there's no mention of this feature in the changelog, rest assured
+		# you can update without needing to make any changes to your welcome.txt.
+		enableWelcomeScreen = false
+
+	[Display.WindowTitle]
 		# 
 		# The name you want your Minecraft window to be. Put "%mc" to include the original
 		# window title's contents to help identify the Minecraft version for example.
@@ -17,31 +40,20 @@
 		# it's based on - especially useful if your modpack has multiple major releases that
 		# span across different Minecraft versions.
 		# 
-		# Note: Put "%autoName" for your modpack's display name to be automatically detected
-		# and used when launching from a supported launcher.
+		# Note: Put "%modpackName" to fill in your modpack's display name from [Display.General] modpackName.
 		# 
 		# Examples:
-		# - "ModpackName - %mc" = "ModpackName - Minecraft* 1.17.1"
-		# - "%mc - ModpackName" = "Minecraft* 1.17.1 - ModpackName"
-		# - "ModpackName (%mc)" = "ModpackName (Minecraft* 1.17.1)"
-		# - "%autoName (%mc)" = "ModpackName (Minecraft* 1.17.1)"
-		# - "ModpackName v2 based on %mc" = "ModpackName v2 based on Minecraft* 1.17.1"
+		# - "ModpackName - %mc" = "ModpackName - Minecraft* 1.18"
+		# - "%mc - ModpackName" = "Minecraft* 1.18 - ModpackName"
+		# - "ModpackName (%mc)" = "ModpackName (Minecraft* 1.18)"
+		# - "%modpackName (%mc)" = "ModpackName (Minecraft* 1.18)"
+		# - "ModpackName v2 based on %mc" = "ModpackName v2 based on Minecraft* 1.18"
 		# 
 		# Note: enableCustomWindowTitle must be enabled for this to take effect.
-		customWindowTitleText = "%autoName - %mc"
+		customWindowTitleText = "%modpackName - %mc"
 		# 
-		# Whether or not to automatically replace "%autoName" in customWindowTitleText with
-		# your modpack's display name when launching from a supported launcher.
-		# 
-		# Note: enableCustomWindowTitle must be enabled for this to take effect.
-		enableUsingAutodetectedDisplayName = true
-		# 
-		# The text to use in place of %autoDetect if we're unable to automatically detect your
-		# modpack's display name.
-		# 
-		# Note: This value will always be used for %autoName if enableUsingAutodetectedDisplayName
-		# is disabled, regardless of whether or not the pack is launched from a supported launcher.
-		autoDetectedDisplayNameFallback = "ModpackName"
+		# Enable this if you want to change the name of the Minecraft window.
+		enableCustomWindowTitle = true
 
 	[Display.Icon]
 		# 
@@ -60,7 +72,7 @@
 		# Note: See the itlt wiki for more info.
 		# 
 		# Note: This will override the enableEnhancedVanillaIcon when a valid custom icon is found.
-		enableCustomIcon = false
+		enableCustomIcon = true
 		# 
 		# Enable this if you want itlt to automatically detect your modpack's icon when launching
 		# from a supported launcher. If unable to auto-detect, it will fallback to a provided
@@ -68,43 +80,6 @@
 		# 
 		# Note: enableCustomIcon must be enabled for this to take effect.
 		enableUsingAutodetectedIcon = true
-
-	[Display.WelcomeScreen]
-		# 
-		# Enable this if you want to show a welcome screen to your users the first time they
-		# start your modpack. You can customise the text shown using a text file.
-		# 
-		# Note: The text file needs to be placed in config\itlt\welcome.txt
-		# 
-		# Warning: This feature is experimental and may change in future v2.x releases. Check the
-		# changelog before updating if you use this. The changelog will make any breaking changes
-		# to this feature clear. If there's no mention of this feature in the changelog, rest assured
-		# you can update without needing to make any changes to your welcome.txt.
-		enableWelcomeScreen = true
-		# 
-		# Enable this if you want to change the modpack name that shows up on the heading of the
-		# welcome screen.
-		# 
-		# Note: If you leave this disabled, itlt will use the contents of %autoName (auto-detected
-		# modpack name - see the enableUsingAutodetectedDisplayName and autoDetectedDisplayNameFallback
-		# options for details).
-		enableUsingCustomWelcomeHeaderModpackDisplayName = true
-		# 
-		# If enableUsingCustomWelcomeHeaderModpackDisplayName is true, the welcome screen header will show "Welcome to x"
-		# where x is what you put here.
-		customWelcomeHeaderModpackDisplayName = "Bliss"
-
-[ServerList]
-	# 
-	# Enable this to have itlt add default servers to the Multiplayer list from a JSON file.
-	# 
-	# Note: The JSON needs to be placed in config\itlt\servers.json
-	# 
-	# Warning: This feature is experimental and may change in future v2.x releases. Check the
-	# changelog before updating if you use this. The changelog will make any breaking changes
-	# to this feature clear. If there's no mention of this feature in the changelog, rest assured
-	# you can update without needing to make any changes to your servers.json.
-	enableCustomServerListEntries = false
 
 [Java]
 
@@ -291,7 +266,7 @@
 				# 
 				# Note: This is *separate* from enableMaxJavaVerWarning - you can have a separate 
 				# version requirement and warning.
-				enableMaxJavaVerRequirement = true
+				enableMaxJavaVerRequirement = false
 				# 
 				# The maximum version of Java needed to be able to launch the modpack.
 				# 
@@ -299,7 +274,7 @@
 				# put "7" here and itlt will correctly check against "Java 1.7" internally,
 				# while values such as "15" will check against "Java 15" internally.
 				#Range: 6 ~ 127
-				requiredMaxJavaVersion = 17
+				requiredMaxJavaVersion = 19
 
 			[Java.Version.Max.Warning]
 				# 
@@ -311,12 +286,12 @@
 				# 
 				# Note: This is *separate* from enableMaxJavaVerRequirement - you can have a
 				# separate version requirement and warning.
-				enableMaxJavaVerWarning = true
+				enableMaxJavaVerWarning = false
 				# 
 				# The minimum recommended version of Java needed to skip the warning message when
 				# launching the modpack.
 				#Range: 6 ~ 127
-				warnMaxJavaVersion = 17
+				warnMaxJavaVersion = 19
 				# 
 				# Some launchers (such as Twitch/CurseForge launcher) do not allow the Java version
 				# to be changed from Java 8.
@@ -361,7 +336,7 @@
 				# 
 				# The minimum amount of allocated RAM in GB needed to be able to launch the modpack.
 				#Range: 0.1 ~ 1024.0
-				reqMinMemoryAmountInGB = 1.5
+				reqMinMemoryAmountInGB = 0.5
 
 			[Java.Memory.Min.Warning]
 				# 
@@ -381,7 +356,7 @@
 				# The minimum recommended amount of allocated RAM in GB needed to skip the warning
 				# message when launching the modpack.
 				#Range: 0.1 ~ 1024.0
-				warnMinMemoryAmountInGB = 1.5
+				warnMinMemoryAmountInGB = 1.0
 
 		[Java.Memory.Max]
 
@@ -396,7 +371,7 @@
 				# 
 				# The maximum amount of allocated RAM in GB to be able to launch the modpack.
 				#Range: 0.1 ~ 1024.0
-				reqMaxMemoryAmountInGB = 8.0
+				reqMaxMemoryAmountInGB = 16.0
 
 			[Java.Memory.Max.Warning]
 				# 
@@ -410,7 +385,7 @@
 				# The maximum recommended amount of allocated RAM in GB needed to skip the warning
 				# message when launching the modpack.
 				#Range: 0.1 ~ 1024.0
-				warnMaxMemoryAmountInGB = 8.0
+				warnMaxMemoryAmountInGB = 14.0
 
 		[Java.Memory.NearMax]
 
@@ -429,9 +404,21 @@
 				#Range: 0.1 ~ 2.0
 				warnNearMaxMemoryWarningInGB = 1.0
 
+[ServerList]
+	# 
+	# Enable this to have itlt add default servers to the Multiplayer list from a JSON file.
+	# 
+	# Note: The JSON needs to be placed in config\itlt\servers.json
+	# 
+	# Warning: This feature is experimental and may change in future v2.x releases. Check the
+	# changelog before updating if you use this. The changelog will make any breaking changes
+	# to this feature clear. If there's no mention of this feature in the changelog, rest assured
+	# you can update without needing to make any changes to your servers.json.
+	enableCustomServerListEntries = false
+
 [Internal]
 	# 
 	# The version of itlt that created this config file. Intended to be used for migrating
 	# config changes when you update the mod. Please don't touch this, this is for itlt itself to change.
-	configVersion = "2.1.5"
+	configVersion = "2.2.0"
 
