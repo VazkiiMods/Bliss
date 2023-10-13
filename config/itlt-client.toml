@@ -25,7 +25,7 @@
 		# changelog before updating if you use this. The changelog will make any breaking changes
 		# to this feature clear. If there's no mention of this feature in the changelog, rest assured
 		# you can update without needing to make any changes to your welcome.txt.
-		enableWelcomeScreen = false
+		enableWelcomeScreen = true
 
 	[Display.WindowTitle]
 		# 
