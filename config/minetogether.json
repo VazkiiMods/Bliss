@@ -15,6 +15,8 @@
 	"logChatToConsole": false,
 	// Create _VERY_ verbose logs. May create hugenorums log files.
 	"debugMode": false,
+	// Enables dumping all MTConnect packets to logs.
+	"dumpConnectPackets": false,
 	// If the Chat component of MineTogether is enabled.
 	"chatEnabled": false,
 	// If notifications for friends are enabled.
