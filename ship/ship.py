@@ -122,9 +122,10 @@ def format_mod_array(minecraftinstance_data, blacklist, format):
 	addons = minecraftinstance_data['installedAddons']
 	for addon in addons:
 		installed_file = addon['installedFile']
+		package_type = addon['packageType']
 		project_id = addon['addonID']
 
-		if not (project_id in blacklist):
+		if (not (project_id in blacklist)) and (package_type == 6):
 			mod_obj = format(installed_file)
 			formatted_array.append(mod_obj)
 
@@ -189,7 +190,7 @@ def make_manifests(minecraftinstance_data, version):
 	addons = minecraftinstance_data['installedAddons']
 
 	mod_jars = [f for f in os.listdir('mods') if f.endswith('.jar')]
-	installed_files = [a for a in addons if a['installedFile']]
+	installed_files = [a for a in addons if a['installedFile'] and a['packageType'] == 6]
 	expected = len(mod_jars)
 	curr = len(installed_files)
 
@@ -208,6 +209,8 @@ def make_manifests(minecraftinstance_data, version):
 
 	for addon in addons:
 		installed_file = addon['installedFile']
+		if addon['packageType'] != 6:
+			continue
 
 		manifest_files.append({
 			'projectID': addon['addonID'],
